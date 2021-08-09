@@ -1,0 +1,32 @@
+PSP directory successfully set: /storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/data/pseudos_module/espresso/esp_pseudos_old
+PSP directory successfully set: /storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/data/pseudos_module/espresso/nninc/pbe/van
+PSP directory successfully set: /storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/data/pseudos_module/espresso/esp_pseudos_old
+PSP directory successfully set: /storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/data/pseudos_module/espresso/nninc/pbe/van
+Traceback (most recent call last):
+  File "run.py", line 33, in <module>
+    vib.run()
+  File "/storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/gits/dev/ase-latest/ase/vibrations/vibrations.py", line 205, in run
+    result = self.calculate(atoms, disp)
+  File "/storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/gits/dev/ase-latest/ase/vibrations/vibrations.py", line 264, in calculate
+    results['forces'] = self.calc.get_forces(atoms)
+  File "/storage/home/hcoda1/3/ntian30/research/ntian30-espresso/espresso/vibespresso.py", line 90, in get_forces
+    self.update(atoms)
+  File "/storage/home/hcoda1/3/ntian30/research/ntian30-espresso/espresso/vibespresso.py", line 56, in update
+    self.runcalc(atoms)
+  File "/storage/home/hcoda1/3/ntian30/research/ntian30-espresso/espresso/vibespresso.py", line 67, in runcalc
+    self.esp.get_potential_energy(atoms)
+  File "/storage/home/hcoda1/3/ntian30/research/ntian30-espresso/espresso/espresso.py", line 2345, in get_potential_energy
+    self.update(atoms)
+  File "/storage/home/hcoda1/3/ntian30/research/ntian30-espresso/espresso/iespresso.py", line 592, in update
+    self.calculate(atoms, properties)
+  File "/storage/home/hcoda1/3/ntian30/research/ntian30-espresso/espresso/iespresso.py", line 618, in calculate
+    system_changes=system_changes)
+  File "/storage/home/hcoda1/3/ntian30/research/ntian30-espresso/espresso/espresso.py", line 1392, in write_input
+    self.initialize(atoms)
+  File "/storage/home/hcoda1/3/ntian30/research/ntian30-espresso/espresso/espresso.py", line 977, in initialize
+    self.check_spinpol()
+  File "/storage/home/hcoda1/3/ntian30/research/ntian30-espresso/espresso/espresso.py", line 2419, in check_spinpol
+    raise KeyError('Explicitly specify spinpol=True or noncollinear=True for spin-polarized systems')
+KeyError: 'Explicitly specify spinpol=True or noncollinear=True for spin-polarized systems'
+PSP directory successfully set: /storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/data/pseudos_module/espresso/esp_pseudos_old
+PSP directory successfully set: /storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/data/pseudos_module/espresso/nninc/pbe/van
