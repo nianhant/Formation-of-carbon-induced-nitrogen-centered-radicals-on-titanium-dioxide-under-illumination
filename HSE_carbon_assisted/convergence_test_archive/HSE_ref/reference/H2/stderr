@@ -1,0 +1,20 @@
+PSP directory successfully set: /storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/data/pseudos_module/espresso/esp_pseudos_old
+PSP directory successfully set: /storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/data/pseudos_module/espresso/nninc/pbe/van
+[mpiexec@atl1-1-03-004-2-r.pace.gatech.edu] HYDT_bscd_pbs_wait_for_completion (tools/bootstrap/external/pbs_wait.c:67): tm_poll(obit_event) failed with TM error 17002
+[mpiexec@atl1-1-03-004-2-r.pace.gatech.edu] HYDT_bsci_wait_for_completion (tools/bootstrap/src/bsci_wait.c:23): launcher returned error waiting for completion
+[mpiexec@atl1-1-03-004-2-r.pace.gatech.edu] HYD_pmci_wait_for_completion (pm/pmiserv/pmiserv_pmci.c:218): launcher returned error waiting for completion
+[mpiexec@atl1-1-03-004-2-r.pace.gatech.edu] main (ui/mpich/mpiexec.c:340): process manager error waiting for completion
+PSP directory successfully set: /storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/data/pseudos_module/espresso/esp_pseudos_old
+bash: ​: command not found
+/storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/gits/dev/ase-latest/ase/calculators/calculator.py:509: FutureWarning: The keyword "ignore_bad_restart_file" is deprecated and will be removed in a future version of ASE.  Passing more than one positional argument to Calculator is also deprecated and will stop functioning in the future.  Please pass arguments by keyword (key=value) except optionally the "restart" keyword.
+  'The keyword "ignore_bad_restart_file" is deprecated and '
+/storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/gits/dev/ase-latest/ase/utils/__init__.py:62: FutureWarning: Please use atoms.cell.cellpar() instead
+  warnings.warn(warning)
+PSP directory successfully set: /storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/data/pseudos_module/espresso/esp_pseudos_old
+bash: ​: command not found
+/storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/gits/dev/ase-latest/ase/calculators/calculator.py:509: FutureWarning: The keyword "ignore_bad_restart_file" is deprecated and will be removed in a future version of ASE.  Passing more than one positional argument to Calculator is also deprecated and will stop functioning in the future.  Please pass arguments by keyword (key=value) except optionally the "restart" keyword.
+  'The keyword "ignore_bad_restart_file" is deprecated and '
+/storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/gits/dev/ase-latest/ase/utils/__init__.py:62: FutureWarning: Please use atoms.cell.cellpar() instead
+  warnings.warn(warning)
+/storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/builds/sparc/SPARC_latest_2021/sparc-dft-api/sparc/sparc_core.py:323: UserWarning: the BOUNDARY_CONDITION arguement is depricated please use the BC argument instead
+  warnings.warn('the BOUNDARY_CONDITION arguement is depricated'

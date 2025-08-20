@@ -1,0 +1,29 @@
+                Step[ FC]     Time          Energy          fmax
+*Force-consistent energies used in optimization.
+BFGSLineSearch:    0[  0] 17:39:50   -39986.599207*       5.2415
+BFGSLineSearch:    1[  2] 18:08:05   -39987.052803*       1.4092
+BFGSLineSearch:    2[  4] 18:29:15   -39987.103568*       0.7772
+BFGSLineSearch:    3[  6] 18:48:07   -39987.146182*       0.5145
+BFGSLineSearch:    4[  8] 19:06:22   -39987.156122*       0.3489
+BFGSLineSearch:    5[ 10] 19:25:10   -39987.169305*       0.3273
+BFGSLineSearch:    6[ 12] 19:43:53   -39987.178004*       0.4996
+BFGSLineSearch:    7[ 14] 20:04:40   -39987.184964*       0.2564
+BFGSLineSearch:    8[ 16] 20:23:21   -39987.190480*       0.2548
+BFGSLineSearch:    9[ 18] 20:40:03   -39987.195247*       0.1428
+BFGSLineSearch:   10[ 20] 20:57:26   -39987.197894*       0.1491
+BFGSLineSearch:   11[ 21] 21:07:18   -39987.200515*       0.1545
+BFGSLineSearch:   12[ 23] 21:23:52   -39987.202798*       0.0856
+BFGSLineSearch:   13[ 25] 21:40:29   -39987.204196*       0.0543
+BFGSLineSearch:   14[ 26] 21:48:29   -39987.205114*       0.0985
+BFGSLineSearch:   15[ 27] 21:57:02   -39987.206382*       0.0952
+BFGSLineSearch:   16[ 28] 22:05:30   -39987.207756*       0.0980
+BFGSLineSearch:   17[ 29] 22:14:08   -39987.209440*       0.0711
+BFGSLineSearch:   18[ 30] 22:26:17   -39987.211112*       0.1052
+BFGSLineSearch:   19[ 31] 22:34:51   -39987.212406*       0.0917
+BFGSLineSearch:   20[ 33] 22:49:59   -39987.213186*       0.0537
+BFGSLineSearch:   21[ 34] 22:57:34   -39987.213882*       0.0522
+BFGSLineSearch:   22[ 35] 23:04:12   -39987.214484*       0.0606
+                Step[ FC]     Time          Energy          fmax
+*Force-consistent energies used in optimization.
+BFGSLineSearch:    0[  0] 09:03:06   -39987.214473*       0.0595
+BFGSLineSearch:    1[  2] 09:17:35   -39987.214780*       0.0290

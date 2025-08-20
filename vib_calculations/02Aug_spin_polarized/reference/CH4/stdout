@@ -1,0 +1,25 @@
+---------------------------------------
+Begin PBS Prologue Fri Aug 13 09:56:54 EDT 2021
+Job ID:     2529643.sched-torque.pace.gatech.edu
+User ID:    ntian30
+Job name:   reference/CH4
+Queue:      inferno
+End PBS Prologue Fri Aug 13 09:56:54 EDT 2021
+---------------------------------------
+Requirement already satisfied: py-hostlist in /storage/home/hcoda1/3/ntian30/.local/lib/python3.7/site-packages (0.0.2.dev0)
+/storage/home/hcoda1/3/ntian30/research/carbon/02Aug_spin_polarized/reference/CH4
+CMD mpirun -wdir /storage/home/hcoda1/3/ntian30/scratch/qe_1139763_2529643.sched-torque.pace.gatech.eduwdg1e3kl_scratch pw.x -in /storage/home/hcoda1/3/ntian30/research/carbon/02Aug_spin_polarized/reference/CH4/02Aug_spin_polarized.log/pw.inp --ipi qe_1139763_2529643.sched-torque.pace.gatech.eduwdg1e3kl_scratch:UNIX >> /storage/home/hcoda1/3/ntian30/research/carbon/02Aug_spin_polarized/reference/CH4/02Aug_spin_polarized.log/pw.out
+46912887679952 Awaiting client
+----------> <socket.socket fd=8, family=AddressFamily.AF_UNIX, type=SocketKind.SOCK_STREAM, proto=0, laddr=/tmp/ipi_qe_1139763_2529643.sched-torque.pace.gatech.eduwdg1e3kl_scratch> 
+---------------------------------------
+Begin PBS Epilogue Fri Aug 13 09:59:29 EDT 2021
+Job ID:     2529643.sched-torque.pace.gatech.edu
+User ID:    ntian30
+Job name:   reference/CH4
+Resources:  nodes=1:ppn=16,walltime=72:00:00,neednodes=1:ppn=16
+Rsrc Used:  cput=00:26:55,vmem=45957552kb,walltime=00:02:36,mem=2827932kb,energy_used=0
+Queue:      inferno
+Nodes:     
+atl1-1-02-012-15-r.pace.gatech.edu
+End PBS Epilogue Fri Aug 13 09:59:29 EDT 2021
+---------------------------------------

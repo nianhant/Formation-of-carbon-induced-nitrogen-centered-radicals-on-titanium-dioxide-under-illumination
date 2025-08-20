@@ -1,0 +1,30 @@
+---------------------------------------
+Begin PBS Prologue Thu Oct  5 10:12:27 EDT 2017
+Job ID:     3274049.dedicated-sched.pace.gatech.edu
+User ID:    bcomer3
+Job name:   vib_NH2_d_4_layer
+Queue:      joe
+End PBS Prologue Thu Oct  5 10:12:27 EDT 2017
+---------------------------------------
+Writing vib.log.47x-.pckl
+Writing vib.log.47x+.pckl
+Writing vib.log.47y-.pckl
+Writing vib.log.47z-.pckl
+Writing vib.log.48x-.pckl
+Writing vib.log.48y+.pckl
+Writing vib.log.48z+.pckl
+Writing vib.log.49x+.pckl
+Writing vib.log.49y+.pckl
+Writing vib.log.49z+.pckl
+---------------------------------------
+Begin PBS Epilogue Thu Oct  5 13:18:58 EDT 2017
+Job ID:     3274049.dedicated-sched.pace.gatech.edu
+User ID:    bcomer3
+Job name:   vib_NH2_d_4_layer
+Resources:  neednodes=1:ppn=14,nodes=1:ppn=14,walltime=48:00:00
+Rsrc Used:  cput=10:06:40,energy_used=0,mem=4122312kb,vmem=9308692kb,walltime=03:06:31
+Queue:      joe
+Nodes:     
+rich133-c32-23-l.pace.gatech.edu
+End PBS Epilogue Thu Oct  5 13:18:58 EDT 2017
+---------------------------------------

@@ -1,0 +1,4 @@
+PSP directory successfully set: /storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/data/pseudos_module/espresso/esp_pseudos_old
+PSP directory successfully set: /storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/data/pseudos_module/espresso/nninc/pbe/van
+/storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/gits/dev/ase-latest/ase/utils/__init__.py:62: FutureWarning: Please use atoms.cell.rank instead
+  warnings.warn(warning)

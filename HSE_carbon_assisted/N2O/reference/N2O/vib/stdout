@@ -1,0 +1,57 @@
+---------------------------------------
+Begin PBS Prologue Mon Apr  3 11:29:58 EDT 2017
+Job ID:     2463479.dedicated-sched.pace.gatech.edu
+User ID:    bcomer3
+Job name:   N2O
+Queue:      joe-fast
+End PBS Prologue Mon Apr  3 11:29:58 EDT 2017
+---------------------------------------
+Writing vib.log.eq.pckl
+Writing vib.log.0x-.pckl
+Writing vib.log.0x--.pckl
+Writing vib.log.0x+.pckl
+Writing vib.log.0x++.pckl
+Writing vib.log.0y-.pckl
+Writing vib.log.0y--.pckl
+Writing vib.log.0y+.pckl
+Writing vib.log.0y++.pckl
+Writing vib.log.0z-.pckl
+Writing vib.log.0z--.pckl
+Writing vib.log.0z+.pckl
+Writing vib.log.0z++.pckl
+Writing vib.log.1x-.pckl
+Writing vib.log.1x--.pckl
+Writing vib.log.1x+.pckl
+Writing vib.log.1x++.pckl
+Writing vib.log.1y-.pckl
+Writing vib.log.1y--.pckl
+Writing vib.log.1y+.pckl
+Writing vib.log.1y++.pckl
+Writing vib.log.1z-.pckl
+Writing vib.log.1z--.pckl
+Writing vib.log.1z+.pckl
+Writing vib.log.1z++.pckl
+Writing vib.log.2x-.pckl
+Writing vib.log.2x--.pckl
+Writing vib.log.2x+.pckl
+Writing vib.log.2x++.pckl
+Writing vib.log.2y-.pckl
+Writing vib.log.2y--.pckl
+Writing vib.log.2y+.pckl
+Writing vib.log.2y++.pckl
+Writing vib.log.2z-.pckl
+Writing vib.log.2z--.pckl
+Writing vib.log.2z+.pckl
+Writing vib.log.2z++.pckl
+---------------------------------------
+Begin PBS Epilogue Mon Apr  3 12:31:25 EDT 2017
+Job ID:     2463479.dedicated-sched.pace.gatech.edu
+User ID:    bcomer3
+Job name:   N2O
+Resources:  neednodes=1:ppn=10,nodes=1:ppn=10,walltime=12:00:00
+Rsrc Used:  cput=02:35:13,energy_used=0,mem=1015376kb,vmem=3695924kb,walltime=01:01:27
+Queue:      joe-fast
+Nodes:     
+iw-k35-23.pace.gatech.edu
+End PBS Epilogue Mon Apr  3 12:31:25 EDT 2017
+---------------------------------------

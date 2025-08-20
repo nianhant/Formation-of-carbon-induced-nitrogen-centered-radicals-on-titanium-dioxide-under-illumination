@@ -1,0 +1,530 @@
+***************************************************************************
+*                       SPARC (version Nov 19, 2021)                      *
+*   Copyright (c) 2020 Material Physics & Mechanics Group, Georgia Tech   *
+*           Distributed under GNU General Public License 3 (GPL)          *
+*                   Start time: Mon Nov 22 10:25:33 2021                  *
+***************************************************************************
+                           Input parameters                                
+***************************************************************************
+CELL: 12.4338823950489 11.2657846029438 47.5378507412217 
+LATVEC:
+1.000000000000000 0.000000000000000 0.000000000000000 
+-0.000130020950961 0.999999991547276 0.000000000000000 
+0.000000000000000 -0.000000000000000 1.000000000000000 
+FD_GRID: 72 65 273
+FD_ORDER: 12
+BC: P P P
+KPOINT_GRID: 1 1 1
+KPOINT_SHIFT: 0 0 0
+SPIN_TYP: 0
+ELEC_TEMP_TYPE: Gaussian
+SMEARING: 0.007349864435
+CHEB_DEGREE: 39
+NSTATES: 241
+EXCHANGE_CORRELATION: HSE
+CALC_STRESS: 0
+CALC_PRES: 0
+CHEFSI_BOUND_FLAG: 0
+MAXIT_SCF: 100
+MINIT_SCF: 3
+MAXIT_POISSON: 3000
+TOL_SCF: 1.00E-06
+POISSON_SOLVER: AAR
+TOL_POISSON: 1.00E-08
+TOL_LANCZOS: 1.00E-02
+TOL_PSEUDOCHARGE: 1.00E-08
+MIXING_VARIABLE: density
+MIXING_PRECOND: kerker
+TOL_PRECOND: 3.01E-05
+PRECOND_KERKER_KTF: 1
+PRECOND_KERKER_THRESH: 0.1
+MIXING_PARAMETER: 0.3
+MIXING_HISTORY: 7
+PULAY_FREQUENCY: 1
+PULAY_RESTART: 0
+REFERENCE_CUTOFF: 0.5
+RHO_TRIGGER: 4
+FIX_RAND: 0
+VERBOSITY: 1
+PRINT_FORCES: 1
+PRINT_ATOMS: 1
+PRINT_EIGEN: 1
+PRINT_DENSITY: 0
+PRINT_ENERGY_DENSITY: 0
+TOL_FOCK: 5.00E-05
+TOL_SCF_INIT: 1.00E-04
+MAXIT_FOCK: 1000
+EXX_METHOD: FOURIER_SPACE
+EXX_DIVERGENCE: AUXILIARY
+ACE_FLAG: 1
+EXX_ACE_MEM: 1
+EXX_ACE_VALENCE_STATES: 10000
+EXX_DOWNSAMPLING: 1 1 1
+EXX_RANGE_FOCK: 0.106000
+EXX_RANGE_PBE: 0.106000
+OUTPUT_FILE: sprc-calc
+***************************************************************************
+                                Cell                                       
+***************************************************************************
+Lattice vectors (Bohr):
+12.433882395048860 0.000000000000000 0.000000000000000 
+-0.001464788027397 11.265784507717260 0.000000000000000 
+0.000000000000000 -0.000000000000000 47.537850741221725 
+Volume                  :  6.6589804186E+03 (Bohr^3)
+***************************************************************************
+                           Parallelization                                 
+***************************************************************************
+NP_SPIN_PARAL: 1
+NP_KPOINT_PARAL: 1
+NP_BAND_PARAL: 1
+NP_DOMAIN_PARAL: 4 4 15
+NP_DOMAIN_PHI_PARAL: 4 4 15
+EIG_SERIAL_MAXNS: 1500
+***************************************************************************
+                             Initialization                                
+***************************************************************************
+Number of processors               :  240
+Mesh spacing in x-direction        :  0.172693 (Bohr)
+Mesh spacing in y-direction        :  0.17332 (Bohr)
+Mesh spacing in z direction        :  0.174131 (Bohr)
+Number of symmetry adapted k-points:  1
+Output printed to                  :  sprc-calc.out
+Final eigenvalues printed to       :  sprc-calc.eigen
+Total number of atom types         :  5
+Total number of atoms              :  53
+Total number of electrons          :  395
+Atom type 1  (valence electrons)   :  C 4
+Pseudopotential                    :  C.psp8
+Pseudocharge radii of atom type 1  :  6.74 6.59 6.62 (x, y, z dir)
+Number of atoms of type 1          :  1
+Atom type 2  (valence electrons)   :  H 1
+Pseudopotential                    :  H.psp8
+Pseudocharge radii of atom type 2  :  3.45 3.47 3.48 (x, y, z dir)
+Number of atoms of type 2          :  3
+Atom type 3  (valence electrons)   :  N 5
+Pseudopotential                    :  N.psp8
+Pseudocharge radii of atom type 3  :  6.74 6.76 6.62 (x, y, z dir)
+Number of atoms of type 3          :  2
+Atom type 4  (valence electrons)   :  O 6
+Pseudopotential                    :  O.psp8
+Pseudocharge radii of atom type 4  :  6.74 6.76 6.62 (x, y, z dir)
+Number of atoms of type 4          :  31
+Atom type 5  (valence electrons)   :  Ti 12
+Pseudopotential                    :  Ti.psp8
+Pseudocharge radii of atom type 5  :  6.56 6.59 6.62 (x, y, z dir)
+Number of atoms of type 5          :  16
+Estimated total memory usage       :  23.64 GB
+Estimated memory per processor     :  100.86 MB
+===================================================================
+                    Self Consistent Field (SCF#1)                     
+===================================================================
+Iteration     Free Energy (Ha/atom)   SCF Error        Timing (sec)
+1            -2.7929860453E+01        1.440E-01        20.550
+2            -2.7822812176E+01        6.024E-02        5.394
+3            -2.7791930358E+01        3.998E-02        5.597
+4            -2.7812869082E+01        2.556E-02        5.971
+5            -2.7809042526E+01        1.536E-02        5.291
+6            -2.7802873074E+01        6.259E-03        5.256
+7            -2.7801668828E+01        3.846E-03        5.241
+8            -2.7800982076E+01        2.849E-03        5.220
+9            -2.7799631992E+01        1.590E-03        5.144
+10           -2.7798986944E+01        1.313E-03        5.267
+11           -2.7798512647E+01        7.652E-04        5.205
+12           -2.7798395400E+01        3.991E-04        5.220
+13           -2.7798383455E+01        2.622E-04        5.207
+14           -2.7798348308E+01        1.704E-04        5.278
+15           -2.7798307647E+01        1.114E-04        5.288
+16           -2.7798250402E+01        7.159E-05        4.967
+Total number of SCF: 16    
+
+k = [0.000, 0.000, 0.000]
+Occupation of state 217 = 0.000000000000001.
+Occupation of state 241 = 0.000000000000000.
+
+No.1 Exx outer loop: 
+1            -2.7603340860E+01        1.351E-02        6.918
+2            -2.7594786710E+01        1.349E-02        6.703
+3            -2.7597545727E+01        1.152E-02        6.741
+4            -2.7600364428E+01        7.220E-03        7.483
+5            -2.7601501286E+01        6.095E-03        6.662
+6            -2.7604155653E+01        3.019E-03        6.578
+7            -2.7605355226E+01        1.755E-03        6.649
+8            -2.7605441103E+01        1.453E-03        6.584
+9            -2.7605286560E+01        8.900E-04        6.752
+10           -2.7605253591E+01        5.975E-04        6.633
+11           -2.7605115855E+01        3.127E-04        6.625
+12           -2.7605098433E+01        3.529E-04        6.700
+13           -2.7605049344E+01        1.702E-04        6.667
+14           -2.7605023356E+01        1.469E-04        6.576
+15           -2.7604960032E+01        9.393E-05        6.537
+16           -2.7604934135E+01        7.479E-05        6.556
+17           -2.7604911213E+01        5.239E-05        6.500
+18           -2.7604907290E+01        3.899E-05        6.753
+19           -2.7604892243E+01        2.668E-05        6.534
+20           -2.7604879959E+01        1.841E-05        6.753
+21           -2.7604871254E+01        1.351E-05        6.786
+22           -2.7604865943E+01        1.032E-05        6.579
+
+***************************************************************************
+*                       SPARC (version Nov 19, 2021)                      *
+*   Copyright (c) 2020 Material Physics & Mechanics Group, Georgia Tech   *
+*           Distributed under GNU General Public License 3 (GPL)          *
+*                   Start time: Mon Nov 22 10:40:06 2021                  *
+***************************************************************************
+                           Input parameters                                
+***************************************************************************
+CELL: 12.4338823950489 11.2657846029438 47.5378507412217 
+LATVEC:
+1.000000000000000 0.000000000000000 0.000000000000000 
+-0.000130020950961 0.999999991547276 0.000000000000000 
+0.000000000000000 -0.000000000000000 1.000000000000000 
+FD_GRID: 72 65 273
+FD_ORDER: 12
+BC: P P P
+KPOINT_GRID: 1 1 1
+KPOINT_SHIFT: 0 0 0
+SPIN_TYP: 0
+ELEC_TEMP_TYPE: Gaussian
+SMEARING: 0.007349864435
+CHEB_DEGREE: 39
+NSTATES: 241
+EXCHANGE_CORRELATION: HSE
+CALC_STRESS: 0
+CALC_PRES: 0
+CHEFSI_BOUND_FLAG: 0
+MAXIT_SCF: 100
+MINIT_SCF: 3
+MAXIT_POISSON: 3000
+TOL_SCF: 1.00E-06
+POISSON_SOLVER: AAR
+TOL_POISSON: 1.00E-08
+TOL_LANCZOS: 1.00E-02
+TOL_PSEUDOCHARGE: 1.00E-08
+MIXING_VARIABLE: density
+MIXING_PRECOND: kerker
+TOL_PRECOND: 3.01E-05
+PRECOND_KERKER_KTF: 1
+PRECOND_KERKER_THRESH: 0.1
+MIXING_PARAMETER: 0.3
+MIXING_HISTORY: 7
+PULAY_FREQUENCY: 1
+PULAY_RESTART: 0
+REFERENCE_CUTOFF: 0.5
+RHO_TRIGGER: 4
+FIX_RAND: 0
+VERBOSITY: 1
+PRINT_FORCES: 1
+PRINT_ATOMS: 1
+PRINT_EIGEN: 1
+PRINT_DENSITY: 0
+PRINT_ENERGY_DENSITY: 0
+TOL_FOCK: 5.00E-05
+TOL_SCF_INIT: 1.00E-04
+MAXIT_FOCK: 1000
+EXX_METHOD: FOURIER_SPACE
+EXX_DIVERGENCE: AUXILIARY
+ACE_FLAG: 1
+EXX_ACE_MEM: 1
+EXX_ACE_VALENCE_STATES: 10000
+EXX_DOWNSAMPLING: 1 1 1
+EXX_RANGE_FOCK: 0.106000
+EXX_RANGE_PBE: 0.106000
+OUTPUT_FILE: sprc-calc
+***************************************************************************
+                                Cell                                       
+***************************************************************************
+Lattice vectors (Bohr):
+12.433882395048860 0.000000000000000 0.000000000000000 
+-0.001464788027397 11.265784507717260 0.000000000000000 
+0.000000000000000 -0.000000000000000 47.537850741221725 
+Volume                  :  6.6589804186E+03 (Bohr^3)
+***************************************************************************
+                           Parallelization                                 
+***************************************************************************
+NP_SPIN_PARAL: 1
+NP_KPOINT_PARAL: 1
+NP_BAND_PARAL: 1
+NP_DOMAIN_PARAL: 4 4 15
+NP_DOMAIN_PHI_PARAL: 4 4 15
+EIG_SERIAL_MAXNS: 1500
+***************************************************************************
+                             Initialization                                
+***************************************************************************
+Number of processors               :  240
+Mesh spacing in x-direction        :  0.172693 (Bohr)
+Mesh spacing in y-direction        :  0.17332 (Bohr)
+Mesh spacing in z direction        :  0.174131 (Bohr)
+Number of symmetry adapted k-points:  1
+Output printed to                  :  sprc-calc.out_01
+Final eigenvalues printed to       :  sprc-calc.eigen_01
+Total number of atom types         :  5
+Total number of atoms              :  53
+Total number of electrons          :  395
+Atom type 1  (valence electrons)   :  C 4
+Pseudopotential                    :  C.psp8
+Pseudocharge radii of atom type 1  :  6.74 6.59 6.62 (x, y, z dir)
+Number of atoms of type 1          :  1
+Atom type 2  (valence electrons)   :  H 1
+Pseudopotential                    :  H.psp8
+Pseudocharge radii of atom type 2  :  3.45 3.47 3.48 (x, y, z dir)
+Number of atoms of type 2          :  3
+Atom type 3  (valence electrons)   :  N 5
+Pseudopotential                    :  N.psp8
+Pseudocharge radii of atom type 3  :  6.74 6.76 6.62 (x, y, z dir)
+Number of atoms of type 3          :  2
+Atom type 4  (valence electrons)   :  O 6
+Pseudopotential                    :  O.psp8
+Pseudocharge radii of atom type 4  :  6.74 6.76 6.62 (x, y, z dir)
+Number of atoms of type 4          :  31
+Atom type 5  (valence electrons)   :  Ti 12
+Pseudopotential                    :  Ti.psp8
+Pseudocharge radii of atom type 5  :  6.56 6.59 6.62 (x, y, z dir)
+Number of atoms of type 5          :  16
+Estimated total memory usage       :  23.64 GB
+Estimated memory per processor     :  100.86 MB
+===================================================================
+                    Self Consistent Field (SCF#1)                     
+===================================================================
+Iteration     Free Energy (Ha/atom)   SCF Error        Timing (sec)
+1            -2.7929860453E+01        1.440E-01        19.991
+2            -2.7822812176E+01        6.024E-02        5.359
+3            -2.7791930358E+01        3.998E-02        5.357
+4            -2.7812869082E+01        2.556E-02        5.282
+5            -2.7809042526E+01        1.536E-02        5.169
+6            -2.7802873074E+01        6.259E-03        5.250
+7            -2.7801668828E+01        3.846E-03        5.747
+8            -2.7800982076E+01        2.849E-03        5.123
+9            -2.7799631992E+01        1.590E-03        5.198
+10           -2.7798986944E+01        1.313E-03        5.261
+11           -2.7798512647E+01        7.652E-04        5.110
+12           -2.7798395400E+01        3.991E-04        5.235
+13           -2.7798383455E+01        2.622E-04        5.205
+14           -2.7798348308E+01        1.704E-04        5.234
+15           -2.7798307647E+01        1.114E-04        5.142
+16           -2.7798250402E+01        7.159E-05        4.728
+Total number of SCF: 16    
+
+k = [0.000, 0.000, 0.000]
+Occupation of state 217 = 0.000000000000001.
+Occupation of state 241 = 0.000000000000000.
+
+No.1 Exx outer loop: 
+1            -2.7603340859E+01        1.351E-02        6.868
+2            -2.7594786710E+01        1.349E-02        6.619
+3            -2.7597545725E+01        1.152E-02        6.703
+4            -2.7600364429E+01        7.220E-03        6.629
+5            -2.7601501273E+01        6.095E-03        6.548
+6            -2.7604155648E+01        3.019E-03        6.561
+7            -2.7605355225E+01        1.755E-03        6.503
+8            -2.7605441097E+01        1.453E-03        6.734
+9            -2.7605286558E+01        8.900E-04        6.572
+10           -2.7605253584E+01        5.975E-04        6.644
+11           -2.7605115853E+01        3.127E-04        6.489
+12           -2.7605098436E+01        3.530E-04        6.678
+13           -2.7605049346E+01        1.702E-04        6.538
+14           -2.7605023358E+01        1.469E-04        6.507
+15           -2.7604960039E+01        9.393E-05        6.510
+16           -2.7604934141E+01        7.480E-05        6.455
+17           -2.7604911215E+01        5.239E-05        6.519
+18           -2.7604907290E+01        3.899E-05        6.490
+19           -2.7604892243E+01        2.669E-05        6.425
+20           -2.7604879960E+01        1.841E-05        6.495
+21           -2.7604871255E+01        1.351E-05        6.505
+22           -2.7604865943E+01        1.032E-05        6.436
+23           -2.7604864507E+01        6.990E-06        6.331
+24           -2.7604864591E+01        4.497E-06        6.473
+25           -2.7604865056E+01        3.358E-06        6.838
+26           -2.7604865328E+01        2.306E-06        6.353
+27           -2.7604865412E+01        1.616E-06        6.448
+28           -2.7604865420E+01        1.218E-06        6.210
+29           -2.7604865456E+01        1.042E-06        6.311
+30           -2.7604865549E+01        8.788E-07        6.186
+Total number of SCF: 30    
+
+k = [0.000, 0.000, 0.000]
+Occupation of state 217 = 0.000000000000000.
+Occupation of state 241 = 0.000000000000000.
+Exx outer loop error: 6.3074290223e-01 
+
+No.2 Exx outer loop: 
+1            -2.7605160881E+01        2.305E-03        7.240
+2            -2.7604410339E+01        1.866E-03        6.672
+3            -2.7604901198E+01        1.575E-03        6.695
+4            -2.7605272638E+01        1.027E-03        6.530
+5            -2.7605430125E+01        7.597E-04        6.713
+6            -2.7605398213E+01        4.659E-04        6.804
+7            -2.7605400209E+01        3.459E-04        6.487
+8            -2.7605279414E+01        2.966E-04        6.458
+9            -2.7605276917E+01        1.800E-04        6.507
+10           -2.7605232158E+01        1.197E-04        6.486
+11           -2.7605216301E+01        8.308E-05        6.487
+12           -2.7605194590E+01        6.531E-05        6.479
+13           -2.7605177122E+01        4.910E-05        6.482
+14           -2.7605153710E+01        3.215E-05        6.535
+15           -2.7605130909E+01        2.424E-05        6.511
+16           -2.7605119268E+01        1.425E-05        6.315
+17           -2.7605118982E+01        1.195E-05        6.388
+18           -2.7605122063E+01        8.792E-06        6.375
+19           -2.7605122690E+01        5.257E-06        7.022
+20           -2.7605121822E+01        3.971E-06        6.402
+21           -2.7605119611E+01        2.316E-06        6.229
+22           -2.7605118947E+01        1.479E-06        6.477
+23           -2.7605118715E+01        1.350E-06        6.374
+24           -2.7605118795E+01        1.278E-06        6.387
+25           -2.7605118665E+01        1.325E-06        6.357
+26           -2.7605118776E+01        8.564E-07        6.126
+Total number of SCF: 26    
+
+k = [0.000, 0.000, 0.000]
+Occupation of state 217 = 0.000000000000000.
+Occupation of state 241 = 0.000000000000000.
+Exx outer loop error: 8.8291642914e-03 
+
+No.3 Exx outer loop: 
+1            -2.7605156565E+01        1.264E-03        6.819
+2            -2.7605081227E+01        8.873E-04        6.609
+3            -2.7605196840E+01        6.625E-04        6.605
+4            -2.7605309393E+01        6.411E-04        6.625
+5            -2.7605344220E+01        4.650E-04        6.629
+6            -2.7605275821E+01        2.038E-04        6.434
+7            -2.7605224463E+01        1.183E-04        6.623
+8            -2.7605204922E+01        9.414E-05        6.578
+9            -2.7605178224E+01        5.794E-05        6.439
+10           -2.7605158526E+01        3.427E-05        6.517
+11           -2.7605144616E+01        2.467E-05        6.578
+12           -2.7605139040E+01        1.983E-05        6.577
+13           -2.7605141249E+01        1.053E-05        6.392
+14           -2.7605141453E+01        8.015E-06        6.395
+15           -2.7605139603E+01        7.515E-06        6.425
+16           -2.7605136490E+01        3.649E-06        6.314
+17           -2.7605135826E+01        2.401E-06        6.352
+18           -2.7605135792E+01        1.726E-06        6.310
+19           -2.7605135696E+01        2.590E-06        6.240
+20           -2.7605135619E+01        1.709E-06        6.341
+21           -2.7605134708E+01        2.763E-06        6.456
+22           -2.7605134424E+01        9.876E-07        6.231
+Total number of SCF: 22    
+
+k = [0.000, 0.000, 0.000]
+Occupation of state 217 = 0.000000000000000.
+Occupation of state 241 = 0.000000000000000.
+Exx outer loop error: 1.7172740124e-03 
+
+No.4 Exx outer loop: 
+1            -2.7605142199E+01        6.949E-04        6.724
+2            -2.7605135717E+01        5.944E-04        6.591
+3            -2.7605235029E+01        2.584E-04        6.502
+4            -2.7605194769E+01        1.501E-04        6.577
+5            -2.7605191932E+01        6.846E-05        6.449
+6            -2.7605179430E+01        3.712E-05        6.470
+7            -2.7605165305E+01        3.093E-05        6.457
+8            -2.7605155917E+01        1.682E-05        6.576
+9            -2.7605150549E+01        1.202E-05        6.420
+10           -2.7605145578E+01        7.187E-06        6.363
+11           -2.7605143495E+01        5.740E-06        6.497
+12           -2.7605138999E+01        3.411E-06        6.414
+13           -2.7605137878E+01        2.685E-06        7.038
+14           -2.7605137870E+01        2.123E-06        6.352
+15           -2.7605136525E+01        1.371E-06        6.329
+16           -2.7605136038E+01        9.016E-07        6.950
+Total number of SCF: 16    
+
+k = [0.000, 0.000, 0.000]
+Occupation of state 217 = 0.000000000000000.
+Occupation of state 241 = 0.000000000000000.
+Exx outer loop error: 3.8670805856e-04 
+
+No.5 Exx outer loop: 
+1            -2.7605136728E+01        2.731E-04        6.773
+2            -2.7605138123E+01        2.367E-04        6.483
+3            -2.7605162440E+01        1.273E-04        6.422
+4            -2.7605161598E+01        6.320E-05        6.527
+5            -2.7605162620E+01        1.132E-04        6.423
+6            -2.7605149493E+01        1.938E-05        6.441
+7            -2.7605147348E+01        2.503E-05        6.485
+8            -2.7605143739E+01        1.258E-05        6.397
+9            -2.7605142594E+01        8.822E-06        6.398
+10           -2.7605140566E+01        4.934E-06        6.391
+11           -2.7605139497E+01        3.512E-06        6.442
+12           -2.7605138484E+01        1.694E-06        6.313
+13           -2.7605137656E+01        1.315E-06        6.288
+14           -2.7605136963E+01        8.096E-07        6.166
+Total number of SCF: 14    
+
+k = [0.000, 0.000, 0.000]
+Occupation of state 217 = 0.000000000000000.
+Occupation of state 241 = 0.000000000000000.
+Exx outer loop error: 1.8136375791e-04 
+
+No.6 Exx outer loop: 
+1            -2.7605137443E+01        1.059E-04        6.732
+2            -2.7605138009E+01        8.940E-05        6.429
+3            -2.7605137627E+01        1.970E-05        6.432
+4            -2.7605135514E+01        1.113E-05        6.408
+5            -2.7605135167E+01        8.277E-06        6.385
+6            -2.7605135899E+01        4.932E-06        6.349
+7            -2.7605136725E+01        4.075E-06        6.392
+8            -2.7605138016E+01        2.196E-06        6.308
+9            -2.7605138524E+01        1.766E-06        6.396
+10           -2.7605138235E+01        1.583E-06        6.388
+11           -2.7605138101E+01        2.363E-06        6.428
+12           -2.7605137512E+01        1.621E-06        6.355
+13           -2.7605137018E+01        1.120E-06        6.200
+14           -2.7605137051E+01        1.026E-06        6.371
+15           -2.7605136427E+01        1.007E-06        6.251
+16           -2.7605136324E+01        1.070E-06        6.354
+17           -2.7605136263E+01        4.594E-07        6.138
+Total number of SCF: 17    
+
+k = [0.000, 0.000, 0.000]
+Occupation of state 217 = 0.000000000000000.
+Occupation of state 241 = 0.000000000000000.
+Exx outer loop error: 8.1424643615e-05 
+
+No.7 Exx outer loop: 
+1            -2.7605136229E+01        5.520E-05        6.579
+2            -2.7605136678E+01        5.746E-05        6.468
+3            -2.7605143479E+01        6.970E-05        6.372
+4            -2.7605143675E+01        2.979E-05        6.414
+5            -2.7605143305E+01        2.989E-05        6.397
+6            -2.7605138564E+01        4.141E-06        6.319
+7            -2.7605137661E+01        4.269E-06        6.425
+8            -2.7605138589E+01        2.376E-06        6.386
+9            -2.7605138520E+01        1.660E-06        6.371
+10           -2.7605137607E+01        2.075E-06        6.511
+11           -2.7605136905E+01        1.141E-06        6.379
+12           -2.7605136414E+01        1.069E-06        7.059
+13           -2.7605136216E+01        5.009E-07        6.120
+Total number of SCF: 13    
+
+k = [0.000, 0.000, 0.000]
+Occupation of state 217 = 0.000000000000000.
+Occupation of state 241 = 0.000000000000000.
+Exx outer loop error: 3.9573434797e-06 
+====================================================================
+                    Energy and force calculation                    
+====================================================================
+Free energy per atom               : -2.7605135734E+01 (Ha/atom)
+Total free energy                  : -1.4630721939E+03 (Ha)
+Band structure energy              : -2.8689256114E+02 (Ha)
+Exchange correlation energy        : -1.6762802551E+02 (Ha)
+Self and correction energy         : -1.9330914733E+03 (Ha)
+Entropy*kb*T                       : -5.9345231573E-03 (Ha)
+Fermi level                        :  5.6014182516E-02 (Ha)
+RMS force                          :  2.1967187186E-02 (Ha/Bohr)
+Maximum force                      :  1.0680235263E-01 (Ha/Bohr)
+Time for force calculation         :  0.186 (sec)
+***************************************************************************
+                               Timing info                                 
+***************************************************************************
+Total walltime                     :  1202.616 sec
+___________________________________________________________________________
+
+***************************************************************************
+*             Material Physics & Mechanics Group, Georgia Tech            *
+*                       PI: Phanish Suryanarayana                         *
+*                Main Developers: Qimen Xu, Abhiraj Sharma                *
+*     Collaborators: J.E. Pask (LLNL), A.J. Medford (GT), E. Chow (GT)    *
+*  Acknowledgements: U.S. DOE (DE-SC0019410); U.S. NSF (1333500,1553212)  *
+***************************************************************************
+                                                                           

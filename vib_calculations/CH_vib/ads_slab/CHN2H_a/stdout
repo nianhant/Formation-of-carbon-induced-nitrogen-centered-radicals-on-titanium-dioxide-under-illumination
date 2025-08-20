@@ -1,0 +1,184 @@
+---------------------------------------
+Begin PBS Prologue Wed Aug 18 20:31:40 EDT 2021
+Job ID:     2595590.sched-torque.pace.gatech.edu
+User ID:    ntian30
+Job name:   ads_slab/CHN2H_a
+Queue:      inferno
+End PBS Prologue Wed Aug 18 20:31:40 EDT 2021
+---------------------------------------
+Requirement already satisfied: py-hostlist in /storage/home/hcoda1/3/ntian30/.local/lib/python3.7/site-packages (0.0.2.dev0)
+/storage/home/hcoda1/3/ntian30/research/carbon/CH_calc/ads_slab/CHN2H_a
+CMD mpirun -wdir /storage/home/hcoda1/3/ntian30/scratch/qe_1139763_2595590.sched-torque.pace.gatech.eduhuer2p1m_scratch pw.x -in /storage/home/hcoda1/3/ntian30/research/carbon/CH_calc/ads_slab/CHN2H_a/CH_calc.log/pw.inp --ipi qe_1139763_2595590.sched-torque.pace.gatech.eduhuer2p1m_scratch:UNIX >> /storage/home/hcoda1/3/ntian30/research/carbon/CH_calc/ads_slab/CHN2H_a/CH_calc.log/pw.out
+46912884785040 Awaiting client
+----------> <socket.socket fd=8, family=AddressFamily.AF_UNIX, type=SocketKind.SOCK_STREAM, proto=0, laddr=/tmp/ipi_qe_1139763_2595590.sched-torque.pace.gatech.eduhuer2p1m_scratch> 
+---------------------------------------
+Begin PBS Epilogue Thu Aug 19 04:27:59 EDT 2021
+Job ID:     2595590.sched-torque.pace.gatech.edu
+User ID:    ntian30
+Job name:   ads_slab/CHN2H_a
+Resources:  nodes=2:ppn=4,pmem=22gb,walltime=72:00:00,neednodes=2:ppn=4
+Rsrc Used:  cput=61:40:59,vmem=44968732kb,walltime=07:56:19,mem=25288560kb,energy_used=0
+Queue:      inferno
+Nodes:     
+atl1-1-03-004-17-l.pace.gatech.edu
+End PBS Epilogue Thu Aug 19 04:27:59 EDT 2021
+---------------------------------------
+---------------------------------------
+Begin PBS Prologue Thu Aug 19 08:44:29 EDT 2021
+Job ID:     2599458.sched-torque.pace.gatech.edu
+User ID:    ntian30
+Job name:   ads_slab/CHN2H_a
+Queue:      inferno
+End PBS Prologue Thu Aug 19 08:44:29 EDT 2021
+---------------------------------------
+Requirement already satisfied: py-hostlist in /storage/home/hcoda1/3/ntian30/.local/lib/python3.7/site-packages (0.0.2.dev0)
+/storage/home/hcoda1/3/ntian30/research/carbon/CH_calc/ads_slab/CHN2H_a
+CMD mpirun -wdir /storage/home/hcoda1/3/ntian30/scratch/qe_1139763_2599458.sched-torque.pace.gatech.edu74c9qe85_scratch pw.x -in /storage/home/hcoda1/3/ntian30/research/carbon/CH_calc/ads_slab/CHN2H_a/CH_calc.log/pw.inp --ipi qe_1139763_2599458.sched-torque.pace.gatech.edu74c9qe85_scratch:UNIX >> /storage/home/hcoda1/3/ntian30/research/carbon/CH_calc/ads_slab/CHN2H_a/CH_calc.log/pw.out
+46912885452688 Awaiting client
+----------> <socket.socket fd=8, family=AddressFamily.AF_UNIX, type=SocketKind.SOCK_STREAM, proto=0, laddr=/tmp/ipi_qe_1139763_2599458.sched-torque.pace.gatech.edu74c9qe85_scratch> 
+---------------------------------------
+Begin PBS Epilogue Thu Aug 19 13:39:48 EDT 2021
+Job ID:     2599458.sched-torque.pace.gatech.edu
+User ID:    ntian30
+Job name:   ads_slab/CHN2H_a
+Resources:  nodes=2:ppn=4,pmem=22gb,walltime=72:00:00,neednodes=2:ppn=4
+Rsrc Used:  cput=39:12:11,vmem=45013376kb,walltime=04:55:19,mem=25235292kb,energy_used=0
+Queue:      inferno
+Nodes:     
+atl1-1-03-004-6-r.pace.gatech.edu
+End PBS Epilogue Thu Aug 19 13:39:48 EDT 2021
+---------------------------------------
+---------------------------------------
+Begin PBS Prologue Thu Aug 19 15:54:48 EDT 2021
+Job ID:     2602658.sched-torque.pace.gatech.edu
+User ID:    ntian30
+Job name:   ads_slab/CHN2H_a
+Queue:      inferno
+End PBS Prologue Thu Aug 19 15:54:48 EDT 2021
+---------------------------------------
+Requirement already satisfied: py-hostlist in /storage/home/hcoda1/3/ntian30/.local/lib/python3.7/site-packages (0.0.2.dev0)
+/storage/home/hcoda1/3/ntian30/research/carbon/CH_calc/ads_slab/CHN2H_a
+CMD mpirun -wdir /storage/home/hcoda1/3/ntian30/scratch/qe_1139763_2602658.sched-torque.pace.gatech.edul9pufrpl_scratch pw.x -in /storage/home/hcoda1/3/ntian30/research/carbon/CH_calc/ads_slab/CHN2H_a/CH_calc.log/pw.inp --ipi qe_1139763_2602658.sched-torque.pace.gatech.edul9pufrpl_scratch:UNIX >> /storage/home/hcoda1/3/ntian30/research/carbon/CH_calc/ads_slab/CHN2H_a/CH_calc.log/pw.out
+46912884096144 Awaiting client
+----------> <socket.socket fd=8, family=AddressFamily.AF_UNIX, type=SocketKind.SOCK_STREAM, proto=0, laddr=/tmp/ipi_qe_1139763_2602658.sched-torque.pace.gatech.edul9pufrpl_scratch> 
+---------------------------------------
+Begin PBS Epilogue Thu Aug 19 21:39:17 EDT 2021
+Job ID:     2602658.sched-torque.pace.gatech.edu
+User ID:    ntian30
+Job name:   ads_slab/CHN2H_a
+Resources:  nodes=2:ppn=4,pmem=22gb,walltime=72:00:00,neednodes=2:ppn=4
+Rsrc Used:  cput=45:30:39,vmem=45165840kb,walltime=05:44:27,mem=26947092kb,energy_used=0
+Queue:      inferno
+Nodes:     
+atl1-1-03-004-13-r.pace.gatech.edu atl1-1-03-004-9-r.pace.gatech.edu
+End PBS Epilogue Thu Aug 19 21:39:17 EDT 2021
+---------------------------------------
+---------------------------------------
+Begin PBS Prologue Fri Aug 20 08:16:55 EDT 2021
+Job ID:     2609623.sched-torque.pace.gatech.edu
+User ID:    ntian30
+Job name:   ads_slab/CHN2H_a
+Queue:      inferno
+End PBS Prologue Fri Aug 20 08:16:55 EDT 2021
+---------------------------------------
+Requirement already satisfied: py-hostlist in /storage/home/hcoda1/3/ntian30/.local/lib/python3.7/site-packages (0.0.2.dev0)
+/storage/home/hcoda1/3/ntian30/research/carbon/CH_calc/ads_slab/CHN2H_a
+CMD mpirun -wdir /storage/home/hcoda1/3/ntian30/scratch/qe_1139763_2609623.sched-torque.pace.gatech.eduf4yk3fbe_scratch pw.x -in /storage/home/hcoda1/3/ntian30/research/carbon/CH_calc/ads_slab/CHN2H_a/CH_calc.log/pw.inp --ipi qe_1139763_2609623.sched-torque.pace.gatech.eduf4yk3fbe_scratch:UNIX >> /storage/home/hcoda1/3/ntian30/research/carbon/CH_calc/ads_slab/CHN2H_a/CH_calc.log/pw.out
+46912884575312 Awaiting client
+----------> <socket.socket fd=8, family=AddressFamily.AF_UNIX, type=SocketKind.SOCK_STREAM, proto=0, laddr=/tmp/ipi_qe_1139763_2609623.sched-torque.pace.gatech.eduf4yk3fbe_scratch> 
+---------------------------------------
+Begin PBS Epilogue Fri Aug 20 09:54:13 EDT 2021
+Job ID:     2609623.sched-torque.pace.gatech.edu
+User ID:    ntian30
+Job name:   ads_slab/CHN2H_a
+Resources:  nodes=2:ppn=4,pmem=22gb,walltime=72:00:00,neednodes=2:ppn=4
+Rsrc Used:  cput=12:53:03,vmem=28575700kb,walltime=01:37:18,mem=8884092kb,energy_used=0
+Queue:      inferno
+Nodes:     
+atl1-1-03-004-9-r.pace.gatech.edu
+End PBS Epilogue Fri Aug 20 09:54:13 EDT 2021
+---------------------------------------
+---------------------------------------
+Begin PBS Prologue Mon Aug 23 12:41:41 EDT 2021
+Job ID:     2632792.sched-torque.pace.gatech.edu
+User ID:    ntian30
+Job name:   ads_slab/CHN2H_a
+Queue:      inferno
+End PBS Prologue Mon Aug 23 12:41:41 EDT 2021
+---------------------------------------
+Requirement already satisfied: py-hostlist in /storage/home/hcoda1/3/ntian30/.local/lib/python3.7/site-packages (0.0.2.dev0)
+/storage/home/hcoda1/3/ntian30/research/carbon/CH_vib/ads_slab/CHN2H_a
+46912660420688 Awaiting client
+----------> <socket.socket fd=7, family=AddressFamily.AF_UNIX, type=SocketKind.SOCK_STREAM, proto=0, laddr=/tmp/ipi_qe_1139763_2632792.sched-torque.pace.gatech.eduwt5rkcdq_scratch> 
+46912622591312 Awaiting client
+----------> <socket.socket fd=8, family=AddressFamily.AF_UNIX, type=SocketKind.SOCK_STREAM, proto=0, laddr=/tmp/ipi_qe_1139763_2632792.sched-torque.pace.gatech.edua1y_ndc6_scratch> 
+46912884310480 Awaiting client
+----------> <socket.socket fd=10, family=AddressFamily.AF_UNIX, type=SocketKind.SOCK_STREAM, proto=0, laddr=/tmp/ipi_qe_1139763_2632792.sched-torque.pace.gatech.edux609bgv8_scratch> 
+46912886654736 Awaiting client
+----------> <socket.socket fd=11, family=AddressFamily.AF_UNIX, type=SocketKind.SOCK_STREAM, proto=0, laddr=/tmp/ipi_qe_1139763_2632792.sched-torque.pace.gatech.edu81jcklih_scratch> 
+46912886656464 Awaiting client
+----------> <socket.socket fd=12, family=AddressFamily.AF_UNIX, type=SocketKind.SOCK_STREAM, proto=0, laddr=/tmp/ipi_qe_1139763_2632792.sched-torque.pace.gatech.edufviy4dxp_scratch> 
+46912886713552 Awaiting client
+----------> <socket.socket fd=13, family=AddressFamily.AF_UNIX, type=SocketKind.SOCK_STREAM, proto=0, laddr=/tmp/ipi_qe_1139763_2632792.sched-torque.pace.gatech.edu_0syy41w_scratch> 
+46912886714128 Awaiting client
+----------> <socket.socket fd=14, family=AddressFamily.AF_UNIX, type=SocketKind.SOCK_STREAM, proto=0, laddr=/tmp/ipi_qe_1139763_2632792.sched-torque.pace.gatech.eduypsqaihw_scratch> 
+46912886711184 Awaiting client
+----------> <socket.socket fd=15, family=AddressFamily.AF_UNIX, type=SocketKind.SOCK_STREAM, proto=0, laddr=/tmp/ipi_qe_1139763_2632792.sched-torque.pace.gatech.edu4ceqw7il_scratch> 
+46912886761232 Awaiting client
+----------> <socket.socket fd=16, family=AddressFamily.AF_UNIX, type=SocketKind.SOCK_STREAM, proto=0, laddr=/tmp/ipi_qe_1139763_2632792.sched-torque.pace.gatech.edu1_fcp173_scratch> 
+46912886762320 Awaiting client
+----------> <socket.socket fd=18, family=AddressFamily.AF_UNIX, type=SocketKind.SOCK_STREAM, proto=0, laddr=/tmp/ipi_qe_1139763_2632792.sched-torque.pace.gatech.eduxr2l96ai_scratch> 
+46912901524304 Awaiting client
+----------> <socket.socket fd=19, family=AddressFamily.AF_UNIX, type=SocketKind.SOCK_STREAM, proto=0, laddr=/tmp/ipi_qe_1139763_2632792.sched-torque.pace.gatech.educytlqwid_scratch> 
+46912901525008 Awaiting client
+----------> <socket.socket fd=20, family=AddressFamily.AF_UNIX, type=SocketKind.SOCK_STREAM, proto=0, laddr=/tmp/ipi_qe_1139763_2632792.sched-torque.pace.gatech.edu5cxsnkbv_scratch> 
+46912901524752 Awaiting client
+----------> <socket.socket fd=21, family=AddressFamily.AF_UNIX, type=SocketKind.SOCK_STREAM, proto=0, laddr=/tmp/ipi_qe_1139763_2632792.sched-torque.pace.gatech.eduk6acp6ab_scratch> 
+46912901598608 Awaiting client
+----------> <socket.socket fd=22, family=AddressFamily.AF_UNIX, type=SocketKind.SOCK_STREAM, proto=0, laddr=/tmp/ipi_qe_1139763_2632792.sched-torque.pace.gatech.eduxcch8611_scratch> 
+46912901598416 Awaiting client
+----------> <socket.socket fd=23, family=AddressFamily.AF_UNIX, type=SocketKind.SOCK_STREAM, proto=0, laddr=/tmp/ipi_qe_1139763_2632792.sched-torque.pace.gatech.eduuicu3_0h_scratch> 
+46912901646800 Awaiting client
+----------> <socket.socket fd=24, family=AddressFamily.AF_UNIX, type=SocketKind.SOCK_STREAM, proto=0, laddr=/tmp/ipi_qe_1139763_2632792.sched-torque.pace.gatech.edu6ez95r8s_scratch> 
+46912901645200 Awaiting client
+----------> <socket.socket fd=25, family=AddressFamily.AF_UNIX, type=SocketKind.SOCK_STREAM, proto=0, laddr=/tmp/ipi_qe_1139763_2632792.sched-torque.pace.gatech.eduiozrpuu3_scratch> 
+46912901647504 Awaiting client
+----------> <socket.socket fd=26, family=AddressFamily.AF_UNIX, type=SocketKind.SOCK_STREAM, proto=0, laddr=/tmp/ipi_qe_1139763_2632792.sched-torque.pace.gatech.edu36f6bx4z_scratch> 
+46912901708816 Awaiting client
+----------> <socket.socket fd=27, family=AddressFamily.AF_UNIX, type=SocketKind.SOCK_STREAM, proto=0, laddr=/tmp/ipi_qe_1139763_2632792.sched-torque.pace.gatech.eduicq_5w4s_scratch> 
+46912901708880 Awaiting client
+----------> <socket.socket fd=28, family=AddressFamily.AF_UNIX, type=SocketKind.SOCK_STREAM, proto=0, laddr=/tmp/ipi_qe_1139763_2632792.sched-torque.pace.gatech.eduadnjy4p0_scratch> 
+46912901706704 Awaiting client
+----------> <socket.socket fd=29, family=AddressFamily.AF_UNIX, type=SocketKind.SOCK_STREAM, proto=0, laddr=/tmp/ipi_qe_1139763_2632792.sched-torque.pace.gatech.edu_l99evy4_scratch> 
+46912900980304 Awaiting client
+----------> <socket.socket fd=30, family=AddressFamily.AF_UNIX, type=SocketKind.SOCK_STREAM, proto=0, laddr=/tmp/ipi_qe_1139763_2632792.sched-torque.pace.gatech.eduudrv7cc4_scratch> 
+46912900980112 Awaiting client
+----------> <socket.socket fd=31, family=AddressFamily.AF_UNIX, type=SocketKind.SOCK_STREAM, proto=0, laddr=/tmp/ipi_qe_1139763_2632792.sched-torque.pace.gatech.eduluecocq1_scratch> 
+46912900983440 Awaiting client
+----------> <socket.socket fd=32, family=AddressFamily.AF_UNIX, type=SocketKind.SOCK_STREAM, proto=0, laddr=/tmp/ipi_qe_1139763_2632792.sched-torque.pace.gatech.eduxhpk8e28_scratch> 
+46912900980944 Awaiting client
+----------> <socket.socket fd=33, family=AddressFamily.AF_UNIX, type=SocketKind.SOCK_STREAM, proto=0, laddr=/tmp/ipi_qe_1139763_2632792.sched-torque.pace.gatech.eduprillgvc_scratch> 
+46912900982544 Awaiting client
+----------> <socket.socket fd=34, family=AddressFamily.AF_UNIX, type=SocketKind.SOCK_STREAM, proto=0, laddr=/tmp/ipi_qe_1139763_2632792.sched-torque.pace.gatech.eduzxcmgeyh_scratch> 
+46912901065936 Awaiting client
+----------> <socket.socket fd=35, family=AddressFamily.AF_UNIX, type=SocketKind.SOCK_STREAM, proto=0, laddr=/tmp/ipi_qe_1139763_2632792.sched-torque.pace.gatech.eduoonvadmi_scratch> 
+46912901066512 Awaiting client
+----------> <socket.socket fd=36, family=AddressFamily.AF_UNIX, type=SocketKind.SOCK_STREAM, proto=0, laddr=/tmp/ipi_qe_1139763_2632792.sched-torque.pace.gatech.edu_50ngruk_scratch> 
+46912901063568 Awaiting client
+----------> <socket.socket fd=37, family=AddressFamily.AF_UNIX, type=SocketKind.SOCK_STREAM, proto=0, laddr=/tmp/ipi_qe_1139763_2632792.sched-torque.pace.gatech.eduoo47bltv_scratch> 
+46912901105424 Awaiting client
+----------> <socket.socket fd=38, family=AddressFamily.AF_UNIX, type=SocketKind.SOCK_STREAM, proto=0, laddr=/tmp/ipi_qe_1139763_2632792.sched-torque.pace.gatech.edu5hqvalef_scratch> 
+46912901106512 Awaiting client
+----------> <socket.socket fd=39, family=AddressFamily.AF_UNIX, type=SocketKind.SOCK_STREAM, proto=0, laddr=/tmp/ipi_qe_1139763_2632792.sched-torque.pace.gatech.eduych3fbk9_scratch> 
+---------------------------------------
+Begin PBS Epilogue Tue Aug 24 05:14:08 EDT 2021
+Job ID:     2632792.sched-torque.pace.gatech.edu
+User ID:    ntian30
+Job name:   ads_slab/CHN2H_a
+Resources:  nodes=1:ppn=6:gpus=1:RTX6000,mem=128gb,walltime=24:00:00,neednodes=1:ppn=6:gpus=1:RTX6000
+Rsrc Used:  cput=98:48:04,vmem=19680504kb,walltime=16:32:27,mem=5037460kb,energy_used=0
+Queue:      inferno
+Nodes:     
+atl1-1-03-006-25.pace.gatech.edu
+End PBS Epilogue Tue Aug 24 05:14:08 EDT 2021
+---------------------------------------

@@ -1,0 +1,32 @@
+                Step[ FC]     Time          Energy          fmax
+*Force-consistent energies used in optimization.
+BFGSLineSearch:    0[  0] 18:28:12   -40409.702248*       8.6975
+BFGSLineSearch:    1[  2] 18:49:11   -40410.725427*      14.3798
+BFGSLineSearch:    2[  3] 18:56:57   -40412.559566*       3.9778
+BFGSLineSearch:    3[  5] 19:16:37   -40412.820666*       4.3606
+BFGSLineSearch:    4[  7] 19:47:49   -40413.027642*       3.6083
+BFGSLineSearch:    5[  8] 20:03:19   -40413.407784*       1.4791
+BFGSLineSearch:    6[ 10] 20:25:00   -40413.458393*       1.5908
+BFGSLineSearch:    7[ 12] 20:42:11   -40413.550091*       0.5376
+BFGSLineSearch:    8[ 14] 21:08:09   -40413.607539*       0.5290
+BFGSLineSearch:    9[ 16] 21:30:01   -40413.638663*       0.4210
+BFGSLineSearch:   10[ 18] 21:49:38   -40413.658757*       0.2255
+BFGSLineSearch:   11[ 20] 22:06:01   -40413.671556*       0.2607
+BFGSLineSearch:   12[ 22] 22:20:56   -40413.677069*       0.2065
+BFGSLineSearch:   13[ 24] 22:36:52   -40413.681743*       0.1248
+                Step[ FC]     Time          Energy          fmax
+*Force-consistent energies used in optimization.
+BFGSLineSearch:    0[  0] 08:50:17   -40409.702246*       8.6990
+BFGSLineSearch:    1[  2] 09:28:14   -40412.725638*       4.3185
+BFGSLineSearch:    2[  3] 09:40:25   -40413.133563*       1.3691
+BFGSLineSearch:    3[  4] 09:53:57   -40413.357814*       3.1823
+BFGSLineSearch:    4[  5] 10:03:58   -40413.504410*       1.4757
+BFGSLineSearch:    5[  7] 10:23:13   -40413.575512*       0.5661
+BFGSLineSearch:    6[  9] 10:41:36   -40413.616323*       0.4401
+BFGSLineSearch:    7[ 10] 10:50:49   -40413.639959*       0.8163
+BFGSLineSearch:    8[ 11] 10:57:57   -40413.665692*       0.3012
+BFGSLineSearch:    9[ 13] 11:13:41   -40413.678458*       0.1426
+BFGSLineSearch:   10[ 14] 11:21:06   -40413.682707*       0.1572
+BFGSLineSearch:   11[ 15] 11:31:01   -40413.685996*       0.2348
+BFGSLineSearch:   12[ 17] 11:45:03   -40413.687020*       0.0690
+BFGSLineSearch:   13[ 18] 11:52:00   -40413.687573*       0.0460

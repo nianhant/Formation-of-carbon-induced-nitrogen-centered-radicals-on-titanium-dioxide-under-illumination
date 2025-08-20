@@ -1,0 +1,139 @@
+***************************************************************************
+*                       SPARC (version Mar 30, 2022)                      *
+*   Copyright (c) 2020 Material Physics & Mechanics Group, Georgia Tech   *
+*           Distributed under GNU General Public License 3 (GPL)          *
+*                   Start time: Wed Apr  6 07:52:02 2022                  *
+***************************************************************************
+                           Input parameters                                
+***************************************************************************
+CELL: 12.4338823950489 11.2657846029438 47.5378507412217 
+LATVEC:
+1.000000000000000 0.000000000000000 0.000000000000000 
+-0.000130020950961 0.999999991547276 0.000000000000000 
+0.000000000000000 -0.000000000000000 1.000000000000000 
+FD_GRID: 66 60 252
+FD_ORDER: 12
+BC: P P D
+KPOINT_GRID: 4 4 1
+KPOINT_SHIFT: 0 0 0
+SPIN_TYP: 1
+ELEC_TEMP_TYPE: Gaussian
+SMEARING: 0.007349864435
+CHEB_DEGREE: 37
+NSTATES: 237
+EXCHANGE_CORRELATION: HSE
+CALC_STRESS: 0
+CALC_PRES: 0
+CHEFSI_BOUND_FLAG: 0
+MAXIT_SCF: 100
+MINIT_SCF: 3
+MAXIT_POISSON: 3000
+TOL_SCF: 1.00E-06
+POISSON_SOLVER: AAR
+TOL_POISSON: 1.00E-08
+TOL_LANCZOS: 1.00E-02
+TOL_PSEUDOCHARGE: 1.00E-08
+MIXING_VARIABLE: density
+MIXING_PRECOND: kerker
+MIXING_PRECOND_MAG: none
+TOL_PRECOND: 3.54E-05
+PRECOND_KERKER_KTF: 1
+PRECOND_KERKER_THRESH: 0.1
+MIXING_PARAMETER: 0.3
+MIXING_PARAMETER_MAG: 0.3
+MIXING_HISTORY: 7
+PULAY_FREQUENCY: 1
+PULAY_RESTART: 0
+REFERENCE_CUTOFF: 0.5
+RHO_TRIGGER: 4
+FIX_RAND: 0
+VERBOSITY: 1
+PRINT_FORCES: 1
+PRINT_ATOMS: 1
+PRINT_EIGEN: 1
+PRINT_DENSITY: 0
+PRINT_ENERGY_DENSITY: 0
+TOL_FOCK: 5.00E-05
+TOL_SCF_INIT: 1.00E-04
+MAXIT_FOCK: 20
+EXX_METHOD: FOURIER_SPACE
+EXX_DIVERGENCE: AUXILIARY
+ACE_FLAG: 1
+EXX_ACE_MEM: 1
+EXX_ACE_VALENCE_STATES: 10000
+EXX_DOWNSAMPLING: 1 1 1
+EXX_RANGE_FOCK: 0.106000
+EXX_RANGE_PBE: 0.106000
+OUTPUT_FILE: sprc-calc
+***************************************************************************
+                                Cell                                       
+***************************************************************************
+Lattice vectors (Bohr):
+12.433882395048860 0.000000000000000 0.000000000000000 
+-0.001464788027397 11.265784507717260 0.000000000000000 
+0.000000000000000 -0.000000000000000 47.537850741221725 
+Volume                  :  6.6589804186E+03 (Bohr^3)
+***************************************************************************
+                           Parallelization                                 
+***************************************************************************
+NP_SPIN_PARAL: 2
+NP_KPOINT_PARAL: 10
+NP_BAND_PARAL: 1
+NP_DOMAIN_PARAL: 2 1 8
+NP_DOMAIN_PHI_PARAL: 4 4 21
+EIG_SERIAL_MAXNS: 1500
+***************************************************************************
+                             Initialization                                
+***************************************************************************
+Number of processors               :  336
+Mesh spacing in x-direction        :  0.188392 (Bohr)
+Mesh spacing in y-direction        :  0.187763 (Bohr)
+Mesh spacing in z direction        :  0.188642 (Bohr)
+Number of symmetry adapted k-points:  10
+Output printed to                  :  sprc-calc.out_01
+Final eigenvalues printed to       :  sprc-calc.eigen_01
+Total number of atom types         :  5
+Total number of atoms              :  51
+Total number of electrons          :  389
+Atom type 1  (valence electrons)   :  C 4
+Pseudopotential                    :  C.psp8
+Pseudocharge radii of atom type 1  :  6.78 6.76 6.79 (x, y, z dir)
+Number of atoms of type 1          :  1
+Atom type 2  (valence electrons)   :  H 1
+Pseudopotential                    :  H.psp8
+Pseudocharge radii of atom type 2  :  3.77 3.76 3.77 (x, y, z dir)
+Number of atoms of type 2          :  2
+Atom type 3  (valence electrons)   :  N 5
+Pseudopotential                    :  N.psp8
+Pseudocharge radii of atom type 3  :  6.78 6.76 6.79 (x, y, z dir)
+Number of atoms of type 3          :  1
+Atom type 4  (valence electrons)   :  O 6
+Pseudopotential                    :  O.psp8
+Pseudocharge radii of atom type 4  :  6.78 6.76 6.79 (x, y, z dir)
+Number of atoms of type 4          :  31
+Atom type 5  (valence electrons)   :  Ti 12
+Pseudopotential                    :  Ti.psp8
+Pseudocharge radii of atom type 5  :  6.78 6.76 6.79 (x, y, z dir)
+Number of atoms of type 5          :  16
+Estimated total memory usage       :  445.40 GB
+Estimated memory per processor     :  1.33 GB
+========================================================================================
+                    Self Consistent Field (SCF#1)                     
+========================================================================================
+Iteration     Free Energy (Ha/atom)    Magnetization     SCF Error        Timing (sec)
+1            -2.8584166165E+01         3.8922E+00        4.515E-01        300.824
+2            -3.0178658657E+01        -9.1948E-01        4.293E-01        73.603
+3            -2.9334327356E+01         1.0287E+01        3.436E-01        73.113
+4            -2.8829644962E+01         8.1773E+00        3.126E-01        73.154
+5            -2.9041088976E+01         1.3488E+01        2.139E-01        73.169
+6            -2.9094416060E+01         1.1788E+01        1.833E-01        82.384
+7            -2.9096311773E+01         9.5760E+00        1.476E-01        79.452
+8            -2.9112373456E+01         7.5721E+00        1.222E-01        75.296
+9            -2.9088025476E+01         3.0503E+00        1.030E-01        81.688
+10           -2.9081593570E+01         8.2755E+00        9.767E-02        79.358
+11           -2.9029352936E+01         8.5258E-01        8.515E-02        94.503
+12           -2.8993749497E+01         2.4681E+00        6.376E-02        94.405
+13           -2.8967740597E+01         1.2602E-01        7.503E-02        85.745
+14           -2.8969587150E+01        -1.4362E-01        7.744E-02        100.732
+15           -2.8967349336E+01        -1.9113E-01        7.978E-02        85.129
+16           -2.8956210742E+01        -1.2866E-01        7.679E-02        110.096

@@ -1,0 +1,6 @@
+                Step[ FC]     Time          Energy          fmax
+*Force-consistent energies used in optimization.
+BFGSLineSearch:    0[  0] 22:33:25   -39799.365409*       0.2050
+BFGSLineSearch:    1[  2] 23:10:06   -39799.367017*       0.1929
+BFGSLineSearch:    2[  4] 23:49:29   -39799.368144*       0.1308
+BFGSLineSearch:    3[  6] 00:21:53   -39799.368795*       0.0472

@@ -1,0 +1,26 @@
+---------------------------------------
+Begin PBS Prologue Thu Feb 24 11:04:47 EST 2022
+Job ID:     4028315.sched-torque.pace.gatech.edu
+User ID:    ntian30
+Job name:   NH3
+Queue:      inferno
+End PBS Prologue Thu Feb 24 11:04:47 EST 2022
+---------------------------------------
+/storage/coda1/p-amedford6/0/ntian30/HSE_carbon_assisted/HSE_ref_no_D3/reference/NH3_python
+---------------------------------------
+Begin PBS Epilogue Thu Feb 24 21:05:25 EST 2022
+Job ID:     4028315.sched-torque.pace.gatech.edu
+User ID:    ntian30
+Job name:   NH3
+Resources:  nodes=12:ppn=24,pmem=10gb,walltime=10:00:00,neednodes=12:ppn=24
+Rsrc Used:  cput=00:00:07,vmem=6766704kb,walltime=10:00:36,mem=473044kb,energy_used=0
+Queue:      inferno
+Nodes:     
+atl1-1-03-003-23-l.pace.gatech.edu atl1-1-03-003-24-l.pace.gatech.edu 
+atl1-1-03-003-28-l.pace.gatech.edu atl1-1-03-003-28-r.pace.gatech.edu 
+atl1-1-03-003-29-l.pace.gatech.edu atl1-1-03-003-31-l.pace.gatech.edu 
+atl1-1-03-003-31-r.pace.gatech.edu atl1-1-03-003-32-l.pace.gatech.edu 
+atl1-1-03-003-33-l.pace.gatech.edu atl1-1-03-003-33-r.pace.gatech.edu 
+atl1-1-03-003-34-l.pace.gatech.edu atl1-1-03-003-34-r.pace.gatech.edu
+End PBS Epilogue Thu Feb 24 21:05:25 EST 2022
+---------------------------------------

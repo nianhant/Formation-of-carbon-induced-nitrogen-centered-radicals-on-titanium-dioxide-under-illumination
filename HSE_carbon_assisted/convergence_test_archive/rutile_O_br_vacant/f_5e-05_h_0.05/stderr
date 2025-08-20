@@ -1,0 +1,8 @@
+PSP directory successfully set: /storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/data/pseudos_module/espresso/esp_pseudos_old
+bash: ​: command not found
+[mpiexec@atl1-1-01-004-24-r.pace.gatech.edu] HYDU_sock_write (utils/sock/sock.c:294): write error (Disk quota exceeded)
+[mpiexec@atl1-1-01-004-24-r.pace.gatech.edu] stdoe_cb (ui/utils/uiu.c:308): unable to write data to stdout/stderr
+[mpiexec@atl1-1-01-004-24-r.pace.gatech.edu] control_cb (pm/pmiserv/pmiserv_cb.c:302): error in the UI defined callback
+[mpiexec@atl1-1-01-004-24-r.pace.gatech.edu] HYDT_dmxu_poll_wait_for_event (tools/demux/demux_poll.c:76): callback returned error status
+[mpiexec@atl1-1-01-004-24-r.pace.gatech.edu] HYD_pmci_wait_for_completion (pm/pmiserv/pmiserv_pmci.c:198): error waiting for event
+[mpiexec@atl1-1-01-004-24-r.pace.gatech.edu] main (ui/mpich/mpiexec.c:340): process manager error waiting for completion

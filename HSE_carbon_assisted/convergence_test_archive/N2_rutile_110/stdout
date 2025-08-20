@@ -1,0 +1,27 @@
+---------------------------------------
+Begin PBS Prologue Wed Nov 24 09:31:42 EST 2021
+Job ID:     3583784.sched-torque.pace.gatech.edu
+User ID:    ntian30
+Job name:   HSE/N2_rutile_110
+Queue:      inferno
+End PBS Prologue Wed Nov 24 09:31:42 EST 2021
+---------------------------------------
+/storage/coda1/p-amedford6/0/ntian30/HSE/ads_slab/N2_rutile_110
+---------------------------------------
+Begin PBS Epilogue Wed Nov 24 09:31:51 EST 2021
+Job ID:     3583784.sched-torque.pace.gatech.edu
+User ID:    ntian30
+Job name:   HSE/N2_rutile_110
+Resources:  nodes=14:ppn=24,pmem=14gb,walltime=36:00:00,neednodes=14:ppn=24
+Rsrc Used:  cput=00:00:02,vmem=0kb,walltime=00:00:07,mem=1108kb,energy_used=0
+Queue:      inferno
+Nodes:     
+atl1-1-01-004-10-l.pace.gatech.edu atl1-1-01-004-10-r.pace.gatech.edu 
+atl1-1-01-004-11-l.pace.gatech.edu atl1-1-01-004-11-r.pace.gatech.edu 
+atl1-1-01-004-12-l.pace.gatech.edu atl1-1-01-004-12-r.pace.gatech.edu 
+atl1-1-01-004-13-l.pace.gatech.edu atl1-1-01-004-6-l.pace.gatech.edu 
+atl1-1-01-004-6-r.pace.gatech.edu atl1-1-01-004-7-l.pace.gatech.edu 
+atl1-1-01-004-7-r.pace.gatech.edu atl1-1-01-004-8-l.pace.gatech.edu 
+atl1-1-01-004-8-r.pace.gatech.edu atl1-1-01-004-9-l.pace.gatech.edu
+End PBS Epilogue Wed Nov 24 09:31:51 EST 2021
+---------------------------------------

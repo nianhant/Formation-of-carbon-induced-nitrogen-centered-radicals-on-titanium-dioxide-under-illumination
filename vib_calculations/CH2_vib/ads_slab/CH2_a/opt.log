@@ -1,0 +1,32 @@
+                Step[ FC]     Time          Energy          fmax
+*Force-consistent energies used in optimization.
+BFGSLineSearch:    0[  0] 16:54:20   -39424.406921*       2.2091
+BFGSLineSearch:    1[  2] 17:26:11   -39424.762649*       1.4297
+BFGSLineSearch:    2[  4] 18:13:46   -39424.934452*       0.8589
+BFGSLineSearch:    3[  6] 18:48:55   -39424.993128*       0.9458
+BFGSLineSearch:    4[  8] 19:18:59   -39425.061497*       0.6047
+BFGSLineSearch:    5[ 10] 19:45:22   -39425.150674*       0.6545
+BFGSLineSearch:    6[ 12] 20:08:30   -39425.211826*       0.6630
+BFGSLineSearch:    7[ 14] 20:29:30   -39425.249697*       0.3954
+BFGSLineSearch:    8[ 16] 20:50:22   -39425.285725*       0.3567
+BFGSLineSearch:    9[ 18] 21:11:57   -39425.315561*       0.4020
+BFGSLineSearch:   10[ 19] 21:21:44   -39425.334486*       0.3647
+BFGSLineSearch:   11[ 21] 21:39:21   -39425.359928*       0.5665
+BFGSLineSearch:   12[ 22] 21:49:21   -39425.380323*       0.3535
+BFGSLineSearch:   13[ 23] 21:58:44   -39425.407483*       0.5865
+BFGSLineSearch:   14[ 24] 22:08:37   -39425.426372*       0.4036
+BFGSLineSearch:   15[ 25] 22:18:54   -39425.452081*       0.4203
+BFGSLineSearch:   16[ 27] 22:40:18   -39425.472358*       0.7899
+BFGSLineSearch:   17[ 29] 23:03:30   -39425.488563*       0.3297
+BFGSLineSearch:   18[ 31] 23:22:20   -39425.503321*       0.3839
+BFGSLineSearch:   19[ 33] 23:41:18   -39425.518504*       0.2624
+BFGSLineSearch:   20[ 35] 23:57:45   -39425.529861*       0.3260
+BFGSLineSearch:   21[ 37] 00:12:48   -39425.538620*       0.1718
+                Step[ FC]     Time          Energy          fmax
+*Force-consistent energies used in optimization.
+BFGSLineSearch:    0[  0] 10:04:33   -39425.538618*       0.1736
+BFGSLineSearch:    1[  2] 10:21:59   -39425.541991*       0.2438
+BFGSLineSearch:    2[  4] 10:35:18   -39425.545491*       0.1538
+BFGSLineSearch:    3[  6] 10:55:43   -39425.550063*       0.1054
+BFGSLineSearch:    4[  8] 11:11:45   -39425.551492*       0.0739
+BFGSLineSearch:    5[  9] 11:21:21   -39425.552532*       0.0394

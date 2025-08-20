@@ -1,0 +1,107 @@
+PSP directory successfully set: /storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/data/pseudos_module/espresso/esp_pseudos_old
+bash: ​: command not found
+/storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/gits/dev/ase-latest/ase/calculators/calculator.py:509: FutureWarning: The keyword "ignore_bad_restart_file" is deprecated and will be removed in a future version of ASE.  Passing more than one positional argument to Calculator is also deprecated and will stop functioning in the future.  Please pass arguments by keyword (key=value) except optionally the "restart" keyword.
+  'The keyword "ignore_bad_restart_file" is deprecated and '
+/storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/gits/dev/ase-latest/ase/utils/__init__.py:62: FutureWarning: Please use atoms.cell.cellpar() instead
+  warnings.warn(warning)
+PSP directory successfully set: /storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/data/pseudos_module/espresso/esp_pseudos_old
+bash: ​: command not found
+/storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/gits/dev/ase-latest/ase/calculators/calculator.py:509: FutureWarning: The keyword "ignore_bad_restart_file" is deprecated and will be removed in a future version of ASE.  Passing more than one positional argument to Calculator is also deprecated and will stop functioning in the future.  Please pass arguments by keyword (key=value) except optionally the "restart" keyword.
+  'The keyword "ignore_bad_restart_file" is deprecated and '
+/storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/gits/dev/ase-latest/ase/utils/__init__.py:62: FutureWarning: Please use atoms.cell.cellpar() instead
+  warnings.warn(warning)
+PSP directory successfully set: /storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/data/pseudos_module/espresso/esp_pseudos_old
+bash: ​: command not found
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied (publickey,gssapi-keyex,gssapi-with-mic,password,hostbased).
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied (publickey,gssapi-keyex,gssapi-with-mic,password,hostbased).
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied (publickey,gssapi-keyex,gssapi-with-mic,password,hostbased).
+Permission denied (publickey,gssapi-keyex,gssapi-with-mic,password,hostbased).
+Permission denied (publickey,gssapi-keyex,gssapi-with-mic,password,hostbased).
+Permission denied, please try again.
+Permission denied (publickey,gssapi-keyex,gssapi-with-mic,password,hostbased).
+Permission denied (publickey,gssapi-keyex,gssapi-with-mic,password,hostbased).
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied (publickey,gssapi-keyex,gssapi-with-mic,password,hostbased).
+Permission denied (publickey,gssapi-keyex,gssapi-with-mic,password,hostbased).
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied (publickey,gssapi-keyex,gssapi-with-mic,password,hostbased).
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied (publickey,gssapi-keyex,gssapi-with-mic,password,hostbased).
+Permission denied, please try again.
+Permission denied (publickey,gssapi-keyex,gssapi-with-mic,password,hostbased).
+Permission denied (publickey,gssapi-keyex,gssapi-with-mic,password,hostbased).
+[mpiexec@atl1-1-01-004-6-l.pace.gatech.edu] =>> PBS: job killed: walltime 129637 exceeded limit 129600
+HYDU_sock_write (utils/sock/sock.c:294): write error (Bad file descriptor)
+[mpiexec@atl1-1-01-004-6-l.pace.gatech.edu] HYD_pmcd_pmiserv_send_signal (pm/pmiserv/pmiserv_cb.c:177): unable to write data to proxy
+[mpiexec@atl1-1-01-004-6-l.pace.gatech.edu] ui_cmd_cb (pm/pmiserv/pmiserv_pmci.c:79): unable to send signal downstream
+[mpiexec@atl1-1-01-004-6-l.pace.gatech.edu] HYDT_dmxu_poll_wait_for_event (tools/demux/demux_poll.c:76): callback returned error status
+[mpiexec@atl1-1-01-004-6-l.pace.gatech.edu] HYD_pmci_wait_for_completion (pm/pmiserv/pmiserv_pmci.c:198): error waiting for event
+[mpiexec@atl1-1-01-004-6-l.pace.gatech.edu] main (ui/mpich/mpiexec.c:340): process manager error waiting for completion
+PSP directory successfully set: /storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/data/pseudos_module/espresso/esp_pseudos_old
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied (publickey,gssapi-keyex,gssapi-with-mic,password,hostbased).
+Permission denied, please try again.
+Permission denied (publickey,gssapi-keyex,gssapi-with-mic,password,hostbased).
+Permission denied, please try again.
+Permission denied (publickey,gssapi-keyex,gssapi-with-mic,password,hostbased).
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied (publickey,gssapi-keyex,gssapi-with-mic,password,hostbased).
+Permission denied, please try again.
+Permission denied (publickey,gssapi-keyex,gssapi-with-mic,password,hostbased).
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied (publickey,gssapi-keyex,gssapi-with-mic,password,hostbased).
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied (publickey,gssapi-keyex,gssapi-with-mic,password,hostbased).
+Permission denied (publickey,gssapi-keyex,gssapi-with-mic,password,hostbased).
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied (publickey,gssapi-keyex,gssapi-with-mic,password,hostbased).
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied (publickey,gssapi-keyex,gssapi-with-mic,password,hostbased).
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied (publickey,gssapi-keyex,gssapi-with-mic,password,hostbased).
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied (publickey,gssapi-keyex,gssapi-with-mic,password,hostbased).
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied (publickey,gssapi-keyex,gssapi-with-mic,password,hostbased).
+[mpiexec@atl1-1-02-003-7-l.pace.gatech.edu] =>> PBS: job killed: walltime 36054 exceeded limit 36000
+HYDU_sock_write (utils/sock/sock.c:294): write error (Bad file descriptor)
+[mpiexec@atl1-1-02-003-7-l.pace.gatech.edu] HYD_pmcd_pmiserv_send_signal (pm/pmiserv/pmiserv_cb.c:177): unable to write data to proxy
+[mpiexec@atl1-1-02-003-7-l.pace.gatech.edu] ui_cmd_cb (pm/pmiserv/pmiserv_pmci.c:79): unable to send signal downstream
+[mpiexec@atl1-1-02-003-7-l.pace.gatech.edu] HYDT_dmxu_poll_wait_for_event (tools/demux/demux_poll.c:76): callback returned error status
+[mpiexec@atl1-1-02-003-7-l.pace.gatech.edu] HYD_pmci_wait_for_completion (pm/pmiserv/pmiserv_pmci.c:198): error waiting for event
+[mpiexec@atl1-1-02-003-7-l.pace.gatech.edu] main (ui/mpich/mpiexec.c:340): process manager error waiting for completion

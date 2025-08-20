@@ -1,0 +1,10 @@
+{"xc": "BEEF-vdW", 
+ "kpts": [4, 4, 1], 
+ "pw": 400.0, 
+ "dw": 4000.0, 
+ "spinpol": false,  
+ "convergence": {"energy": 1e-06, "mixing": 0.05, "maxsteps": 1000, "diag": "david"}, 
+ "startingwfc": "atomic", 
+ "dipole": {"status": true}, 
+"outdir": "ACS_sus_calc.log",
+ "output": {"disk_io": "default", "avoidio": true, "removewf": true, "removesave": true, "wf_collect": false}}

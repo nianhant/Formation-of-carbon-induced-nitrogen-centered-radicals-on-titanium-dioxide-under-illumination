@@ -1,0 +1,1080 @@
+PSP directory successfully set: /storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/data/pseudos_module/espresso/esp_pseudos_old
+bash: ​: command not found
+[atl1-1-02-019-36-r.pace.gatech.edu:mpi_rank_287][handle_cqe] Send desc error in msg to 288, wc_opcode=1
+[atl1-1-02-019-36-r.pace.gatech.edu:mpi_rank_287][handle_cqe] Msg from 288: wc.status=12, wc.wr_id=0x1fcf9a0, wc.opcode=1, vbuf->phead->type=32 = MPIDI_CH3_PKT_RNDV_REQ_TO_SEND
+[atl1-1-02-019-36-r.pace.gatech.edu:mpi_rank_287][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=288
+: No such file or directory (2)
+[atl1-1-01-003-2-r.pace.gatech.edu:mpi_rank_288][async_thread] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:1157: Got FATAL event port error on port 1
+
+[atl1-1-01-003-2-r.pace.gatech.edu:mpi_rank_289][async_thread] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:1157: Got FATAL event port error on port 1
+
+[atl1-1-01-003-2-r.pace.gatech.edu:mpi_rank_290][async_thread] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:1157: Got FATAL event port error on port 1
+
+[atl1-1-01-003-2-r.pace.gatech.edu:mpi_rank_291][async_thread] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:1157: Got FATAL event port error on port 1
+
+[atl1-1-01-003-2-r.pace.gatech.edu:mpi_rank_292][async_thread] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:1157: Got FATAL event port error on port 1
+
+[atl1-1-01-003-2-r.pace.gatech.edu:mpi_rank_293][async_thread] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:1157: Got FATAL event port error on port 1
+
+[atl1-1-01-003-2-r.pace.gatech.edu:mpi_rank_294][async_thread] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:1157: Got FATAL event port error on port 1
+
+[atl1-1-01-003-2-r.pace.gatech.edu:mpi_rank_295][async_thread] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:1157: Got FATAL event port error on port 1
+
+[atl1-1-01-003-2-r.pace.gatech.edu:mpi_rank_295][handle_cqe] Send desc error in msg to 280, wc_opcode=1
+[atl1-1-01-003-2-r.pace.gatech.edu:mpi_rank_295][handle_cqe] Msg from 280: wc.status=12, wc.wr_id=0x1ab0d70, wc.opcode=1, vbuf->phead->type=32 = MPIDI_CH3_PKT_RNDV_REQ_TO_SEND
+[atl1-1-01-003-2-r.pace.gatech.edu:mpi_rank_295][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=280
+: No such file or directory (2)
+[atl1-1-01-003-2-r.pace.gatech.edu:mpi_rank_296][async_thread] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:1157: Got FATAL event port error on port 1
+
+[atl1-1-01-003-2-r.pace.gatech.edu:mpi_rank_297][async_thread] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:1157: Got FATAL event port error on port 1
+
+[atl1-1-01-003-2-r.pace.gatech.edu:mpi_rank_298][async_thread] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:1157: Got FATAL event port error on port 1
+
+[atl1-1-01-003-2-r.pace.gatech.edu:mpi_rank_299][async_thread] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:1157: Got FATAL event port error on port 1
+
+[atl1-1-01-003-2-r.pace.gatech.edu:mpi_rank_300][async_thread] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:1157: Got FATAL event port error on port 1
+
+[atl1-1-01-003-2-r.pace.gatech.edu:mpi_rank_301][async_thread] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:1157: Got FATAL event port error on port 1
+
+[atl1-1-01-003-2-r.pace.gatech.edu:mpi_rank_302][async_thread] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:1157: Got FATAL event port error on port 1
+
+[atl1-1-01-003-2-r.pace.gatech.edu:mpi_rank_303][async_thread] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:1157: Got FATAL event port error on port 1
+
+[atl1-1-01-003-2-r.pace.gatech.edu:mpi_rank_304][async_thread] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:1157: Got FATAL event port error on port 1
+
+[atl1-1-01-003-2-r.pace.gatech.edu:mpi_rank_305][async_thread] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:1157: Got FATAL event port error on port 1
+
+[atl1-1-01-003-2-r.pace.gatech.edu:mpi_rank_307][async_thread] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:1157: Got FATAL event port error on port 1
+
+[atl1-1-01-003-2-r.pace.gatech.edu:mpi_rank_308][async_thread] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:1157: Got FATAL event port error on port 1
+
+[atl1-1-01-003-2-r.pace.gatech.edu:mpi_rank_309][async_thread] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:1157: Got FATAL event port error on port 1
+
+[atl1-1-01-003-2-r.pace.gatech.edu:mpi_rank_310][async_thread] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:1157: Got FATAL event port error on port 1
+
+[atl1-1-01-003-2-r.pace.gatech.edu:mpi_rank_311][async_thread] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:1157: Got FATAL event port error on port 1
+
+[atl1-1-01-003-2-r.pace.gatech.edu:mpi_rank_306][async_thread] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:1157: Got FATAL event port error on port 1
+
+[atl1-1-01-004-11-l.pace.gatech.edu:mpi_rank_120][handle_cqe] Send desc error in msg to 288, wc_opcode=1
+[atl1-1-01-004-11-l.pace.gatech.edu:mpi_rank_120][handle_cqe] Msg from 288: wc.status=12, wc.wr_id=0x1b2bab0, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-01-004-11-l.pace.gatech.edu:mpi_rank_120][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=288
+: Numerical result out of range (34)
+[atl1-1-01-004-11-l.pace.gatech.edu:mpi_rank_121][handle_cqe] Send desc error in msg to 289, wc_opcode=1
+[atl1-1-01-004-11-l.pace.gatech.edu:mpi_rank_122][handle_cqe] Send desc error in msg to 290, wc_opcode=1
+[atl1-1-01-004-11-l.pace.gatech.edu:mpi_rank_122][handle_cqe] Msg from 290: wc.status=12, wc.wr_id=0x2e97a10, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-01-004-11-l.pace.gatech.edu:mpi_rank_122][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=290
+: No such file or directory (2)
+[atl1-1-01-004-11-l.pace.gatech.edu:mpi_rank_123][handle_cqe] Send desc error in msg to 291, wc_opcode=1
+[atl1-1-01-004-11-l.pace.gatech.edu:mpi_rank_123][handle_cqe] Msg from 291: wc.status=12, wc.wr_id=0x2638490, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-01-004-11-l.pace.gatech.edu:mpi_rank_123][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=291
+: No such file or directory (2)
+[atl1-1-01-004-11-l.pace.gatech.edu:mpi_rank_124][handle_cqe] Send desc error in msg to 292, wc_opcode=1
+[atl1-1-01-004-11-l.pace.gatech.edu:mpi_rank_124][handle_cqe] Msg from 292: wc.status=12, wc.wr_id=0x2e4c990, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-01-004-11-l.pace.gatech.edu:mpi_rank_124][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=292
+: No such file or directory (2)
+[atl1-1-01-004-11-l.pace.gatech.edu:mpi_rank_125][handle_cqe] Send desc error in msg to 293, wc_opcode=1
+[atl1-1-01-004-11-l.pace.gatech.edu:mpi_rank_125][handle_cqe] Msg from 293: wc.status=12, wc.wr_id=0x268f8a0, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-01-004-11-l.pace.gatech.edu:mpi_rank_125][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=293
+: No such file or directory (2)
+[atl1-1-01-004-11-l.pace.gatech.edu:mpi_rank_126][handle_cqe] Send desc error in msg to 294, wc_opcode=1
+[atl1-1-01-004-11-l.pace.gatech.edu:mpi_rank_126][handle_cqe] Msg from 294: wc.status=12, wc.wr_id=0x1b5c490, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-01-004-11-l.pace.gatech.edu:mpi_rank_126][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=294
+: No such file or directory (2)
+[atl1-1-01-004-11-l.pace.gatech.edu:mpi_rank_127][handle_cqe] Send desc error in msg to 295, wc_opcode=1
+[atl1-1-01-004-11-l.pace.gatech.edu:mpi_rank_127][handle_cqe] Msg from 295: wc.status=12, wc.wr_id=0x1d57dd0, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-01-004-11-l.pace.gatech.edu:mpi_rank_127][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=295
+: No such file or directory (2)
+[atl1-1-01-004-11-l.pace.gatech.edu:mpi_rank_121][handle_cqe] Msg from 289: wc.status=12, wc.wr_id=0x29d9050, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-01-004-11-l.pace.gatech.edu:mpi_rank_121][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=289
+: No such file or directory (2)
+[atl1-1-01-004-10-r.pace.gatech.edu:mpi_rank_96][handle_cqe] Send desc error in msg to 264, wc_opcode=1
+[atl1-1-01-004-10-r.pace.gatech.edu:mpi_rank_96][handle_cqe] Msg from 264: wc.status=12, wc.wr_id=0x1bdce90, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-01-004-10-r.pace.gatech.edu:mpi_rank_96][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=264
+: No such file or directory (2)
+[atl1-1-01-004-10-r.pace.gatech.edu:mpi_rank_97][handle_cqe] Send desc error in msg to 265, wc_opcode=1
+[atl1-1-01-004-10-r.pace.gatech.edu:mpi_rank_97][handle_cqe] Msg from 265: wc.status=12, wc.wr_id=0x1ddfc50, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-01-004-10-r.pace.gatech.edu:mpi_rank_97][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=265
+: No such file or directory (2)
+[atl1-1-01-004-10-r.pace.gatech.edu:mpi_rank_98][handle_cqe] Send desc error in msg to 266, wc_opcode=1
+[atl1-1-01-004-10-r.pace.gatech.edu:mpi_rank_98][handle_cqe] Msg from 266: wc.status=12, wc.wr_id=0x2ddaa50, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-01-004-10-r.pace.gatech.edu:mpi_rank_98][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=266
+: No such file or directory (2)
+[atl1-1-01-004-10-r.pace.gatech.edu:mpi_rank_99][handle_cqe] Send desc error in msg to 267, wc_opcode=1
+[atl1-1-01-004-10-r.pace.gatech.edu:mpi_rank_99][handle_cqe] Msg from 267: wc.status=12, wc.wr_id=0x28da050, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-01-004-10-r.pace.gatech.edu:mpi_rank_99][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=267
+: No such file or directory (2)
+[atl1-1-01-004-10-r.pace.gatech.edu:mpi_rank_101][handle_cqe] Send desc error in msg to 269, wc_opcode=1
+[atl1-1-01-004-10-r.pace.gatech.edu:mpi_rank_101][handle_cqe] Msg from 269: wc.status=12, wc.wr_id=0x20bd3d0, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-01-004-10-r.pace.gatech.edu:mpi_rank_101][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=269
+: No such file or directory (2)
+[atl1-1-01-004-10-r.pace.gatech.edu:mpi_rank_103][handle_cqe] Send desc error in msg to 271, wc_opcode=1
+[atl1-1-01-004-10-r.pace.gatech.edu:mpi_rank_103][handle_cqe] Msg from 271: wc.status=12, wc.wr_id=0x1d76710, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-01-004-10-r.pace.gatech.edu:mpi_rank_103][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=271
+: No such file or directory (2)
+[atl1-1-01-004-10-r.pace.gatech.edu:mpi_rank_104][handle_cqe] Send desc error in msg to 272, wc_opcode=1
+[atl1-1-01-004-10-r.pace.gatech.edu:mpi_rank_104][handle_cqe] Msg from 272: wc.status=12, wc.wr_id=0x1b7b490, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-01-004-10-r.pace.gatech.edu:mpi_rank_104][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=272
+: No such file or directory (2)
+[atl1-1-01-004-10-r.pace.gatech.edu:mpi_rank_109][handle_cqe] Send desc error in msg to 277, wc_opcode=1
+[atl1-1-01-004-10-r.pace.gatech.edu:mpi_rank_110][handle_cqe] Send desc error in msg to 278, wc_opcode=1
+[atl1-1-01-004-10-r.pace.gatech.edu:mpi_rank_110][handle_cqe] Msg from 278: wc.status=12, wc.wr_id=0x1abfe90, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-01-004-10-r.pace.gatech.edu:mpi_rank_110][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=278
+: No such file or directory (2)
+[atl1-1-01-004-10-r.pace.gatech.edu:mpi_rank_111][handle_cqe] Send desc error in msg to 279, wc_opcode=1
+[atl1-1-01-004-10-r.pace.gatech.edu:mpi_rank_111][handle_cqe] Msg from 279: wc.status=12, wc.wr_id=0x1d5d710, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-01-004-10-r.pace.gatech.edu:mpi_rank_111][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=279
+: No such file or directory (2)
+[atl1-1-01-004-10-r.pace.gatech.edu:mpi_rank_113][handle_cqe] Send desc error in msg to 281, wc_opcode=1
+[atl1-1-01-004-10-r.pace.gatech.edu:mpi_rank_113][handle_cqe] Msg from 281: wc.status=12, wc.wr_id=0x1ddd810, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-01-004-10-r.pace.gatech.edu:mpi_rank_113][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=281
+: No such file or directory (2)
+[atl1-1-01-004-10-r.pace.gatech.edu:mpi_rank_116][handle_cqe] Send desc error in msg to 284, wc_opcode=1
+[atl1-1-01-004-10-r.pace.gatech.edu:mpi_rank_116][handle_cqe] Msg from 284: wc.status=12, wc.wr_id=0x2c59f50, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-01-004-10-r.pace.gatech.edu:mpi_rank_116][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=284
+: No such file or directory (2)
+[atl1-1-01-004-10-r.pace.gatech.edu:mpi_rank_118][handle_cqe] Send desc error in msg to 286, wc_opcode=1
+[atl1-1-01-004-10-r.pace.gatech.edu:mpi_rank_118][handle_cqe] Msg from 286: wc.status=12, wc.wr_id=0x1db8710, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-01-004-10-r.pace.gatech.edu:mpi_rank_118][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=286
+: No such file or directory (2)
+[atl1-1-01-004-10-r.pace.gatech.edu:mpi_rank_119][handle_cqe] Send desc error in msg to 287, wc_opcode=1
+[atl1-1-01-004-10-r.pace.gatech.edu:mpi_rank_119][handle_cqe] Msg from 287: wc.status=12, wc.wr_id=0x1d40490, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-01-004-10-r.pace.gatech.edu:mpi_rank_119][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=287
+: No such file or directory (2)
+[atl1-1-01-004-10-r.pace.gatech.edu:mpi_rank_100][handle_cqe] Send desc error in msg to 268, wc_opcode=1
+[atl1-1-01-004-10-r.pace.gatech.edu:mpi_rank_100][handle_cqe] Msg from 268: wc.status=12, wc.wr_id=0x1d577d0, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-01-004-10-r.pace.gatech.edu:mpi_rank_100][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=268
+: No such file or directory (2)
+[atl1-1-01-004-10-r.pace.gatech.edu:mpi_rank_102][handle_cqe] Send desc error in msg to 270, wc_opcode=1
+[atl1-1-01-004-10-r.pace.gatech.edu:mpi_rank_102][handle_cqe] Msg from 270: wc.status=12, wc.wr_id=0x1b20590, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-01-004-10-r.pace.gatech.edu:mpi_rank_102][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=270
+: No such file or directory (2)
+[atl1-1-01-004-10-r.pace.gatech.edu:mpi_rank_105][handle_cqe] Send desc error in msg to 273, wc_opcode=1
+[atl1-1-01-004-10-r.pace.gatech.edu:mpi_rank_105][handle_cqe] Msg from 273: wc.status=12, wc.wr_id=0x1c77ed0, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-01-004-10-r.pace.gatech.edu:mpi_rank_105][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=273
+: No such file or directory (2)
+[atl1-1-01-004-10-r.pace.gatech.edu:mpi_rank_106][handle_cqe] Send desc error in msg to 274, wc_opcode=1
+[atl1-1-01-004-10-r.pace.gatech.edu:mpi_rank_106][handle_cqe] Msg from 274: wc.status=12, wc.wr_id=0x2d149d0, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-01-004-10-r.pace.gatech.edu:mpi_rank_106][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=274
+: No such file or directory (2)
+[atl1-1-01-004-10-r.pace.gatech.edu:mpi_rank_107][handle_cqe] Send desc error in msg to 275, wc_opcode=1
+[atl1-1-01-004-10-r.pace.gatech.edu:mpi_rank_107][handle_cqe] Msg from 275: wc.status=12, wc.wr_id=0x2642710, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-01-004-10-r.pace.gatech.edu:mpi_rank_107][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=275
+: No such file or directory (2)
+[atl1-1-01-004-10-r.pace.gatech.edu:mpi_rank_108][handle_cqe] Send desc error in msg to 276, wc_opcode=1
+[atl1-1-01-004-10-r.pace.gatech.edu:mpi_rank_108][handle_cqe] Msg from 276: wc.status=12, wc.wr_id=0x2c5cb50, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-01-004-10-r.pace.gatech.edu:mpi_rank_108][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=276
+: No such file or directory (2)
+[atl1-1-01-004-10-r.pace.gatech.edu:mpi_rank_112][handle_cqe] Send desc error in msg to 280, wc_opcode=1
+[atl1-1-01-004-10-r.pace.gatech.edu:mpi_rank_112][handle_cqe] Msg from 280: wc.status=12, wc.wr_id=0x1ca9dd0, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-01-004-10-r.pace.gatech.edu:mpi_rank_112][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=280
+: No such file or directory (2)
+[atl1-1-01-004-10-r.pace.gatech.edu:mpi_rank_114][handle_cqe] Send desc error in msg to 282, wc_opcode=1
+[atl1-1-01-004-10-r.pace.gatech.edu:mpi_rank_114][handle_cqe] Msg from 282: wc.status=12, wc.wr_id=0x290fc50, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-01-004-10-r.pace.gatech.edu:mpi_rank_114][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=282
+: No such file or directory (2)
+[atl1-1-01-004-10-r.pace.gatech.edu:mpi_rank_115][handle_cqe] Send desc error in msg to 283, wc_opcode=1
+[atl1-1-01-004-10-r.pace.gatech.edu:mpi_rank_115][handle_cqe] Msg from 283: wc.status=12, wc.wr_id=0x2651710, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-01-004-10-r.pace.gatech.edu:mpi_rank_115][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=283
+: No such file or directory (2)
+[atl1-1-01-004-10-r.pace.gatech.edu:mpi_rank_117][handle_cqe] Send desc error in msg to 285, wc_opcode=1
+[atl1-1-01-004-10-r.pace.gatech.edu:mpi_rank_117][handle_cqe] Msg from 285: wc.status=12, wc.wr_id=0x2680490, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-01-004-10-r.pace.gatech.edu:mpi_rank_117][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=285
+: No such file or directory (2)
+[atl1-1-01-004-10-r.pace.gatech.edu:mpi_rank_109][handle_cqe] Msg from 277: wc.status=12, wc.wr_id=0x24106f0, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-01-004-10-r.pace.gatech.edu:mpi_rank_109][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=277
+: No such file or directory (2)
+[atl1-1-02-003-14-l.pace.gatech.edu:mpi_rank_312][handle_cqe] Send desc error in msg to 296, wc_opcode=1
+[atl1-1-02-003-14-l.pace.gatech.edu:mpi_rank_312][handle_cqe] Msg from 296: wc.status=12, wc.wr_id=0x1ca2ab0, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-02-003-14-l.pace.gatech.edu:mpi_rank_313][handle_cqe] Send desc error in msg to 297, wc_opcode=1
+[atl1-1-02-003-14-l.pace.gatech.edu:mpi_rank_313][handle_cqe] Msg from 297: wc.status=12, wc.wr_id=0x27a75b0, wc.opcode=1, vbuf->phead->type=2 = MPIDI_CH3_PKT_FAST_EAGER_SEND
+[atl1-1-02-003-14-l.pace.gatech.edu:mpi_rank_313][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=297
+: No such file or directory (2)
+[atl1-1-02-003-14-l.pace.gatech.edu:mpi_rank_314][handle_cqe] Send desc error in msg to 298, wc_opcode=1
+[atl1-1-02-003-14-l.pace.gatech.edu:mpi_rank_314][handle_cqe] Msg from 298: wc.status=12, wc.wr_id=0x28a5e30, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-02-003-14-l.pace.gatech.edu:mpi_rank_314][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=298
+: No such file or directory (2)
+[atl1-1-02-003-14-l.pace.gatech.edu:mpi_rank_315][handle_cqe] Send desc error in msg to 299, wc_opcode=1
+[atl1-1-02-003-14-l.pace.gatech.edu:mpi_rank_315][handle_cqe] Msg from 299: wc.status=12, wc.wr_id=0x2d4b330, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-02-003-14-l.pace.gatech.edu:mpi_rank_315][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=299
+: No such file or directory (2)
+[atl1-1-02-003-14-l.pace.gatech.edu:mpi_rank_316][handle_cqe] Send desc error in msg to 300, wc_opcode=1
+[atl1-1-02-003-14-l.pace.gatech.edu:mpi_rank_316][handle_cqe] Msg from 300: wc.status=12, wc.wr_id=0x2c3dcf0, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-02-003-14-l.pace.gatech.edu:mpi_rank_316][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=300
+: No such file or directory (2)
+[atl1-1-02-003-14-l.pace.gatech.edu:mpi_rank_317][handle_cqe] Send desc error in msg to 301, wc_opcode=1
+[atl1-1-02-003-14-l.pace.gatech.edu:mpi_rank_317][handle_cqe] Msg from 301: wc.status=12, wc.wr_id=0x21c8e30, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-02-003-14-l.pace.gatech.edu:mpi_rank_317][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=301
+: No such file or directory (2)
+[atl1-1-02-003-14-l.pace.gatech.edu:mpi_rank_318][handle_cqe] Send desc error in msg to 302, wc_opcode=1
+[atl1-1-02-003-14-l.pace.gatech.edu:mpi_rank_318][handle_cqe] Msg from 302: wc.status=12, wc.wr_id=0x1ba9670, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-02-003-14-l.pace.gatech.edu:mpi_rank_318][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=302
+: No such file or directory (2)
+[atl1-1-02-003-14-l.pace.gatech.edu:mpi_rank_319][handle_cqe] Send desc error in msg to 303, wc_opcode=1
+[atl1-1-02-003-14-l.pace.gatech.edu:mpi_rank_319][handle_cqe] Msg from 303: wc.status=12, wc.wr_id=0x1b49fb0, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-02-003-14-l.pace.gatech.edu:mpi_rank_319][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=303
+: No such file or directory (2)
+[atl1-1-02-003-14-l.pace.gatech.edu:mpi_rank_320][handle_cqe] Send desc error in msg to 304, wc_opcode=1
+[atl1-1-02-003-14-l.pace.gatech.edu:mpi_rank_320][handle_cqe] Msg from 304: wc.status=12, wc.wr_id=0x1cacfb0, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-02-003-14-l.pace.gatech.edu:mpi_rank_320][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=304
+: No such file or directory (2)
+[atl1-1-02-003-14-l.pace.gatech.edu:mpi_rank_321][handle_cqe] Send desc error in msg to 305, wc_opcode=1
+[atl1-1-02-003-14-l.pace.gatech.edu:mpi_rank_321][handle_cqe] Msg from 305: wc.status=12, wc.wr_id=0x28feb30, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-02-003-14-l.pace.gatech.edu:mpi_rank_321][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=305
+: No such file or directory (2)
+[atl1-1-02-003-14-l.pace.gatech.edu:mpi_rank_322][handle_cqe] Send desc error in msg to 306, wc_opcode=1
+[atl1-1-02-003-14-l.pace.gatech.edu:mpi_rank_322][handle_cqe] Msg from 306: wc.status=12, wc.wr_id=0x2d93dc0, wc.opcode=1, vbuf->phead->type=3 = MPIDI_CH3_PKT_FAST_EAGER_SEND_WITH_REQ
+[atl1-1-02-003-14-l.pace.gatech.edu:mpi_rank_322][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=306
+: No such file or directory (2)
+[atl1-1-02-003-14-l.pace.gatech.edu:mpi_rank_323][handle_cqe] Send desc error in msg to 307, wc_opcode=1
+[atl1-1-02-003-14-l.pace.gatech.edu:mpi_rank_323][handle_cqe] Msg from 307: wc.status=12, wc.wr_id=0x26316f0, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-02-003-14-l.pace.gatech.edu:mpi_rank_323][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=307
+: No such file or directory (2)
+[atl1-1-02-003-14-l.pace.gatech.edu:mpi_rank_324][handle_cqe] Send desc error in msg to 308, wc_opcode=1
+[atl1-1-02-003-14-l.pace.gatech.edu:mpi_rank_324][handle_cqe] Msg from 308: wc.status=12, wc.wr_id=0x1f7e330, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-02-003-14-l.pace.gatech.edu:mpi_rank_324][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=308
+: No such file or directory (2)
+[atl1-1-02-003-14-l.pace.gatech.edu:mpi_rank_325][handle_cqe] Send desc error in msg to 293, wc_opcode=1
+[atl1-1-02-003-14-l.pace.gatech.edu:mpi_rank_327][handle_cqe] Send desc error in msg to 311, wc_opcode=1
+[atl1-1-02-003-14-l.pace.gatech.edu:mpi_rank_327][handle_cqe] Msg from 311: wc.status=12, wc.wr_id=0x1b43130, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-02-003-14-l.pace.gatech.edu:mpi_rank_327][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=311
+: No such file or directory (2)
+[atl1-1-02-003-14-l.pace.gatech.edu:mpi_rank_312][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=296
+: No such file or directory (2)
+[atl1-1-02-003-14-l.pace.gatech.edu:mpi_rank_326][handle_cqe] Send desc error in msg to 310, wc_opcode=1
+[atl1-1-02-003-14-l.pace.gatech.edu:mpi_rank_326][handle_cqe] Msg from 310: wc.status=12, wc.wr_id=0x1b43030, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-02-003-14-l.pace.gatech.edu:mpi_rank_326][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=310
+: No such file or directory (2)
+[atl1-1-02-003-14-l.pace.gatech.edu:mpi_rank_325][handle_cqe] Msg from 293: wc.status=12, wc.wr_id=0x2542e00, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-02-003-14-l.pace.gatech.edu:mpi_rank_325][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=293
+: No such file or directory (2)
+[atl1-1-02-019-35-r.pace.gatech.edu:mpi_rank_240][handle_cqe] Send desc error in msg to 304, wc_opcode=1
+[atl1-1-02-019-35-r.pace.gatech.edu:mpi_rank_240][handle_cqe] Msg from 304: wc.status=12, wc.wr_id=0x1b21e80, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-02-019-35-r.pace.gatech.edu:mpi_rank_240][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=304
+: Numerical result out of range (34)
+[atl1-1-02-019-35-r.pace.gatech.edu:mpi_rank_241][handle_cqe] Send desc error in msg to 305, wc_opcode=1
+[atl1-1-02-019-35-r.pace.gatech.edu:mpi_rank_241][handle_cqe] Msg from 305: wc.status=12, wc.wr_id=0x27a83c0, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-02-019-35-r.pace.gatech.edu:mpi_rank_241][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=305
+: No such file or directory (2)
+[atl1-1-02-019-35-r.pace.gatech.edu:mpi_rank_242][handle_cqe] Send desc error in msg to 306, wc_opcode=1
+[atl1-1-02-019-35-r.pace.gatech.edu:mpi_rank_242][handle_cqe] Msg from 306: wc.status=12, wc.wr_id=0x2d70e00, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-02-019-35-r.pace.gatech.edu:mpi_rank_242][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=306
+: No such file or directory (2)
+[atl1-1-02-019-35-r.pace.gatech.edu:mpi_rank_243][handle_cqe] Send desc error in msg to 307, wc_opcode=1
+[atl1-1-02-019-35-r.pace.gatech.edu:mpi_rank_244][handle_cqe] Send desc error in msg to 308, wc_opcode=1
+[atl1-1-02-019-35-r.pace.gatech.edu:mpi_rank_244][handle_cqe] Msg from 308: wc.status=12, wc.wr_id=0x2c17ec0, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-02-019-35-r.pace.gatech.edu:mpi_rank_244][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=308
+: No such file or directory (2)
+[atl1-1-02-019-35-r.pace.gatech.edu:mpi_rank_246][handle_cqe] Send desc error in msg to 310, wc_opcode=1
+[atl1-1-02-019-35-r.pace.gatech.edu:mpi_rank_246][handle_cqe] Msg from 310: wc.status=12, wc.wr_id=0x1b21c40, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-02-019-35-r.pace.gatech.edu:mpi_rank_246][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=310
+: No such file or directory (2)
+[atl1-1-02-019-35-r.pace.gatech.edu:mpi_rank_247][handle_cqe] Send desc error in msg to 311, wc_opcode=1
+[atl1-1-02-019-35-r.pace.gatech.edu:mpi_rank_247][handle_cqe] Msg from 311: wc.status=12, wc.wr_id=0x1b1efa0, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-02-019-35-r.pace.gatech.edu:mpi_rank_247][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=311
+: No such file or directory (2)
+[atl1-1-02-019-35-r.pace.gatech.edu:mpi_rank_243][handle_cqe] Msg from 307: wc.status=12, wc.wr_id=0x262dbc0, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-02-019-35-r.pace.gatech.edu:mpi_rank_243][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=307
+: No such file or directory (2)
+[atl1-1-02-008-26-l.pace.gatech.edu:mpi_rank_192][handle_cqe] Send desc error in msg to 272, wc_opcode=1
+[atl1-1-02-008-26-l.pace.gatech.edu:mpi_rank_192][handle_cqe] Msg from 272: wc.status=12, wc.wr_id=0x1c40560, wc.opcode=1, vbuf->phead->type=2 = MPIDI_CH3_PKT_FAST_EAGER_SEND
+[atl1-1-02-008-26-l.pace.gatech.edu:mpi_rank_192][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=272
+: No such file or directory (2)
+[atl1-1-02-008-26-l.pace.gatech.edu:mpi_rank_193][handle_cqe] Send desc error in msg to 273, wc_opcode=1
+[atl1-1-02-008-26-l.pace.gatech.edu:mpi_rank_193][handle_cqe] Msg from 273: wc.status=12, wc.wr_id=0x29b1360, wc.opcode=1, vbuf->phead->type=2 = MPIDI_CH3_PKT_FAST_EAGER_SEND
+[atl1-1-02-008-26-l.pace.gatech.edu:mpi_rank_193][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=273
+: No such file or directory (2)
+[atl1-1-02-008-26-l.pace.gatech.edu:mpi_rank_194][handle_cqe] Send desc error in msg to 274, wc_opcode=1
+[atl1-1-02-008-26-l.pace.gatech.edu:mpi_rank_194][handle_cqe] Msg from 274: wc.status=12, wc.wr_id=0x2f77c20, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-02-008-26-l.pace.gatech.edu:mpi_rank_194][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=274
+: No such file or directory (2)
+[atl1-1-02-008-26-l.pace.gatech.edu:mpi_rank_195][handle_cqe] Send desc error in msg to 275, wc_opcode=1
+[atl1-1-02-008-26-l.pace.gatech.edu:mpi_rank_195][handle_cqe] Msg from 275: wc.status=12, wc.wr_id=0x2f24a20, wc.opcode=1, vbuf->phead->type=2 = MPIDI_CH3_PKT_FAST_EAGER_SEND
+[atl1-1-02-008-26-l.pace.gatech.edu:mpi_rank_195][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=275
+: No such file or directory (2)
+[atl1-1-02-008-26-l.pace.gatech.edu:mpi_rank_196][handle_cqe] Send desc error in msg to 276, wc_opcode=1
+[atl1-1-02-008-26-l.pace.gatech.edu:mpi_rank_197][handle_cqe] Send desc error in msg to 293, wc_opcode=1
+[atl1-1-02-008-26-l.pace.gatech.edu:mpi_rank_197][handle_cqe] Msg from 293: wc.status=12, wc.wr_id=0x2678ff0, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-02-008-26-l.pace.gatech.edu:mpi_rank_197][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=293
+: No such file or directory (2)
+[atl1-1-02-008-26-l.pace.gatech.edu:mpi_rank_198][handle_cqe] Send desc error in msg to 278, wc_opcode=1
+[atl1-1-02-008-26-l.pace.gatech.edu:mpi_rank_198][handle_cqe] Msg from 278: wc.status=12, wc.wr_id=0x1d2c320, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-02-008-26-l.pace.gatech.edu:mpi_rank_198][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=278
+: No such file or directory (2)
+[atl1-1-02-008-26-l.pace.gatech.edu:mpi_rank_199][handle_cqe] Send desc error in msg to 279, wc_opcode=1
+[atl1-1-02-008-26-l.pace.gatech.edu:mpi_rank_199][handle_cqe] Msg from 279: wc.status=12, wc.wr_id=0x1aea2e0, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-02-008-26-l.pace.gatech.edu:mpi_rank_199][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=279
+: No such file or directory (2)
+[atl1-1-02-008-26-l.pace.gatech.edu:mpi_rank_196][handle_cqe] Msg from 276: wc.status=12, wc.wr_id=0x2e6dc20, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-02-008-26-l.pace.gatech.edu:mpi_rank_196][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=276
+: No such file or directory (2)
+[atl1-1-02-019-35-l.pace.gatech.edu:mpi_rank_218][handle_cqe] Send desc error in msg to 282, wc_opcode=1
+[atl1-1-02-019-35-l.pace.gatech.edu:mpi_rank_218][handle_cqe] Msg from 282: wc.status=12, wc.wr_id=0x2d704a0, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-02-019-35-l.pace.gatech.edu:mpi_rank_218][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=282
+: No such file or directory (2)
+[atl1-1-02-019-35-l.pace.gatech.edu:mpi_rank_219][handle_cqe] Send desc error in msg to 283, wc_opcode=1
+[atl1-1-02-019-35-l.pace.gatech.edu:mpi_rank_219][handle_cqe] Msg from 283: wc.status=12, wc.wr_id=0x28c6c20, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-02-019-35-l.pace.gatech.edu:mpi_rank_219][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=283
+: No such file or directory (2)
+[atl1-1-02-019-35-l.pace.gatech.edu:mpi_rank_220][handle_cqe] Send desc error in msg to 284, wc_opcode=1
+[atl1-1-02-019-35-l.pace.gatech.edu:mpi_rank_220][handle_cqe] Msg from 284: wc.status=12, wc.wr_id=0x2c15ca0, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-02-019-35-l.pace.gatech.edu:mpi_rank_220][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=284
+: No such file or directory (2)
+[atl1-1-02-019-35-l.pace.gatech.edu:mpi_rank_222][handle_cqe] Send desc error in msg to 286, wc_opcode=1
+[atl1-1-02-019-35-l.pace.gatech.edu:mpi_rank_222][handle_cqe] Msg from 286: wc.status=12, wc.wr_id=0x1b7f1e0, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-02-019-35-l.pace.gatech.edu:mpi_rank_222][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=286
+: No such file or directory (2)
+[atl1-1-02-019-35-l.pace.gatech.edu:mpi_rank_224][handle_cqe] Send desc error in msg to 288, wc_opcode=1
+[atl1-1-02-019-35-l.pace.gatech.edu:mpi_rank_224][handle_cqe] Msg from 288: wc.status=12, wc.wr_id=0x1c84aa0, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-02-019-35-l.pace.gatech.edu:mpi_rank_224][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=288
+: No such file or directory (2)
+[atl1-1-02-019-35-l.pace.gatech.edu:mpi_rank_225][handle_cqe] Send desc error in msg to 289, wc_opcode=1
+[atl1-1-02-019-35-l.pace.gatech.edu:mpi_rank_225][handle_cqe] Msg from 289: wc.status=12, wc.wr_id=0x27bbf20, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-02-019-35-l.pace.gatech.edu:mpi_rank_225][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=289
+: No such file or directory (2)
+[atl1-1-02-019-35-l.pace.gatech.edu:mpi_rank_227][handle_cqe] Send desc error in msg to 291, wc_opcode=1
+[atl1-1-02-019-35-l.pace.gatech.edu:mpi_rank_227][handle_cqe] Msg from 291: wc.status=12, wc.wr_id=0x28c22e0, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-02-019-35-l.pace.gatech.edu:mpi_rank_227][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=291
+: No such file or directory (2)
+[atl1-1-02-019-35-l.pace.gatech.edu:mpi_rank_231][handle_cqe] Send desc error in msg to 295, wc_opcode=1
+[atl1-1-02-019-35-l.pace.gatech.edu:mpi_rank_231][handle_cqe] Msg from 295: wc.status=12, wc.wr_id=0x1b49de0, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-02-019-35-l.pace.gatech.edu:mpi_rank_231][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=295
+: No such file or directory (2)
+[atl1-1-02-019-35-l.pace.gatech.edu:mpi_rank_232][handle_cqe] Send desc error in msg to 296, wc_opcode=1
+[atl1-1-02-019-35-l.pace.gatech.edu:mpi_rank_232][handle_cqe] Msg from 296: wc.status=12, wc.wr_id=0x1c8cf00, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-02-019-35-l.pace.gatech.edu:mpi_rank_232][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=296
+: No such file or directory (2)
+[atl1-1-02-019-35-l.pace.gatech.edu:mpi_rank_233][handle_cqe] Send desc error in msg to 297, wc_opcode=1
+[atl1-1-02-019-35-l.pace.gatech.edu:mpi_rank_233][handle_cqe] Msg from 297: wc.status=12, wc.wr_id=0x2786080, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-02-019-35-l.pace.gatech.edu:mpi_rank_233][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=297
+: No such file or directory (2)
+[atl1-1-02-019-35-l.pace.gatech.edu:mpi_rank_236][handle_cqe] Send desc error in msg to 300, wc_opcode=1
+[atl1-1-02-019-35-l.pace.gatech.edu:mpi_rank_236][handle_cqe] Msg from 300: wc.status=12, wc.wr_id=0x2c12040, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-02-019-35-l.pace.gatech.edu:mpi_rank_236][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=300
+: No such file or directory (2)
+[atl1-1-02-019-35-l.pace.gatech.edu:mpi_rank_237][handle_cqe] Send desc error in msg to 301, wc_opcode=1
+[atl1-1-02-019-35-l.pace.gatech.edu:mpi_rank_237][handle_cqe] Msg from 301: wc.status=12, wc.wr_id=0x2488e80, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-02-019-35-l.pace.gatech.edu:mpi_rank_237][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=301
+: No such file or directory (2)
+[atl1-1-02-019-35-l.pace.gatech.edu:mpi_rank_216][handle_cqe] Send desc error in msg to 280, wc_opcode=1
+[atl1-1-02-019-35-l.pace.gatech.edu:mpi_rank_216][handle_cqe] Msg from 280: wc.status=12, wc.wr_id=0x1c37720, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-02-019-35-l.pace.gatech.edu:mpi_rank_216][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=280
+: No such file or directory (2)
+[atl1-1-02-019-35-l.pace.gatech.edu:mpi_rank_217][handle_cqe] Send desc error in msg to 281, wc_opcode=1
+[atl1-1-02-019-35-l.pace.gatech.edu:mpi_rank_217][handle_cqe] Msg from 281: wc.status=12, wc.wr_id=0x2786fe0, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-02-019-35-l.pace.gatech.edu:mpi_rank_217][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=281
+: No such file or directory (2)
+[atl1-1-02-019-35-l.pace.gatech.edu:mpi_rank_221][handle_cqe] Send desc error in msg to 285, wc_opcode=1
+[atl1-1-02-019-35-l.pace.gatech.edu:mpi_rank_221][handle_cqe] Msg from 285: wc.status=12, wc.wr_id=0x21c4020, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-02-019-35-l.pace.gatech.edu:mpi_rank_221][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=285
+: No such file or directory (2)
+[atl1-1-02-019-35-l.pace.gatech.edu:mpi_rank_223][handle_cqe] Send desc error in msg to 287, wc_opcode=1
+[atl1-1-02-019-35-l.pace.gatech.edu:mpi_rank_223][handle_cqe] Msg from 287: wc.status=12, wc.wr_id=0x1b26da0, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-02-019-35-l.pace.gatech.edu:mpi_rank_223][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=287
+: No such file or directory (2)
+[atl1-1-02-019-35-l.pace.gatech.edu:mpi_rank_226][handle_cqe] Send desc error in msg to 290, wc_opcode=1
+[atl1-1-02-019-35-l.pace.gatech.edu:mpi_rank_226][handle_cqe] Msg from 290: wc.status=12, wc.wr_id=0x2d70ee0, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-02-019-35-l.pace.gatech.edu:mpi_rank_226][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=290
+: No such file or directory (2)
+[atl1-1-02-019-35-l.pace.gatech.edu:mpi_rank_228][handle_cqe] Send desc error in msg to 292, wc_opcode=1
+[atl1-1-02-019-35-l.pace.gatech.edu:mpi_rank_228][handle_cqe] Msg from 292: wc.status=12, wc.wr_id=0x2c176a0, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-02-019-35-l.pace.gatech.edu:mpi_rank_228][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=292
+: No such file or directory (2)
+[atl1-1-02-019-35-l.pace.gatech.edu:mpi_rank_230][handle_cqe] Send desc error in msg to 294, wc_opcode=1
+[atl1-1-02-019-35-l.pace.gatech.edu:mpi_rank_230][handle_cqe] Msg from 294: wc.status=12, wc.wr_id=0x1aa8380, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-02-019-35-l.pace.gatech.edu:mpi_rank_230][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=294
+: No such file or directory (2)
+[atl1-1-02-019-35-l.pace.gatech.edu:mpi_rank_234][handle_cqe] Send desc error in msg to 298, wc_opcode=1
+[atl1-1-02-019-35-l.pace.gatech.edu:mpi_rank_234][handle_cqe] Msg from 298: wc.status=12, wc.wr_id=0x2d6d540, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-02-019-35-l.pace.gatech.edu:mpi_rank_234][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=298
+: No such file or directory (2)
+[atl1-1-02-019-35-l.pace.gatech.edu:mpi_rank_238][handle_cqe] Send desc error in msg to 302, wc_opcode=1
+[atl1-1-02-019-35-l.pace.gatech.edu:mpi_rank_238][handle_cqe] Msg from 302: wc.status=12, wc.wr_id=0x1b7f8c0, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-02-019-35-l.pace.gatech.edu:mpi_rank_238][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=302
+: No such file or directory (2)
+[atl1-1-02-019-35-l.pace.gatech.edu:mpi_rank_239][handle_cqe] Send desc error in msg to 303, wc_opcode=1
+[atl1-1-02-019-35-l.pace.gatech.edu:mpi_rank_239][handle_cqe] Msg from 303: wc.status=12, wc.wr_id=0x1b24580, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-02-019-35-l.pace.gatech.edu:mpi_rank_239][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=303
+: No such file or directory (2)
+[atl1-1-02-019-35-l.pace.gatech.edu:mpi_rank_235][handle_cqe] Send desc error in msg to 299, wc_opcode=1
+[atl1-1-02-019-35-l.pace.gatech.edu:mpi_rank_235][handle_cqe] Msg from 299: wc.status=12, wc.wr_id=0x28c6dc0, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-02-019-35-l.pace.gatech.edu:mpi_rank_235][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=299
+: No such file or directory (2)
+[atl1-1-03-003-25-l.pace.gatech.edu:mpi_rank_184][handle_cqe] Send desc error in msg to 264, wc_opcode=1
+[atl1-1-03-003-25-l.pace.gatech.edu:mpi_rank_184][handle_cqe] Msg from 264: wc.status=12, wc.wr_id=0x1c562e0, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-03-003-25-l.pace.gatech.edu:mpi_rank_184][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=264
+: No such file or directory (2)
+[atl1-1-03-003-25-l.pace.gatech.edu:mpi_rank_185][handle_cqe] Send desc error in msg to 265, wc_opcode=1
+[atl1-1-03-003-25-l.pace.gatech.edu:mpi_rank_185][handle_cqe] Msg from 265: wc.status=12, wc.wr_id=0x2954c20, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-03-003-25-l.pace.gatech.edu:mpi_rank_185][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=265
+: No such file or directory (2)
+[atl1-1-03-003-25-l.pace.gatech.edu:mpi_rank_186][handle_cqe] Send desc error in msg to 266, wc_opcode=1
+[atl1-1-03-003-25-l.pace.gatech.edu:mpi_rank_186][handle_cqe] Msg from 266: wc.status=12, wc.wr_id=0x28c3f90, wc.opcode=1, vbuf->phead->type=2 = MPIDI_CH3_PKT_FAST_EAGER_SEND
+[atl1-1-03-003-25-l.pace.gatech.edu:mpi_rank_186][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=266
+: No such file or directory (2)
+[atl1-1-03-003-25-l.pace.gatech.edu:mpi_rank_187][handle_cqe] Send desc error in msg to 267, wc_opcode=1
+[atl1-1-03-003-25-l.pace.gatech.edu:mpi_rank_187][handle_cqe] Msg from 267: wc.status=12, wc.wr_id=0x2edf9a0, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-03-003-25-l.pace.gatech.edu:mpi_rank_187][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=267
+: No such file or directory (2)
+[atl1-1-03-003-25-l.pace.gatech.edu:mpi_rank_188][handle_cqe] Send desc error in msg to 268, wc_opcode=1
+[atl1-1-03-003-25-l.pace.gatech.edu:mpi_rank_188][handle_cqe] Msg from 268: wc.status=12, wc.wr_id=0x2e1b470, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-03-003-25-l.pace.gatech.edu:mpi_rank_188][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=268
+: No such file or directory (2)
+[atl1-1-03-003-25-l.pace.gatech.edu:mpi_rank_189][handle_cqe] Send desc error in msg to 269, wc_opcode=1
+[atl1-1-03-003-25-l.pace.gatech.edu:mpi_rank_189][handle_cqe] Msg from 269: wc.status=12, wc.wr_id=0x26bc2e0, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-03-003-25-l.pace.gatech.edu:mpi_rank_189][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=269
+: No such file or directory (2)
+[atl1-1-03-003-25-l.pace.gatech.edu:mpi_rank_190][handle_cqe] Send desc error in msg to 270, wc_opcode=1
+[atl1-1-03-003-25-l.pace.gatech.edu:mpi_rank_191][handle_cqe] Send desc error in msg to 271, wc_opcode=1
+[atl1-1-03-003-25-l.pace.gatech.edu:mpi_rank_191][handle_cqe] Msg from 271: wc.status=12, wc.wr_id=0x1b51350, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-03-003-25-l.pace.gatech.edu:mpi_rank_191][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=271
+: No such file or directory (2)
+[atl1-1-03-003-25-l.pace.gatech.edu:mpi_rank_190][handle_cqe] Msg from 270: wc.status=12, wc.wr_id=0x1b802e0, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-03-003-25-l.pace.gatech.edu:mpi_rank_190][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=270
+: No such file or directory (2)
+=>> PBS: job killed: walltime 129637 exceeded limit 129600
+[mpiexec@atl1-1-02-002-20-l.pace.gatech.edu] HYDU_sock_write (utils/sock/sock.c:294): write error (Bad file descriptor)
+[mpiexec@atl1-1-02-002-20-l.pace.gatech.edu] HYD_pmcd_pmiserv_send_signal (pm/pmiserv/pmiserv_cb.c:177): unable to write data to proxy
+[mpiexec@atl1-1-02-002-20-l.pace.gatech.edu] ui_cmd_cb (pm/pmiserv/pmiserv_pmci.c:79): unable to send signal downstream
+[mpiexec@atl1-1-02-002-20-l.pace.gatech.edu] HYDT_dmxu_poll_wait_for_event (tools/demux/demux_poll.c:76): callback returned error status
+[mpiexec@atl1-1-02-002-20-l.pace.gatech.edu] HYD_pmci_wait_for_completion (pm/pmiserv/pmiserv_pmci.c:198): error waiting for event
+[mpiexec@atl1-1-02-002-20-l.pace.gatech.edu] main (ui/mpich/mpiexec.c:340): process manager error waiting for completion
+PSP directory successfully set: /storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/data/pseudos_module/espresso/esp_pseudos_old
+bash: ​: command not found
+[atl1-1-02-003-13-l.pace.gatech.edu:mpi_rank_79][handle_cqe] Send desc error in msg to 64, wc_opcode=1
+[atl1-1-02-003-13-l.pace.gatech.edu:mpi_rank_79][handle_cqe] Msg from 64: wc.status=12, wc.wr_id=0x1dc6e50, wc.opcode=1, vbuf->phead->type=32 = MPIDI_CH3_PKT_RNDV_REQ_TO_SEND
+[atl1-1-02-003-13-l.pace.gatech.edu:mpi_rank_79][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=64
+: No such file or directory (2)
+[atl1-1-02-003-6-r.pace.gatech.edu:mpi_rank_71][handle_cqe] Send desc error in msg to 72, wc_opcode=1
+[atl1-1-02-003-6-r.pace.gatech.edu:mpi_rank_71][handle_cqe] Msg from 72: wc.status=12, wc.wr_id=0x1b7dc50, wc.opcode=1, vbuf->phead->type=32 = MPIDI_CH3_PKT_RNDV_REQ_TO_SEND
+[atl1-1-02-003-6-r.pace.gatech.edu:mpi_rank_71][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=72
+: No such file or directory (2)
+[atl1-1-02-003-6-r.pace.gatech.edu:mpi_rank_48][async_thread] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:1157: Got FATAL event port error on port 1
+
+[atl1-1-02-003-6-r.pace.gatech.edu:mpi_rank_50][async_thread] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:1157: Got FATAL event port error on port 1
+
+[atl1-1-02-003-6-r.pace.gatech.edu:mpi_rank_51][async_thread] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:1157: Got FATAL event port error on port 1
+
+[atl1-1-02-003-6-r.pace.gatech.edu:mpi_rank_52][async_thread] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:1157: Got FATAL event port error on port 1
+
+[atl1-1-02-003-6-r.pace.gatech.edu:mpi_rank_53][async_thread] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:1157: Got FATAL event port error on port 1
+
+[atl1-1-02-003-6-r.pace.gatech.edu:mpi_rank_54][async_thread] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:1157: Got FATAL event port error on port 1
+
+[atl1-1-02-003-6-r.pace.gatech.edu:mpi_rank_55][async_thread] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:1157: Got FATAL event port error on port 1
+
+[atl1-1-02-003-6-r.pace.gatech.edu:mpi_rank_56][async_thread] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:1157: Got FATAL event port error on port 1
+
+[atl1-1-02-003-6-r.pace.gatech.edu:mpi_rank_57][async_thread] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:1157: Got FATAL event port error on port 1
+
+[atl1-1-02-003-6-r.pace.gatech.edu:mpi_rank_58][async_thread] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:1157: Got FATAL event port error on port 1
+
+[atl1-1-02-003-6-r.pace.gatech.edu:mpi_rank_59][async_thread] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:1157: Got FATAL event port error on port 1
+
+[atl1-1-02-003-6-r.pace.gatech.edu:mpi_rank_60][async_thread] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:1157: Got FATAL event port error on port 1
+
+[atl1-1-02-003-6-r.pace.gatech.edu:mpi_rank_61][async_thread] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:1157: Got FATAL event port error on port 1
+
+[atl1-1-02-003-6-r.pace.gatech.edu:mpi_rank_62][async_thread] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:1157: Got FATAL event port error on port 1
+
+[atl1-1-02-003-6-r.pace.gatech.edu:mpi_rank_63][async_thread] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:1157: Got FATAL event port error on port 1
+
+[atl1-1-02-003-6-r.pace.gatech.edu:mpi_rank_64][async_thread] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:1157: Got FATAL event port error on port 1
+
+[atl1-1-02-003-6-r.pace.gatech.edu:mpi_rank_65][async_thread] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:1157: Got FATAL event port error on port 1
+
+[atl1-1-02-003-6-r.pace.gatech.edu:mpi_rank_66][async_thread] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:1157: Got FATAL event port error on port 1
+
+[atl1-1-02-003-6-r.pace.gatech.edu:mpi_rank_67][async_thread] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:1157: Got FATAL event port error on port 1
+
+[atl1-1-02-003-6-r.pace.gatech.edu:mpi_rank_68][async_thread] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:1157: Got FATAL event port error on port 1
+
+[atl1-1-02-003-6-r.pace.gatech.edu:mpi_rank_69][async_thread] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:1157: Got FATAL event port error on port 1
+
+[atl1-1-02-003-6-r.pace.gatech.edu:mpi_rank_70][async_thread] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:1157: Got FATAL event port error on port 1
+
+[atl1-1-02-003-6-r.pace.gatech.edu:mpi_rank_71][async_thread] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:1157: Got FATAL event port error on port 1
+
+[atl1-1-02-003-6-r.pace.gatech.edu:mpi_rank_49][async_thread] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:1157: Got FATAL event port error on port 1
+
+[atl1-1-02-003-11-l.pace.gatech.edu:mpi_rank_240][handle_cqe] Send desc error in msg to 72, wc_opcode=1
+[atl1-1-02-003-11-l.pace.gatech.edu:mpi_rank_240][handle_cqe] Msg from 72: wc.status=12, wc.wr_id=0x1a71cc0, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-02-003-11-l.pace.gatech.edu:mpi_rank_240][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=72
+: No such file or directory (2)
+[atl1-1-02-003-11-l.pace.gatech.edu:mpi_rank_241][handle_cqe] Send desc error in msg to 73, wc_opcode=1
+[atl1-1-02-003-11-l.pace.gatech.edu:mpi_rank_242][handle_cqe] Send desc error in msg to 74, wc_opcode=1
+[atl1-1-02-003-11-l.pace.gatech.edu:mpi_rank_242][handle_cqe] Msg from 74: wc.status=12, wc.wr_id=0x2d9e460, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-02-003-11-l.pace.gatech.edu:mpi_rank_242][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=74
+: No such file or directory (2)
+[atl1-1-02-003-11-l.pace.gatech.edu:mpi_rank_243][handle_cqe] Send desc error in msg to 75, wc_opcode=1
+[atl1-1-02-003-11-l.pace.gatech.edu:mpi_rank_243][handle_cqe] Msg from 75: wc.status=12, wc.wr_id=0x2639cc0, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-02-003-11-l.pace.gatech.edu:mpi_rank_243][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=75
+: No such file or directory (2)
+[atl1-1-02-003-11-l.pace.gatech.edu:mpi_rank_244][handle_cqe] Send desc error in msg to 76, wc_opcode=1
+[atl1-1-02-003-11-l.pace.gatech.edu:mpi_rank_244][handle_cqe] Msg from 76: wc.status=12, wc.wr_id=0x2df6f60, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-02-003-11-l.pace.gatech.edu:mpi_rank_244][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=76
+: No such file or directory (2)
+[atl1-1-02-003-11-l.pace.gatech.edu:mpi_rank_245][handle_cqe] Send desc error in msg to 77, wc_opcode=1
+[atl1-1-02-003-11-l.pace.gatech.edu:mpi_rank_245][handle_cqe] Msg from 77: wc.status=12, wc.wr_id=0x2085500, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-02-003-11-l.pace.gatech.edu:mpi_rank_245][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=77
+: No such file or directory (2)
+[atl1-1-02-003-11-l.pace.gatech.edu:mpi_rank_246][handle_cqe] Send desc error in msg to 78, wc_opcode=1
+[atl1-1-02-003-11-l.pace.gatech.edu:mpi_rank_246][handle_cqe] Msg from 78: wc.status=12, wc.wr_id=0x1d02580, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-02-003-11-l.pace.gatech.edu:mpi_rank_246][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=78
+: No such file or directory (2)
+[atl1-1-02-003-11-l.pace.gatech.edu:mpi_rank_247][handle_cqe] Send desc error in msg to 79, wc_opcode=1
+[atl1-1-02-003-11-l.pace.gatech.edu:mpi_rank_247][handle_cqe] Msg from 79: wc.status=12, wc.wr_id=0x1b1b170, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-02-003-11-l.pace.gatech.edu:mpi_rank_247][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=79
+: No such file or directory (2)
+[atl1-1-02-003-11-l.pace.gatech.edu:mpi_rank_241][handle_cqe] Msg from 73: wc.status=12, wc.wr_id=0x29b5f60, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-02-003-11-l.pace.gatech.edu:mpi_rank_241][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=73
+: No such file or directory (2)
+[atl1-1-02-003-10-r.pace.gatech.edu:mpi_rank_31][handle_cqe] Send desc error in msg to 79, wc_opcode=1
+[atl1-1-02-003-10-r.pace.gatech.edu:mpi_rank_31][handle_cqe] Msg from 79: wc.status=12, wc.wr_id=0x1b33490, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-02-003-10-r.pace.gatech.edu:mpi_rank_31][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=79
+: No such file or directory (2)
+[atl1-1-02-003-10-r.pace.gatech.edu:mpi_rank_32][handle_cqe] Send desc error in msg to 48, wc_opcode=1
+[atl1-1-02-003-10-r.pace.gatech.edu:mpi_rank_32][handle_cqe] Msg from 48: wc.status=12, wc.wr_id=0x1cc8dd0, wc.opcode=1, vbuf->phead->type=3 = MPIDI_CH3_PKT_FAST_EAGER_SEND_WITH_REQ
+[atl1-1-02-003-10-r.pace.gatech.edu:mpi_rank_32][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=48
+: No such file or directory (2)
+[atl1-1-02-003-10-r.pace.gatech.edu:mpi_rank_33][handle_cqe] Send desc error in msg to 49, wc_opcode=1
+[atl1-1-02-003-10-r.pace.gatech.edu:mpi_rank_33][handle_cqe] Msg from 49: wc.status=12, wc.wr_id=0x1c66c30, wc.opcode=1, vbuf->phead->type=3 = MPIDI_CH3_PKT_FAST_EAGER_SEND_WITH_REQ
+[atl1-1-02-003-10-r.pace.gatech.edu:mpi_rank_33][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=49
+: No such file or directory (2)
+[atl1-1-02-003-10-r.pace.gatech.edu:mpi_rank_34][handle_cqe] Send desc error in msg to 50, wc_opcode=1
+[atl1-1-02-003-10-r.pace.gatech.edu:mpi_rank_34][handle_cqe] Msg from 50: wc.status=12, wc.wr_id=0x1d92ab0, wc.opcode=1, vbuf->phead->type=3 = MPIDI_CH3_PKT_FAST_EAGER_SEND_WITH_REQ
+[atl1-1-02-003-10-r.pace.gatech.edu:mpi_rank_34][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=50
+: No such file or directory (2)
+[atl1-1-02-003-10-r.pace.gatech.edu:mpi_rank_35][handle_cqe] Send desc error in msg to 51, wc_opcode=1
+[atl1-1-02-003-10-r.pace.gatech.edu:mpi_rank_35][handle_cqe] Msg from 51: wc.status=12, wc.wr_id=0x201ecf0, wc.opcode=1, vbuf->phead->type=3 = MPIDI_CH3_PKT_FAST_EAGER_SEND_WITH_REQ
+[atl1-1-02-003-10-r.pace.gatech.edu:mpi_rank_35][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=51
+: No such file or directory (2)
+[atl1-1-02-003-10-r.pace.gatech.edu:mpi_rank_36][handle_cqe] Send desc error in msg to 52, wc_opcode=1
+[atl1-1-02-003-10-r.pace.gatech.edu:mpi_rank_36][handle_cqe] Msg from 52: wc.status=12, wc.wr_id=0x2c5dff0, wc.opcode=1, vbuf->phead->type=3 = MPIDI_CH3_PKT_FAST_EAGER_SEND_WITH_REQ
+[atl1-1-02-003-10-r.pace.gatech.edu:mpi_rank_36][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=52
+: No such file or directory (2)
+[atl1-1-02-003-10-r.pace.gatech.edu:mpi_rank_37][handle_cqe] Send desc error in msg to 53, wc_opcode=1
+[atl1-1-02-003-10-r.pace.gatech.edu:mpi_rank_37][handle_cqe] Msg from 53: wc.status=12, wc.wr_id=0x24e04b0, wc.opcode=1, vbuf->phead->type=3 = MPIDI_CH3_PKT_FAST_EAGER_SEND_WITH_REQ
+[atl1-1-02-003-10-r.pace.gatech.edu:mpi_rank_37][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=53
+: No such file or directory (2)
+[atl1-1-02-003-10-r.pace.gatech.edu:mpi_rank_38][handle_cqe] Send desc error in msg to 54, wc_opcode=1
+[atl1-1-02-003-10-r.pace.gatech.edu:mpi_rank_38][handle_cqe] Msg from 54: wc.status=12, wc.wr_id=0x1bc27f0, wc.opcode=1, vbuf->phead->type=3 = MPIDI_CH3_PKT_FAST_EAGER_SEND_WITH_REQ
+[atl1-1-02-003-10-r.pace.gatech.edu:mpi_rank_38][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=54
+: No such file or directory (2)
+[atl1-1-02-003-10-r.pace.gatech.edu:mpi_rank_39][handle_cqe] Send desc error in msg to 55, wc_opcode=1
+[atl1-1-02-003-10-r.pace.gatech.edu:mpi_rank_39][handle_cqe] Msg from 55: wc.status=12, wc.wr_id=0x1ac7530, wc.opcode=1, vbuf->phead->type=3 = MPIDI_CH3_PKT_FAST_EAGER_SEND_WITH_REQ
+[atl1-1-02-003-10-r.pace.gatech.edu:mpi_rank_39][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=55
+: No such file or directory (2)
+[atl1-1-02-003-10-r.pace.gatech.edu:mpi_rank_40][handle_cqe] Send desc error in msg to 56, wc_opcode=1
+[atl1-1-02-003-10-r.pace.gatech.edu:mpi_rank_40][handle_cqe] Msg from 56: wc.status=12, wc.wr_id=0x1b7a170, wc.opcode=1, vbuf->phead->type=3 = MPIDI_CH3_PKT_FAST_EAGER_SEND_WITH_REQ
+[atl1-1-02-003-10-r.pace.gatech.edu:mpi_rank_40][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=56
+: No such file or directory (2)
+[atl1-1-02-003-10-r.pace.gatech.edu:mpi_rank_41][handle_cqe] Send desc error in msg to 57, wc_opcode=1
+[atl1-1-02-003-10-r.pace.gatech.edu:mpi_rank_41][handle_cqe] Msg from 57: wc.status=12, wc.wr_id=0x27f0ab0, wc.opcode=1, vbuf->phead->type=3 = MPIDI_CH3_PKT_FAST_EAGER_SEND_WITH_REQ
+[atl1-1-02-003-10-r.pace.gatech.edu:mpi_rank_41][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=57
+: No such file or directory (2)
+[atl1-1-02-003-10-r.pace.gatech.edu:mpi_rank_42][handle_cqe] Send desc error in msg to 58, wc_opcode=1
+[atl1-1-02-003-10-r.pace.gatech.edu:mpi_rank_42][handle_cqe] Msg from 58: wc.status=12, wc.wr_id=0x2d2ee70, wc.opcode=1, vbuf->phead->type=3 = MPIDI_CH3_PKT_FAST_EAGER_SEND_WITH_REQ
+[atl1-1-02-003-10-r.pace.gatech.edu:mpi_rank_42][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=58
+: No such file or directory (2)
+[atl1-1-02-003-10-r.pace.gatech.edu:mpi_rank_43][handle_cqe] Send desc error in msg to 59, wc_opcode=1
+[atl1-1-02-003-10-r.pace.gatech.edu:mpi_rank_43][handle_cqe] Msg from 59: wc.status=12, wc.wr_id=0x27a7970, wc.opcode=1, vbuf->phead->type=3 = MPIDI_CH3_PKT_FAST_EAGER_SEND_WITH_REQ
+[atl1-1-02-003-10-r.pace.gatech.edu:mpi_rank_43][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=59
+: No such file or directory (2)
+[atl1-1-02-003-10-r.pace.gatech.edu:mpi_rank_44][handle_cqe] Send desc error in msg to 60, wc_opcode=1
+[atl1-1-02-003-10-r.pace.gatech.edu:mpi_rank_45][handle_cqe] Send desc error in msg to 61, wc_opcode=1
+[atl1-1-02-003-10-r.pace.gatech.edu:mpi_rank_45][handle_cqe] Msg from 61: wc.status=12, wc.wr_id=0x260bf70, wc.opcode=1, vbuf->phead->type=3 = MPIDI_CH3_PKT_FAST_EAGER_SEND_WITH_REQ
+[atl1-1-02-003-10-r.pace.gatech.edu:mpi_rank_45][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=61
+: No such file or directory (2)
+[atl1-1-02-003-10-r.pace.gatech.edu:mpi_rank_46][handle_cqe] Send desc error in msg to 62, wc_opcode=1
+[atl1-1-02-003-10-r.pace.gatech.edu:mpi_rank_46][handle_cqe] Msg from 62: wc.status=12, wc.wr_id=0x1abb130, wc.opcode=1, vbuf->phead->type=3 = MPIDI_CH3_PKT_FAST_EAGER_SEND_WITH_REQ
+[atl1-1-02-003-10-r.pace.gatech.edu:mpi_rank_46][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=62
+: No such file or directory (2)
+[atl1-1-02-003-10-r.pace.gatech.edu:mpi_rank_44][handle_cqe] Msg from 60: wc.status=12, wc.wr_id=0x1f949e0, wc.opcode=1, vbuf->phead->type=3 = MPIDI_CH3_PKT_FAST_EAGER_SEND_WITH_REQ
+[atl1-1-02-003-10-r.pace.gatech.edu:mpi_rank_44][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=60
+: No such file or directory (2)
+[atl1-1-02-003-7-r.pace.gatech.edu:mpi_rank_136][handle_cqe] Send desc error in msg to 72, wc_opcode=1
+[atl1-1-02-003-7-r.pace.gatech.edu:mpi_rank_136][handle_cqe] Msg from 72: wc.status=12, wc.wr_id=0x1b86560, wc.opcode=1, vbuf->phead->type=2 = MPIDI_CH3_PKT_FAST_EAGER_SEND
+[atl1-1-02-003-7-r.pace.gatech.edu:mpi_rank_136][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=72
+: No such file or directory (2)
+[atl1-1-02-003-7-r.pace.gatech.edu:mpi_rank_137][handle_cqe] Send desc error in msg to 73, wc_opcode=1
+[atl1-1-02-003-7-r.pace.gatech.edu:mpi_rank_138][handle_cqe] Send desc error in msg to 74, wc_opcode=1
+[atl1-1-02-003-7-r.pace.gatech.edu:mpi_rank_138][handle_cqe] Msg from 74: wc.status=12, wc.wr_id=0x2dc1760, wc.opcode=1, vbuf->phead->type=2 = MPIDI_CH3_PKT_FAST_EAGER_SEND
+[atl1-1-02-003-7-r.pace.gatech.edu:mpi_rank_138][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=74
+: No such file or directory (2)
+[atl1-1-02-003-7-r.pace.gatech.edu:mpi_rank_139][handle_cqe] Send desc error in msg to 75, wc_opcode=1
+[atl1-1-02-003-7-r.pace.gatech.edu:mpi_rank_139][handle_cqe] Msg from 75: wc.status=12, wc.wr_id=0x2d2e5e0, wc.opcode=1, vbuf->phead->type=2 = MPIDI_CH3_PKT_FAST_EAGER_SEND
+[atl1-1-02-003-7-r.pace.gatech.edu:mpi_rank_139][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=75
+: No such file or directory (2)
+[atl1-1-02-003-7-r.pace.gatech.edu:mpi_rank_140][handle_cqe] Send desc error in msg to 76, wc_opcode=1
+[atl1-1-02-003-7-r.pace.gatech.edu:mpi_rank_140][handle_cqe] Msg from 76: wc.status=12, wc.wr_id=0x2c6bae0, wc.opcode=1, vbuf->phead->type=2 = MPIDI_CH3_PKT_FAST_EAGER_SEND
+[atl1-1-02-003-7-r.pace.gatech.edu:mpi_rank_140][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=76
+: No such file or directory (2)
+[atl1-1-02-003-7-r.pace.gatech.edu:mpi_rank_141][handle_cqe] Send desc error in msg to 77, wc_opcode=1
+[atl1-1-02-003-7-r.pace.gatech.edu:mpi_rank_141][handle_cqe] Msg from 77: wc.status=12, wc.wr_id=0x24c52e0, wc.opcode=1, vbuf->phead->type=2 = MPIDI_CH3_PKT_FAST_EAGER_SEND
+[atl1-1-02-003-7-r.pace.gatech.edu:mpi_rank_141][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=77
+: No such file or directory (2)
+[atl1-1-02-003-7-r.pace.gatech.edu:mpi_rank_142][handle_cqe] Send desc error in msg to 78, wc_opcode=1
+[atl1-1-02-003-7-r.pace.gatech.edu:mpi_rank_142][handle_cqe] Msg from 78: wc.status=12, wc.wr_id=0x1b736a0, wc.opcode=1, vbuf->phead->type=2 = MPIDI_CH3_PKT_FAST_EAGER_SEND
+[atl1-1-02-003-7-r.pace.gatech.edu:mpi_rank_142][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=78
+: No such file or directory (2)
+[atl1-1-02-003-7-r.pace.gatech.edu:mpi_rank_137][handle_cqe] Msg from 73: wc.status=12, wc.wr_id=0x28015a0, wc.opcode=1, vbuf->phead->type=2 = MPIDI_CH3_PKT_FAST_EAGER_SEND
+[atl1-1-02-003-7-r.pace.gatech.edu:mpi_rank_137][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=73
+: No such file or directory (2)
+[atl1-1-02-003-8-l.pace.gatech.edu:mpi_rank_145][handle_cqe] Send desc error in msg to 81, wc_opcode=1
+[atl1-1-02-003-8-l.pace.gatech.edu:mpi_rank_145][handle_cqe] Msg from 81: wc.status=12, wc.wr_id=0x27a7250, wc.opcode=1, vbuf->phead->type=2 = MPIDI_CH3_PKT_FAST_EAGER_SEND
+[atl1-1-02-003-8-l.pace.gatech.edu:mpi_rank_145][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=81
+: No such file or directory (2)
+[atl1-1-02-003-8-l.pace.gatech.edu:mpi_rank_146][handle_cqe] Send desc error in msg to 82, wc_opcode=1
+[atl1-1-02-003-8-l.pace.gatech.edu:mpi_rank_146][handle_cqe] Msg from 82: wc.status=12, wc.wr_id=0x2901650, wc.opcode=1, vbuf->phead->type=2 = MPIDI_CH3_PKT_FAST_EAGER_SEND
+[atl1-1-02-003-8-l.pace.gatech.edu:mpi_rank_146][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=82
+: No such file or directory (2)
+[atl1-1-02-003-8-l.pace.gatech.edu:mpi_rank_147][handle_cqe] Send desc error in msg to 83, wc_opcode=1
+[atl1-1-02-003-8-l.pace.gatech.edu:mpi_rank_147][handle_cqe] Msg from 83: wc.status=12, wc.wr_id=0x2f02d30, wc.opcode=1, vbuf->phead->type=2 = MPIDI_CH3_PKT_FAST_EAGER_SEND
+[atl1-1-02-003-8-l.pace.gatech.edu:mpi_rank_147][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=83
+: No such file or directory (2)
+[atl1-1-02-003-8-l.pace.gatech.edu:mpi_rank_148][handle_cqe] Send desc error in msg to 84, wc_opcode=1
+[atl1-1-02-003-8-l.pace.gatech.edu:mpi_rank_148][handle_cqe] Msg from 84: wc.status=12, wc.wr_id=0x2c2cd60, wc.opcode=1, vbuf->phead->type=2 = MPIDI_CH3_PKT_FAST_EAGER_SEND
+[atl1-1-02-003-8-l.pace.gatech.edu:mpi_rank_148][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=84
+: No such file or directory (2)
+[atl1-1-02-003-8-l.pace.gatech.edu:mpi_rank_149][handle_cqe] Send desc error in msg to 85, wc_opcode=1
+[atl1-1-02-003-8-l.pace.gatech.edu:mpi_rank_149][handle_cqe] Msg from 85: wc.status=12, wc.wr_id=0x26c2fe0, wc.opcode=1, vbuf->phead->type=2 = MPIDI_CH3_PKT_FAST_EAGER_SEND
+[atl1-1-02-003-8-l.pace.gatech.edu:mpi_rank_149][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=85
+: No such file or directory (2)
+[atl1-1-02-003-8-l.pace.gatech.edu:mpi_rank_150][handle_cqe] Send desc error in msg to 86, wc_opcode=1
+[atl1-1-02-003-8-l.pace.gatech.edu:mpi_rank_150][handle_cqe] Msg from 86: wc.status=12, wc.wr_id=0x1b98d20, wc.opcode=1, vbuf->phead->type=2 = MPIDI_CH3_PKT_FAST_EAGER_SEND
+[atl1-1-02-003-8-l.pace.gatech.edu:mpi_rank_150][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=86
+: No such file or directory (2)
+[atl1-1-02-003-8-l.pace.gatech.edu:mpi_rank_151][handle_cqe] Send desc error in msg to 87, wc_opcode=1
+[atl1-1-02-003-8-l.pace.gatech.edu:mpi_rank_151][handle_cqe] Msg from 87: wc.status=12, wc.wr_id=0x1b77020, wc.opcode=1, vbuf->phead->type=2 = MPIDI_CH3_PKT_FAST_EAGER_SEND
+[atl1-1-02-003-8-l.pace.gatech.edu:mpi_rank_151][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=87
+: No such file or directory (2)
+[atl1-1-02-003-8-l.pace.gatech.edu:mpi_rank_152][handle_cqe] Send desc error in msg to 88, wc_opcode=1
+[atl1-1-02-003-8-l.pace.gatech.edu:mpi_rank_152][handle_cqe] Msg from 88: wc.status=12, wc.wr_id=0x1b4a7a0, wc.opcode=1, vbuf->phead->type=2 = MPIDI_CH3_PKT_FAST_EAGER_SEND
+[atl1-1-02-003-8-l.pace.gatech.edu:mpi_rank_152][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=88
+: No such file or directory (2)
+[atl1-1-02-003-8-l.pace.gatech.edu:mpi_rank_153][handle_cqe] Send desc error in msg to 89, wc_opcode=1
+[atl1-1-02-003-8-l.pace.gatech.edu:mpi_rank_153][handle_cqe] Msg from 89: wc.status=12, wc.wr_id=0x27b91e0, wc.opcode=1, vbuf->phead->type=2 = MPIDI_CH3_PKT_FAST_EAGER_SEND
+[atl1-1-02-003-8-l.pace.gatech.edu:mpi_rank_153][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=89
+: No such file or directory (2)
+[atl1-1-02-003-8-l.pace.gatech.edu:mpi_rank_155][handle_cqe] Send desc error in msg to 91, wc_opcode=1
+[atl1-1-02-003-8-l.pace.gatech.edu:mpi_rank_155][handle_cqe] Msg from 91: wc.status=12, wc.wr_id=0x28d88e0, wc.opcode=1, vbuf->phead->type=2 = MPIDI_CH3_PKT_FAST_EAGER_SEND
+[atl1-1-02-003-8-l.pace.gatech.edu:mpi_rank_155][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=91
+: No such file or directory (2)
+[atl1-1-02-003-8-l.pace.gatech.edu:mpi_rank_156][handle_cqe] Send desc error in msg to 92, wc_opcode=1
+[atl1-1-02-003-8-l.pace.gatech.edu:mpi_rank_156][handle_cqe] Msg from 92: wc.status=12, wc.wr_id=0x2c33c60, wc.opcode=1, vbuf->phead->type=2 = MPIDI_CH3_PKT_FAST_EAGER_SEND
+[atl1-1-02-003-8-l.pace.gatech.edu:mpi_rank_156][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=92
+: No such file or directory (2)
+[atl1-1-02-003-8-l.pace.gatech.edu:mpi_rank_157][handle_cqe] Send desc error in msg to 93, wc_opcode=1
+[atl1-1-02-003-8-l.pace.gatech.edu:mpi_rank_157][handle_cqe] Msg from 93: wc.status=12, wc.wr_id=0x2489720, wc.opcode=1, vbuf->phead->type=2 = MPIDI_CH3_PKT_FAST_EAGER_SEND
+[atl1-1-02-003-8-l.pace.gatech.edu:mpi_rank_157][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=93
+: No such file or directory (2)
+[atl1-1-02-003-8-l.pace.gatech.edu:mpi_rank_158][handle_cqe] Send desc error in msg to 94, wc_opcode=1
+[atl1-1-02-003-8-l.pace.gatech.edu:mpi_rank_158][handle_cqe] Msg from 94: wc.status=12, wc.wr_id=0x1b37360, wc.opcode=1, vbuf->phead->type=2 = MPIDI_CH3_PKT_FAST_EAGER_SEND
+[atl1-1-02-003-8-l.pace.gatech.edu:mpi_rank_158][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=94
+: No such file or directory (2)
+[atl1-1-02-003-8-l.pace.gatech.edu:mpi_rank_159][handle_cqe] Send desc error in msg to 79, wc_opcode=1
+[atl1-1-02-003-8-l.pace.gatech.edu:mpi_rank_159][handle_cqe] Msg from 79: wc.status=12, wc.wr_id=0x1ac6870, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-02-003-8-l.pace.gatech.edu:mpi_rank_159][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=79
+: No such file or directory (2)
+[atl1-1-02-003-8-l.pace.gatech.edu:mpi_rank_154][handle_cqe] Send desc error in msg to 90, wc_opcode=1
+[atl1-1-02-003-8-l.pace.gatech.edu:mpi_rank_154][handle_cqe] Msg from 90: wc.status=12, wc.wr_id=0x2d89460, wc.opcode=1, vbuf->phead->type=2 = MPIDI_CH3_PKT_FAST_EAGER_SEND
+[atl1-1-02-003-8-l.pace.gatech.edu:mpi_rank_154][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=90
+: No such file or directory (2)
+[atl1-1-02-003-8-l.pace.gatech.edu:mpi_rank_144][handle_cqe] Send desc error in msg to 80, wc_opcode=1
+[atl1-1-02-003-8-l.pace.gatech.edu:mpi_rank_144][handle_cqe] Msg from 80: wc.status=12, wc.wr_id=0x1c53910, wc.opcode=1, vbuf->phead->type=2 = MPIDI_CH3_PKT_FAST_EAGER_SEND
+[atl1-1-02-003-8-l.pace.gatech.edu:mpi_rank_144][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=80
+: Numerical result out of range (34)
+=>> PBS: job killed: walltime 360004 exceeded limit 360000
+[mpiexec@atl1-1-02-003-2-l.pace.gatech.edu] HYDU_sock_write (utils/sock/sock.c:294): write error (Bad file descriptor)
+[mpiexec@atl1-1-02-003-2-l.pace.gatech.edu] HYD_pmcd_pmiserv_send_signal (pm/pmiserv/pmiserv_cb.c:177): unable to write data to proxy
+[mpiexec@atl1-1-02-003-2-l.pace.gatech.edu] ui_cmd_cb (pm/pmiserv/pmiserv_pmci.c:79): unable to send signal downstream
+[mpiexec@atl1-1-02-003-2-l.pace.gatech.edu] HYDT_dmxu_poll_wait_for_event (tools/demux/demux_poll.c:76): callback returned error status
+[mpiexec@atl1-1-02-003-2-l.pace.gatech.edu] HYD_pmci_wait_for_completion (pm/pmiserv/pmiserv_pmci.c:198): error waiting for event
+[mpiexec@atl1-1-02-003-2-l.pace.gatech.edu] main (ui/mpich/mpiexec.c:340): process manager error waiting for completion
+PSP directory successfully set: /storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/data/pseudos_module/espresso/esp_pseudos_old
+bash: ​: command not found
+[atl1-1-02-003-2-l.pace.gatech.edu:mpi_rank_280][handle_cqe] Recv desc error in msg from 289, wc_opcode=2
+[atl1-1-02-003-2-l.pace.gatech.edu:mpi_rank_280][handle_cqe] Msg from 289: wc.status=12, wc.wr_id=0xe49680, wc.opcode=2, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-02-003-2-l.pace.gatech.edu:mpi_rank_280][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=289
+: No such file or directory (2)
+[atl1-1-02-003-2-l.pace.gatech.edu:mpi_rank_281][handle_cqe] Recv desc error in msg from 290, wc_opcode=2
+[atl1-1-02-003-2-l.pace.gatech.edu:mpi_rank_281][handle_cqe] Msg from 290: wc.status=12, wc.wr_id=0xe494f0, wc.opcode=2, vbuf->phead->type=24 = MPIDI_CH3_PKT_ADDRESS
+[atl1-1-02-003-2-l.pace.gatech.edu:mpi_rank_281][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=290
+: No such file or directory (2)
+[atl1-1-02-003-2-l.pace.gatech.edu:mpi_rank_284][handle_cqe] Send desc error in msg to 291, wc_opcode=1
+[atl1-1-02-003-2-l.pace.gatech.edu:mpi_rank_284][handle_cqe] Msg from 291: wc.status=12, wc.wr_id=0x1d40420, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-02-003-2-l.pace.gatech.edu:mpi_rank_284][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=291
+: No such file or directory (2)
+[atl1-1-02-003-2-l.pace.gatech.edu:mpi_rank_285][handle_cqe] Send desc error in msg to 294, wc_opcode=1
+[atl1-1-02-003-2-l.pace.gatech.edu:mpi_rank_285][handle_cqe] Msg from 294: wc.status=12, wc.wr_id=0x247ff20, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-02-003-2-l.pace.gatech.edu:mpi_rank_285][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=294
+: No such file or directory (2)
+[atl1-1-02-003-2-l.pace.gatech.edu:mpi_rank_286][handle_cqe] Send desc error in msg to 293, wc_opcode=1
+[atl1-1-02-003-2-l.pace.gatech.edu:mpi_rank_286][handle_cqe] Msg from 293: wc.status=12, wc.wr_id=0x1b0dfa0, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-02-003-2-l.pace.gatech.edu:mpi_rank_286][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=293
+: No such file or directory (2)
+[atl1-1-02-003-2-l.pace.gatech.edu:mpi_rank_287][handle_cqe] Send desc error in msg to 294, wc_opcode=1
+[atl1-1-02-003-2-l.pace.gatech.edu:mpi_rank_287][handle_cqe] Msg from 294: wc.status=12, wc.wr_id=0x1aac0a0, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-02-003-2-l.pace.gatech.edu:mpi_rank_287][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=294
+: No such file or directory (2)
+[atl1-1-02-003-10-r.pace.gatech.edu:mpi_rank_313][handle_cqe] Send desc error in msg to 297, wc_opcode=1
+[atl1-1-02-003-10-r.pace.gatech.edu:mpi_rank_313][handle_cqe] Msg from 297: wc.status=12, wc.wr_id=0x28f60d0, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-02-003-10-r.pace.gatech.edu:mpi_rank_313][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=297
+: No such file or directory (2)
+[atl1-1-02-003-10-r.pace.gatech.edu:mpi_rank_314][handle_cqe] Send desc error in msg to 298, wc_opcode=1
+[atl1-1-02-003-10-r.pace.gatech.edu:mpi_rank_314][handle_cqe] Msg from 298: wc.status=12, wc.wr_id=0x28a4910, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-02-003-10-r.pace.gatech.edu:mpi_rank_314][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=298
+: No such file or directory (2)
+[atl1-1-02-003-10-r.pace.gatech.edu:mpi_rank_315][handle_cqe] Send desc error in msg to 299, wc_opcode=1
+[atl1-1-02-003-10-r.pace.gatech.edu:mpi_rank_315][handle_cqe] Msg from 299: wc.status=12, wc.wr_id=0x21711d0, wc.opcode=1, vbuf->phead->type=2 = MPIDI_CH3_PKT_FAST_EAGER_SEND
+[atl1-1-02-003-10-r.pace.gatech.edu:mpi_rank_315][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=299
+: No such file or directory (2)
+[atl1-1-02-003-10-r.pace.gatech.edu:mpi_rank_316][handle_cqe] Send desc error in msg to 300, wc_opcode=1
+[atl1-1-02-003-10-r.pace.gatech.edu:mpi_rank_316][handle_cqe] Msg from 300: wc.status=12, wc.wr_id=0x2c3c7d0, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-02-003-10-r.pace.gatech.edu:mpi_rank_316][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=300
+: No such file or directory (2)
+[atl1-1-02-003-10-r.pace.gatech.edu:mpi_rank_317][handle_cqe] Send desc error in msg to 301, wc_opcode=1
+[atl1-1-02-003-10-r.pace.gatech.edu:mpi_rank_317][handle_cqe] Msg from 301: wc.status=12, wc.wr_id=0x21c7990, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-02-003-10-r.pace.gatech.edu:mpi_rank_317][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=301
+: No such file or directory (2)
+[atl1-1-02-003-10-r.pace.gatech.edu:mpi_rank_318][handle_cqe] Send desc error in msg to 302, wc_opcode=1
+[atl1-1-02-003-10-r.pace.gatech.edu:mpi_rank_318][handle_cqe] Msg from 302: wc.status=12, wc.wr_id=0x1ba8110, wc.opcode=1, vbuf->phead->type=2 = MPIDI_CH3_PKT_FAST_EAGER_SEND
+[atl1-1-02-003-10-r.pace.gatech.edu:mpi_rank_318][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=302
+: No such file or directory (2)
+[atl1-1-02-003-10-r.pace.gatech.edu:mpi_rank_319][handle_cqe] Send desc error in msg to 303, wc_opcode=1
+[atl1-1-02-003-10-r.pace.gatech.edu:mpi_rank_319][handle_cqe] Msg from 303: wc.status=12, wc.wr_id=0x1b48b10, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-02-003-10-r.pace.gatech.edu:mpi_rank_319][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=303
+: No such file or directory (2)
+[atl1-1-02-003-10-r.pace.gatech.edu:mpi_rank_320][handle_cqe] Send desc error in msg to 304, wc_opcode=1
+[atl1-1-02-003-10-r.pace.gatech.edu:mpi_rank_320][handle_cqe] Msg from 304: wc.status=12, wc.wr_id=0x1b54f40, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-02-003-10-r.pace.gatech.edu:mpi_rank_320][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=304
+: No such file or directory (2)
+[atl1-1-02-003-10-r.pace.gatech.edu:mpi_rank_321][handle_cqe] Send desc error in msg to 305, wc_opcode=1
+[atl1-1-02-003-10-r.pace.gatech.edu:mpi_rank_321][handle_cqe] Msg from 305: wc.status=12, wc.wr_id=0x27c9290, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-02-003-10-r.pace.gatech.edu:mpi_rank_321][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=305
+: No such file or directory (2)
+[atl1-1-02-003-10-r.pace.gatech.edu:mpi_rank_322][handle_cqe] Send desc error in msg to 306, wc_opcode=1
+[atl1-1-02-003-10-r.pace.gatech.edu:mpi_rank_322][handle_cqe] Msg from 306: wc.status=12, wc.wr_id=0x2d93e00, wc.opcode=1, vbuf->phead->type=2 = MPIDI_CH3_PKT_FAST_EAGER_SEND
+[atl1-1-02-003-10-r.pace.gatech.edu:mpi_rank_322][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=306
+: No such file or directory (2)
+[atl1-1-02-003-10-r.pace.gatech.edu:mpi_rank_323][handle_cqe] Send desc error in msg to 307, wc_opcode=1
+[atl1-1-02-003-10-r.pace.gatech.edu:mpi_rank_323][handle_cqe] Msg from 307: wc.status=12, wc.wr_id=0x26301d0, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-02-003-10-r.pace.gatech.edu:mpi_rank_323][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=307
+: No such file or directory (2)
+[atl1-1-02-003-10-r.pace.gatech.edu:mpi_rank_325][handle_cqe] Send desc error in msg to 309, wc_opcode=1
+[atl1-1-02-003-10-r.pace.gatech.edu:mpi_rank_325][handle_cqe] Msg from 309: wc.status=12, wc.wr_id=0x248d490, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-02-003-10-r.pace.gatech.edu:mpi_rank_325][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=309
+: No such file or directory (2)
+[atl1-1-02-003-10-r.pace.gatech.edu:mpi_rank_326][handle_cqe] Send desc error in msg to 310, wc_opcode=1
+[atl1-1-02-003-10-r.pace.gatech.edu:mpi_rank_326][handle_cqe] Msg from 310: wc.status=12, wc.wr_id=0x1c919c0, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-02-003-10-r.pace.gatech.edu:mpi_rank_326][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=310
+: No such file or directory (2)
+[atl1-1-02-003-10-r.pace.gatech.edu:mpi_rank_327][handle_cqe] Send desc error in msg to 311, wc_opcode=1
+[atl1-1-02-003-10-r.pace.gatech.edu:mpi_rank_327][handle_cqe] Msg from 311: wc.status=12, wc.wr_id=0x1b41c50, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-02-003-10-r.pace.gatech.edu:mpi_rank_327][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=311
+: No such file or directory (2)
+[atl1-1-02-003-10-r.pace.gatech.edu:mpi_rank_312][handle_cqe] Send desc error in msg to 296, wc_opcode=1
+[atl1-1-02-003-10-r.pace.gatech.edu:mpi_rank_312][handle_cqe] Msg from 296: wc.status=12, wc.wr_id=0x1cd37b0, wc.opcode=1, vbuf->phead->type=2 = MPIDI_CH3_PKT_FAST_EAGER_SEND
+[atl1-1-02-003-10-r.pace.gatech.edu:mpi_rank_312][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=296
+: No such file or directory (2)
+[atl1-1-02-003-10-r.pace.gatech.edu:mpi_rank_324][handle_cqe] Send desc error in msg to 308, wc_opcode=1
+[atl1-1-02-003-10-r.pace.gatech.edu:mpi_rank_324][handle_cqe] Msg from 308: wc.status=12, wc.wr_id=0x2ba8c00, wc.opcode=1, vbuf->phead->type=2 = MPIDI_CH3_PKT_FAST_EAGER_SEND
+[atl1-1-02-003-10-r.pace.gatech.edu:mpi_rank_324][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=308
+: No such file or directory (2)
+[atl1-1-02-003-9-l.pace.gatech.edu:mpi_rank_121][handle_cqe] Send desc error in msg to 289, wc_opcode=1
+[atl1-1-02-003-9-l.pace.gatech.edu:mpi_rank_121][handle_cqe] Msg from 289: wc.status=12, wc.wr_id=0x29d8ec0, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-02-003-9-l.pace.gatech.edu:mpi_rank_121][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=289
+: No such file or directory (2)
+[atl1-1-02-003-9-l.pace.gatech.edu:mpi_rank_123][handle_cqe] Send desc error in msg to 291, wc_opcode=1
+[atl1-1-02-003-9-l.pace.gatech.edu:mpi_rank_123][handle_cqe] Msg from 291: wc.status=12, wc.wr_id=0x2f08fe0, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-02-003-9-l.pace.gatech.edu:mpi_rank_123][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=291
+: No such file or directory (2)
+[atl1-1-02-003-9-l.pace.gatech.edu:mpi_rank_129][handle_cqe] Send desc error in msg to 297, wc_opcode=1
+[atl1-1-02-003-9-l.pace.gatech.edu:mpi_rank_129][handle_cqe] Msg from 297: wc.status=12, wc.wr_id=0x1dddae0, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-02-003-9-l.pace.gatech.edu:mpi_rank_129][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=297
+: No such file or directory (2)
+[atl1-1-02-003-9-l.pace.gatech.edu:mpi_rank_130][handle_cqe] Send desc error in msg to 298, wc_opcode=1
+[atl1-1-02-003-9-l.pace.gatech.edu:mpi_rank_130][handle_cqe] Msg from 298: wc.status=12, wc.wr_id=0x2da59a0, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-02-003-9-l.pace.gatech.edu:mpi_rank_130][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=298
+: No such file or directory (2)
+[atl1-1-02-003-9-l.pace.gatech.edu:mpi_rank_132][handle_cqe] Send desc error in msg to 300, wc_opcode=1
+[atl1-1-02-003-9-l.pace.gatech.edu:mpi_rank_132][handle_cqe] Msg from 300: wc.status=12, wc.wr_id=0x2df92c0, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-02-003-9-l.pace.gatech.edu:mpi_rank_132][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=300
+: No such file or directory (2)
+[atl1-1-02-003-9-l.pace.gatech.edu:mpi_rank_135][handle_cqe] Send desc error in msg to 303, wc_opcode=1
+[atl1-1-02-003-9-l.pace.gatech.edu:mpi_rank_135][handle_cqe] Msg from 303: wc.status=12, wc.wr_id=0x1d5bcc0, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-02-003-9-l.pace.gatech.edu:mpi_rank_135][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=303
+: No such file or directory (2)
+[atl1-1-02-003-9-l.pace.gatech.edu:mpi_rank_136][handle_cqe] Send desc error in msg to 304, wc_opcode=1
+[atl1-1-02-003-9-l.pace.gatech.edu:mpi_rank_136][handle_cqe] Msg from 304: wc.status=12, wc.wr_id=0x1ad5100, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-02-003-9-l.pace.gatech.edu:mpi_rank_136][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=304
+: No such file or directory (2)
+[atl1-1-02-003-9-l.pace.gatech.edu:mpi_rank_137][handle_cqe] Send desc error in msg to 305, wc_opcode=1
+[atl1-1-02-003-9-l.pace.gatech.edu:mpi_rank_137][handle_cqe] Msg from 305: wc.status=12, wc.wr_id=0x29e3300, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-02-003-9-l.pace.gatech.edu:mpi_rank_137][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=305
+: No such file or directory (2)
+[atl1-1-02-003-9-l.pace.gatech.edu:mpi_rank_138][handle_cqe] Send desc error in msg to 306, wc_opcode=1
+[atl1-1-02-003-9-l.pace.gatech.edu:mpi_rank_138][handle_cqe] Msg from 306: wc.status=12, wc.wr_id=0x2f59a40, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-02-003-9-l.pace.gatech.edu:mpi_rank_138][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=306
+: No such file or directory (2)
+[atl1-1-02-003-9-l.pace.gatech.edu:mpi_rank_140][handle_cqe] Send desc error in msg to 308, wc_opcode=1
+[atl1-1-02-003-9-l.pace.gatech.edu:mpi_rank_140][handle_cqe] Msg from 308: wc.status=12, wc.wr_id=0x2c5eec0, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-02-003-9-l.pace.gatech.edu:mpi_rank_140][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=308
+: No such file or directory (2)
+[atl1-1-02-003-9-l.pace.gatech.edu:mpi_rank_142][handle_cqe] Send desc error in msg to 310, wc_opcode=1
+[atl1-1-02-003-9-l.pace.gatech.edu:mpi_rank_142][handle_cqe] Msg from 310: wc.status=12, wc.wr_id=0x1abd3e0, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-02-003-9-l.pace.gatech.edu:mpi_rank_142][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=310
+: No such file or directory (2)
+[atl1-1-02-003-9-l.pace.gatech.edu:mpi_rank_120][handle_cqe] Send desc error in msg to 288, wc_opcode=1
+[atl1-1-02-003-9-l.pace.gatech.edu:mpi_rank_120][handle_cqe] Msg from 288: wc.status=12, wc.wr_id=0x1b2b2c0, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-02-003-9-l.pace.gatech.edu:mpi_rank_120][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=288
+: Numerical result out of range (34)
+[atl1-1-02-003-9-l.pace.gatech.edu:mpi_rank_122][handle_cqe] Send desc error in msg to 290, wc_opcode=1
+[atl1-1-02-003-9-l.pace.gatech.edu:mpi_rank_122][handle_cqe] Msg from 290: wc.status=12, wc.wr_id=0x2fcc300, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-02-003-9-l.pace.gatech.edu:mpi_rank_122][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=290
+: No such file or directory (2)
+[atl1-1-02-003-9-l.pace.gatech.edu:mpi_rank_124][handle_cqe] Send desc error in msg to 292, wc_opcode=1
+[atl1-1-02-003-9-l.pace.gatech.edu:mpi_rank_124][handle_cqe] Msg from 292: wc.status=12, wc.wr_id=0x2e14c40, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-02-003-9-l.pace.gatech.edu:mpi_rank_124][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=292
+: No such file or directory (2)
+[atl1-1-02-003-9-l.pace.gatech.edu:mpi_rank_125][handle_cqe] Send desc error in msg to 293, wc_opcode=1
+[atl1-1-02-003-9-l.pace.gatech.edu:mpi_rank_125][handle_cqe] Msg from 293: wc.status=12, wc.wr_id=0x249ff80, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-02-003-9-l.pace.gatech.edu:mpi_rank_125][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=293
+: No such file or directory (2)
+[atl1-1-02-003-9-l.pace.gatech.edu:mpi_rank_126][handle_cqe] Send desc error in msg to 294, wc_opcode=1
+[atl1-1-02-003-9-l.pace.gatech.edu:mpi_rank_126][handle_cqe] Msg from 294: wc.status=12, wc.wr_id=0x1b5bfe0, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-02-003-9-l.pace.gatech.edu:mpi_rank_126][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=294
+: No such file or directory (2)
+[atl1-1-02-003-9-l.pace.gatech.edu:mpi_rank_127][handle_cqe] Send desc error in msg to 295, wc_opcode=1
+[atl1-1-02-003-9-l.pace.gatech.edu:mpi_rank_127][handle_cqe] Msg from 295: wc.status=12, wc.wr_id=0x1b351d0, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-02-003-9-l.pace.gatech.edu:mpi_rank_127][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=295
+: No such file or directory (2)
+[atl1-1-02-003-9-l.pace.gatech.edu:mpi_rank_128][handle_cqe] Send desc error in msg to 296, wc_opcode=1
+[atl1-1-02-003-9-l.pace.gatech.edu:mpi_rank_128][handle_cqe] Msg from 296: wc.status=12, wc.wr_id=0x1c20b30, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-02-003-9-l.pace.gatech.edu:mpi_rank_128][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=296
+: No such file or directory (2)
+[atl1-1-02-003-9-l.pace.gatech.edu:mpi_rank_131][handle_cqe] Send desc error in msg to 299, wc_opcode=1
+[atl1-1-02-003-9-l.pace.gatech.edu:mpi_rank_131][handle_cqe] Msg from 299: wc.status=12, wc.wr_id=0x2653c40, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-02-003-9-l.pace.gatech.edu:mpi_rank_131][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=299
+: No such file or directory (2)
+[atl1-1-02-003-9-l.pace.gatech.edu:mpi_rank_133][handle_cqe] Send desc error in msg to 301, wc_opcode=1
+[atl1-1-02-003-9-l.pace.gatech.edu:mpi_rank_133][handle_cqe] Msg from 301: wc.status=12, wc.wr_id=0x24c5300, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-02-003-9-l.pace.gatech.edu:mpi_rank_133][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=301
+: No such file or directory (2)
+[atl1-1-02-003-9-l.pace.gatech.edu:mpi_rank_139][handle_cqe] Send desc error in msg to 307, wc_opcode=1
+[atl1-1-02-003-9-l.pace.gatech.edu:mpi_rank_139][handle_cqe] Msg from 307: wc.status=12, wc.wr_id=0x2645300, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-02-003-9-l.pace.gatech.edu:mpi_rank_139][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=307
+: No such file or directory (2)
+[atl1-1-02-003-9-l.pace.gatech.edu:mpi_rank_141][handle_cqe] Send desc error in msg to 309, wc_opcode=1
+[atl1-1-02-003-9-l.pace.gatech.edu:mpi_rank_141][handle_cqe] Msg from 309: wc.status=12, wc.wr_id=0x26a4040, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-02-003-9-l.pace.gatech.edu:mpi_rank_141][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=309
+: No such file or directory (2)
+[atl1-1-02-003-9-l.pace.gatech.edu:mpi_rank_143][handle_cqe] Send desc error in msg to 311, wc_opcode=1
+[atl1-1-02-003-9-l.pace.gatech.edu:mpi_rank_143][handle_cqe] Msg from 311: wc.status=12, wc.wr_id=0x1ac7200, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-02-003-9-l.pace.gatech.edu:mpi_rank_143][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=311
+: No such file or directory (2)
+[atl1-1-02-003-9-l.pace.gatech.edu:mpi_rank_134][handle_cqe] Send desc error in msg to 302, wc_opcode=1
+[atl1-1-02-003-9-l.pace.gatech.edu:mpi_rank_134][handle_cqe] Msg from 302: wc.status=12, wc.wr_id=0x1d66fb0, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-02-003-9-l.pace.gatech.edu:mpi_rank_134][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=302
+: No such file or directory (2)
+[atl1-1-02-003-7-l.pace.gatech.edu:mpi_rank_224][handle_cqe] Send desc error in msg to 288, wc_opcode=1
+[atl1-1-02-003-7-l.pace.gatech.edu:mpi_rank_224][handle_cqe] Msg from 288: wc.status=12, wc.wr_id=0x1c85e50, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-02-003-7-l.pace.gatech.edu:mpi_rank_224][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=288
+: No such file or directory (2)
+[atl1-1-02-003-7-l.pace.gatech.edu:mpi_rank_225][handle_cqe] Send desc error in msg to 289, wc_opcode=1
+[atl1-1-02-003-7-l.pace.gatech.edu:mpi_rank_225][handle_cqe] Msg from 289: wc.status=12, wc.wr_id=0x27adf50, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-02-003-7-l.pace.gatech.edu:mpi_rank_225][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=289
+: No such file or directory (2)
+[atl1-1-02-003-7-l.pace.gatech.edu:mpi_rank_226][handle_cqe] Send desc error in msg to 290, wc_opcode=1
+[atl1-1-02-003-7-l.pace.gatech.edu:mpi_rank_226][handle_cqe] Msg from 290: wc.status=12, wc.wr_id=0x2d71950, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-02-003-7-l.pace.gatech.edu:mpi_rank_226][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=290
+: No such file or directory (2)
+[atl1-1-02-003-7-l.pace.gatech.edu:mpi_rank_227][handle_cqe] Send desc error in msg to 291, wc_opcode=1
+[atl1-1-02-003-7-l.pace.gatech.edu:mpi_rank_227][handle_cqe] Msg from 291: wc.status=12, wc.wr_id=0x28c3850, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-02-003-7-l.pace.gatech.edu:mpi_rank_227][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=291
+: No such file or directory (2)
+[atl1-1-02-003-7-l.pace.gatech.edu:mpi_rank_229][handle_cqe] Send desc error in msg to 293, wc_opcode=1
+[atl1-1-02-003-7-l.pace.gatech.edu:mpi_rank_229][handle_cqe] Msg from 293: wc.status=12, wc.wr_id=0x248b310, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-02-003-7-l.pace.gatech.edu:mpi_rank_229][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=293
+: No such file or directory (2)
+[atl1-1-02-003-7-l.pace.gatech.edu:mpi_rank_230][handle_cqe] Send desc error in msg to 294, wc_opcode=1
+[atl1-1-02-003-7-l.pace.gatech.edu:mpi_rank_230][handle_cqe] Msg from 294: wc.status=12, wc.wr_id=0x1aa8ca0, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-02-003-7-l.pace.gatech.edu:mpi_rank_230][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=294
+: No such file or directory (2)
+[atl1-1-02-003-7-l.pace.gatech.edu:mpi_rank_231][handle_cqe] Send desc error in msg to 295, wc_opcode=1
+[atl1-1-02-003-7-l.pace.gatech.edu:mpi_rank_231][handle_cqe] Msg from 295: wc.status=12, wc.wr_id=0x1b4a990, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-02-003-7-l.pace.gatech.edu:mpi_rank_231][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=295
+: No such file or directory (2)
+[atl1-1-02-003-7-l.pace.gatech.edu:mpi_rank_233][handle_cqe] Send desc error in msg to 297, wc_opcode=1
+[atl1-1-02-003-7-l.pace.gatech.edu:mpi_rank_233][handle_cqe] Msg from 297: wc.status=12, wc.wr_id=0x27861f0, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-02-003-7-l.pace.gatech.edu:mpi_rank_233][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=297
+: No such file or directory (2)
+[atl1-1-02-003-7-l.pace.gatech.edu:mpi_rank_234][handle_cqe] Send desc error in msg to 298, wc_opcode=1
+[atl1-1-02-003-7-l.pace.gatech.edu:mpi_rank_234][handle_cqe] Msg from 298: wc.status=12, wc.wr_id=0x2d6dff0, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-02-003-7-l.pace.gatech.edu:mpi_rank_234][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=298
+: No such file or directory (2)
+[atl1-1-02-003-7-l.pace.gatech.edu:mpi_rank_235][handle_cqe] Send desc error in msg to 299, wc_opcode=1
+[atl1-1-02-003-7-l.pace.gatech.edu:mpi_rank_235][handle_cqe] Msg from 299: wc.status=12, wc.wr_id=0x2d08cf0, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-02-003-7-l.pace.gatech.edu:mpi_rank_235][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=299
+: No such file or directory (2)
+[atl1-1-02-003-7-l.pace.gatech.edu:mpi_rank_236][handle_cqe] Send desc error in msg to 300, wc_opcode=1
+[atl1-1-02-003-7-l.pace.gatech.edu:mpi_rank_236][handle_cqe] Msg from 300: wc.status=12, wc.wr_id=0x2c15f70, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-02-003-7-l.pace.gatech.edu:mpi_rank_236][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=300
+: No such file or directory (2)
+[atl1-1-02-003-7-l.pace.gatech.edu:mpi_rank_237][handle_cqe] Send desc error in msg to 301, wc_opcode=1
+[atl1-1-02-003-7-l.pace.gatech.edu:mpi_rank_237][handle_cqe] Msg from 301: wc.status=12, wc.wr_id=0x24863f0, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-02-003-7-l.pace.gatech.edu:mpi_rank_237][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=301
+: No such file or directory (2)
+[atl1-1-02-003-7-l.pace.gatech.edu:mpi_rank_238][handle_cqe] Send desc error in msg to 302, wc_opcode=1
+[atl1-1-02-003-7-l.pace.gatech.edu:mpi_rank_238][handle_cqe] Msg from 302: wc.status=12, wc.wr_id=0x1b80370, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-02-003-7-l.pace.gatech.edu:mpi_rank_238][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=302
+: No such file or directory (2)
+[atl1-1-02-003-7-l.pace.gatech.edu:mpi_rank_239][handle_cqe] Send desc error in msg to 303, wc_opcode=1
+[atl1-1-02-003-7-l.pace.gatech.edu:mpi_rank_239][handle_cqe] Msg from 303: wc.status=12, wc.wr_id=0x1b25130, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-02-003-7-l.pace.gatech.edu:mpi_rank_239][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=303
+: No such file or directory (2)
+[atl1-1-02-003-7-l.pace.gatech.edu:mpi_rank_228][handle_cqe] Send desc error in msg to 292, wc_opcode=1
+[atl1-1-02-003-7-l.pace.gatech.edu:mpi_rank_228][handle_cqe] Msg from 292: wc.status=12, wc.wr_id=0x2c18110, wc.opcode=1, vbuf->phead->type=2 = MPIDI_CH3_PKT_FAST_EAGER_SEND
+[atl1-1-02-003-7-l.pace.gatech.edu:mpi_rank_228][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=292
+: No such file or directory (2)
+[atl1-1-02-003-7-r.pace.gatech.edu:mpi_rank_200][handle_cqe] Send desc error in msg to 296, wc_opcode=1
+[atl1-1-02-003-7-r.pace.gatech.edu:mpi_rank_200][handle_cqe] Msg from 296: wc.status=12, wc.wr_id=0x1ddd190, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-02-003-7-r.pace.gatech.edu:mpi_rank_200][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=296
+: No such file or directory (2)
+[atl1-1-02-003-13-l.pace.gatech.edu:mpi_rank_240][handle_cqe] Send desc error in msg to 304, wc_opcode=1
+[atl1-1-02-003-13-l.pace.gatech.edu:mpi_rank_241][handle_cqe] Send desc error in msg to 305, wc_opcode=1
+[atl1-1-02-003-13-l.pace.gatech.edu:mpi_rank_241][handle_cqe] Msg from 305: wc.status=12, wc.wr_id=0x27ac2b0, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-02-003-13-l.pace.gatech.edu:mpi_rank_241][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=305
+: No such file or directory (2)
+[atl1-1-02-003-13-l.pace.gatech.edu:mpi_rank_242][handle_cqe] Send desc error in msg to 306, wc_opcode=1
+[atl1-1-02-003-13-l.pace.gatech.edu:mpi_rank_242][handle_cqe] Msg from 306: wc.status=12, wc.wr_id=0x2d74d30, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-02-003-13-l.pace.gatech.edu:mpi_rank_242][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=306
+: No such file or directory (2)
+[atl1-1-02-003-13-l.pace.gatech.edu:mpi_rank_243][handle_cqe] Send desc error in msg to 307, wc_opcode=1
+[atl1-1-02-003-13-l.pace.gatech.edu:mpi_rank_243][handle_cqe] Msg from 307: wc.status=12, wc.wr_id=0x28c4670, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-02-003-13-l.pace.gatech.edu:mpi_rank_243][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=307
+: No such file or directory (2)
+[atl1-1-02-003-13-l.pace.gatech.edu:mpi_rank_244][handle_cqe] Send desc error in msg to 308, wc_opcode=1
+[atl1-1-02-003-13-l.pace.gatech.edu:mpi_rank_244][handle_cqe] Msg from 308: wc.status=12, wc.wr_id=0x2c189b0, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-02-003-13-l.pace.gatech.edu:mpi_rank_244][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=308
+: No such file or directory (2)
+[atl1-1-02-003-13-l.pace.gatech.edu:mpi_rank_245][handle_cqe] Send desc error in msg to 309, wc_opcode=1
+[atl1-1-02-003-13-l.pace.gatech.edu:mpi_rank_245][handle_cqe] Msg from 309: wc.status=12, wc.wr_id=0x24891b0, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-02-003-13-l.pace.gatech.edu:mpi_rank_245][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=309
+: No such file or directory (2)
+[atl1-1-02-003-13-l.pace.gatech.edu:mpi_rank_246][handle_cqe] Send desc error in msg to 310, wc_opcode=1
+[atl1-1-02-003-13-l.pace.gatech.edu:mpi_rank_246][handle_cqe] Msg from 310: wc.status=12, wc.wr_id=0x1b227f0, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-02-003-13-l.pace.gatech.edu:mpi_rank_246][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=310
+: No such file or directory (2)
+[atl1-1-02-003-13-l.pace.gatech.edu:mpi_rank_247][handle_cqe] Send desc error in msg to 311, wc_opcode=1
+[atl1-1-02-003-13-l.pace.gatech.edu:mpi_rank_247][handle_cqe] Msg from 311: wc.status=12, wc.wr_id=0x1b205d0, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-02-003-13-l.pace.gatech.edu:mpi_rank_247][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=311
+: No such file or directory (2)
+[atl1-1-02-003-13-l.pace.gatech.edu:mpi_rank_240][handle_cqe] Msg from 304: wc.status=12, wc.wr_id=0x1ae8c30, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-02-003-13-l.pace.gatech.edu:mpi_rank_240][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=304
+: No such file or directory (2)
+[atl1-1-02-003-6-r.pace.gatech.edu:mpi_rank_288][async_thread] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:1157: Got FATAL event port error on port 1
+
+[atl1-1-02-003-6-r.pace.gatech.edu:mpi_rank_289][async_thread] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:1157: Got FATAL event port error on port 1
+
+[atl1-1-02-003-6-r.pace.gatech.edu:mpi_rank_289][handle_cqe] Recv desc error in msg from 282, wc_opcode=2
+[atl1-1-02-003-6-r.pace.gatech.edu:mpi_rank_289][handle_cqe] Msg from 282: wc.status=12, wc.wr_id=0xe4f760, wc.opcode=2, vbuf->phead->type=32 = MPIDI_CH3_PKT_RNDV_REQ_TO_SEND
+[atl1-1-02-003-6-r.pace.gatech.edu:mpi_rank_289][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=282
+: No such file or directory (2)
+[atl1-1-02-003-6-r.pace.gatech.edu:mpi_rank_290][async_thread] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:1157: Got FATAL event port error on port 1
+
+[atl1-1-02-003-6-r.pace.gatech.edu:mpi_rank_290][handle_cqe] Recv desc error in msg from 283, wc_opcode=2
+[atl1-1-02-003-6-r.pace.gatech.edu:mpi_rank_290][handle_cqe] Msg from 283: wc.status=12, wc.wr_id=0xe4f2b0, wc.opcode=2, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-02-003-6-r.pace.gatech.edu:mpi_rank_290][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=283
+: No such file or directory (2)
+[atl1-1-02-003-6-r.pace.gatech.edu:mpi_rank_291][async_thread] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:1157: Got FATAL event port error on port 1
+
+[atl1-1-02-003-6-r.pace.gatech.edu:mpi_rank_291][handle_cqe] Send desc error in msg to 284, wc_opcode=1
+[atl1-1-02-003-6-r.pace.gatech.edu:mpi_rank_291][handle_cqe] Msg from 284: wc.status=12, wc.wr_id=0x2620ca0, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-02-003-6-r.pace.gatech.edu:mpi_rank_291][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=284
+: No such file or directory (2)
+[atl1-1-02-003-6-r.pace.gatech.edu:mpi_rank_292][async_thread] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:1157: Got FATAL event port error on port 1
+
+[atl1-1-02-003-6-r.pace.gatech.edu:mpi_rank_292][handle_cqe] Send desc error in msg to 285, wc_opcode=1
+[atl1-1-02-003-6-r.pace.gatech.edu:mpi_rank_292][handle_cqe] Msg from 285: wc.status=12, wc.wr_id=0x2e32360, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-02-003-6-r.pace.gatech.edu:mpi_rank_292][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=285
+: No such file or directory (2)
+[atl1-1-02-003-6-r.pace.gatech.edu:mpi_rank_293][async_thread] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:1157: Got FATAL event port error on port 1
+
+[atl1-1-02-003-6-r.pace.gatech.edu:mpi_rank_293][handle_cqe] Send desc error in msg to 286, wc_opcode=1
+[atl1-1-02-003-6-r.pace.gatech.edu:mpi_rank_293][handle_cqe] Msg from 286: wc.status=12, wc.wr_id=0x247a360, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-02-003-6-r.pace.gatech.edu:mpi_rank_293][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=286
+: No such file or directory (2)
+[atl1-1-02-003-6-r.pace.gatech.edu:mpi_rank_294][async_thread] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:1157: Got FATAL event port error on port 1
+
+[atl1-1-02-003-6-r.pace.gatech.edu:mpi_rank_294][handle_cqe] Send desc error in msg to 287, wc_opcode=1
+[atl1-1-02-003-6-r.pace.gatech.edu:mpi_rank_294][handle_cqe] Msg from 287: wc.status=12, wc.wr_id=0x1ace1a0, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-02-003-6-r.pace.gatech.edu:mpi_rank_294][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=287
+: No such file or directory (2)
+[atl1-1-02-003-6-r.pace.gatech.edu:mpi_rank_295][async_thread] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:1157: Got FATAL event port error on port 1
+
+[atl1-1-02-003-6-r.pace.gatech.edu:mpi_rank_295][handle_cqe] Send desc error in msg to 286, wc_opcode=1
+[atl1-1-02-003-6-r.pace.gatech.edu:mpi_rank_295][handle_cqe] Msg from 286: wc.status=12, wc.wr_id=0x1aae620, wc.opcode=1, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-02-003-6-r.pace.gatech.edu:mpi_rank_295][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=286
+: No such file or directory (2)
+[atl1-1-02-003-6-r.pace.gatech.edu:mpi_rank_297][async_thread] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:1157: Got FATAL event port error on port 1
+
+[atl1-1-02-003-6-r.pace.gatech.edu:mpi_rank_298][async_thread] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:1157: Got FATAL event port error on port 1
+
+[atl1-1-02-003-6-r.pace.gatech.edu:mpi_rank_299][async_thread] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:1157: Got FATAL event port error on port 1
+
+[atl1-1-02-003-6-r.pace.gatech.edu:mpi_rank_300][async_thread] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:1157: Got FATAL event port error on port 1
+
+[atl1-1-02-003-6-r.pace.gatech.edu:mpi_rank_301][async_thread] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:1157: Got FATAL event port error on port 1
+
+[atl1-1-02-003-6-r.pace.gatech.edu:mpi_rank_302][async_thread] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:1157: Got FATAL event port error on port 1
+
+[atl1-1-02-003-6-r.pace.gatech.edu:mpi_rank_303][async_thread] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:1157: Got FATAL event port error on port 1
+
+[atl1-1-02-003-6-r.pace.gatech.edu:mpi_rank_304][async_thread] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:1157: Got FATAL event port error on port 1
+
+[atl1-1-02-003-6-r.pace.gatech.edu:mpi_rank_305][async_thread] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:1157: Got FATAL event port error on port 1
+
+[atl1-1-02-003-6-r.pace.gatech.edu:mpi_rank_306][async_thread] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:1157: Got FATAL event port error on port 1
+
+[atl1-1-02-003-6-r.pace.gatech.edu:mpi_rank_307][async_thread] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:1157: Got FATAL event port error on port 1
+
+[atl1-1-02-003-6-r.pace.gatech.edu:mpi_rank_308][async_thread] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:1157: Got FATAL event port error on port 1
+
+[atl1-1-02-003-6-r.pace.gatech.edu:mpi_rank_309][async_thread] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:1157: Got FATAL event port error on port 1
+
+[atl1-1-02-003-6-r.pace.gatech.edu:mpi_rank_310][async_thread] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:1157: Got FATAL event port error on port 1
+
+[atl1-1-02-003-6-r.pace.gatech.edu:mpi_rank_311][async_thread] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:1157: Got FATAL event port error on port 1
+
+[atl1-1-02-003-6-r.pace.gatech.edu:mpi_rank_288][handle_cqe] Recv desc error in msg from 281, wc_opcode=2
+[atl1-1-02-003-6-r.pace.gatech.edu:mpi_rank_288][handle_cqe] Msg from 281: wc.status=12, wc.wr_id=0xde62a0, wc.opcode=2, vbuf->phead->type=0 = MPIDI_CH3_PKT_EAGER_SEND
+[atl1-1-02-003-6-r.pace.gatech.edu:mpi_rank_288][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 12, vendor code=0x81, dest rank=281
+: No such file or directory (2)
+[atl1-1-02-003-6-r.pace.gatech.edu:mpi_rank_296][async_thread] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:1157: Got FATAL event port error on port 1
+
+[mpiexec@atl1-1-02-003-13-r.pace.gatech.edu] HYDU_sock_write (utils/sock/sock.c:294): write error (Bad file descriptor)
+[mpiexec@atl1-1-02-003-13-r.pace.gatech.edu] HYD_pmcd_pmiserv_send_signal (pm/pmiserv/pmiserv_cb.c:177): unable to write data to proxy
+[mpiexec@atl1-1-02-003-13-r.pace.gatech.edu] ui_cmd_cb (pm/pmiserv/pmiserv_pmci.c:79): unable to send signal downstream
+[mpiexec@atl1-1-02-003-13-r.pace.gatech.edu] HYDT_dmxu_poll_wait_for_event (tools/demux/demux_poll.c:76): callback returned error status
+[mpiexec@atl1-1-02-003-13-r.pace.gatech.edu] HYD_pmci_wait_for_completion (pm/pmiserv/pmiserv_pmci.c:198): error waiting for event
+[mpiexec@atl1-1-02-003-13-r.pace.gatech.edu] main (ui/mpich/mpiexec.c:340): process manager error waiting for completion
+PSP directory successfully set: /storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/data/pseudos_module/espresso/esp_pseudos_old
+bash: ​: command not found
+PSP directory successfully set: /storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/data/pseudos_module/espresso/esp_pseudos_old
+bash: ​: command not found
+PSP directory successfully set: /storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/data/pseudos_module/espresso/esp_pseudos_old
+bash: ​: command not found
+/storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/gits/dev/ase-latest/ase/calculators/calculator.py:509: FutureWarning: The keyword "ignore_bad_restart_file" is deprecated and will be removed in a future version of ASE.  Passing more than one positional argument to Calculator is also deprecated and will stop functioning in the future.  Please pass arguments by keyword (key=value) except optionally the "restart" keyword.
+  'The keyword "ignore_bad_restart_file" is deprecated and '
+/storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/gits/dev/ase-latest/ase/utils/__init__.py:62: FutureWarning: Please use atoms.cell.cellpar() instead
+  warnings.warn(warning)
+PSP directory successfully set: /storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/data/pseudos_module/espresso/esp_pseudos_old
+bash: ​: command not found
+/storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/gits/dev/ase-latest/ase/calculators/calculator.py:509: FutureWarning: The keyword "ignore_bad_restart_file" is deprecated and will be removed in a future version of ASE.  Passing more than one positional argument to Calculator is also deprecated and will stop functioning in the future.  Please pass arguments by keyword (key=value) except optionally the "restart" keyword.
+  'The keyword "ignore_bad_restart_file" is deprecated and '
+/storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/gits/dev/ase-latest/ase/utils/__init__.py:62: FutureWarning: Please use atoms.cell.cellpar() instead
+  warnings.warn(warning)
+PSP directory successfully set: /storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/data/pseudos_module/espresso/esp_pseudos_old
+bash: ​: command not found

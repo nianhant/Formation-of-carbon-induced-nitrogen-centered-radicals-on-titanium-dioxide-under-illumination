@@ -1,0 +1,57 @@
+&CONTROL
+  calculation='relax',
+  prefix='calc',
+  pseudo_dir='/storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/data/pseudos_module/espresso/nninc/pbe/van',
+  outdir='.',
+  tefield=.true.,
+  dipfield=.true.,
+  tprnfor=.true.,
+  disk_io='none',
+/
+&SYSTEM
+  ibrav=0,
+  celldm(1)=1.8897261245650618d0,
+  nat=2,
+  ntyp=1,
+  ecutwfc=29.39945797996531d00,
+  ecutrho=293.9945797996531d00,
+  nbnd=15,
+  occupations='smearing',
+  smearing='fd',
+  degauss=0.007349864494991328d00,
+  nspin=2,
+  starting_magnetization(1)=0.0d00,
+  input_dft='BEEF-vdW',
+  edir=3,
+  emaxpos=0.0d00,
+  eopreg=0.025d00,
+  eamp=0.0d00,
+  nosym=.false.,
+  noinv=.false.,
+  nosym_evc=.false.,
+  no_t_rev=.false.,
+/
+&ELECTRONS
+  diagonalization='david',
+  conv_thr=7.349864494991327e-08,
+  mixing_beta=0.05d00,
+  electron_maxstep=1000,
+  startingwfc='atomic',
+/
+&IONS
+  ion_dynamics='ipi',
+/
+&CELL
+  cell_dynamics='ipi',
+/
+CELL_PARAMETERS alat
+   10.000000000000000d0     0.000000000000000d0     0.000000000000000d0
+    0.000000000000000d0    10.000000000000000d0     0.000000000000000d0
+    0.000000000000000d0     0.000000000000000d0    10.564990000000000d0
+ATOMIC_SPECIES
+N1 14.007d00 N.UPF
+ATOMIC_POSITIONS {crystal}
+N1       0.499999993672151d0     0.500000017377145d0     0.552242704504332d0
+N1       0.500000006327849d0     0.499999982622855d0     0.447757295495668d0
+K_POINTS automatic
+4 4 1  0 0 0 

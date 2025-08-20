@@ -1,0 +1,329 @@
+PSP directory successfully set: /storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/data/pseudos_module/espresso/esp_pseudos_old
+PSP directory successfully set: /storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/data/pseudos_module/espresso/nninc/pbe/van
+Abort(807489295) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Comm_split: Other MPI error, error stack:
+PMPI_Comm_split(499).....: MPI_Comm_split(comm=0xc400004e, color=0, key=0, new_comm=0x7ffffffed2c0) failed
+PMPI_Comm_split(481).....: 
+MPIR_Comm_split_impl(384): 
+MPIR_Comm_commit(598)....: 
+MPIR_Info_alloc(61)......: Out of memory (unable to allocate a 'MPI_Info')
+[mpiexec@atl1-1-02-010-27-l.pace.gatech.edu] HYDT_bscd_pbs_wait_for_completion (tools/bootstrap/external/pbs_wait.c:67): tm_poll(obit_event) failed with TM error 17002
+[mpiexec@atl1-1-02-010-27-l.pace.gatech.edu] HYDT_bsci_wait_for_completion (tools/bootstrap/src/bsci_wait.c:23): launcher returned error waiting for completion
+[proxy:0:0@atl1-1-02-010-27-l.pace.gatech.edu] HYD_pmcd_pmip_control_cmd_cb (pm/pmiserv/pmip_cb.c:911): assert (!closed) failed
+[proxy:0:0@atl1-1-02-010-27-l.pace.gatech.edu] HYDT_dmxu_poll_wait_for_event (tools/demux/demux_poll.c:76): callback returned error status
+[proxy:0:0@atl1-1-02-010-27-l.pace.gatech.edu] main (pm/pmiserv/pmip.c:202): demux engine error waiting for event
+Traceback (most recent call last):
+  File "run.py", line 26, in <module>
+    relax.run(fmax=0.05)
+  File "/storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/gits/dev/ase-latest/ase/optimize/optimize.py", line 298, in run
+    return Dynamics.run(self)
+  File "/storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/gits/dev/ase-latest/ase/optimize/optimize.py", line 185, in run
+    for converged in Dynamics.irun(self):
+  File "/storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/gits/dev/ase-latest/ase/optimize/optimize.py", line 164, in irun
+    self.step()
+  File "/storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/gits/dev/ase-latest/ase/optimize/bfgslinesearch.py", line 124, in step
+    c2=self.c2, stpmax=self.stpmax)
+  File "/storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/gits/dev/ase-latest/ase/utils/linesearch.py", line 57, in _line_search
+    fval = func(xk + stp * pk, *args)
+  File "/storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/gits/dev/ase-latest/ase/optimize/bfgslinesearch.py", line 172, in func
+    force_consistent=self.force_consistent) / self.alpha)
+  File "/storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/gits/dev/ase-latest/ase/atoms.py", line 730, in get_potential_energy
+    self, force_consistent=force_consistent)
+  File "/storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/gits/dev/ggusmao-espresso/espresso/espresso.py", line 2341, in get_potential_energy
+    self.update(atoms)
+  File "/storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/gits/dev/ggusmao-espresso/espresso/iespresso.py", line 592, in update
+    self.calculate(atoms, properties)
+  File "/storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/gits/dev/ggusmao-espresso/espresso/iespresso.py", line 646, in calculate
+    results = self.server.calculate(atoms,properties)
+  File "/storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/gits/dev/ggusmao-espresso/espresso/iespresso.py", line 457, in calculate
+    return self.protocol.calculate(atoms.positions, atoms.cell, properties)
+  File "/storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/gits/dev/ggusmao-espresso/espresso/iespresso.py", line 290, in calculate
+    r = self.ionic_step(positions, cell, properties)
+  File "/storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/gits/dev/ggusmao-espresso/espresso/iespresso.py", line 274, in ionic_step
+    msg = self.status()
+  File "/storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/gits/dev/ggusmao-espresso/espresso/iespresso.py", line 233, in status
+    msg = self.recvmsg()
+  File "/storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/gits/dev/ggusmao-espresso/espresso/iespresso.py", line 122, in recvmsg
+    msg = self._recvall(12)
+  File "/storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/gits/dev/ggusmao-espresso/espresso/iespresso.py", line 111, in _recvall
+    chunk = self.socket.recv(remaining)
+ConnectionResetError: [Errno 104] Connection reset by peer
+PSP directory successfully set: /storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/data/pseudos_module/espresso/esp_pseudos_old
+PSP directory successfully set: /storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/data/pseudos_module/espresso/nninc/pbe/van
+PSP directory successfully set: /storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/data/pseudos_module/espresso/esp_pseudos_old
+PSP directory successfully set: /storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/data/pseudos_module/espresso/nninc/pbe/van
+Traceback (most recent call last):
+  File "run.py", line 36, in <module>
+    vib.run()
+  File "/storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/gits/dev/ase-latest/ase/vibrations/vibrations.py", line 205, in run
+    result = self.calculate(atoms, disp)
+  File "/storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/gits/dev/ase-latest/ase/vibrations/vibrations.py", line 264, in calculate
+    results['forces'] = self.calc.get_forces(atoms)
+  File "/storage/home/hcoda1/3/ntian30/research/ntian30-espresso/espresso/vibespresso.py", line 88, in get_forces
+    self.update(atoms)
+  File "/storage/home/hcoda1/3/ntian30/research/ntian30-espresso/espresso/vibespresso.py", line 55, in update
+    self.runcalc(atoms)
+  File "/storage/home/hcoda1/3/ntian30/research/ntian30-espresso/espresso/vibespresso.py", line 74, in runcalc
+    self.esp.initialize(atoms)
+  File "/storage/home/hcoda1/3/ntian30/research/ntian30-espresso/espresso/espresso.py", line 964, in initialize
+    self.create_outdir()
+  File "/storage/home/hcoda1/3/ntian30/research/ntian30-espresso/espresso/espresso.py", line 1119, in create_outdir
+    self.scratch = self.site.make_scratch()
+  File "/storage/home/hcoda1/3/ntian30/research/ntian30-espresso/espresso/siteconfig.py", line 266, in make_scratch
+    dir=self.global_scratch))
+  File "/usr/local/pace-apps/manual/packages/anaconda3/2020.02/lib/python3.7/tempfile.py", line 366, in mkdtemp
+    _os.mkdir(file, 0o700)
+FileNotFoundError: [Errno 2] No such file or directory: Path('/storage/home/hcoda1/3/ntian30/scratch/qe_1139763_3035467.sched-torque.pace.gatech.eduolvyq15c_scratch')
+Error in atexit._run_exitfuncs:
+Traceback (most recent call last):
+  File "/storage/home/hcoda1/3/ntian30/research/ntian30-espresso/espresso/espresso.py", line 1183, in clean
+    for fil in self.scratch.files(pattern):
+  File "/usr/local/pace-apps/manual/packages/anaconda3/2020.02/lib/python3.7/site-packages/path/__init__.py", line 535, in files
+    return [p for p in self.listdir(*args, **kwargs) if p.isfile()]
+  File "/usr/local/pace-apps/manual/packages/anaconda3/2020.02/lib/python3.7/site-packages/path/__init__.py", line 513, in listdir
+    return list(filter(match, (self / child for child in os.listdir(self))))
+FileNotFoundError: [Errno 2] No such file or directory: Path('/storage/home/hcoda1/3/ntian30/scratch/qe_1139763_3035467.sched-torque.pace.gatech.edu3gisbz6o_scratch')
+Error in atexit._run_exitfuncs:
+Traceback (most recent call last):
+  File "/storage/home/hcoda1/3/ntian30/research/ntian30-espresso/espresso/espresso.py", line 1183, in clean
+    for fil in self.scratch.files(pattern):
+  File "/usr/local/pace-apps/manual/packages/anaconda3/2020.02/lib/python3.7/site-packages/path/__init__.py", line 535, in files
+    return [p for p in self.listdir(*args, **kwargs) if p.isfile()]
+  File "/usr/local/pace-apps/manual/packages/anaconda3/2020.02/lib/python3.7/site-packages/path/__init__.py", line 513, in listdir
+    return list(filter(match, (self / child for child in os.listdir(self))))
+FileNotFoundError: [Errno 2] No such file or directory: Path('/storage/home/hcoda1/3/ntian30/scratch/qe_1139763_3035467.sched-torque.pace.gatech.edu40vitefi_scratch')
+Error in atexit._run_exitfuncs:
+Traceback (most recent call last):
+  File "/storage/home/hcoda1/3/ntian30/research/ntian30-espresso/espresso/espresso.py", line 1183, in clean
+    for fil in self.scratch.files(pattern):
+  File "/usr/local/pace-apps/manual/packages/anaconda3/2020.02/lib/python3.7/site-packages/path/__init__.py", line 535, in files
+    return [p for p in self.listdir(*args, **kwargs) if p.isfile()]
+  File "/usr/local/pace-apps/manual/packages/anaconda3/2020.02/lib/python3.7/site-packages/path/__init__.py", line 513, in listdir
+    return list(filter(match, (self / child for child in os.listdir(self))))
+FileNotFoundError: [Errno 2] No such file or directory: Path('/storage/home/hcoda1/3/ntian30/scratch/qe_1139763_3035467.sched-torque.pace.gatech.edup0o4v60f_scratch')
+Error in atexit._run_exitfuncs:
+Traceback (most recent call last):
+  File "/storage/home/hcoda1/3/ntian30/research/ntian30-espresso/espresso/espresso.py", line 1183, in clean
+    for fil in self.scratch.files(pattern):
+  File "/usr/local/pace-apps/manual/packages/anaconda3/2020.02/lib/python3.7/site-packages/path/__init__.py", line 535, in files
+    return [p for p in self.listdir(*args, **kwargs) if p.isfile()]
+  File "/usr/local/pace-apps/manual/packages/anaconda3/2020.02/lib/python3.7/site-packages/path/__init__.py", line 513, in listdir
+    return list(filter(match, (self / child for child in os.listdir(self))))
+FileNotFoundError: [Errno 2] No such file or directory: Path('/storage/home/hcoda1/3/ntian30/scratch/qe_1139763_3035467.sched-torque.pace.gatech.edu7wnb0bxh_scratch')
+Error in atexit._run_exitfuncs:
+Traceback (most recent call last):
+  File "/storage/home/hcoda1/3/ntian30/research/ntian30-espresso/espresso/espresso.py", line 1183, in clean
+    for fil in self.scratch.files(pattern):
+  File "/usr/local/pace-apps/manual/packages/anaconda3/2020.02/lib/python3.7/site-packages/path/__init__.py", line 535, in files
+    return [p for p in self.listdir(*args, **kwargs) if p.isfile()]
+  File "/usr/local/pace-apps/manual/packages/anaconda3/2020.02/lib/python3.7/site-packages/path/__init__.py", line 513, in listdir
+    return list(filter(match, (self / child for child in os.listdir(self))))
+FileNotFoundError: [Errno 2] No such file or directory: Path('/storage/home/hcoda1/3/ntian30/scratch/qe_1139763_3035467.sched-torque.pace.gatech.eduiorhw6my_scratch')
+Error in atexit._run_exitfuncs:
+Traceback (most recent call last):
+  File "/storage/home/hcoda1/3/ntian30/research/ntian30-espresso/espresso/espresso.py", line 1183, in clean
+    for fil in self.scratch.files(pattern):
+  File "/usr/local/pace-apps/manual/packages/anaconda3/2020.02/lib/python3.7/site-packages/path/__init__.py", line 535, in files
+    return [p for p in self.listdir(*args, **kwargs) if p.isfile()]
+  File "/usr/local/pace-apps/manual/packages/anaconda3/2020.02/lib/python3.7/site-packages/path/__init__.py", line 513, in listdir
+    return list(filter(match, (self / child for child in os.listdir(self))))
+FileNotFoundError: [Errno 2] No such file or directory: Path('/storage/home/hcoda1/3/ntian30/scratch/qe_1139763_3035467.sched-torque.pace.gatech.edusxsgb1bg_scratch')
+Error in atexit._run_exitfuncs:
+Traceback (most recent call last):
+  File "/storage/home/hcoda1/3/ntian30/research/ntian30-espresso/espresso/espresso.py", line 1183, in clean
+    for fil in self.scratch.files(pattern):
+  File "/usr/local/pace-apps/manual/packages/anaconda3/2020.02/lib/python3.7/site-packages/path/__init__.py", line 535, in files
+    return [p for p in self.listdir(*args, **kwargs) if p.isfile()]
+  File "/usr/local/pace-apps/manual/packages/anaconda3/2020.02/lib/python3.7/site-packages/path/__init__.py", line 513, in listdir
+    return list(filter(match, (self / child for child in os.listdir(self))))
+FileNotFoundError: [Errno 2] No such file or directory: Path('/storage/home/hcoda1/3/ntian30/scratch/qe_1139763_3035467.sched-torque.pace.gatech.edudbr96ppb_scratch')
+Error in atexit._run_exitfuncs:
+Traceback (most recent call last):
+  File "/storage/home/hcoda1/3/ntian30/research/ntian30-espresso/espresso/espresso.py", line 1183, in clean
+    for fil in self.scratch.files(pattern):
+  File "/usr/local/pace-apps/manual/packages/anaconda3/2020.02/lib/python3.7/site-packages/path/__init__.py", line 535, in files
+    return [p for p in self.listdir(*args, **kwargs) if p.isfile()]
+  File "/usr/local/pace-apps/manual/packages/anaconda3/2020.02/lib/python3.7/site-packages/path/__init__.py", line 513, in listdir
+    return list(filter(match, (self / child for child in os.listdir(self))))
+FileNotFoundError: [Errno 2] No such file or directory: Path('/storage/home/hcoda1/3/ntian30/scratch/qe_1139763_3035467.sched-torque.pace.gatech.edub30u269u_scratch')
+Error in atexit._run_exitfuncs:
+Traceback (most recent call last):
+  File "/storage/home/hcoda1/3/ntian30/research/ntian30-espresso/espresso/espresso.py", line 1183, in clean
+    for fil in self.scratch.files(pattern):
+  File "/usr/local/pace-apps/manual/packages/anaconda3/2020.02/lib/python3.7/site-packages/path/__init__.py", line 535, in files
+    return [p for p in self.listdir(*args, **kwargs) if p.isfile()]
+  File "/usr/local/pace-apps/manual/packages/anaconda3/2020.02/lib/python3.7/site-packages/path/__init__.py", line 513, in listdir
+    return list(filter(match, (self / child for child in os.listdir(self))))
+FileNotFoundError: [Errno 2] No such file or directory: Path('/storage/home/hcoda1/3/ntian30/scratch/qe_1139763_3035467.sched-torque.pace.gatech.eduy8eqp06d_scratch')
+Error in atexit._run_exitfuncs:
+Traceback (most recent call last):
+  File "/storage/home/hcoda1/3/ntian30/research/ntian30-espresso/espresso/espresso.py", line 1183, in clean
+    for fil in self.scratch.files(pattern):
+  File "/usr/local/pace-apps/manual/packages/anaconda3/2020.02/lib/python3.7/site-packages/path/__init__.py", line 535, in files
+    return [p for p in self.listdir(*args, **kwargs) if p.isfile()]
+  File "/usr/local/pace-apps/manual/packages/anaconda3/2020.02/lib/python3.7/site-packages/path/__init__.py", line 513, in listdir
+    return list(filter(match, (self / child for child in os.listdir(self))))
+FileNotFoundError: [Errno 2] No such file or directory: Path('/storage/home/hcoda1/3/ntian30/scratch/qe_1139763_3035467.sched-torque.pace.gatech.edumkv21vir_scratch')
+Error in atexit._run_exitfuncs:
+Traceback (most recent call last):
+  File "/storage/home/hcoda1/3/ntian30/research/ntian30-espresso/espresso/espresso.py", line 1183, in clean
+    for fil in self.scratch.files(pattern):
+  File "/usr/local/pace-apps/manual/packages/anaconda3/2020.02/lib/python3.7/site-packages/path/__init__.py", line 535, in files
+    return [p for p in self.listdir(*args, **kwargs) if p.isfile()]
+  File "/usr/local/pace-apps/manual/packages/anaconda3/2020.02/lib/python3.7/site-packages/path/__init__.py", line 513, in listdir
+    return list(filter(match, (self / child for child in os.listdir(self))))
+FileNotFoundError: [Errno 2] No such file or directory: Path('/storage/home/hcoda1/3/ntian30/scratch/qe_1139763_3035467.sched-torque.pace.gatech.eduhq3afpgk_scratch')
+Error in atexit._run_exitfuncs:
+Traceback (most recent call last):
+  File "/storage/home/hcoda1/3/ntian30/research/ntian30-espresso/espresso/espresso.py", line 1183, in clean
+    for fil in self.scratch.files(pattern):
+  File "/usr/local/pace-apps/manual/packages/anaconda3/2020.02/lib/python3.7/site-packages/path/__init__.py", line 535, in files
+    return [p for p in self.listdir(*args, **kwargs) if p.isfile()]
+  File "/usr/local/pace-apps/manual/packages/anaconda3/2020.02/lib/python3.7/site-packages/path/__init__.py", line 513, in listdir
+    return list(filter(match, (self / child for child in os.listdir(self))))
+FileNotFoundError: [Errno 2] No such file or directory: Path('/storage/home/hcoda1/3/ntian30/scratch/qe_1139763_3035467.sched-torque.pace.gatech.edun2elu_fx_scratch')
+Error in atexit._run_exitfuncs:
+Traceback (most recent call last):
+  File "/storage/home/hcoda1/3/ntian30/research/ntian30-espresso/espresso/espresso.py", line 1183, in clean
+    for fil in self.scratch.files(pattern):
+  File "/usr/local/pace-apps/manual/packages/anaconda3/2020.02/lib/python3.7/site-packages/path/__init__.py", line 535, in files
+    return [p for p in self.listdir(*args, **kwargs) if p.isfile()]
+  File "/usr/local/pace-apps/manual/packages/anaconda3/2020.02/lib/python3.7/site-packages/path/__init__.py", line 513, in listdir
+    return list(filter(match, (self / child for child in os.listdir(self))))
+FileNotFoundError: [Errno 2] No such file or directory: Path('/storage/home/hcoda1/3/ntian30/scratch/qe_1139763_3035467.sched-torque.pace.gatech.edu9byovnna_scratch')
+Error in atexit._run_exitfuncs:
+Traceback (most recent call last):
+  File "/storage/home/hcoda1/3/ntian30/research/ntian30-espresso/espresso/espresso.py", line 1183, in clean
+    for fil in self.scratch.files(pattern):
+  File "/usr/local/pace-apps/manual/packages/anaconda3/2020.02/lib/python3.7/site-packages/path/__init__.py", line 535, in files
+    return [p for p in self.listdir(*args, **kwargs) if p.isfile()]
+  File "/usr/local/pace-apps/manual/packages/anaconda3/2020.02/lib/python3.7/site-packages/path/__init__.py", line 513, in listdir
+    return list(filter(match, (self / child for child in os.listdir(self))))
+FileNotFoundError: [Errno 2] No such file or directory: Path('/storage/home/hcoda1/3/ntian30/scratch/qe_1139763_3035467.sched-torque.pace.gatech.edub9l5npfn_scratch')
+Error in atexit._run_exitfuncs:
+Traceback (most recent call last):
+  File "/storage/home/hcoda1/3/ntian30/research/ntian30-espresso/espresso/espresso.py", line 1183, in clean
+    for fil in self.scratch.files(pattern):
+  File "/usr/local/pace-apps/manual/packages/anaconda3/2020.02/lib/python3.7/site-packages/path/__init__.py", line 535, in files
+    return [p for p in self.listdir(*args, **kwargs) if p.isfile()]
+  File "/usr/local/pace-apps/manual/packages/anaconda3/2020.02/lib/python3.7/site-packages/path/__init__.py", line 513, in listdir
+    return list(filter(match, (self / child for child in os.listdir(self))))
+FileNotFoundError: [Errno 2] No such file or directory: Path('/storage/home/hcoda1/3/ntian30/scratch/qe_1139763_3035467.sched-torque.pace.gatech.edu6q7a0d___scratch')
+Error in atexit._run_exitfuncs:
+Traceback (most recent call last):
+  File "/storage/home/hcoda1/3/ntian30/research/ntian30-espresso/espresso/espresso.py", line 1183, in clean
+    for fil in self.scratch.files(pattern):
+  File "/usr/local/pace-apps/manual/packages/anaconda3/2020.02/lib/python3.7/site-packages/path/__init__.py", line 535, in files
+    return [p for p in self.listdir(*args, **kwargs) if p.isfile()]
+  File "/usr/local/pace-apps/manual/packages/anaconda3/2020.02/lib/python3.7/site-packages/path/__init__.py", line 513, in listdir
+    return list(filter(match, (self / child for child in os.listdir(self))))
+FileNotFoundError: [Errno 2] No such file or directory: Path('/storage/home/hcoda1/3/ntian30/scratch/qe_1139763_3035467.sched-torque.pace.gatech.eduelxrnc39_scratch')
+Error in atexit._run_exitfuncs:
+Traceback (most recent call last):
+  File "/storage/home/hcoda1/3/ntian30/research/ntian30-espresso/espresso/espresso.py", line 1183, in clean
+    for fil in self.scratch.files(pattern):
+  File "/usr/local/pace-apps/manual/packages/anaconda3/2020.02/lib/python3.7/site-packages/path/__init__.py", line 535, in files
+    return [p for p in self.listdir(*args, **kwargs) if p.isfile()]
+  File "/usr/local/pace-apps/manual/packages/anaconda3/2020.02/lib/python3.7/site-packages/path/__init__.py", line 513, in listdir
+    return list(filter(match, (self / child for child in os.listdir(self))))
+FileNotFoundError: [Errno 2] No such file or directory: Path('/storage/home/hcoda1/3/ntian30/scratch/qe_1139763_3035467.sched-torque.pace.gatech.eduxethg6bx_scratch')
+Error in atexit._run_exitfuncs:
+Traceback (most recent call last):
+  File "/storage/home/hcoda1/3/ntian30/research/ntian30-espresso/espresso/espresso.py", line 1183, in clean
+    for fil in self.scratch.files(pattern):
+  File "/usr/local/pace-apps/manual/packages/anaconda3/2020.02/lib/python3.7/site-packages/path/__init__.py", line 535, in files
+    return [p for p in self.listdir(*args, **kwargs) if p.isfile()]
+  File "/usr/local/pace-apps/manual/packages/anaconda3/2020.02/lib/python3.7/site-packages/path/__init__.py", line 513, in listdir
+    return list(filter(match, (self / child for child in os.listdir(self))))
+FileNotFoundError: [Errno 2] No such file or directory: Path('/storage/home/hcoda1/3/ntian30/scratch/qe_1139763_3035467.sched-torque.pace.gatech.edu2enzlbxv_scratch')
+Error in atexit._run_exitfuncs:
+Traceback (most recent call last):
+  File "/storage/home/hcoda1/3/ntian30/research/ntian30-espresso/espresso/espresso.py", line 1183, in clean
+    for fil in self.scratch.files(pattern):
+  File "/usr/local/pace-apps/manual/packages/anaconda3/2020.02/lib/python3.7/site-packages/path/__init__.py", line 535, in files
+    return [p for p in self.listdir(*args, **kwargs) if p.isfile()]
+  File "/usr/local/pace-apps/manual/packages/anaconda3/2020.02/lib/python3.7/site-packages/path/__init__.py", line 513, in listdir
+    return list(filter(match, (self / child for child in os.listdir(self))))
+FileNotFoundError: [Errno 2] No such file or directory: Path('/storage/home/hcoda1/3/ntian30/scratch/qe_1139763_3035467.sched-torque.pace.gatech.eduxuui6kj__scratch')
+Error in atexit._run_exitfuncs:
+Traceback (most recent call last):
+  File "/storage/home/hcoda1/3/ntian30/research/ntian30-espresso/espresso/espresso.py", line 1183, in clean
+    for fil in self.scratch.files(pattern):
+  File "/usr/local/pace-apps/manual/packages/anaconda3/2020.02/lib/python3.7/site-packages/path/__init__.py", line 535, in files
+    return [p for p in self.listdir(*args, **kwargs) if p.isfile()]
+  File "/usr/local/pace-apps/manual/packages/anaconda3/2020.02/lib/python3.7/site-packages/path/__init__.py", line 513, in listdir
+    return list(filter(match, (self / child for child in os.listdir(self))))
+FileNotFoundError: [Errno 2] No such file or directory: Path('/storage/home/hcoda1/3/ntian30/scratch/qe_1139763_3035467.sched-torque.pace.gatech.edug8313up0_scratch')
+Error in atexit._run_exitfuncs:
+Traceback (most recent call last):
+  File "/storage/home/hcoda1/3/ntian30/research/ntian30-espresso/espresso/espresso.py", line 1183, in clean
+    for fil in self.scratch.files(pattern):
+  File "/usr/local/pace-apps/manual/packages/anaconda3/2020.02/lib/python3.7/site-packages/path/__init__.py", line 535, in files
+    return [p for p in self.listdir(*args, **kwargs) if p.isfile()]
+  File "/usr/local/pace-apps/manual/packages/anaconda3/2020.02/lib/python3.7/site-packages/path/__init__.py", line 513, in listdir
+    return list(filter(match, (self / child for child in os.listdir(self))))
+FileNotFoundError: [Errno 2] No such file or directory: Path('/storage/home/hcoda1/3/ntian30/scratch/qe_1139763_3035467.sched-torque.pace.gatech.eduhaesozt9_scratch')
+Error in atexit._run_exitfuncs:
+Traceback (most recent call last):
+  File "/storage/home/hcoda1/3/ntian30/research/ntian30-espresso/espresso/espresso.py", line 1183, in clean
+    for fil in self.scratch.files(pattern):
+  File "/usr/local/pace-apps/manual/packages/anaconda3/2020.02/lib/python3.7/site-packages/path/__init__.py", line 535, in files
+    return [p for p in self.listdir(*args, **kwargs) if p.isfile()]
+  File "/usr/local/pace-apps/manual/packages/anaconda3/2020.02/lib/python3.7/site-packages/path/__init__.py", line 513, in listdir
+    return list(filter(match, (self / child for child in os.listdir(self))))
+FileNotFoundError: [Errno 2] No such file or directory: Path('/storage/home/hcoda1/3/ntian30/scratch/qe_1139763_3035467.sched-torque.pace.gatech.edu1cy6zq33_scratch')
+Error in atexit._run_exitfuncs:
+Traceback (most recent call last):
+  File "/storage/home/hcoda1/3/ntian30/research/ntian30-espresso/espresso/espresso.py", line 1183, in clean
+    for fil in self.scratch.files(pattern):
+  File "/usr/local/pace-apps/manual/packages/anaconda3/2020.02/lib/python3.7/site-packages/path/__init__.py", line 535, in files
+    return [p for p in self.listdir(*args, **kwargs) if p.isfile()]
+  File "/usr/local/pace-apps/manual/packages/anaconda3/2020.02/lib/python3.7/site-packages/path/__init__.py", line 513, in listdir
+    return list(filter(match, (self / child for child in os.listdir(self))))
+FileNotFoundError: [Errno 2] No such file or directory: Path('/storage/home/hcoda1/3/ntian30/scratch/qe_1139763_3035467.sched-torque.pace.gatech.edulqkhlorc_scratch')
+Error in atexit._run_exitfuncs:
+Traceback (most recent call last):
+  File "/storage/home/hcoda1/3/ntian30/research/ntian30-espresso/espresso/espresso.py", line 1183, in clean
+    for fil in self.scratch.files(pattern):
+  File "/usr/local/pace-apps/manual/packages/anaconda3/2020.02/lib/python3.7/site-packages/path/__init__.py", line 535, in files
+    return [p for p in self.listdir(*args, **kwargs) if p.isfile()]
+  File "/usr/local/pace-apps/manual/packages/anaconda3/2020.02/lib/python3.7/site-packages/path/__init__.py", line 513, in listdir
+    return list(filter(match, (self / child for child in os.listdir(self))))
+FileNotFoundError: [Errno 2] No such file or directory: Path('/storage/home/hcoda1/3/ntian30/scratch/qe_1139763_3035467.sched-torque.pace.gatech.edup6aogimk_scratch')
+Error in atexit._run_exitfuncs:
+Traceback (most recent call last):
+  File "/storage/home/hcoda1/3/ntian30/research/ntian30-espresso/espresso/espresso.py", line 1183, in clean
+    for fil in self.scratch.files(pattern):
+  File "/usr/local/pace-apps/manual/packages/anaconda3/2020.02/lib/python3.7/site-packages/path/__init__.py", line 535, in files
+    return [p for p in self.listdir(*args, **kwargs) if p.isfile()]
+  File "/usr/local/pace-apps/manual/packages/anaconda3/2020.02/lib/python3.7/site-packages/path/__init__.py", line 513, in listdir
+    return list(filter(match, (self / child for child in os.listdir(self))))
+FileNotFoundError: [Errno 2] No such file or directory: Path('/storage/home/hcoda1/3/ntian30/scratch/qe_1139763_3035467.sched-torque.pace.gatech.eduwu4nyoea_scratch')
+Error in atexit._run_exitfuncs:
+Traceback (most recent call last):
+  File "/storage/home/hcoda1/3/ntian30/research/ntian30-espresso/espresso/espresso.py", line 1183, in clean
+    for fil in self.scratch.files(pattern):
+  File "/usr/local/pace-apps/manual/packages/anaconda3/2020.02/lib/python3.7/site-packages/path/__init__.py", line 535, in files
+    return [p for p in self.listdir(*args, **kwargs) if p.isfile()]
+  File "/usr/local/pace-apps/manual/packages/anaconda3/2020.02/lib/python3.7/site-packages/path/__init__.py", line 513, in listdir
+    return list(filter(match, (self / child for child in os.listdir(self))))
+FileNotFoundError: [Errno 2] No such file or directory: Path('/storage/home/hcoda1/3/ntian30/scratch/qe_1139763_3035467.sched-torque.pace.gatech.edu144anyo6_scratch')
+Error in atexit._run_exitfuncs:
+Traceback (most recent call last):
+  File "/storage/home/hcoda1/3/ntian30/research/ntian30-espresso/espresso/espresso.py", line 1183, in clean
+    for fil in self.scratch.files(pattern):
+  File "/usr/local/pace-apps/manual/packages/anaconda3/2020.02/lib/python3.7/site-packages/path/__init__.py", line 535, in files
+    return [p for p in self.listdir(*args, **kwargs) if p.isfile()]
+  File "/usr/local/pace-apps/manual/packages/anaconda3/2020.02/lib/python3.7/site-packages/path/__init__.py", line 513, in listdir
+    return list(filter(match, (self / child for child in os.listdir(self))))
+FileNotFoundError: [Errno 2] No such file or directory: Path('/storage/home/hcoda1/3/ntian30/scratch/qe_1139763_3035467.sched-torque.pace.gatech.edu9av6pzdw_scratch')
+Error in atexit._run_exitfuncs:
+Traceback (most recent call last):
+  File "/storage/home/hcoda1/3/ntian30/research/ntian30-espresso/espresso/espresso.py", line 1183, in clean
+    for fil in self.scratch.files(pattern):
+  File "/usr/local/pace-apps/manual/packages/anaconda3/2020.02/lib/python3.7/site-packages/path/__init__.py", line 535, in files
+    return [p for p in self.listdir(*args, **kwargs) if p.isfile()]
+  File "/usr/local/pace-apps/manual/packages/anaconda3/2020.02/lib/python3.7/site-packages/path/__init__.py", line 513, in listdir
+    return list(filter(match, (self / child for child in os.listdir(self))))
+FileNotFoundError: [Errno 2] No such file or directory: Path('/storage/home/hcoda1/3/ntian30/scratch/qe_1139763_3035467.sched-torque.pace.gatech.edugifajah8_scratch')
+PSP directory successfully set: /storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/data/pseudos_module/espresso/esp_pseudos_old
+PSP directory successfully set: /storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/data/pseudos_module/espresso/nninc/pbe/van

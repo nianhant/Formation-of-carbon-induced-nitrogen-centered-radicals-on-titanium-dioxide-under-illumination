@@ -1,0 +1,76 @@
+PSP directory successfully set: /storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/data/pseudos_module/espresso/esp_pseudos_old
+bash: ​: command not found
+/storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/gits/dev/ase-latest/ase/calculators/calculator.py:509: FutureWarning: The keyword "ignore_bad_restart_file" is deprecated and will be removed in a future version of ASE.  Passing more than one positional argument to Calculator is also deprecated and will stop functioning in the future.  Please pass arguments by keyword (key=value) except optionally the "restart" keyword.
+  'The keyword "ignore_bad_restart_file" is deprecated and '
+/storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/gits/dev/ase-latest/ase/utils/__init__.py:62: FutureWarning: Please use atoms.cell.cellpar() instead
+  warnings.warn(warning)
+PSP directory successfully set: /storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/data/pseudos_module/espresso/esp_pseudos_old
+PSP directory successfully set: /storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/data/pseudos_module/espresso/sssp/prec/v1_1/nonrel
+/storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/gits/dev/ase-latest/ase/utils/__init__.py:62: FutureWarning: Please use atoms.cell.rank instead
+  warnings.warn(warning)
+PSP directory successfully set: /storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/data/pseudos_module/espresso/esp_pseudos_old
+PSP directory successfully set: /storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/data/pseudos_module/espresso/sssp/prec/v1_1/nonrel
+Traceback (most recent call last):
+  File "run.py", line 21, in <module>
+    relax = BFGSLineSearch(image,
+  File "/storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/gits/dev/ase-latest/ase/optimize/bfgslinesearch.py", line 84, in __init__
+    Optimizer.__init__(self, atoms, restart, logfile, trajectory,
+  File "/storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/gits/dev/ase-latest/ase/optimize/optimize.py", line 263, in __init__
+    self.set_force_consistent()
+  File "/storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/gits/dev/ase-latest/ase/optimize/optimize.py", line 354, in set_force_consistent
+    self.atoms.get_potential_energy(force_consistent=True)
+  File "/storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/gits/dev/ase-latest/ase/atoms.py", line 729, in get_potential_energy
+    energy = self._calc.get_potential_energy(
+  File "/storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/gits/dev/ggusmao-espresso/espresso/espresso.py", line 2342, in get_potential_energy
+    self.update(atoms)
+  File "/storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/gits/dev/ggusmao-espresso/espresso/iespresso.py", line 630, in update
+    self.calculate(atoms, properties)
+  File "/storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/gits/dev/ggusmao-espresso/espresso/iespresso.py", line 684, in calculate
+    results = self.server.calculate(atoms,properties)
+  File "/storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/gits/dev/ggusmao-espresso/espresso/iespresso.py", line 495, in calculate
+    return self.protocol.calculate(atoms.positions, atoms.cell, properties)
+  File "/storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/gits/dev/ggusmao-espresso/espresso/iespresso.py", line 326, in calculate
+    msg = self.status()
+  File "/storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/gits/dev/ggusmao-espresso/espresso/iespresso.py", line 261, in status
+    msg = self.recvmsg()
+  File "/storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/gits/dev/ggusmao-espresso/espresso/iespresso.py", line 132, in recvmsg
+    msg = self._recvall(nat)
+  File "/storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/gits/dev/ggusmao-espresso/espresso/iespresso.py", line 120, in _recvall
+    chunk = self.socket.recv(remaining)
+ConnectionResetError: [Errno 104] Connection reset by peer
+PSP directory successfully set: /storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/data/pseudos_module/espresso/esp_pseudos_old
+PSP directory successfully set: /storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/data/pseudos_module/espresso/sssp/prec/v1_1/nonrel
+/storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/gits/dev/ase-latest/ase/utils/__init__.py:62: FutureWarning: Please use atoms.cell.rank instead
+  warnings.warn(warning)
+Traceback (most recent call last):
+  File "run.py", line 30, in <module>
+    eng_ensemble = image.get_ensemble_energies()
+  File "/storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/gits/dev/ggusmao-espresso/espresso/iespresso.py", line 723, in get_ensemble_energies
+    self.update(self.atoms,['ensemble_energies'])
+  File "/storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/gits/dev/ggusmao-espresso/espresso/iespresso.py", line 630, in update
+    self.calculate(atoms, properties)
+  File "/storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/gits/dev/ggusmao-espresso/espresso/iespresso.py", line 684, in calculate
+    results = self.server.calculate(atoms,properties)
+  File "/storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/gits/dev/ggusmao-espresso/espresso/iespresso.py", line 495, in calculate
+    return self.protocol.calculate(atoms.positions, atoms.cell, properties)
+  File "/storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/gits/dev/ggusmao-espresso/espresso/iespresso.py", line 328, in calculate
+    r = self.ionic_step(positions, cell, properties)
+  File "/storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/gits/dev/ggusmao-espresso/espresso/iespresso.py", line 312, in ionic_step
+    msg = self.status()
+  File "/storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/gits/dev/ggusmao-espresso/espresso/iespresso.py", line 261, in status
+    msg = self.recvmsg()
+  File "/storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/gits/dev/ggusmao-espresso/espresso/iespresso.py", line 132, in recvmsg
+    msg = self._recvall(nat)
+  File "/storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/gits/dev/ggusmao-espresso/espresso/iespresso.py", line 120, in _recvall
+    chunk = self.socket.recv(remaining)
+ConnectionResetError: [Errno 104] Connection reset by peer
+PSP directory successfully set: /storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/data/pseudos_module/espresso/esp_pseudos_old
+PSP directory successfully set: /storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/data/pseudos_module/espresso/sssp/prec/v1_1/nonrel
+[mpiexec@atl1-1-03-002-1-l.pace.gatech.edu] HYDT_bscd_pbs_wait_for_completion (tools/bootstrap/external/pbs_wait.c:67): tm_poll(obit_event) failed with TM error 17002
+[mpiexec@atl1-1-03-002-1-l.pace.gatech.edu] HYDT_bsci_wait_for_completion (tools/bootstrap/src/bsci_wait.c:23): launcher returned error waiting for completion
+[mpiexec@atl1-1-03-002-1-l.pace.gatech.edu] HYD_pmci_wait_for_completion (pm/pmiserv/pmiserv_pmci.c:218): launcher returned error waiting for completion
+[mpiexec@atl1-1-03-002-1-l.pace.gatech.edu] main (ui/mpich/mpiexec.c:340): process manager error waiting for completion
+/storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/gits/dev/ase-latest/ase/utils/__init__.py:62: FutureWarning: Please use atoms.cell.rank instead
+  warnings.warn(warning)
+/storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/gits/dev/ggusmao-espresso/espresso/iespresso.py:475: UserWarning: Subprocess exited with status 255
+  warnings.warn('Subprocess exited with status {}'

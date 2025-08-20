@@ -1,0 +1,138 @@
+PSP directory successfully set: /storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/data/pseudos_module/espresso/esp_pseudos_old
+bash: ​: command not found
+mlx5: atl1-1-01-004-20-l.pace.gatech.edu: got completion with error:
+00000000 00000000 00000000 00000000
+00000000 00000000 00000000 00000000
+0000000d 00000000 00000000 00000000
+00000000 00008813 10010c09 00fc5ed3
+[atl1-1-01-004-20-l.pace.gatech.edu:mpi_rank_42][handle_cqe] Recv desc error in msg from 174, wc_opcode=2
+[atl1-1-01-004-20-l.pace.gatech.edu:mpi_rank_42][handle_cqe] Msg from 174: wc.status=10, wc.wr_id=0xe4b7b0, wc.opcode=2, vbuf->phead->type=32 = MPIDI_CH3_PKT_RNDV_REQ_TO_SEND
+[atl1-1-01-004-20-l.pace.gatech.edu:mpi_rank_42][handle_cqe] src/mpid/ch3/channels/mrail/src/gen2/ibv_channel_manager.c:548: [] Got completion with error 10, vendor code=0x88, dest rank=174
+: Cannot allocate memory (12)
+[proxy:0:4@atl1-1-01-004-18-r.pace.gatech.edu] HYD_pmcd_pmip_control_cmd_cb (pm/pmiserv/pmip_cb.c:911): assert (!closed) failed
+[proxy:0:4@atl1-1-01-004-18-r.pace.gatech.edu] HYDT_dmxu_poll_wait_for_event (tools/demux/demux_poll.c:76): callback returned er[proxy:0:2@atl1-1-01-004-19-r.pace.gatech.edu] HYD_pmcd_pmip_control_cmd_cb (pm/pmiserv/pmip_cb.c:911): assert (!closed) failed
+[proxy:0:2@atl1-1-01-004-19-r.pace.gatech.edu] HYDT_dmxu_poll_wait_for_event (tools/demux/demux_poll.c:76): callback returned er[proxy:0:3@atl1-1-01-004-19-l.pace.gatech.edu] HYD_pmcd_pmip_control_cmd_cb (pm/pmiserv/pmip_cb.c:911): assert (!closed) failed
+[proxy:0:3@atl1-1-01-004-19-l.pace.gatech.edu] HYDT_dmxu_poll_wait_for_event (tools/demux/demux_poll.c:76): callback returned error status
+[proxy:0:4@atl1-1-01-004-18-r.pace.gatech.edu] main (pm/pmiserv/pmip.c:202): demux engine error waiting for event
+[proxy:0:5@atl1-1-01-004-18-l.pace.gatech.edu] HYD_pmcd_pmip_control_cmd_cb (pm/pmiserv/pmip_cb.c:911): assert (!closed) failed
+[proxy:0:5@atl1-1-01-004-18-l.pace.gatech.edu] HYDT_dmxu_poll_wait_for_event (tools/demux/demux_poll.c:76): callback returned er[proxy:0:7@atl1-1-01-004-17-l.pace.gatech.edu] HYD_pmcd_pmip_control_cmd_cb (pm/pmiserv/pmip_cb.c:911): assert (!closed) failed
+[proxy:0:7@atl1-1-01-004-17-l.pace.gatech.edu] HYDT_dmxu_poll_wait_for_event (tools/demux/demux_poll.c:76): callback returned er[proxy:0:6@atl1-1-01-004-17-r.pace.gatech.edu] HYD_pmcd_pmip_control_cmd_cb (pm/pmiserv/pmip_cb.c:911): assert (!closed) failed
+[proxy:0:6@atl1-1-01-004-17-r.pace.gatech.edu] HYDT_dmxu_poll_wait_for_event (tools/demux/demux_poll.c:76): callback returned er[proxy:0:8@atl1-1-01-004-16-r.pace.gatech.edu] HYD_pmcd_pmip_control_cmd_cb (pm/pmiserv/pmip_cb.c:911): assert (!closed) failed
+[proxy:0:8@atl1-1-01-004-16-r.pace.gatech.edu] HYDT_dmxu_poll_wait_for_event (tools/demux/demux_poll.c:76): callback returned er[proxy:0:9@atl1-1-01-004-16-l.pace.gatech.edu] HYD_pmcd_pmip_control_cmd_cb (pm/pmiserv/pmip_cb.c:911): assert (!closed) failed
+[proxy:0:9@atl1-1-01-004-16-l.pace.gatech.edu] HYDT_dmxu_poll_wait_for_event (tools/demux/demux_poll.c:76): callback returned er[proxy:0:10@atl1-1-01-004-15-r.pace.gatech.edu] HYD_pmcd_pmip_control_cmd_cb (pm/pmiserv/pmip_cb.c:911): assert (!closed) failed
+[proxy:0:10@atl1-1-01-004-15-r.pace.gatech.edu] HYDT_dmxu_poll_wait_for_event (tools/demux/demux_poll.c:76): callback returned [proxy:0:13@atl1-1-01-004-14-l.pace.gatech.edu] HYD_pmcd_pmip_control_cmd_cb (pm/pmiserv/pmip_cb.c:911): assert (!closed) failed
+[proxy:0:13@atl1-1-01-004-14-l.pace.gatech.edu] HYDT_dmxu_poll_wait_for_event (tools/demux/demux_poll.c:76): callback returned [proxy:0:12@atl1-1-01-004-14-r.pace.gatech.edu] HYD_pmcd_pmip_control_cmd_cb (pm/pmiserv/pmip_cb.c:911): assert (!closed) failed
+[proxy:0:12@atl1-1-01-004-14-r.pace.gatech.edu] HYDT_dmxu_poll_wait_for_event (tools/demux/demux_poll.c:76): callback returned [proxy:0:1@atl1-1-01-004-20-l.pace.gatech.edu] HYD_pmcd_pmip_control_cmd_cb (pm/pmiserv/pmip_cb.c:911): assert (!closed) failed
+[proxy:0:1@atl1-1-01-004-20-l.pace.gatech.edu] HYDT_dmxu_poll_wait_for_event (tools/demux/demux_poll.c:76): callback returned error status
+[proxy:0:2@atl1-1-01-004-19-r.pace.gatech.edu] main (pm/pmiserv/pmip.c:202): demux engine error waiting for event
+ror status
+[proxy:0:3@atl1-1-01-004-19-l.pace.gatech.edu] main (pm/pmiserv/pmip.c:202): demux engine error waiting for event
+ror status
+[proxy:0:5@atl1-1-01-004-18-l.pace.gatech.edu] main (pm/pmiserv/pmip.c:202): demux engine error waiting for event
+ror status
+[proxy:0:7@atl1-1-01-004-17-l.pace.gatech.edu] main (pm/pmiserv/pmip.c:202): demux engine error waiting for event
+ror status
+[proxy:0:6@atl1-1-01-004-17-r.pace.gatech.edu] main (pm/pmiserv/pmip.c:202): demux engine error waiting for event
+ror status
+[proxy:0:8@atl1-1-01-004-16-r.pace.gatech.edu] main (pm/pmiserv/pmip.c:202): demux engine error waiting for event
+ror status
+[proxy:0:9@atl1-1-01-004-16-l.pace.gatech.edu] main (pm/pmiserv/pmip.c:202): demux engine error waiting for event
+error status
+[proxy:0:10@atl1-1-01-004-15-r.pace.gatech.edu] main (pm/pmiserv/pmip.c:202): demux engine error waiting for event
+error status
+[proxy:0:13@atl1-1-01-004-14-l.pace.gatech.edu] main (pm/pmiserv/pmip.c:202): demux engine error waiting for event
+error status
+[proxy:0:12@atl1-1-01-004-14-r.pace.gatech.edu] main (pm/pmiserv/pmip.c:202): demux engine error waiting for event
+ror status
+[proxy:0:1@atl1-1-01-004-20-l.pace.gatech.edu] main (pm/pmiserv/pmip.c:202): demux engine error waiting for event
+[proxy:0:11@atl1-1-01-004-15-l.pace.gatech.edu] HYD_pmcd_pmip_control_cmd_cb (pm/pmiserv/pmip_cb.c:911): assert (!closed) failed
+[proxy:0:11@atl1-1-01-004-15-l.pace.gatech.edu] HYDT_dmxu_poll_wait_for_event (tools/demux/demux_poll.c:76): callback returned error status
+[proxy:0:11@atl1-1-01-004-15-l.pace.gatech.edu] main (pm/pmiserv/pmip.c:202): demux engine error waiting for event
+/storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/gits/dev/ase-latest/ase/calculators/calculator.py:509: FutureWarning: The keyword "ignore_bad_restart_file" is deprecated and will be removed in a future version of ASE.  Passing more than one positional argument to Calculator is also deprecated and will stop functioning in the future.  Please pass arguments by keyword (key=value) except optionally the "restart" keyword.
+  'The keyword "ignore_bad_restart_file" is deprecated and '
+/storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/gits/dev/ase-latest/ase/utils/__init__.py:62: FutureWarning: Please use atoms.cell.cellpar() instead
+  warnings.warn(warning)
+Traceback (most recent call last):
+  File "run.py", line 31, in <module>
+    energy = sim.get_potential_energy()
+  File "/storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/gits/dev/ase-latest/ase/atoms.py", line 732, in get_potential_energy
+    energy = self._calc.get_potential_energy(self)
+  File "/storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/gits/dev/ase-latest/ase/calculators/calculator.py", line 709, in get_potential_energy
+    energy = self.get_property('energy', atoms)
+  File "/storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/gits/dev/ase-latest/ase/calculators/calculator.py", line 737, in get_property
+    self.calculate(atoms, [name], system_changes)
+  File "/storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/builds/sparc/SPARC_latest_2021/sparc-dft-api/sparc/sparc_core.py", line 751, in calculate
+    .format(self.name, path, errorcode))
+ase.calculators.calculator.CalculationFailed: sparc in /storage/coda1/p-amedford6/0/ntian30/HSE/slab/rutile_O_br_vacant/f_5e-05_h_0.075_k_4 returned an error: 9
+PSP directory successfully set: /storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/data/pseudos_module/espresso/esp_pseudos_old
+bash: ​: command not found
+[proxy:0:1@atl1-1-01-004-3-r.pace.gatech.edu] HYD_pmcd_pmip_control_cmd_cb (pm/pmiserv/pmip_cb.c:911): assert (!closed) failed
+[proxy:0:1@atl1-1-01-004-3-r.pace.gatech.edu] HYDT_dmxu_poll_wait_for_event (tools/demux/demux_poll.c:76): callback returned erro[proxy:0:2@atl1-1-01-004-3-l.pace.gatech.edu] HYD_pmcd_pmip_control_cmd_cb (pm/pmiserv/pmip_cb.c:911): assert (!closed) failed
+[proxy:0:2@atl1-1-01-004-3-l.pace.gatech.edu] HYDT_dmxu_poll_wait_for_event (tools/demux/demux_poll.c:76): callback returned erro[proxy:0:3@atl1-1-01-004-2-r.pace.gatech.edu] HYD_pmcd_pmip_control_cmd_cb (pm/pmiserv/pmip_cb.c:911): assert (!closed) failed
+[proxy:0:3@atl1-1-01-004-2-r.pace.gatech.edu] HYDT_dmxu_poll_wait_for_event (tools/demux/demux_poll.c:76): callback returned erro[proxy:0:4@atl1-1-01-004-13-r.pace.gatech.edu] HYD_pmcd_pmip_control_cmd_cb (pm/pmiserv/pmip_cb.c:911): assert (!closed) failed
+[proxy:0:4@atl1-1-01-004-13-r.pace.gatech.edu] HYDT_dmxu_poll_wait_for_event (tools/demux/demux_poll.c:76): callback returned er[proxy:0:5@atl1-1-01-004-2-l.pace.gatech.edu] HYD_pmcd_pmip_control_cmd_cb (pm/pmiserv/pmip_cb.c:911): assert (!closed) failed
+[proxy:0:5@atl1-1-01-004-2-l.pace.gatech.edu] HYDT_dmxu_poll_wait_for_event (tools/demux/demux_poll.c:76): callback returned erro[proxy:0:6@atl1-1-01-004-1-r.pace.gatech.edu] HYD_pmcd_pmip_control_cmd_cb (pm/pmiserv/pmip_cb.c:911): assert (!closed) failed
+[proxy:0:6@atl1-1-01-004-1-r.pace.gatech.edu] HYDT_dmxu_poll_wait_for_event (tools/demux/demux_poll.c:76): callback returned erro[proxy:0:7@atl1-1-01-004-1-l.pace.gatech.edu] HYD_pmcd_pmip_control_cmd_cb (pm/pmiserv/pmip_cb.c:911): assert (!closed) failed
+[proxy:0:7@atl1-1-01-004-1-l.pace.gatech.edu] HYDT_dmxu_poll_wait_for_event (tools/demux/demux_poll.c:76): callback returned erro[proxy:0:8@atl1-1-01-004-30-r.pace.gatech.edu] HYD_pmcd_pmip_control_cmd_cb (pm/pmiserv/pmip_cb.c:911): assert (!closed) failed
+[proxy:0:8@atl1-1-01-004-30-r.pace.gatech.edu] HYDT_dmxu_poll_wait_for_event (tools/demux/demux_poll.c:76): callback returned er[proxy:0:9@atl1-1-01-004-30-l.pace.gatech.edu] HYD_pmcd_pmip_control_cmd_cb (pm/pmiserv/pmip_cb.c:911): assert (!closed) failed
+[proxy:0:9@atl1-1-01-004-30-l.pace.gatech.edu] HYDT_dmxu_poll_wait_for_event (tools/demux/demux_poll.c:76): callback returned er[proxy:0:10@atl1-1-01-004-29-r.pace.gatech.edu] HYD_pmcd_pmip_control_cmd_cb (pm/pmiserv/pmip_cb.c:911): assert (!closed) failed
+[proxy:0:10@atl1-1-01-004-29-r.pace.gatech.edu] HYDT_dmxu_poll_wait_for_event (tools/demux/demux_poll.c:76): callback returned [proxy:0:11@atl1-1-01-004-29-l.pace.gatech.edu] HYD_pmcd_pmip_control_cmd_cb (pm/pmiserv/pmip_cb.c:911): assert (!closed) failed
+[proxy:0:11@atl1-1-01-004-29-l.pace.gatech.edu] HYDT_dmxu_poll_wait_for_event (tools/demux/demux_poll.c:76): callback returned [proxy:0:12@atl1-1-01-004-28-r.pace.gatech.edu] HYD_pmcd_pmip_control_cmd_cb (pm/pmiserv/pmip_cb.c:911): assert (!closed) failed
+[proxy:0:12@atl1-1-01-004-28-r.pace.gatech.edu] HYDT_dmxu_poll_wait_for_event (tools/demux/demux_poll.c:76): callback returned [proxy:0:13@atl1-1-01-004-28-l.pace.gatech.edu] HYD_pmcd_pmip_control_cmd_cb (pm/pmiserv/pmip_cb.c:911): assert (!closed) failed
+[proxy:0:13@atl1-1-01-004-28-l.pace.gatech.edu] HYDT_dmxu_poll_wait_for_event (tools/demux/demux_poll.c:76): callback returned r status
+[proxy:0:1@atl1-1-01-004-3-r.pace.gatech.edu] main (pm/pmiserv/pmip.c:202): demux engine error waiting for event
+r status
+[proxy:0:2@atl1-1-01-004-3-l.pace.gatech.edu] main (pm/pmiserv/pmip.c:202): demux engine error waiting for event
+r status
+[proxy:0:3@atl1-1-01-004-2-r.pace.gatech.edu] main (pm/pmiserv/pmip.c:202): demux engine error waiting for event
+ror status
+[proxy:0:4@atl1-1-01-004-13-r.pace.gatech.edu] main (pm/pmiserv/pmip.c:202): demux engine error waiting for event
+r status
+[proxy:0:5@atl1-1-01-004-2-l.pace.gatech.edu] main (pm/pmiserv/pmip.c:202): demux engine error waiting for event
+r status
+[proxy:0:6@atl1-1-01-004-1-r.pace.gatech.edu] main (pm/pmiserv/pmip.c:202): demux engine error waiting for event
+r status
+[proxy:0:7@atl1-1-01-004-1-l.pace.gatech.edu] main (pm/pmiserv/pmip.c:202): demux engine error waiting for event
+ror status
+[proxy:0:8@atl1-1-01-004-30-r.pace.gatech.edu] main (pm/pmiserv/pmip.c:202): demux engine error waiting for event
+ror status
+[proxy:0:9@atl1-1-01-004-30-l.pace.gatech.edu] main (pm/pmiserv/pmip.c:202): demux engine error waiting for event
+error status
+[proxy:0:10@atl1-1-01-004-29-r.pace.gatech.edu] main (pm/pmiserv/pmip.c:202): demux engine error waiting for event
+error status
+[proxy:0:11@atl1-1-01-004-29-l.pace.gatech.edu] main (pm/pmiserv/pmip.c:202): demux engine error waiting for event
+error status
+[proxy:0:12@atl1-1-01-004-28-r.pace.gatech.edu] main (pm/pmiserv/pmip.c:202): demux engine error waiting for event
+error status
+[proxy:0:13@atl1-1-01-004-28-l.pace.gatech.edu] main (pm/pmiserv/pmip.c:202): demux engine error waiting for event
+/storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/gits/dev/ase-latest/ase/calculators/calculator.py:509: FutureWarning: The keyword "ignore_bad_restart_file" is deprecated and will be removed in a future version of ASE.  Passing more than one positional argument to Calculator is also deprecated and will stop functioning in the future.  Please pass arguments by keyword (key=value) except optionally the "restart" keyword.
+  'The keyword "ignore_bad_restart_file" is deprecated and '
+/storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/gits/dev/ase-latest/ase/utils/__init__.py:62: FutureWarning: Please use atoms.cell.cellpar() instead
+  warnings.warn(warning)
+Traceback (most recent call last):
+  File "run.py", line 31, in <module>
+    energy = sim.get_potential_energy()
+  File "/storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/gits/dev/ase-latest/ase/atoms.py", line 732, in get_potential_energy
+    energy = self._calc.get_potential_energy(self)
+  File "/storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/gits/dev/ase-latest/ase/calculators/calculator.py", line 709, in get_potential_energy
+    energy = self.get_property('energy', atoms)
+  File "/storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/gits/dev/ase-latest/ase/calculators/calculator.py", line 737, in get_property
+    self.calculate(atoms, [name], system_changes)
+  File "/storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/builds/sparc/SPARC_latest_2021/sparc-dft-api/sparc/sparc_core.py", line 751, in calculate
+    .format(self.name, path, errorcode))
+ase.calculators.calculator.CalculationFailed: sparc in /storage/coda1/p-amedford6/0/ntian30/HSE/slab/rutile_O_br_vacant/f_5e-05_h_0.075_k_4 returned an error: 9
+PSP directory successfully set: /storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/data/pseudos_module/espresso/esp_pseudos_old
+bash: ​: command not found
+=>> PBS: job killed: walltime 129655 exceeded limit 129600
+PSP directory successfully set: /storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/data/pseudos_module/espresso/esp_pseudos_old
+bash: ​: command not found
+/storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/gits/dev/ase-latest/ase/calculators/calculator.py:509: FutureWarning: The keyword "ignore_bad_restart_file" is deprecated and will be removed in a future version of ASE.  Passing more than one positional argument to Calculator is also deprecated and will stop functioning in the future.  Please pass arguments by keyword (key=value) except optionally the "restart" keyword.
+  'The keyword "ignore_bad_restart_file" is deprecated and '
+/storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/gits/dev/ase-latest/ase/utils/__init__.py:62: FutureWarning: Please use atoms.cell.cellpar() instead
+  warnings.warn(warning)
+PSP directory successfully set: /storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/data/pseudos_module/espresso/esp_pseudos_old
+bash: ​: command not found
+/storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/gits/dev/ase-latest/ase/calculators/calculator.py:509: FutureWarning: The keyword "ignore_bad_restart_file" is deprecated and will be removed in a future version of ASE.  Passing more than one positional argument to Calculator is also deprecated and will stop functioning in the future.  Please pass arguments by keyword (key=value) except optionally the "restart" keyword.
+  'The keyword "ignore_bad_restart_file" is deprecated and '
+/storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/gits/dev/ase-latest/ase/utils/__init__.py:62: FutureWarning: Please use atoms.cell.cellpar() instead
+  warnings.warn(warning)

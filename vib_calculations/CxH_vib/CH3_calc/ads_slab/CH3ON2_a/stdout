@@ -1,0 +1,72 @@
+---------------------------------------
+Begin PBS Prologue Mon Sep 20 20:25:20 EDT 2021
+Job ID:     2915009.sched-torque.pace.gatech.edu
+User ID:    ntian30
+Job name:   CH3_end_on/CH3ON2_a
+Queue:      inferno
+End PBS Prologue Mon Sep 20 20:25:20 EDT 2021
+---------------------------------------
+Requirement already satisfied: py-hostlist in /storage/home/hcoda1/3/ntian30/.local/lib/python3.7/site-packages (0.0.2.dev0)
+/storage/home/hcoda1/3/ntian30/research/carbon/CH3_end_on/ads_slab/CH3ON2_a
+CMD mpirun -wdir /storage/home/hcoda1/3/ntian30/scratch/qe_1139763_2915009.sched-torque.pace.gatech.edum3u9bmcg_scratch pw.x -in /storage/home/hcoda1/3/ntian30/research/carbon/CH3_end_on/ads_slab/CH3ON2_a/CH3_end_on.log/pw.inp --ipi qe_1139763_2915009.sched-torque.pace.gatech.edum3u9bmcg_scratch:UNIX >> /storage/home/hcoda1/3/ntian30/research/carbon/CH3_end_on/ads_slab/CH3ON2_a/CH3_end_on.log/pw.out
+46912895955984 Awaiting client
+----------> <socket.socket fd=8, family=AddressFamily.AF_UNIX, type=SocketKind.SOCK_STREAM, proto=0, laddr=/tmp/ipi_qe_1139763_2915009.sched-torque.pace.gatech.edum3u9bmcg_scratch> 
+---------------------------------------
+Begin PBS Epilogue Tue Sep 21 01:47:51 EDT 2021
+Job ID:     2915009.sched-torque.pace.gatech.edu
+User ID:    ntian30
+Job name:   CH3_end_on/CH3ON2_a
+Resources:  nodes=1:ppn=10,pmem=18b,walltime=72:00:00,neednodes=1:ppn=10
+Rsrc Used:  cput=53:21:09,vmem=59130944kb,walltime=05:22:31,mem=33780056kb,energy_used=0
+Queue:      inferno
+Nodes:     
+atl1-1-02-020-5-r.pace.gatech.edu
+End PBS Epilogue Tue Sep 21 01:47:51 EDT 2021
+---------------------------------------
+---------------------------------------
+Begin PBS Prologue Tue Sep 21 09:04:32 EDT 2021
+Job ID:     2920893.sched-torque.pace.gatech.edu
+User ID:    ntian30
+Job name:   CH3_end_on/CH3ON2_a
+Queue:      inferno
+End PBS Prologue Tue Sep 21 09:04:32 EDT 2021
+---------------------------------------
+Requirement already satisfied: py-hostlist in /storage/home/hcoda1/3/ntian30/.local/lib/python3.7/site-packages (0.0.2.dev0)
+/storage/home/hcoda1/3/ntian30/research/carbon/CH3_end_on/ads_slab/CH3ON2_a
+CMD mpirun -wdir /storage/home/hcoda1/3/ntian30/scratch/qe_1139763_2920893.sched-torque.pace.gatech.educsspn6rn_scratch pw.x -in /storage/home/hcoda1/3/ntian30/research/carbon/CH3_end_on/ads_slab/CH3ON2_a/CH3_end_on.log/pw.inp --ipi qe_1139763_2920893.sched-torque.pace.gatech.educsspn6rn_scratch:UNIX >> /storage/home/hcoda1/3/ntian30/research/carbon/CH3_end_on/ads_slab/CH3ON2_a/CH3_end_on.log/pw.out
+46912897538512 Awaiting client
+----------> <socket.socket fd=8, family=AddressFamily.AF_UNIX, type=SocketKind.SOCK_STREAM, proto=0, laddr=/tmp/ipi_qe_1139763_2920893.sched-torque.pace.gatech.educsspn6rn_scratch> 
+---------------------------------------
+Begin PBS Epilogue Tue Sep 21 11:33:19 EDT 2021
+Job ID:     2920893.sched-torque.pace.gatech.edu
+User ID:    ntian30
+Job name:   CH3_end_on/CH3ON2_a
+Resources:  nodes=1:ppn=10,pmem=18b,walltime=72:00:00,neednodes=1:ppn=10
+Rsrc Used:  cput=24:37:48,vmem=45194808kb,walltime=02:28:47,mem=19830640kb,energy_used=0
+Queue:      inferno
+Nodes:     
+atl1-1-02-007-22-l.pace.gatech.edu
+End PBS Epilogue Tue Sep 21 11:33:19 EDT 2021
+---------------------------------------
+---------------------------------------
+Begin PBS Prologue Tue Sep 21 11:49:24 EDT 2021
+Job ID:     2922197.sched-torque.pace.gatech.edu
+User ID:    ntian30
+Job name:   CxH_vib/CH3ON2_a
+Queue:      inferno
+End PBS Prologue Tue Sep 21 11:49:24 EDT 2021
+---------------------------------------
+Requirement already satisfied: py-hostlist in /storage/home/hcoda1/3/ntian30/.local/lib/python3.7/site-packages (0.0.2.dev0)
+/storage/home/hcoda1/3/ntian30/research/carbon/CxH_vib/CH3_calc/ads_slab/CH3ON2_a
+---------------------------------------
+Begin PBS Epilogue Tue Sep 21 21:57:36 EDT 2021
+Job ID:     2922197.sched-torque.pace.gatech.edu
+User ID:    ntian30
+Job name:   CxH_vib/CH3ON2_a
+Resources:  nodes=1:ppn=10,pmem=8gb,walltime=72:00:00,neednodes=1:ppn=10
+Rsrc Used:  cput=100:50:12,vmem=30590360kb,walltime=10:08:12,mem=5854788kb,energy_used=0
+Queue:      inferno
+Nodes:     
+atl1-1-02-008-27-l.pace.gatech.edu
+End PBS Epilogue Tue Sep 21 21:57:36 EDT 2021
+---------------------------------------

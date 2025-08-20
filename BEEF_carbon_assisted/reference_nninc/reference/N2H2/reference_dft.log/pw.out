@@ -1,0 +1,5512 @@
+
+     Program PWSCF v.7.0 starts on 28Jun2022 at  8:43: 7 
+
+     This program is part of the open-source Quantum ESPRESSO suite
+     for quantum simulation of materials; please cite
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 21 395502 (2009);
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 29 465901 (2017);
+         "P. Giannozzi et al., J. Chem. Phys. 152 154105 (2020);
+          URL http://www.quantum-espresso.org", 
+     in publications or presentations arising from this work. More details at
+     http://www.quantum-espresso.org/quote
+
+     Parallel version (MPI), running on     4 processors
+
+     MPI processes distributed on     1 nodes
+     R & G space division:  proc/nbgrp/npool/nimage =       4
+     350205 MiB available memory on the printing compute node when the environment starts
+ 
+     Reading input from /storage/home/hcoda1/3/ntian30/research/carbon/reference_dft/reference/N2H2/reference_dft.log/pw.inp
+Warning: card &CELL ignored
+Warning: card   CELL_DYNAMICS='IPI', ignored
+Warning: card / ignored
+
+     Current dimensions of program PWSCF are:
+     Max number of different atomic species (ntypx) = 10
+     Max number of k-points (npk) =  40000
+     Max angular momentum in pseudopotentials (lmaxx) =  4
+     Presently no symmetry can be used with electric field
+
+     Message from routine cell_base_init:
+     DEPRECATED: use true lattice parameter, not A to a.u. conversion factor
+
+     **************************************************************************
+     Initializing libbeef V0.1.2 with the BEEF-vdW functional.
+     Citation: Wellendorff et al., PRB 85, 235149 (2012).
+     **************************************************************************
+
+
+     IMPORTANT: XC functional enforced from input :
+     Exchange-correlation= BEEF-VDW
+                           (   1   4  43  14   2   0   0)
+     Any further DFT definition will be discarded
+     Please, verify this is what you really want
+
+
+     Subspace diagonalization in iterative solution of the eigenvalue problem:
+     one sub-group per band group will be used
+     scalapack distributed-memory algorithm (size of sub-group:  2*  2 procs)
+
+  @ DRIVER MODE: Connecting to 
+ qe_1139763_4660997.sched-torque.pace.gatech.edulv02pd8o_scratch
+  using UNIX socket
+  @ DRIVER MODE: Message from server: STATUS
+  @ DRIVER MODE: Message from server: INIT
+  @ DRIVER MODE: Receiving replica           0          -1
+  @ DRIVER MODE: Receiving parameter string
+ lscf : 1, lforce : 1, lstress : 0, lmovecell : 0, lensemb : 0, 
+ 
+     Parallelization info
+     --------------------
+     sticks:   dense  smooth     PW     G-vecs:    dense   smooth      PW
+     Min        2892    1154    290               687608   173898   21756
+     Max        2894    1155    291               687610   173904   21761
+     Sum       11571    4617   1161              2750435   695605   87033
+ 
+     Using Slab Decomposition
+ 
+
+
+     bravais-lattice index     =            0
+     lattice parameter (alat)  =       1.8897  a.u.
+     unit-cell volume          =   32306.2940 (a.u.)^3
+     number of atoms/cell      =            4
+     number of atomic types    =            2
+     number of electrons       =        12.00
+     number of Kohn-Sham states=           16
+     kinetic-energy cutoff     =      29.3995  Ry
+     charge density cutoff     =     293.9946  Ry
+     scf convergence threshold =      7.3E-08
+     mixing beta               =       0.0500
+     number of iterations used =            8  plain     mixing
+     energy convergence thresh.=      1.0E-04
+     force convergence thresh. =      1.0E-03
+     Exchange-correlation= BEEF-VDW
+                           (   1   4  43  14   2   0   0)
+     nstep                     =           50
+
+
+     celldm(1)=   1.889726  celldm(2)=   0.000000  celldm(3)=   0.000000
+     celldm(4)=   0.000000  celldm(5)=   0.000000  celldm(6)=   0.000000
+
+     crystal axes: (cart. coord. in units of alat)
+               a(1) = (  12.917510   0.000000   0.000000 )  
+               a(2) = (   0.000000  10.714529   0.000000 )  
+               a(3) = (   0.000000   0.000000  34.589051 )  
+
+     reciprocal axes: (cart. coord. in units 2 pi/alat)
+               b(1) = (  0.077414  0.000000  0.000000 )  
+               b(2) = (  0.000000  0.093331  0.000000 )  
+               b(3) = (  0.000000  0.000000  0.028911 )  
+
+
+     PseudoPot. # 1 for H  read from file:
+     /storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/data/pseudos_module/espresso/sssp/prec/v1_1/nonrel/H.UPF
+     MD5 check sum: f52b6d4d1c606e5624b1dc7b2218f220
+     Pseudo is Ultrasoft, Zval =  1.0
+     Generated using "atomic" code by A. Dal Corso  v.5.1
+     Using radial grid of  929 points,  2 beta functions with: 
+                l(1) =   0
+                l(2) =   0
+     Q(r) pseudized with 0 coefficients 
+
+
+     PseudoPot. # 2 for N  read from file:
+     /storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/data/pseudos_module/espresso/sssp/prec/v1_1/nonrel/N.UPF
+     MD5 check sum: 16739722b17309cd8fe442a2ace49922
+     Pseudo is Ultrasoft + core correction, Zval =  5.0
+     Generated using "atomic" code by A. Dal Corso  v.5.1
+     Using radial grid of 1085 points,  4 beta functions with: 
+                l(1) =   0
+                l(2) =   0
+                l(3) =   1
+                l(4) =   1
+     Q(r) pseudized with 0 coefficients 
+
+
+     atomic species   valence    mass     pseudopotential
+        H1             1.00     1.00800     H ( 1.00)
+        N1             5.00    14.00700     N ( 1.00)
+
+     No symmetry found
+
+
+
+   Cartesian axes
+
+     site n.     atom                  positions (alat units)
+         1           H1  tau(   1) = (   7.2409348   5.6253687  16.6231418  )
+         2           H1  tau(   2) = (   6.1507783   4.6075729  17.9659096  )
+         3           N1  tau(   3) = (   6.3563535   6.1069559  16.8831354  )
+         4           N1  tau(   4) = (   5.6765754   5.4945925  17.7101030  )
+
+     number of k points=     1  Fermi-Dirac smearing, width (Ry)=  0.0073
+                       cart. coord. in units 2pi/alat
+        k(    1) = (   0.0000000   0.0000000   0.0000000), wk =   2.0000000
+
+     Dense  grid:  2750435 G-vectors     FFT dimensions: ( 135, 120, 360)
+
+     Smooth grid:   695605 G-vectors     FFT dimensions: (  90,  72, 225)
+
+     Estimated max dynamical RAM per process >     914.98 MB
+
+     Estimated total dynamical RAM >       3.57 GB
+
+     Initial potential from superposition of free atoms
+
+     starting charge      12.0000, renormalised to      12.0000
+
+     negative rho (up, down):  1.801E-03 0.000E+00
+
+
+     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     %                                                                      %
+     % You are using vdW-DF, which was implemented by the Thonhauser group. %
+     % Please cite the following two papers that made this development      %
+     % possible and the two reviews that describe the various versions:     %
+     %                                                                      %
+     %   T. Thonhauser et al., PRL 115, 136402 (2015).                      %
+     %   T. Thonhauser et al., PRB 76, 125112 (2007).                       %
+     %   K. Berland et al., Rep. Prog. Phys. 78, 066501 (2015).             %
+     %   D.C. Langreth et al., J. Phys.: Condens. Matter 21, 084203 (2009). %
+     %                                                                      %
+     %                                                                      %
+     % If you are calculating the stress with vdW-DF, please also cite:     %
+     %                                                                      %
+     %   R. Sabatini et al., J. Phys.: Condens. Matter 24, 424209 (2012).   %
+     %                                                                      %
+     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+ 
+     Adding external electric field
+
+     Computed dipole along edir(3) : 
+        Dipole                0.0000 Ry au,          0.0000 Debye
+        Dipole field          0.0000 Ry au, 
+ 
+        Potential amp.       -0.0000 Ry
+        Total length         63.7297 bohr
+ 
+     Starting wfcs are   10 atomic +    6 random wfcs
+  @ DRIVER MODE: Message from server: STATUS
+  @ DRIVER MODE: Message from server: POSDATA
+  @ DRIVER MODE: Reading and sharing cell 
+  @ DRIVER MODE: Reading and sharing positions 
+  @ DRIVER MODE: Received positions 
+
+     total cpu time spent up to now is       24.9 secs
+
+     Self-consistent Calculation
+
+     iteration #  1     ecut=    29.40 Ry     beta= 0.05
+     Davidson diagonalization with overlap
+     ethr =  1.00E-02,  avg # of iterations =  9.0
+
+     negative rho (up, down):  1.901E-03 0.000E+00
+ 
+     Adding external electric field
+
+     Computed dipole along edir(3) : 
+        Dipole                0.0005 Ry au,          0.0011 Debye
+        Dipole field          0.0000 Ry au, 
+ 
+        Potential amp.       -0.0000 Ry
+        Total length         63.7297 bohr
+ 
+
+     total cpu time spent up to now is       34.5 secs
+
+     total energy              =     -43.16892555 Ry
+     estimated scf accuracy    <       0.43984096 Ry
+
+     iteration #  2     ecut=    29.40 Ry     beta= 0.05
+     Davidson diagonalization with overlap
+     ethr =  3.67E-03,  avg # of iterations =  1.0
+
+     negative rho (up, down):  2.344E-02 0.000E+00
+ 
+     Adding external electric field
+
+     Computed dipole along edir(3) : 
+        Dipole                0.0047 Ry au,          0.0119 Debye
+        Dipole field          0.0000 Ry au, 
+ 
+        Potential amp.       -0.0002 Ry
+        Total length         63.7297 bohr
+ 
+
+     total cpu time spent up to now is       43.3 secs
+
+     total energy              =     -42.98261853 Ry
+     estimated scf accuracy    <       0.36202818 Ry
+
+     iteration #  3     ecut=    29.40 Ry     beta= 0.05
+     Davidson diagonalization with overlap
+     ethr =  3.02E-03,  avg # of iterations =  2.0
+
+     negative rho (up, down):  2.075E-02 0.000E+00
+ 
+     Adding external electric field
+
+     Computed dipole along edir(3) : 
+        Dipole                0.0046 Ry au,          0.0117 Debye
+        Dipole field          0.0000 Ry au, 
+ 
+        Potential amp.       -0.0002 Ry
+        Total length         63.7297 bohr
+ 
+
+     total cpu time spent up to now is       52.1 secs
+
+     total energy              =     -43.05304064 Ry
+     estimated scf accuracy    <       0.03495215 Ry
+
+     iteration #  4     ecut=    29.40 Ry     beta= 0.05
+     Davidson diagonalization with overlap
+     ethr =  2.91E-04,  avg # of iterations = 16.0
+
+     negative rho (up, down):  1.900E-02 0.000E+00
+ 
+     Adding external electric field
+
+     Computed dipole along edir(3) : 
+        Dipole                0.0046 Ry au,          0.0118 Debye
+        Dipole field          0.0000 Ry au, 
+ 
+        Potential amp.       -0.0002 Ry
+        Total length         63.7297 bohr
+ 
+
+     total cpu time spent up to now is       61.9 secs
+
+     total energy              =     -43.05270607 Ry
+     estimated scf accuracy    <       0.03339044 Ry
+
+     iteration #  5     ecut=    29.40 Ry     beta= 0.05
+     Davidson diagonalization with overlap
+     ethr =  2.78E-04,  avg # of iterations =  1.0
+
+     negative rho (up, down):  3.733E-02 0.000E+00
+ 
+     Adding external electric field
+
+     Computed dipole along edir(3) : 
+        Dipole                0.0066 Ry au,          0.0167 Debye
+        Dipole field          0.0000 Ry au, 
+ 
+        Potential amp.       -0.0003 Ry
+        Total length         63.7297 bohr
+ 
+
+     total cpu time spent up to now is       70.8 secs
+
+     total energy              =     -43.03911953 Ry
+     estimated scf accuracy    <       0.03136597 Ry
+
+     iteration #  6     ecut=    29.40 Ry     beta= 0.05
+     Davidson diagonalization with overlap
+     ethr =  2.61E-04,  avg # of iterations =  2.0
+
+     negative rho (up, down):  3.511E-02 0.000E+00
+ 
+     Adding external electric field
+
+     Computed dipole along edir(3) : 
+        Dipole                0.0068 Ry au,          0.0172 Debye
+        Dipole field          0.0000 Ry au, 
+ 
+        Potential amp.       -0.0003 Ry
+        Total length         63.7297 bohr
+ 
+
+     total cpu time spent up to now is       79.8 secs
+
+     total energy              =     -43.04446867 Ry
+     estimated scf accuracy    <       0.00292068 Ry
+
+     iteration #  7     ecut=    29.40 Ry     beta= 0.05
+     Davidson diagonalization with overlap
+     ethr =  2.43E-05,  avg # of iterations =  8.0
+
+     negative rho (up, down):  3.320E-02 0.000E+00
+ 
+     Adding external electric field
+
+     Computed dipole along edir(3) : 
+        Dipole                0.0069 Ry au,          0.0177 Debye
+        Dipole field          0.0000 Ry au, 
+ 
+        Potential amp.       -0.0003 Ry
+        Total length         63.7297 bohr
+ 
+
+     total cpu time spent up to now is       89.0 secs
+
+     total energy              =     -43.04432029 Ry
+     estimated scf accuracy    <       0.00342735 Ry
+
+     iteration #  8     ecut=    29.40 Ry     beta= 0.05
+     Davidson diagonalization with overlap
+     ethr =  2.43E-05,  avg # of iterations =  1.0
+
+     negative rho (up, down):  3.226E-02 0.000E+00
+ 
+     Adding external electric field
+
+     Computed dipole along edir(3) : 
+        Dipole                0.0092 Ry au,          0.0233 Debye
+        Dipole field          0.0000 Ry au, 
+ 
+        Potential amp.       -0.0005 Ry
+        Total length         63.7297 bohr
+ 
+
+     total cpu time spent up to now is       97.9 secs
+
+     total energy              =     -43.04292674 Ry
+     estimated scf accuracy    <       0.00308076 Ry
+
+     iteration #  9     ecut=    29.40 Ry     beta= 0.05
+     Davidson diagonalization with overlap
+     ethr =  2.43E-05,  avg # of iterations =  2.0
+
+     negative rho (up, down):  3.077E-02 0.000E+00
+ 
+     Adding external electric field
+
+     Computed dipole along edir(3) : 
+        Dipole                0.0095 Ry au,          0.0241 Debye
+        Dipole field          0.0000 Ry au, 
+ 
+        Potential amp.       -0.0005 Ry
+        Total length         63.7297 bohr
+ 
+
+     total cpu time spent up to now is      106.9 secs
+
+     total energy              =     -43.04318225 Ry
+     estimated scf accuracy    <       0.00022573 Ry
+
+     iteration # 10     ecut=    29.40 Ry     beta= 0.05
+     Davidson diagonalization with overlap
+     ethr =  1.88E-06,  avg # of iterations =  8.0
+
+     negative rho (up, down):  2.950E-02 0.000E+00
+ 
+     Adding external electric field
+
+     Computed dipole along edir(3) : 
+        Dipole                0.0089 Ry au,          0.0226 Debye
+        Dipole field          0.0000 Ry au, 
+ 
+        Potential amp.       -0.0004 Ry
+        Total length         63.7297 bohr
+ 
+
+     total cpu time spent up to now is      116.3 secs
+
+     total energy              =     -43.04326857 Ry
+     estimated scf accuracy    <       0.00011954 Ry
+
+     iteration # 11     ecut=    29.40 Ry     beta= 0.05
+     Davidson diagonalization with overlap
+     ethr =  9.96E-07,  avg # of iterations =  2.0
+
+     negative rho (up, down):  2.855E-02 0.000E+00
+ 
+     Adding external electric field
+
+     Computed dipole along edir(3) : 
+        Dipole                0.0083 Ry au,          0.0210 Debye
+        Dipole field          0.0000 Ry au, 
+ 
+        Potential amp.       -0.0004 Ry
+        Total length         63.7297 bohr
+ 
+
+     total cpu time spent up to now is      125.2 secs
+
+     total energy              =     -43.04321131 Ry
+     estimated scf accuracy    <       0.00019538 Ry
+
+     iteration # 12     ecut=    29.40 Ry     beta= 0.05
+     Davidson diagonalization with overlap
+     ethr =  9.96E-07,  avg # of iterations =  1.0
+
+     negative rho (up, down):  2.712E-02 0.000E+00
+ 
+     Adding external electric field
+
+     Computed dipole along edir(3) : 
+        Dipole                0.0083 Ry au,          0.0210 Debye
+        Dipole field          0.0000 Ry au, 
+ 
+        Potential amp.       -0.0004 Ry
+        Total length         63.7297 bohr
+ 
+
+     total cpu time spent up to now is      134.1 secs
+
+     total energy              =     -43.04314364 Ry
+     estimated scf accuracy    <       0.00008059 Ry
+
+     iteration # 13     ecut=    29.40 Ry     beta= 0.05
+     Davidson diagonalization with overlap
+     ethr =  6.72E-07,  avg # of iterations =  2.0
+
+     negative rho (up, down):  2.575E-02 0.000E+00
+ 
+     Adding external electric field
+
+     Computed dipole along edir(3) : 
+        Dipole                0.0083 Ry au,          0.0211 Debye
+        Dipole field          0.0000 Ry au, 
+ 
+        Potential amp.       -0.0004 Ry
+        Total length         63.7297 bohr
+ 
+
+     total cpu time spent up to now is      143.0 secs
+
+     total energy              =     -43.04313688 Ry
+     estimated scf accuracy    <       0.00000256 Ry
+
+     iteration # 14     ecut=    29.40 Ry     beta= 0.05
+     Davidson diagonalization with overlap
+     ethr =  2.13E-08,  avg # of iterations =  2.0
+
+     negative rho (up, down):  2.448E-02 0.000E+00
+ 
+     Adding external electric field
+
+     Computed dipole along edir(3) : 
+        Dipole                0.0082 Ry au,          0.0209 Debye
+        Dipole field          0.0000 Ry au, 
+ 
+        Potential amp.       -0.0004 Ry
+        Total length         63.7297 bohr
+ 
+
+     total cpu time spent up to now is      151.9 secs
+
+     total energy              =     -43.04311378 Ry
+     estimated scf accuracy    <       0.00000133 Ry
+
+     iteration # 15     ecut=    29.40 Ry     beta= 0.05
+     Davidson diagonalization with overlap
+     ethr =  1.11E-08,  avg # of iterations =  2.0
+
+     negative rho (up, down):  2.320E-02 0.000E+00
+ 
+     Adding external electric field
+
+     Computed dipole along edir(3) : 
+        Dipole                0.0082 Ry au,          0.0208 Debye
+        Dipole field          0.0000 Ry au, 
+ 
+        Potential amp.       -0.0004 Ry
+        Total length         63.7297 bohr
+ 
+
+     total cpu time spent up to now is      160.8 secs
+
+     total energy              =     -43.04308755 Ry
+     estimated scf accuracy    <       0.00000411 Ry
+
+     iteration # 16     ecut=    29.40 Ry     beta= 0.05
+     Davidson diagonalization with overlap
+     ethr =  1.11E-08,  avg # of iterations =  3.0
+
+     negative rho (up, down):  3.793E-03 0.000E+00
+ 
+     Adding external electric field
+
+     Computed dipole along edir(3) : 
+        Dipole                0.0083 Ry au,          0.0210 Debye
+        Dipole field          0.0000 Ry au, 
+ 
+        Potential amp.       -0.0004 Ry
+        Total length         63.7297 bohr
+ 
+
+     total cpu time spent up to now is      169.1 secs
+
+     End of self-consistent calculation
+
+          k = 0.0000 0.0000 0.0000 ( 87033 PWs)   bands (ev):
+
+   -26.5990 -17.3355 -14.4677 -10.3467  -9.5083  -6.0933  -3.2551  -1.5037
+    -0.4568  -0.4156  -0.2612  -0.1597   0.0008   0.0597   0.3252   0.3897
+
+     the Fermi energy is    -4.6742 ev
+
+!    total energy              =     -43.04288954 Ry
+     estimated scf accuracy    <       0.00000001 Ry
+     smearing contrib. (-TS)   =      -0.00000031 Ry
+     internal energy E=F+TS    =     -43.04288923 Ry
+
+     convergence has been achieved in  16 iterations
+
+     negative rho (up, down):  3.793E-03 0.000E+00
+
+     Forces acting on atoms (cartesian axes, Ry/au):
+
+     atom    1 type  1   force =     0.00643101   -0.00622912   -0.00080368
+     atom    2 type  1   force =    -0.00648915   -0.01562968    0.01460226
+     atom    3 type  2   force =     0.00468798    0.03914279   -0.02681384
+     atom    4 type  2   force =    -0.00462984   -0.01728399    0.01301526
+
+     Total force =     0.057820     Total SCF correction =     0.000175
+  @ DRIVER MODE: Message from server: STATUS
+  @ DRIVER MODE: Message from server: GETFORCE
+  @ DRIVER MODE: Returning v,forces,stress 
+
+     Writing config to output data dir ./calc.save/
+     Message from routine punch:
+     wavefunctions written to file
+  @ DRIVER MODE: Message from server: STATUS
+  @ DRIVER MODE: Message from server: INIT
+  @ DRIVER MODE: Receiving replica           0           0
+  @ DRIVER MODE: Receiving parameter string
+ lscf : 1, lforce : 1, lstress : 0, lmovecell : 0, lensemb : 0, 
+  @ DRIVER MODE: Message from server: STATUS
+  @ DRIVER MODE: Message from server: POSDATA
+  @ DRIVER MODE: Reading and sharing cell 
+  @ DRIVER MODE: Reading and sharing positions 
+  @ DRIVER MODE: Received positions 
+     NEW-OLD atomic charge density approx. for the potential
+
+     negative rho (up, down):  2.784E-03 0.000E+00
+ 
+     Adding external electric field
+
+     Computed dipole along edir(3) : 
+        Dipole                0.0083 Ry au,          0.0210 Debye
+        Dipole field          0.0000 Ry au, 
+ 
+        Potential amp.       -0.0004 Ry
+        Total length         63.7297 bohr
+ 
+
+     total cpu time spent up to now is      191.4 secs
+
+     Self-consistent Calculation
+
+     iteration #  1     ecut=    29.40 Ry     beta= 0.05
+     Davidson diagonalization with overlap
+     c_bands:  1 eigenvalues not converged
+     ethr =  1.11E-08,  avg # of iterations = 20.0
+
+     negative rho (up, down):  2.756E-03 0.000E+00
+ 
+     Adding external electric field
+
+     Computed dipole along edir(3) : 
+        Dipole                0.0022 Ry au,          0.0056 Debye
+        Dipole field          0.0000 Ry au, 
+ 
+        Potential amp.       -0.0001 Ry
+        Total length         63.7297 bohr
+ 
+
+     total cpu time spent up to now is      202.3 secs
+
+     total energy              =     -43.00620010 Ry
+     estimated scf accuracy    <       0.04020448 Ry
+
+     iteration #  2     ecut=    29.40 Ry     beta= 0.05
+     Davidson diagonalization with overlap
+     ethr =  3.35E-04,  avg # of iterations =  1.0
+
+     negative rho (up, down):  1.184E-02 0.000E+00
+ 
+     Adding external electric field
+
+     Computed dipole along edir(3) : 
+        Dipole               -0.0184 Ry au,         -0.0468 Debye
+        Dipole field         -0.0000 Ry au, 
+ 
+        Potential amp.        0.0009 Ry
+        Total length         63.7297 bohr
+ 
+
+     total cpu time spent up to now is      210.9 secs
+
+     total energy              =     -42.99676831 Ry
+     estimated scf accuracy    <       0.02908827 Ry
+
+     iteration #  3     ecut=    29.40 Ry     beta= 0.05
+     Davidson diagonalization with overlap
+     ethr =  2.42E-04,  avg # of iterations =  2.0
+
+     negative rho (up, down):  2.477E-02 0.000E+00
+ 
+     Adding external electric field
+
+     Computed dipole along edir(3) : 
+        Dipole                0.0157 Ry au,          0.0399 Debye
+        Dipole field          0.0000 Ry au, 
+ 
+        Potential amp.       -0.0008 Ry
+        Total length         63.7297 bohr
+ 
+
+     total cpu time spent up to now is      219.7 secs
+
+     total energy              =     -42.99896547 Ry
+     estimated scf accuracy    <       0.00570086 Ry
+
+     iteration #  4     ecut=    29.40 Ry     beta= 0.05
+     Davidson diagonalization with overlap
+     ethr =  4.75E-05,  avg # of iterations =  2.0
+
+     negative rho (up, down):  2.512E-02 0.000E+00
+ 
+     Adding external electric field
+
+     Computed dipole along edir(3) : 
+        Dipole                0.0082 Ry au,          0.0209 Debye
+        Dipole field          0.0000 Ry au, 
+ 
+        Potential amp.       -0.0004 Ry
+        Total length         63.7297 bohr
+ 
+
+     total cpu time spent up to now is      228.6 secs
+
+     total energy              =     -42.99977796 Ry
+     estimated scf accuracy    <       0.00133379 Ry
+
+     iteration #  5     ecut=    29.40 Ry     beta= 0.05
+     Davidson diagonalization with overlap
+     ethr =  1.11E-05,  avg # of iterations = 10.0
+
+     negative rho (up, down):  3.938E-02 0.000E+00
+ 
+     Adding external electric field
+
+     Computed dipole along edir(3) : 
+        Dipole                0.0180 Ry au,          0.0458 Debye
+        Dipole field          0.0000 Ry au, 
+ 
+        Potential amp.       -0.0009 Ry
+        Total length         63.7297 bohr
+ 
+
+     total cpu time spent up to now is      237.8 secs
+
+     total energy              =     -42.99994446 Ry
+     estimated scf accuracy    <       0.00113166 Ry
+
+     iteration #  6     ecut=    29.40 Ry     beta= 0.05
+     Davidson diagonalization with overlap
+     ethr =  9.43E-06,  avg # of iterations =  2.0
+
+     negative rho (up, down):  4.144E-02 0.000E+00
+ 
+     Adding external electric field
+
+     Computed dipole along edir(3) : 
+        Dipole                0.0244 Ry au,          0.0619 Debye
+        Dipole field          0.0000 Ry au, 
+ 
+        Potential amp.       -0.0012 Ry
+        Total length         63.7297 bohr
+ 
+
+     total cpu time spent up to now is      246.9 secs
+
+     total energy              =     -43.00003599 Ry
+     estimated scf accuracy    <       0.00016705 Ry
+
+     iteration #  7     ecut=    29.40 Ry     beta= 0.05
+     Davidson diagonalization with overlap
+     ethr =  1.39E-06,  avg # of iterations = 14.0
+
+     negative rho (up, down):  3.970E-02 0.000E+00
+ 
+     Adding external electric field
+
+     Computed dipole along edir(3) : 
+        Dipole                0.0252 Ry au,          0.0640 Debye
+        Dipole field          0.0000 Ry au, 
+ 
+        Potential amp.       -0.0012 Ry
+        Total length         63.7297 bohr
+ 
+
+     total cpu time spent up to now is      256.4 secs
+
+     total energy              =     -43.00006358 Ry
+     estimated scf accuracy    <       0.00002859 Ry
+
+     iteration #  8     ecut=    29.40 Ry     beta= 0.05
+     Davidson diagonalization with overlap
+     ethr =  2.38E-07,  avg # of iterations =  2.0
+
+     negative rho (up, down):  3.919E-02 0.000E+00
+ 
+     Adding external electric field
+
+     Computed dipole along edir(3) : 
+        Dipole                0.0224 Ry au,          0.0568 Debye
+        Dipole field          0.0000 Ry au, 
+ 
+        Potential amp.       -0.0011 Ry
+        Total length         63.7297 bohr
+ 
+
+     total cpu time spent up to now is      265.4 secs
+
+     total energy              =     -43.00001131 Ry
+     estimated scf accuracy    <       0.00005784 Ry
+
+     iteration #  9     ecut=    29.40 Ry     beta= 0.05
+     Davidson diagonalization with overlap
+     ethr =  2.38E-07,  avg # of iterations =  2.0
+
+     negative rho (up, down):  3.738E-02 0.000E+00
+ 
+     Adding external electric field
+
+     Computed dipole along edir(3) : 
+        Dipole                0.0219 Ry au,          0.0556 Debye
+        Dipole field          0.0000 Ry au, 
+ 
+        Potential amp.       -0.0011 Ry
+        Total length         63.7297 bohr
+ 
+
+     total cpu time spent up to now is      274.6 secs
+
+     total energy              =     -43.00001530 Ry
+     estimated scf accuracy    <       0.00000269 Ry
+
+     iteration # 10     ecut=    29.40 Ry     beta= 0.05
+     Davidson diagonalization with overlap
+     ethr =  2.24E-08,  avg # of iterations =  2.0
+
+     negative rho (up, down):  3.538E-02 0.000E+00
+ 
+     Adding external electric field
+
+     Computed dipole along edir(3) : 
+        Dipole                0.0219 Ry au,          0.0558 Debye
+        Dipole field          0.0000 Ry au, 
+ 
+        Potential amp.       -0.0011 Ry
+        Total length         63.7297 bohr
+ 
+
+     total cpu time spent up to now is      283.5 secs
+
+     total energy              =     -43.00000545 Ry
+     estimated scf accuracy    <       0.00000109 Ry
+
+     iteration # 11     ecut=    29.40 Ry     beta= 0.05
+     Davidson diagonalization with overlap
+     ethr =  9.10E-09,  avg # of iterations =  2.0
+
+     negative rho (up, down):  3.371E-02 0.000E+00
+ 
+     Adding external electric field
+
+     Computed dipole along edir(3) : 
+        Dipole                0.0222 Ry au,          0.0564 Debye
+        Dipole field          0.0000 Ry au, 
+ 
+        Potential amp.       -0.0011 Ry
+        Total length         63.7297 bohr
+ 
+
+     total cpu time spent up to now is      292.5 secs
+
+     total energy              =     -42.99999451 Ry
+     estimated scf accuracy    <       0.00000024 Ry
+
+     iteration # 12     ecut=    29.40 Ry     beta= 0.05
+     Davidson diagonalization with overlap
+     ethr =  2.02E-09,  avg # of iterations =  2.0
+
+     negative rho (up, down):  3.198E-02 0.000E+00
+ 
+     Adding external electric field
+
+     Computed dipole along edir(3) : 
+        Dipole                0.0221 Ry au,          0.0563 Debye
+        Dipole field          0.0000 Ry au, 
+ 
+        Potential amp.       -0.0011 Ry
+        Total length         63.7297 bohr
+ 
+
+     total cpu time spent up to now is      301.5 secs
+
+     total energy              =     -42.99998254 Ry
+     estimated scf accuracy    <       0.00000018 Ry
+
+     iteration # 13     ecut=    29.40 Ry     beta= 0.05
+     Davidson diagonalization with overlap
+     ethr =  1.48E-09,  avg # of iterations =  2.0
+
+     negative rho (up, down):  3.302E-03 0.000E+00
+ 
+     Adding external electric field
+
+     Computed dipole along edir(3) : 
+        Dipole                0.0223 Ry au,          0.0566 Debye
+        Dipole field          0.0000 Ry au, 
+ 
+        Potential amp.       -0.0011 Ry
+        Total length         63.7297 bohr
+ 
+
+     total cpu time spent up to now is      309.8 secs
+
+     End of self-consistent calculation
+
+          k = 0.0000 0.0000 0.0000 ( 87033 PWs)   bands (ev):
+
+   -24.6580 -17.8126 -13.4156  -9.3753  -9.1310  -6.9467  -4.2613  -1.5631
+    -0.5725  -0.4947  -0.3323  -0.2878  -0.0794  -0.0074   0.2379   0.2984
+
+     the Fermi energy is    -5.6040 ev
+
+!    total energy              =     -42.99976436 Ry
+     estimated scf accuracy    <       0.00000003 Ry
+     smearing contrib. (-TS)   =      -0.00000063 Ry
+     internal energy E=F+TS    =     -42.99976373 Ry
+
+     convergence has been achieved in  13 iterations
+
+     negative rho (up, down):  3.302E-03 0.000E+00
+
+     Forces acting on atoms (cartesian axes, Ry/au):
+
+     atom    1 type  1   force =    -0.03950476    0.04419373   -0.00228805
+     atom    2 type  1   force =     0.02035013   -0.00182764   -0.01228987
+     atom    3 type  2   force =    -0.05700401   -0.19496709    0.15922628
+     atom    4 type  2   force =     0.07615864    0.15260100   -0.14464836
+
+     Total force =     0.347437     Total SCF correction =     0.000276
+  @ DRIVER MODE: Message from server: STATUS
+  @ DRIVER MODE: Message from server: GETFORCE
+  @ DRIVER MODE: Returning v,forces,stress 
+
+     Writing config to output data dir ./calc.save/
+     Message from routine punch:
+     wavefunctions written to file
+  @ DRIVER MODE: Message from server: STATUS
+  @ DRIVER MODE: Message from server: INIT
+  @ DRIVER MODE: Receiving replica           0           0
+  @ DRIVER MODE: Receiving parameter string
+ lscf : 1, lforce : 1, lstress : 0, lmovecell : 0, lensemb : 0, 
+  @ DRIVER MODE: Message from server: STATUS
+  @ DRIVER MODE: Message from server: POSDATA
+  @ DRIVER MODE: Reading and sharing cell 
+  @ DRIVER MODE: Reading and sharing positions 
+  @ DRIVER MODE: Received positions 
+     NEW-OLD atomic charge density approx. for the potential
+
+     negative rho (up, down):  2.496E-03 0.000E+00
+ 
+     Adding external electric field
+
+     Computed dipole along edir(3) : 
+        Dipole                0.0223 Ry au,          0.0566 Debye
+        Dipole field          0.0000 Ry au, 
+ 
+        Potential amp.       -0.0011 Ry
+        Total length         63.7297 bohr
+ 
+
+     total cpu time spent up to now is      332.6 secs
+
+     Self-consistent Calculation
+
+     iteration #  1     ecut=    29.40 Ry     beta= 0.05
+     Davidson diagonalization with overlap
+     c_bands:  1 eigenvalues not converged
+     ethr =  1.48E-09,  avg # of iterations = 20.0
+
+     negative rho (up, down):  2.519E-03 0.000E+00
+ 
+     Adding external electric field
+
+     Computed dipole along edir(3) : 
+        Dipole                0.0258 Ry au,          0.0655 Debye
+        Dipole field          0.0000 Ry au, 
+ 
+        Potential amp.       -0.0013 Ry
+        Total length         63.7297 bohr
+ 
+
+     total cpu time spent up to now is      343.6 secs
+
+     total energy              =     -43.04870541 Ry
+     estimated scf accuracy    <       0.02847760 Ry
+
+     iteration #  2     ecut=    29.40 Ry     beta= 0.05
+     Davidson diagonalization with overlap
+     ethr =  2.37E-04,  avg # of iterations =  1.0
+
+     negative rho (up, down):  1.481E-02 0.000E+00
+ 
+     Adding external electric field
+
+     Computed dipole along edir(3) : 
+        Dipole                0.0418 Ry au,          0.1063 Debye
+        Dipole field          0.0000 Ry au, 
+ 
+        Potential amp.       -0.0021 Ry
+        Total length         63.7297 bohr
+ 
+
+     total cpu time spent up to now is      352.2 secs
+
+     total energy              =     -43.04063369 Ry
+     estimated scf accuracy    <       0.02159352 Ry
+
+     iteration #  3     ecut=    29.40 Ry     beta= 0.05
+     Davidson diagonalization with overlap
+     ethr =  1.80E-04,  avg # of iterations =  2.0
+
+     negative rho (up, down):  2.174E-02 0.000E+00
+ 
+     Adding external electric field
+
+     Computed dipole along edir(3) : 
+        Dipole                0.0240 Ry au,          0.0611 Debye
+        Dipole field          0.0000 Ry au, 
+ 
+        Potential amp.       -0.0012 Ry
+        Total length         63.7297 bohr
+ 
+
+     total cpu time spent up to now is      361.1 secs
+
+     total energy              =     -43.04355456 Ry
+     estimated scf accuracy    <       0.00285635 Ry
+
+     iteration #  4     ecut=    29.40 Ry     beta= 0.05
+     Davidson diagonalization with overlap
+     ethr =  2.38E-05,  avg # of iterations =  9.0
+
+     negative rho (up, down):  2.585E-02 0.000E+00
+ 
+     Adding external electric field
+
+     Computed dipole along edir(3) : 
+        Dipole                0.0184 Ry au,          0.0468 Debye
+        Dipole field          0.0000 Ry au, 
+ 
+        Potential amp.       -0.0009 Ry
+        Total length         63.7297 bohr
+ 
+
+     total cpu time spent up to now is      370.2 secs
+
+     total energy              =     -43.04379135 Ry
+     estimated scf accuracy    <       0.00085115 Ry
+
+     iteration #  5     ecut=    29.40 Ry     beta= 0.05
+     Davidson diagonalization with overlap
+     ethr =  7.09E-06,  avg # of iterations =  4.0
+
+     negative rho (up, down):  3.789E-02 0.000E+00
+ 
+     Adding external electric field
+
+     Computed dipole along edir(3) : 
+        Dipole                0.0158 Ry au,          0.0401 Debye
+        Dipole field          0.0000 Ry au, 
+ 
+        Potential amp.       -0.0008 Ry
+        Total length         63.7297 bohr
+ 
+
+     total cpu time spent up to now is      379.3 secs
+
+     total energy              =     -43.04401497 Ry
+     estimated scf accuracy    <       0.00053902 Ry
+
+     iteration #  6     ecut=    29.40 Ry     beta= 0.05
+     Davidson diagonalization with overlap
+     ethr =  4.49E-06,  avg # of iterations = 11.0
+
+     negative rho (up, down):  3.886E-02 0.000E+00
+ 
+     Adding external electric field
+
+     Computed dipole along edir(3) : 
+        Dipole                0.0093 Ry au,          0.0236 Debye
+        Dipole field          0.0000 Ry au, 
+ 
+        Potential amp.       -0.0005 Ry
+        Total length         63.7297 bohr
+ 
+
+     total cpu time spent up to now is      389.4 secs
+
+     total energy              =     -43.04407362 Ry
+     estimated scf accuracy    <       0.00016321 Ry
+
+     iteration #  7     ecut=    29.40 Ry     beta= 0.05
+     Davidson diagonalization with overlap
+     ethr =  1.36E-06,  avg # of iterations =  1.0
+
+     negative rho (up, down):  3.677E-02 0.000E+00
+ 
+     Adding external electric field
+
+     Computed dipole along edir(3) : 
+        Dipole                0.0093 Ry au,          0.0236 Debye
+        Dipole field          0.0000 Ry au, 
+ 
+        Potential amp.       -0.0005 Ry
+        Total length         63.7297 bohr
+ 
+
+     total cpu time spent up to now is      398.5 secs
+
+     total energy              =     -43.04406606 Ry
+     estimated scf accuracy    <       0.00001427 Ry
+
+     iteration #  8     ecut=    29.40 Ry     beta= 0.05
+     Davidson diagonalization with overlap
+     ethr =  1.19E-07,  avg # of iterations =  2.0
+
+     negative rho (up, down):  3.494E-02 0.000E+00
+ 
+     Adding external electric field
+
+     Computed dipole along edir(3) : 
+        Dipole                0.0096 Ry au,          0.0243 Debye
+        Dipole field          0.0000 Ry au, 
+ 
+        Potential amp.       -0.0005 Ry
+        Total length         63.7297 bohr
+ 
+
+     total cpu time spent up to now is      407.5 secs
+
+     total energy              =     -43.04404121 Ry
+     estimated scf accuracy    <       0.00001436 Ry
+
+     iteration #  9     ecut=    29.40 Ry     beta= 0.05
+     Davidson diagonalization with overlap
+     ethr =  1.19E-07,  avg # of iterations =  1.0
+
+     negative rho (up, down):  3.365E-02 0.000E+00
+ 
+     Adding external electric field
+
+     Computed dipole along edir(3) : 
+        Dipole                0.0095 Ry au,          0.0241 Debye
+        Dipole field          0.0000 Ry au, 
+ 
+        Potential amp.       -0.0005 Ry
+        Total length         63.7297 bohr
+ 
+
+     total cpu time spent up to now is      416.5 secs
+
+     total energy              =     -43.04398213 Ry
+     estimated scf accuracy    <       0.00001415 Ry
+
+     iteration # 10     ecut=    29.40 Ry     beta= 0.05
+     Davidson diagonalization with overlap
+     ethr =  1.18E-07,  avg # of iterations =  2.0
+
+     negative rho (up, down):  3.242E-02 0.000E+00
+ 
+     Adding external electric field
+
+     Computed dipole along edir(3) : 
+        Dipole                0.0102 Ry au,          0.0260 Debye
+        Dipole field          0.0000 Ry au, 
+ 
+        Potential amp.       -0.0005 Ry
+        Total length         63.7297 bohr
+ 
+
+     total cpu time spent up to now is      425.4 secs
+
+     total energy              =     -43.04396208 Ry
+     estimated scf accuracy    <       0.00003338 Ry
+
+     iteration # 11     ecut=    29.40 Ry     beta= 0.05
+     Davidson diagonalization with overlap
+     ethr =  1.18E-07,  avg # of iterations =  1.0
+
+     negative rho (up, down):  3.086E-02 0.000E+00
+ 
+     Adding external electric field
+
+     Computed dipole along edir(3) : 
+        Dipole                0.0101 Ry au,          0.0257 Debye
+        Dipole field          0.0000 Ry au, 
+ 
+        Potential amp.       -0.0005 Ry
+        Total length         63.7297 bohr
+ 
+
+     total cpu time spent up to now is      434.3 secs
+
+     total energy              =     -43.04395729 Ry
+     estimated scf accuracy    <       0.00003782 Ry
+
+     iteration # 12     ecut=    29.40 Ry     beta= 0.05
+     Davidson diagonalization with overlap
+     ethr =  1.18E-07,  avg # of iterations =  1.0
+
+     negative rho (up, down):  2.929E-02 0.000E+00
+ 
+     Adding external electric field
+
+     Computed dipole along edir(3) : 
+        Dipole                0.0103 Ry au,          0.0262 Debye
+        Dipole field          0.0000 Ry au, 
+ 
+        Potential amp.       -0.0005 Ry
+        Total length         63.7297 bohr
+ 
+
+     total cpu time spent up to now is      443.2 secs
+
+     total energy              =     -43.04395214 Ry
+     estimated scf accuracy    <       0.00001679 Ry
+
+     iteration # 13     ecut=    29.40 Ry     beta= 0.05
+     Davidson diagonalization with overlap
+     ethr =  1.18E-07,  avg # of iterations =  1.0
+
+     negative rho (up, down):  2.781E-02 0.000E+00
+ 
+     Adding external electric field
+
+     Computed dipole along edir(3) : 
+        Dipole                0.0103 Ry au,          0.0262 Debye
+        Dipole field          0.0000 Ry au, 
+ 
+        Potential amp.       -0.0005 Ry
+        Total length         63.7297 bohr
+ 
+
+     total cpu time spent up to now is      452.0 secs
+
+     total energy              =     -43.04394971 Ry
+     estimated scf accuracy    <       0.00000230 Ry
+
+     iteration # 14     ecut=    29.40 Ry     beta= 0.05
+     Davidson diagonalization with overlap
+     ethr =  1.92E-08,  avg # of iterations =  1.0
+
+     negative rho (up, down):  2.638E-02 0.000E+00
+ 
+     Adding external electric field
+
+     Computed dipole along edir(3) : 
+        Dipole                0.0103 Ry au,          0.0263 Debye
+        Dipole field          0.0000 Ry au, 
+ 
+        Potential amp.       -0.0005 Ry
+        Total length         63.7297 bohr
+ 
+
+     total cpu time spent up to now is      460.9 secs
+
+     total energy              =     -43.04395123 Ry
+     estimated scf accuracy    <       0.00000231 Ry
+
+     iteration # 15     ecut=    29.40 Ry     beta= 0.05
+     Davidson diagonalization with overlap
+     ethr =  1.92E-08,  avg # of iterations =  2.0
+
+     negative rho (up, down):  2.501E-02 0.000E+00
+ 
+     Adding external electric field
+
+     Computed dipole along edir(3) : 
+        Dipole                0.0104 Ry au,          0.0265 Debye
+        Dipole field          0.0000 Ry au, 
+ 
+        Potential amp.       -0.0005 Ry
+        Total length         63.7297 bohr
+ 
+
+     total cpu time spent up to now is      469.7 secs
+
+     total energy              =     -43.04395046 Ry
+     estimated scf accuracy    <       0.00000218 Ry
+
+     iteration # 16     ecut=    29.40 Ry     beta= 0.05
+     Davidson diagonalization with overlap
+     ethr =  1.82E-08,  avg # of iterations =  2.0
+
+     negative rho (up, down):  2.373E-02 0.000E+00
+ 
+     Adding external electric field
+
+     Computed dipole along edir(3) : 
+        Dipole                0.0108 Ry au,          0.0275 Debye
+        Dipole field          0.0000 Ry au, 
+ 
+        Potential amp.       -0.0005 Ry
+        Total length         63.7297 bohr
+ 
+
+     total cpu time spent up to now is      478.6 secs
+
+     total energy              =     -43.04395080 Ry
+     estimated scf accuracy    <       0.00000168 Ry
+
+     iteration # 17     ecut=    29.40 Ry     beta= 0.05
+     Davidson diagonalization with overlap
+     ethr =  1.40E-08,  avg # of iterations =  2.0
+
+     negative rho (up, down):  2.255E-02 0.000E+00
+ 
+     Adding external electric field
+
+     Computed dipole along edir(3) : 
+        Dipole                0.0109 Ry au,          0.0278 Debye
+        Dipole field          0.0000 Ry au, 
+ 
+        Potential amp.       -0.0005 Ry
+        Total length         63.7297 bohr
+ 
+
+     total cpu time spent up to now is      487.6 secs
+
+     total energy              =     -43.04394584 Ry
+     estimated scf accuracy    <       0.00000068 Ry
+
+     iteration # 18     ecut=    29.40 Ry     beta= 0.05
+     Davidson diagonalization with overlap
+     ethr =  5.69E-09,  avg # of iterations =  2.0
+
+     negative rho (up, down):  2.142E-02 0.000E+00
+ 
+     Adding external electric field
+
+     Computed dipole along edir(3) : 
+        Dipole                0.0110 Ry au,          0.0279 Debye
+        Dipole field          0.0000 Ry au, 
+ 
+        Potential amp.       -0.0005 Ry
+        Total length         63.7297 bohr
+ 
+
+     total cpu time spent up to now is      496.5 secs
+
+     total energy              =     -43.04393733 Ry
+     estimated scf accuracy    <       0.00000014 Ry
+
+     iteration # 19     ecut=    29.40 Ry     beta= 0.05
+     Davidson diagonalization with overlap
+     ethr =  1.21E-09,  avg # of iterations =  2.0
+
+     negative rho (up, down):  3.684E-03 0.000E+00
+ 
+     Adding external electric field
+
+     Computed dipole along edir(3) : 
+        Dipole                0.0113 Ry au,          0.0286 Debye
+        Dipole field          0.0000 Ry au, 
+ 
+        Potential amp.       -0.0006 Ry
+        Total length         63.7297 bohr
+ 
+
+     total cpu time spent up to now is      504.8 secs
+
+     End of self-consistent calculation
+
+          k = 0.0000 0.0000 0.0000 ( 87033 PWs)   bands (ev):
+
+   -26.3584 -17.3850 -14.3525 -10.2208  -9.4453  -6.2082  -3.3795  -1.5017
+    -0.4482  -0.3963  -0.2382  -0.1547   0.0146   0.0922   0.3492   0.4061
+
+     the Fermi energy is    -4.7938 ev
+
+!    total energy              =     -43.04376155 Ry
+     estimated scf accuracy    <       0.00000006 Ry
+     smearing contrib. (-TS)   =      -0.00000032 Ry
+     internal energy E=F+TS    =     -43.04376123 Ry
+
+     convergence has been achieved in  19 iterations
+
+     negative rho (up, down):  3.684E-03 0.000E+00
+
+     Forces acting on atoms (cartesian axes, Ry/au):
+
+     atom    1 type  1   force =     0.00098935   -0.00069596   -0.00071771
+     atom    2 type  1   force =    -0.00332019   -0.01288734    0.01068755
+     atom    3 type  2   force =    -0.01175963    0.00429610    0.00571707
+     atom    4 type  2   force =     0.01409046    0.00928720   -0.01568691
+
+     Total force =     0.031837     Total SCF correction =     0.000207
+  @ DRIVER MODE: Message from server: STATUS
+  @ DRIVER MODE: Message from server: GETFORCE
+  @ DRIVER MODE: Returning v,forces,stress 
+
+     Writing config to output data dir ./calc.save/
+     Message from routine punch:
+     wavefunctions written to file
+  @ DRIVER MODE: Message from server: STATUS
+  @ DRIVER MODE: Message from server: INIT
+  @ DRIVER MODE: Receiving replica           0           0
+  @ DRIVER MODE: Receiving parameter string
+ lscf : 1, lforce : 1, lstress : 0, lmovecell : 0, lensemb : 0, 
+  @ DRIVER MODE: Message from server: STATUS
+  @ DRIVER MODE: Message from server: POSDATA
+  @ DRIVER MODE: Reading and sharing cell 
+  @ DRIVER MODE: Reading and sharing positions 
+  @ DRIVER MODE: Received positions 
+     NEW-OLD atomic charge density approx. for the potential
+
+     negative rho (up, down):  3.296E-03 0.000E+00
+ 
+     Adding external electric field
+
+     Computed dipole along edir(3) : 
+        Dipole                0.0113 Ry au,          0.0286 Debye
+        Dipole field          0.0000 Ry au, 
+ 
+        Potential amp.       -0.0006 Ry
+        Total length         63.7297 bohr
+ 
+
+     total cpu time spent up to now is      527.6 secs
+
+     Self-consistent Calculation
+
+     iteration #  1     ecut=    29.40 Ry     beta= 0.05
+     Davidson diagonalization with overlap
+     c_bands:  1 eigenvalues not converged
+     ethr =  1.21E-09,  avg # of iterations = 20.0
+
+     negative rho (up, down):  3.296E-03 0.000E+00
+ 
+     Adding external electric field
+
+     Computed dipole along edir(3) : 
+        Dipole                0.0105 Ry au,          0.0266 Debye
+        Dipole field          0.0000 Ry au, 
+ 
+        Potential amp.       -0.0005 Ry
+        Total length         63.7297 bohr
+ 
+
+     total cpu time spent up to now is      538.5 secs
+
+     total energy              =     -43.03610243 Ry
+     estimated scf accuracy    <       0.00405491 Ry
+
+     iteration #  2     ecut=    29.40 Ry     beta= 0.05
+     Davidson diagonalization with overlap
+     ethr =  3.38E-05,  avg # of iterations =  1.0
+
+     negative rho (up, down):  8.959E-03 0.000E+00
+ 
+     Adding external electric field
+
+     Computed dipole along edir(3) : 
+        Dipole                0.0085 Ry au,          0.0215 Debye
+        Dipole field          0.0000 Ry au, 
+ 
+        Potential amp.       -0.0004 Ry
+        Total length         63.7297 bohr
+ 
+
+     total cpu time spent up to now is      547.1 secs
+
+     total energy              =     -43.03547133 Ry
+     estimated scf accuracy    <       0.00316415 Ry
+
+     iteration #  3     ecut=    29.40 Ry     beta= 0.05
+     Davidson diagonalization with overlap
+     ethr =  2.64E-05,  avg # of iterations =  1.0
+
+     negative rho (up, down):  2.488E-02 0.000E+00
+ 
+     Adding external electric field
+
+     Computed dipole along edir(3) : 
+        Dipole                0.0326 Ry au,          0.0828 Debye
+        Dipole field          0.0000 Ry au, 
+ 
+        Potential amp.       -0.0016 Ry
+        Total length         63.7297 bohr
+ 
+
+     total cpu time spent up to now is      555.9 secs
+
+     total energy              =     -43.03591834 Ry
+     estimated scf accuracy    <       0.00091773 Ry
+
+     iteration #  4     ecut=    29.40 Ry     beta= 0.05
+     Davidson diagonalization with overlap
+     ethr =  7.65E-06,  avg # of iterations = 14.0
+
+     negative rho (up, down):  2.574E-02 0.000E+00
+ 
+     Adding external electric field
+
+     Computed dipole along edir(3) : 
+        Dipole                0.0304 Ry au,          0.0771 Debye
+        Dipole field          0.0000 Ry au, 
+ 
+        Potential amp.       -0.0015 Ry
+        Total length         63.7297 bohr
+ 
+
+     total cpu time spent up to now is      565.4 secs
+
+     total energy              =     -43.03601739 Ry
+     estimated scf accuracy    <       0.00008222 Ry
+
+     iteration #  5     ecut=    29.40 Ry     beta= 0.05
+     Davidson diagonalization with overlap
+     ethr =  6.85E-07,  avg # of iterations =  2.0
+
+     negative rho (up, down):  2.566E-02 0.000E+00
+ 
+     Adding external electric field
+
+     Computed dipole along edir(3) : 
+        Dipole                0.0282 Ry au,          0.0717 Debye
+        Dipole field          0.0000 Ry au, 
+ 
+        Potential amp.       -0.0014 Ry
+        Total length         63.7297 bohr
+ 
+
+     total cpu time spent up to now is      574.3 secs
+
+     total energy              =     -43.03602959 Ry
+     estimated scf accuracy    <       0.00007813 Ry
+
+     iteration #  6     ecut=    29.40 Ry     beta= 0.05
+     Davidson diagonalization with overlap
+     ethr =  6.51E-07,  avg # of iterations =  1.0
+
+     negative rho (up, down):  2.560E-02 0.000E+00
+ 
+     Adding external electric field
+
+     Computed dipole along edir(3) : 
+        Dipole                0.0305 Ry au,          0.0774 Debye
+        Dipole field          0.0000 Ry au, 
+ 
+        Potential amp.       -0.0015 Ry
+        Total length         63.7297 bohr
+ 
+
+     total cpu time spent up to now is      583.1 secs
+
+     total energy              =     -43.03601915 Ry
+     estimated scf accuracy    <       0.00005186 Ry
+
+     iteration #  7     ecut=    29.40 Ry     beta= 0.05
+     Davidson diagonalization with overlap
+     ethr =  4.32E-07,  avg # of iterations =  1.0
+
+     negative rho (up, down):  2.425E-02 0.000E+00
+ 
+     Adding external electric field
+
+     Computed dipole along edir(3) : 
+        Dipole                0.0304 Ry au,          0.0774 Debye
+        Dipole field          0.0000 Ry au, 
+ 
+        Potential amp.       -0.0015 Ry
+        Total length         63.7297 bohr
+ 
+
+     total cpu time spent up to now is      591.9 secs
+
+     total energy              =     -43.03600944 Ry
+     estimated scf accuracy    <       0.00000743 Ry
+
+     iteration #  8     ecut=    29.40 Ry     beta= 0.05
+     Davidson diagonalization with overlap
+     ethr =  6.19E-08,  avg # of iterations =  1.0
+
+     negative rho (up, down):  2.327E-02 0.000E+00
+ 
+     Adding external electric field
+
+     Computed dipole along edir(3) : 
+        Dipole                0.0297 Ry au,          0.0754 Debye
+        Dipole field          0.0000 Ry au, 
+ 
+        Potential amp.       -0.0015 Ry
+        Total length         63.7297 bohr
+ 
+
+     total cpu time spent up to now is      600.8 secs
+
+     total energy              =     -43.03599257 Ry
+     estimated scf accuracy    <       0.00000697 Ry
+
+     iteration #  9     ecut=    29.40 Ry     beta= 0.05
+     Davidson diagonalization with overlap
+     ethr =  5.81E-08,  avg # of iterations =  2.0
+
+     negative rho (up, down):  2.230E-02 0.000E+00
+ 
+     Adding external electric field
+
+     Computed dipole along edir(3) : 
+        Dipole                0.0297 Ry au,          0.0755 Debye
+        Dipole field          0.0000 Ry au, 
+ 
+        Potential amp.       -0.0015 Ry
+        Total length         63.7297 bohr
+ 
+
+     total cpu time spent up to now is      609.6 secs
+
+     total energy              =     -43.03598066 Ry
+     estimated scf accuracy    <       0.00000110 Ry
+
+     iteration # 10     ecut=    29.40 Ry     beta= 0.05
+     Davidson diagonalization with overlap
+     ethr =  9.16E-09,  avg # of iterations =  2.0
+
+     negative rho (up, down):  2.117E-02 0.000E+00
+ 
+     Adding external electric field
+
+     Computed dipole along edir(3) : 
+        Dipole                0.0298 Ry au,          0.0757 Debye
+        Dipole field          0.0000 Ry au, 
+ 
+        Potential amp.       -0.0015 Ry
+        Total length         63.7297 bohr
+ 
+
+     total cpu time spent up to now is      618.5 secs
+
+     total energy              =     -43.03596586 Ry
+     estimated scf accuracy    <       0.00000018 Ry
+
+     iteration # 11     ecut=    29.40 Ry     beta= 0.05
+     Davidson diagonalization with overlap
+     ethr =  1.48E-09,  avg # of iterations =  3.0
+
+     negative rho (up, down):  2.019E-02 0.000E+00
+ 
+     Adding external electric field
+
+     Computed dipole along edir(3) : 
+        Dipole                0.0301 Ry au,          0.0765 Debye
+        Dipole field          0.0000 Ry au, 
+ 
+        Potential amp.       -0.0015 Ry
+        Total length         63.7297 bohr
+ 
+
+     total cpu time spent up to now is      627.4 secs
+
+     total energy              =     -43.03595289 Ry
+     estimated scf accuracy    <       0.00000025 Ry
+
+     iteration # 12     ecut=    29.40 Ry     beta= 0.05
+     Davidson diagonalization with overlap
+     ethr =  1.48E-09,  avg # of iterations =  3.0
+
+     negative rho (up, down):  3.750E-03 0.000E+00
+ 
+     Adding external electric field
+
+     Computed dipole along edir(3) : 
+        Dipole                0.0301 Ry au,          0.0765 Debye
+        Dipole field          0.0000 Ry au, 
+ 
+        Potential amp.       -0.0015 Ry
+        Total length         63.7297 bohr
+ 
+
+     total cpu time spent up to now is      635.8 secs
+
+     End of self-consistent calculation
+
+          k = 0.0000 0.0000 0.0000 ( 87033 PWs)   bands (ev):
+
+   -26.6408 -16.9402 -14.2550 -10.4266  -9.5949  -6.0181  -3.1677  -1.6488
+    -0.4478  -0.4038  -0.2465  -0.1691   0.0222   0.0866   0.3366   0.4039
+
+     the Fermi energy is    -4.5929 ev
+
+!    total energy              =     -43.03580883 Ry
+     estimated scf accuracy    <       0.00000004 Ry
+     smearing contrib. (-TS)   =      -0.00000029 Ry
+     internal energy E=F+TS    =     -43.03580854 Ry
+
+     convergence has been achieved in  12 iterations
+
+     negative rho (up, down):  3.750E-03 0.000E+00
+
+     Forces acting on atoms (cartesian axes, Ry/au):
+
+     atom    1 type  1   force =    -0.03237768    0.04344529   -0.00597487
+     atom    2 type  1   force =    -0.00539163    0.03958045   -0.02240006
+     atom    3 type  2   force =     0.08949257   -0.03799206   -0.03440135
+     atom    4 type  2   force =    -0.05172327   -0.04503367    0.06277628
+
+     Total force =     0.156041     Total SCF correction =     0.000493
+  @ DRIVER MODE: Message from server: STATUS
+  @ DRIVER MODE: Message from server: GETFORCE
+  @ DRIVER MODE: Returning v,forces,stress 
+
+     Writing config to output data dir ./calc.save/
+     Message from routine punch:
+     wavefunctions written to file
+  @ DRIVER MODE: Message from server: STATUS
+  @ DRIVER MODE: Message from server: INIT
+  @ DRIVER MODE: Receiving replica           0           0
+  @ DRIVER MODE: Receiving parameter string
+ lscf : 1, lforce : 1, lstress : 0, lmovecell : 0, lensemb : 0, 
+  @ DRIVER MODE: Message from server: STATUS
+  @ DRIVER MODE: Message from server: POSDATA
+  @ DRIVER MODE: Reading and sharing cell 
+  @ DRIVER MODE: Reading and sharing positions 
+  @ DRIVER MODE: Received positions 
+     NEW-OLD atomic charge density approx. for the potential
+
+     negative rho (up, down):  3.503E-03 0.000E+00
+ 
+     Adding external electric field
+
+     Computed dipole along edir(3) : 
+        Dipole                0.0301 Ry au,          0.0765 Debye
+        Dipole field          0.0000 Ry au, 
+ 
+        Potential amp.       -0.0015 Ry
+        Total length         63.7297 bohr
+ 
+
+     total cpu time spent up to now is      658.5 secs
+
+     Self-consistent Calculation
+
+     iteration #  1     ecut=    29.40 Ry     beta= 0.05
+     Davidson diagonalization with overlap
+     c_bands:  1 eigenvalues not converged
+     ethr =  1.48E-09,  avg # of iterations = 20.0
+
+     negative rho (up, down):  3.498E-03 0.000E+00
+ 
+     Adding external electric field
+
+     Computed dipole along edir(3) : 
+        Dipole                0.0308 Ry au,          0.0782 Debye
+        Dipole field          0.0000 Ry au, 
+ 
+        Potential amp.       -0.0015 Ry
+        Total length         63.7297 bohr
+ 
+
+     total cpu time spent up to now is      669.2 secs
+
+     total energy              =     -43.04439625 Ry
+     estimated scf accuracy    <       0.00276971 Ry
+
+     iteration #  2     ecut=    29.40 Ry     beta= 0.05
+     Davidson diagonalization with overlap
+     ethr =  2.31E-05,  avg # of iterations =  1.0
+
+     negative rho (up, down):  7.411E-03 0.000E+00
+ 
+     Adding external electric field
+
+     Computed dipole along edir(3) : 
+        Dipole                0.0323 Ry au,          0.0821 Debye
+        Dipole field          0.0000 Ry au, 
+ 
+        Potential amp.       -0.0016 Ry
+        Total length         63.7297 bohr
+ 
+
+     total cpu time spent up to now is      677.6 secs
+
+     total energy              =     -43.04399582 Ry
+     estimated scf accuracy    <       0.00214399 Ry
+
+     iteration #  3     ecut=    29.40 Ry     beta= 0.05
+     Davidson diagonalization with overlap
+     ethr =  1.79E-05,  avg # of iterations =  2.0
+
+     negative rho (up, down):  2.043E-02 0.000E+00
+ 
+     Adding external electric field
+
+     Computed dipole along edir(3) : 
+        Dipole                0.0123 Ry au,          0.0314 Debye
+        Dipole field          0.0000 Ry au, 
+ 
+        Potential amp.       -0.0006 Ry
+        Total length         63.7297 bohr
+ 
+
+     total cpu time spent up to now is      686.4 secs
+
+     total energy              =     -43.04428596 Ry
+     estimated scf accuracy    <       0.00064632 Ry
+
+     iteration #  4     ecut=    29.40 Ry     beta= 0.05
+     Davidson diagonalization with overlap
+     ethr =  5.39E-06,  avg # of iterations = 14.0
+
+     negative rho (up, down):  2.169E-02 0.000E+00
+ 
+     Adding external electric field
+
+     Computed dipole along edir(3) : 
+        Dipole                0.0126 Ry au,          0.0319 Debye
+        Dipole field          0.0000 Ry au, 
+ 
+        Potential amp.       -0.0006 Ry
+        Total length         63.7297 bohr
+ 
+
+     total cpu time spent up to now is      695.9 secs
+
+     total energy              =     -43.04437245 Ry
+     estimated scf accuracy    <       0.00004325 Ry
+
+     iteration #  5     ecut=    29.40 Ry     beta= 0.05
+     Davidson diagonalization with overlap
+     ethr =  3.60E-07,  avg # of iterations =  2.0
+
+     negative rho (up, down):  2.088E-02 0.000E+00
+ 
+     Adding external electric field
+
+     Computed dipole along edir(3) : 
+        Dipole                0.0145 Ry au,          0.0369 Debye
+        Dipole field          0.0000 Ry au, 
+ 
+        Potential amp.       -0.0007 Ry
+        Total length         63.7297 bohr
+ 
+
+     total cpu time spent up to now is      704.8 secs
+
+     total energy              =     -43.04436118 Ry
+     estimated scf accuracy    <       0.00003937 Ry
+
+     iteration #  6     ecut=    29.40 Ry     beta= 0.05
+     Davidson diagonalization with overlap
+     ethr =  3.28E-07,  avg # of iterations =  1.0
+
+     negative rho (up, down):  2.133E-02 0.000E+00
+ 
+     Adding external electric field
+
+     Computed dipole along edir(3) : 
+        Dipole                0.0135 Ry au,          0.0344 Debye
+        Dipole field          0.0000 Ry au, 
+ 
+        Potential amp.       -0.0007 Ry
+        Total length         63.7297 bohr
+ 
+
+     total cpu time spent up to now is      713.7 secs
+
+     total energy              =     -43.04436793 Ry
+     estimated scf accuracy    <       0.00001600 Ry
+
+     iteration #  7     ecut=    29.40 Ry     beta= 0.05
+     Davidson diagonalization with overlap
+     ethr =  1.33E-07,  avg # of iterations =  1.0
+
+     negative rho (up, down):  2.015E-02 0.000E+00
+ 
+     Adding external electric field
+
+     Computed dipole along edir(3) : 
+        Dipole                0.0143 Ry au,          0.0363 Debye
+        Dipole field          0.0000 Ry au, 
+ 
+        Potential amp.       -0.0007 Ry
+        Total length         63.7297 bohr
+ 
+
+     total cpu time spent up to now is      722.4 secs
+
+     total energy              =     -43.04434824 Ry
+     estimated scf accuracy    <       0.00000354 Ry
+
+     iteration #  8     ecut=    29.40 Ry     beta= 0.05
+     Davidson diagonalization with overlap
+     ethr =  2.95E-08,  avg # of iterations =  2.0
+
+     negative rho (up, down):  1.950E-02 0.000E+00
+ 
+     Adding external electric field
+
+     Computed dipole along edir(3) : 
+        Dipole                0.0149 Ry au,          0.0378 Debye
+        Dipole field          0.0000 Ry au, 
+ 
+        Potential amp.       -0.0007 Ry
+        Total length         63.7297 bohr
+ 
+
+     total cpu time spent up to now is      731.2 secs
+
+     total energy              =     -43.04433584 Ry
+     estimated scf accuracy    <       0.00000088 Ry
+
+     iteration #  9     ecut=    29.40 Ry     beta= 0.05
+     Davidson diagonalization with overlap
+     ethr =  7.36E-09,  avg # of iterations =  2.0
+
+     negative rho (up, down):  1.851E-02 0.000E+00
+ 
+     Adding external electric field
+
+     Computed dipole along edir(3) : 
+        Dipole                0.0149 Ry au,          0.0378 Debye
+        Dipole field          0.0000 Ry au, 
+ 
+        Potential amp.       -0.0007 Ry
+        Total length         63.7297 bohr
+ 
+
+     total cpu time spent up to now is      740.1 secs
+
+     total energy              =     -43.04431671 Ry
+     estimated scf accuracy    <       0.00000011 Ry
+
+     iteration # 10     ecut=    29.40 Ry     beta= 0.05
+     Davidson diagonalization with overlap
+     ethr =  9.37E-10,  avg # of iterations =  2.0
+
+     negative rho (up, down):  1.764E-02 0.000E+00
+ 
+     Adding external electric field
+
+     Computed dipole along edir(3) : 
+        Dipole                0.0151 Ry au,          0.0383 Debye
+        Dipole field          0.0000 Ry au, 
+ 
+        Potential amp.       -0.0007 Ry
+        Total length         63.7297 bohr
+ 
+
+     total cpu time spent up to now is      748.9 secs
+
+     total energy              =     -43.04429862 Ry
+     estimated scf accuracy    <       0.00000012 Ry
+
+     iteration # 11     ecut=    29.40 Ry     beta= 0.05
+     Davidson diagonalization with overlap
+     ethr =  9.37E-10,  avg # of iterations =  2.0
+
+     negative rho (up, down):  1.676E-02 0.000E+00
+ 
+     Adding external electric field
+
+     Computed dipole along edir(3) : 
+        Dipole                0.0147 Ry au,          0.0374 Debye
+        Dipole field          0.0000 Ry au, 
+ 
+        Potential amp.       -0.0007 Ry
+        Total length         63.7297 bohr
+ 
+
+     total cpu time spent up to now is      757.7 secs
+
+     total energy              =     -43.04428348 Ry
+     estimated scf accuracy    <       0.00000031 Ry
+
+     iteration # 12     ecut=    29.40 Ry     beta= 0.05
+     Davidson diagonalization with overlap
+     ethr =  9.37E-10,  avg # of iterations =  2.0
+
+     negative rho (up, down):  1.595E-02 0.000E+00
+ 
+     Adding external electric field
+
+     Computed dipole along edir(3) : 
+        Dipole                0.0142 Ry au,          0.0361 Debye
+        Dipole field          0.0000 Ry au, 
+ 
+        Potential amp.       -0.0007 Ry
+        Total length         63.7297 bohr
+ 
+
+     total cpu time spent up to now is      766.5 secs
+
+     total energy              =     -43.04427170 Ry
+     estimated scf accuracy    <       0.00000008 Ry
+
+     iteration # 13     ecut=    29.40 Ry     beta= 0.05
+     Davidson diagonalization with overlap
+     ethr =  6.43E-10,  avg # of iterations =  3.0
+
+     negative rho (up, down):  1.516E-02 0.000E+00
+ 
+     Adding external electric field
+
+     Computed dipole along edir(3) : 
+        Dipole                0.0143 Ry au,          0.0364 Debye
+        Dipole field          0.0000 Ry au, 
+ 
+        Potential amp.       -0.0007 Ry
+        Total length         63.7297 bohr
+ 
+
+     total cpu time spent up to now is      775.3 secs
+
+     total energy              =     -43.04425773 Ry
+     estimated scf accuracy    <       0.00000014 Ry
+
+     iteration # 14     ecut=    29.40 Ry     beta= 0.05
+     Davidson diagonalization with overlap
+     ethr =  6.43E-10,  avg # of iterations =  2.0
+
+     negative rho (up, down):  3.701E-03 0.000E+00
+ 
+     Adding external electric field
+
+     Computed dipole along edir(3) : 
+        Dipole                0.0147 Ry au,          0.0375 Debye
+        Dipole field          0.0000 Ry au, 
+ 
+        Potential amp.       -0.0007 Ry
+        Total length         63.7297 bohr
+ 
+
+     total cpu time spent up to now is      783.6 secs
+
+     End of self-consistent calculation
+
+          k = 0.0000 0.0000 0.0000 ( 87033 PWs)   bands (ev):
+
+   -26.4057 -17.3019 -14.3433 -10.2572  -9.4640  -6.1795  -3.3394  -1.5106
+    -0.3758  -0.3224  -0.1794  -0.1037   0.0832   0.1562   0.4045   0.4778
+
+     the Fermi energy is    -4.7594 ev
+
+!    total energy              =     -43.04418592 Ry
+     estimated scf accuracy    <       0.00000005 Ry
+     smearing contrib. (-TS)   =      -0.00000030 Ry
+     internal energy E=F+TS    =     -43.04418561 Ry
+
+     convergence has been achieved in  14 iterations
+
+     negative rho (up, down):  3.701E-03 0.000E+00
+
+     Forces acting on atoms (cartesian axes, Ry/au):
+
+     atom    1 type  1   force =    -0.00653778    0.00789027   -0.00113485
+     atom    2 type  1   force =    -0.00428380   -0.00261597    0.00458821
+     atom    3 type  2   force =     0.00779766   -0.00472763   -0.00145762
+     atom    4 type  2   force =     0.00302392   -0.00054667   -0.00199574
+
+     Total force =     0.015850     Total SCF correction =     0.000530
+  @ DRIVER MODE: Message from server: STATUS
+  @ DRIVER MODE: Message from server: GETFORCE
+  @ DRIVER MODE: Returning v,forces,stress 
+
+     Writing config to output data dir ./calc.save/
+     Message from routine punch:
+     wavefunctions written to file
+  @ DRIVER MODE: Message from server: STATUS
+  @ DRIVER MODE: Message from server: INIT
+  @ DRIVER MODE: Receiving replica           0           0
+  @ DRIVER MODE: Receiving parameter string
+ lscf : 1, lforce : 1, lstress : 0, lmovecell : 0, lensemb : 0, 
+  @ DRIVER MODE: Message from server: STATUS
+  @ DRIVER MODE: Message from server: POSDATA
+  @ DRIVER MODE: Reading and sharing cell 
+  @ DRIVER MODE: Reading and sharing positions 
+  @ DRIVER MODE: Received positions 
+     NEW-OLD atomic charge density approx. for the potential
+
+     negative rho (up, down):  3.614E-03 0.000E+00
+ 
+     Adding external electric field
+
+     Computed dipole along edir(3) : 
+        Dipole                0.0147 Ry au,          0.0375 Debye
+        Dipole field          0.0000 Ry au, 
+ 
+        Potential amp.       -0.0007 Ry
+        Total length         63.7297 bohr
+ 
+
+     total cpu time spent up to now is      807.3 secs
+
+     Self-consistent Calculation
+
+     iteration #  1     ecut=    29.40 Ry     beta= 0.05
+     Davidson diagonalization with overlap
+     ethr =  6.43E-10,  avg # of iterations = 19.0
+
+     negative rho (up, down):  3.618E-03 0.000E+00
+ 
+     Adding external electric field
+
+     Computed dipole along edir(3) : 
+        Dipole                0.0156 Ry au,          0.0397 Debye
+        Dipole field          0.0000 Ry au, 
+ 
+        Potential amp.       -0.0008 Ry
+        Total length         63.7297 bohr
+ 
+
+     total cpu time spent up to now is      817.9 secs
+
+     total energy              =     -43.04332944 Ry
+     estimated scf accuracy    <       0.00103133 Ry
+
+     iteration #  2     ecut=    29.40 Ry     beta= 0.05
+     Davidson diagonalization with overlap
+     ethr =  8.59E-06,  avg # of iterations =  1.0
+
+     negative rho (up, down):  4.487E-03 0.000E+00
+ 
+     Adding external electric field
+
+     Computed dipole along edir(3) : 
+        Dipole                0.0189 Ry au,          0.0479 Debye
+        Dipole field          0.0000 Ry au, 
+ 
+        Potential amp.       -0.0009 Ry
+        Total length         63.7297 bohr
+ 
+
+     total cpu time spent up to now is      826.3 secs
+
+     total energy              =     -43.04315455 Ry
+     estimated scf accuracy    <       0.00077575 Ry
+
+     iteration #  3     ecut=    29.40 Ry     beta= 0.05
+     Davidson diagonalization with overlap
+     ethr =  6.46E-06,  avg # of iterations =  1.0
+
+     negative rho (up, down):  8.462E-03 0.000E+00
+ 
+     Adding external electric field
+
+     Computed dipole along edir(3) : 
+        Dipole                0.0097 Ry au,          0.0247 Debye
+        Dipole field          0.0000 Ry au, 
+ 
+        Potential amp.       -0.0005 Ry
+        Total length         63.7297 bohr
+ 
+
+     total cpu time spent up to now is      834.8 secs
+
+     total energy              =     -43.04324556 Ry
+     estimated scf accuracy    <       0.00019802 Ry
+
+     iteration #  4     ecut=    29.40 Ry     beta= 0.05
+     Davidson diagonalization with overlap
+     ethr =  1.65E-06,  avg # of iterations =  6.0
+
+     negative rho (up, down):  9.420E-03 0.000E+00
+ 
+     Adding external electric field
+
+     Computed dipole along edir(3) : 
+        Dipole                0.0102 Ry au,          0.0259 Debye
+        Dipole field          0.0000 Ry au, 
+ 
+        Potential amp.       -0.0005 Ry
+        Total length         63.7297 bohr
+ 
+
+     total cpu time spent up to now is      844.0 secs
+
+     total energy              =     -43.04327672 Ry
+     estimated scf accuracy    <       0.00002369 Ry
+
+     iteration #  5     ecut=    29.40 Ry     beta= 0.05
+     Davidson diagonalization with overlap
+     ethr =  1.97E-07,  avg # of iterations =  2.0
+
+     negative rho (up, down):  9.505E-03 0.000E+00
+ 
+     Adding external electric field
+
+     Computed dipole along edir(3) : 
+        Dipole                0.0099 Ry au,          0.0252 Debye
+        Dipole field          0.0000 Ry au, 
+ 
+        Potential amp.       -0.0005 Ry
+        Total length         63.7297 bohr
+ 
+
+     total cpu time spent up to now is      852.6 secs
+
+     total energy              =     -43.04327554 Ry
+     estimated scf accuracy    <       0.00002492 Ry
+
+     iteration #  6     ecut=    29.40 Ry     beta= 0.05
+     Davidson diagonalization with overlap
+     ethr =  1.97E-07,  avg # of iterations =  2.0
+
+     negative rho (up, down):  9.168E-03 0.000E+00
+ 
+     Adding external electric field
+
+     Computed dipole along edir(3) : 
+        Dipole                0.0093 Ry au,          0.0237 Debye
+        Dipole field          0.0000 Ry au, 
+ 
+        Potential amp.       -0.0005 Ry
+        Total length         63.7297 bohr
+ 
+
+     total cpu time spent up to now is      861.2 secs
+
+     total energy              =     -43.04327553 Ry
+     estimated scf accuracy    <       0.00000226 Ry
+
+     iteration #  7     ecut=    29.40 Ry     beta= 0.05
+     Davidson diagonalization with overlap
+     ethr =  1.88E-08,  avg # of iterations =  2.0
+
+     negative rho (up, down):  8.797E-03 0.000E+00
+ 
+     Adding external electric field
+
+     Computed dipole along edir(3) : 
+        Dipole                0.0097 Ry au,          0.0245 Debye
+        Dipole field          0.0000 Ry au, 
+ 
+        Potential amp.       -0.0005 Ry
+        Total length         63.7297 bohr
+ 
+
+     total cpu time spent up to now is      869.8 secs
+
+     total energy              =     -43.04327190 Ry
+     estimated scf accuracy    <       0.00000110 Ry
+
+     iteration #  8     ecut=    29.40 Ry     beta= 0.05
+     Davidson diagonalization with overlap
+     ethr =  9.17E-09,  avg # of iterations =  1.0
+
+     negative rho (up, down):  8.810E-03 0.000E+00
+ 
+     Adding external electric field
+
+     Computed dipole along edir(3) : 
+        Dipole                0.0104 Ry au,          0.0264 Debye
+        Dipole field          0.0000 Ry au, 
+ 
+        Potential amp.       -0.0005 Ry
+        Total length         63.7297 bohr
+ 
+
+     total cpu time spent up to now is      878.3 secs
+
+     total energy              =     -43.04327205 Ry
+     estimated scf accuracy    <       0.00000069 Ry
+
+     iteration #  9     ecut=    29.40 Ry     beta= 0.05
+     Davidson diagonalization with overlap
+     ethr =  5.71E-09,  avg # of iterations =  2.0
+
+     negative rho (up, down):  3.738E-03 0.000E+00
+ 
+     Adding external electric field
+
+     Computed dipole along edir(3) : 
+        Dipole                0.0103 Ry au,          0.0262 Debye
+        Dipole field          0.0000 Ry au, 
+ 
+        Potential amp.       -0.0005 Ry
+        Total length         63.7297 bohr
+ 
+
+     total cpu time spent up to now is      886.7 secs
+
+     End of self-consistent calculation
+
+          k = 0.0000 0.0000 0.0000 ( 87033 PWs)   bands (ev):
+
+   -26.4052 -17.4417 -14.4173 -10.2566  -9.4604  -6.1188  -3.3414  -1.4252
+    -0.2989  -0.2305  -0.0840  -0.0448   0.1802   0.2477   0.4947   0.5721
+
+     the Fermi energy is    -4.7301 ev
+
+!    total energy              =     -43.04323849 Ry
+     estimated scf accuracy    <       0.00000001 Ry
+     smearing contrib. (-TS)   =      -0.00000041 Ry
+     internal energy E=F+TS    =     -43.04323808 Ry
+
+     convergence has been achieved in   9 iterations
+
+     negative rho (up, down):  3.738E-03 0.000E+00
+
+     Forces acting on atoms (cartesian axes, Ry/au):
+
+     atom    1 type  1   force =     0.03361054   -0.01447784   -0.01196968
+     atom    2 type  1   force =     0.00018357    0.01009304   -0.00713764
+     atom    3 type  2   force =    -0.02704824    0.00817284    0.01143325
+     atom    4 type  2   force =    -0.00674587   -0.00378804    0.00767407
+
+     Total force =     0.051800     Total SCF correction =     0.000340
+  @ DRIVER MODE: Message from server: STATUS
+  @ DRIVER MODE: Message from server: GETFORCE
+  @ DRIVER MODE: Returning v,forces,stress 
+
+     Writing config to output data dir ./calc.save/
+     Message from routine punch:
+     wavefunctions written to file
+  @ DRIVER MODE: Message from server: STATUS
+  @ DRIVER MODE: Message from server: INIT
+  @ DRIVER MODE: Receiving replica           0           0
+  @ DRIVER MODE: Receiving parameter string
+ lscf : 1, lforce : 1, lstress : 0, lmovecell : 0, lensemb : 0, 
+  @ DRIVER MODE: Message from server: STATUS
+  @ DRIVER MODE: Message from server: POSDATA
+  @ DRIVER MODE: Reading and sharing cell 
+  @ DRIVER MODE: Reading and sharing positions 
+  @ DRIVER MODE: Received positions 
+     NEW-OLD atomic charge density approx. for the potential
+
+     negative rho (up, down):  3.732E-03 0.000E+00
+ 
+     Adding external electric field
+
+     Computed dipole along edir(3) : 
+        Dipole                0.0103 Ry au,          0.0262 Debye
+        Dipole field          0.0000 Ry au, 
+ 
+        Potential amp.       -0.0005 Ry
+        Total length         63.7297 bohr
+ 
+
+     total cpu time spent up to now is      909.0 secs
+
+     Self-consistent Calculation
+
+     iteration #  1     ecut=    29.40 Ry     beta= 0.05
+     Davidson diagonalization with overlap
+     ethr =  5.71E-09,  avg # of iterations =  8.0
+
+     negative rho (up, down):  3.729E-03 0.000E+00
+ 
+     Adding external electric field
+
+     Computed dipole along edir(3) : 
+        Dipole                0.0097 Ry au,          0.0246 Debye
+        Dipole field          0.0000 Ry au, 
+ 
+        Potential amp.       -0.0005 Ry
+        Total length         63.7297 bohr
+ 
+
+     total cpu time spent up to now is      918.8 secs
+
+     total energy              =     -43.04441154 Ry
+     estimated scf accuracy    <       0.00052128 Ry
+
+     iteration #  2     ecut=    29.40 Ry     beta= 0.05
+     Davidson diagonalization with overlap
+     ethr =  4.34E-06,  avg # of iterations =  1.0
+
+     negative rho (up, down):  4.194E-03 0.000E+00
+ 
+     Adding external electric field
+
+     Computed dipole along edir(3) : 
+        Dipole                0.0073 Ry au,          0.0186 Debye
+        Dipole field          0.0000 Ry au, 
+ 
+        Potential amp.       -0.0004 Ry
+        Total length         63.7297 bohr
+ 
+
+     total cpu time spent up to now is      927.2 secs
+
+     total energy              =     -43.04432155 Ry
+     estimated scf accuracy    <       0.00039385 Ry
+
+     iteration #  3     ecut=    29.40 Ry     beta= 0.05
+     Davidson diagonalization with overlap
+     ethr =  3.28E-06,  avg # of iterations =  1.0
+
+     negative rho (up, down):  6.593E-03 0.000E+00
+ 
+     Adding external electric field
+
+     Computed dipole along edir(3) : 
+        Dipole                0.0139 Ry au,          0.0354 Debye
+        Dipole field          0.0000 Ry au, 
+ 
+        Potential amp.       -0.0007 Ry
+        Total length         63.7297 bohr
+ 
+
+     total cpu time spent up to now is      935.6 secs
+
+     total energy              =     -43.04437197 Ry
+     estimated scf accuracy    <       0.00010154 Ry
+
+     iteration #  4     ecut=    29.40 Ry     beta= 0.05
+     Davidson diagonalization with overlap
+     ethr =  8.46E-07,  avg # of iterations =  4.0
+
+     negative rho (up, down):  7.157E-03 0.000E+00
+ 
+     Adding external electric field
+
+     Computed dipole along edir(3) : 
+        Dipole                0.0131 Ry au,          0.0333 Debye
+        Dipole field          0.0000 Ry au, 
+ 
+        Potential amp.       -0.0006 Ry
+        Total length         63.7297 bohr
+ 
+
+     total cpu time spent up to now is      944.3 secs
+
+     total energy              =     -43.04438373 Ry
+     estimated scf accuracy    <       0.00001529 Ry
+
+     iteration #  5     ecut=    29.40 Ry     beta= 0.05
+     Davidson diagonalization with overlap
+     ethr =  1.27E-07,  avg # of iterations =  2.0
+
+     negative rho (up, down):  7.270E-03 0.000E+00
+ 
+     Adding external electric field
+
+     Computed dipole along edir(3) : 
+        Dipole                0.0132 Ry au,          0.0337 Debye
+        Dipole field          0.0000 Ry au, 
+ 
+        Potential amp.       -0.0007 Ry
+        Total length         63.7297 bohr
+ 
+
+     total cpu time spent up to now is      952.9 secs
+
+     total energy              =     -43.04438462 Ry
+     estimated scf accuracy    <       0.00001463 Ry
+
+     iteration #  6     ecut=    29.40 Ry     beta= 0.05
+     Davidson diagonalization with overlap
+     ethr =  1.22E-07,  avg # of iterations =  2.0
+
+     negative rho (up, down):  7.086E-03 0.000E+00
+ 
+     Adding external electric field
+
+     Computed dipole along edir(3) : 
+        Dipole                0.0139 Ry au,          0.0353 Debye
+        Dipole field          0.0000 Ry au, 
+ 
+        Potential amp.       -0.0007 Ry
+        Total length         63.7297 bohr
+ 
+
+     total cpu time spent up to now is      961.4 secs
+
+     total energy              =     -43.04438488 Ry
+     estimated scf accuracy    <       0.00000310 Ry
+
+     iteration #  7     ecut=    29.40 Ry     beta= 0.05
+     Davidson diagonalization with overlap
+     ethr =  2.58E-08,  avg # of iterations =  1.0
+
+     negative rho (up, down):  6.810E-03 0.000E+00
+ 
+     Adding external electric field
+
+     Computed dipole along edir(3) : 
+        Dipole                0.0139 Ry au,          0.0353 Debye
+        Dipole field          0.0000 Ry au, 
+ 
+        Potential amp.       -0.0007 Ry
+        Total length         63.7297 bohr
+ 
+
+     total cpu time spent up to now is      969.9 secs
+
+     total energy              =     -43.04438455 Ry
+     estimated scf accuracy    <       0.00000058 Ry
+
+     iteration #  8     ecut=    29.40 Ry     beta= 0.05
+     Davidson diagonalization with overlap
+     ethr =  4.83E-09,  avg # of iterations =  1.0
+
+     negative rho (up, down):  6.785E-03 0.000E+00
+ 
+     Adding external electric field
+
+     Computed dipole along edir(3) : 
+        Dipole                0.0134 Ry au,          0.0340 Debye
+        Dipole field          0.0000 Ry au, 
+ 
+        Potential amp.       -0.0007 Ry
+        Total length         63.7297 bohr
+ 
+
+     total cpu time spent up to now is      978.4 secs
+
+     total energy              =     -43.04438432 Ry
+     estimated scf accuracy    <       0.00000053 Ry
+
+     iteration #  9     ecut=    29.40 Ry     beta= 0.05
+     Davidson diagonalization with overlap
+     ethr =  4.43E-09,  avg # of iterations =  2.0
+
+     negative rho (up, down):  6.583E-03 0.000E+00
+ 
+     Adding external electric field
+
+     Computed dipole along edir(3) : 
+        Dipole                0.0133 Ry au,          0.0338 Debye
+        Dipole field          0.0000 Ry au, 
+ 
+        Potential amp.       -0.0007 Ry
+        Total length         63.7297 bohr
+ 
+
+     total cpu time spent up to now is      987.0 secs
+
+     total energy              =     -43.04438313 Ry
+     estimated scf accuracy    <       0.00000013 Ry
+
+     iteration # 10     ecut=    29.40 Ry     beta= 0.05
+     Davidson diagonalization with overlap
+     ethr =  1.12E-09,  avg # of iterations =  2.0
+
+     negative rho (up, down):  3.718E-03 0.000E+00
+ 
+     Adding external electric field
+
+     Computed dipole along edir(3) : 
+        Dipole                0.0133 Ry au,          0.0339 Debye
+        Dipole field          0.0000 Ry au, 
+ 
+        Potential amp.       -0.0007 Ry
+        Total length         63.7297 bohr
+ 
+
+     total cpu time spent up to now is      995.3 secs
+
+     End of self-consistent calculation
+
+          k = 0.0000 0.0000 0.0000 ( 87033 PWs)   bands (ev):
+
+   -26.4045 -17.3412 -14.3659 -10.2568  -9.4621  -6.1625  -3.3397  -1.4557
+    -0.2608  -0.1953  -0.0455  -0.0144   0.2139   0.2887   0.5378   0.6065
+
+     the Fermi energy is    -4.7511 ev
+
+!    total energy              =     -43.04436523 Ry
+     estimated scf accuracy    <       0.00000001 Ry
+     smearing contrib. (-TS)   =      -0.00000033 Ry
+     internal energy E=F+TS    =     -43.04436490 Ry
+
+     convergence has been achieved in  10 iterations
+
+     negative rho (up, down):  3.718E-03 0.000E+00
+
+     Forces acting on atoms (cartesian axes, Ry/au):
+
+     atom    1 type  1   force =     0.00397181    0.00200372   -0.00391107
+     atom    2 type  1   force =    -0.00301376    0.00098068    0.00126789
+     atom    3 type  2   force =    -0.00119030   -0.00160781    0.00194709
+     atom    4 type  2   force =     0.00023225   -0.00137659    0.00069610
+
+     Total force =     0.007548     Total SCF correction =     0.000354
+  @ DRIVER MODE: Message from server: STATUS
+  @ DRIVER MODE: Message from server: GETFORCE
+  @ DRIVER MODE: Returning v,forces,stress 
+
+     Writing config to output data dir ./calc.save/
+     Message from routine punch:
+     wavefunctions written to file
+  @ DRIVER MODE: Message from server: STATUS
+  @ DRIVER MODE: Message from server: INIT
+  @ DRIVER MODE: Receiving replica           0           0
+  @ DRIVER MODE: Receiving parameter string
+ lscf : 1, lforce : 1, lstress : 0, lmovecell : 0, lensemb : 0, 
+  @ DRIVER MODE: Message from server: STATUS
+  @ DRIVER MODE: Message from server: POSDATA
+  @ DRIVER MODE: Reading and sharing cell 
+  @ DRIVER MODE: Reading and sharing positions 
+  @ DRIVER MODE: Received positions 
+     NEW-OLD atomic charge density approx. for the potential
+
+     negative rho (up, down):  3.698E-03 0.000E+00
+ 
+     Adding external electric field
+
+     Computed dipole along edir(3) : 
+        Dipole                0.0133 Ry au,          0.0339 Debye
+        Dipole field          0.0000 Ry au, 
+ 
+        Potential amp.       -0.0007 Ry
+        Total length         63.7297 bohr
+ 
+
+     total cpu time spent up to now is     1017.7 secs
+
+     Self-consistent Calculation
+
+     iteration #  1     ecut=    29.40 Ry     beta= 0.05
+     Davidson diagonalization with overlap
+     ethr =  1.12E-09,  avg # of iterations =  7.0
+
+     negative rho (up, down):  3.700E-03 0.000E+00
+ 
+     Adding external electric field
+
+     Computed dipole along edir(3) : 
+        Dipole                0.0130 Ry au,          0.0331 Debye
+        Dipole field          0.0000 Ry au, 
+ 
+        Potential amp.       -0.0006 Ry
+        Total length         63.7297 bohr
+ 
+
+     total cpu time spent up to now is     1026.9 secs
+
+     total energy              =     -43.04444736 Ry
+     estimated scf accuracy    <       0.00011075 Ry
+
+     iteration #  2     ecut=    29.40 Ry     beta= 0.05
+     Davidson diagonalization with overlap
+     ethr =  9.23E-07,  avg # of iterations =  1.0
+
+     negative rho (up, down):  3.839E-03 0.000E+00
+ 
+     Adding external electric field
+
+     Computed dipole along edir(3) : 
+        Dipole                0.0119 Ry au,          0.0302 Debye
+        Dipole field          0.0000 Ry au, 
+ 
+        Potential amp.       -0.0006 Ry
+        Total length         63.7297 bohr
+ 
+
+     total cpu time spent up to now is     1035.3 secs
+
+     total energy              =     -43.04443165 Ry
+     estimated scf accuracy    <       0.00008459 Ry
+
+     iteration #  3     ecut=    29.40 Ry     beta= 0.05
+     Davidson diagonalization with overlap
+     ethr =  7.05E-07,  avg # of iterations =  1.0
+
+     negative rho (up, down):  4.854E-03 0.000E+00
+ 
+     Adding external electric field
+
+     Computed dipole along edir(3) : 
+        Dipole                0.0152 Ry au,          0.0386 Debye
+        Dipole field          0.0000 Ry au, 
+ 
+        Potential amp.       -0.0008 Ry
+        Total length         63.7297 bohr
+ 
+
+     total cpu time spent up to now is     1043.8 secs
+
+     total energy              =     -43.04444524 Ry
+     estimated scf accuracy    <       0.00002445 Ry
+
+     iteration #  4     ecut=    29.40 Ry     beta= 0.05
+     Davidson diagonalization with overlap
+     ethr =  2.04E-07,  avg # of iterations =  2.0
+
+     negative rho (up, down):  4.964E-03 0.000E+00
+ 
+     Adding external electric field
+
+     Computed dipole along edir(3) : 
+        Dipole                0.0148 Ry au,          0.0375 Debye
+        Dipole field          0.0000 Ry au, 
+ 
+        Potential amp.       -0.0007 Ry
+        Total length         63.7297 bohr
+ 
+
+     total cpu time spent up to now is     1052.3 secs
+
+     total energy              =     -43.04444795 Ry
+     estimated scf accuracy    <       0.00000311 Ry
+
+     iteration #  5     ecut=    29.40 Ry     beta= 0.05
+     Davidson diagonalization with overlap
+     ethr =  2.59E-08,  avg # of iterations =  2.0
+
+     negative rho (up, down):  4.971E-03 0.000E+00
+ 
+     Adding external electric field
+
+     Computed dipole along edir(3) : 
+        Dipole                0.0145 Ry au,          0.0369 Debye
+        Dipole field          0.0000 Ry au, 
+ 
+        Potential amp.       -0.0007 Ry
+        Total length         63.7297 bohr
+ 
+
+     total cpu time spent up to now is     1060.8 secs
+
+     total energy              =     -43.04444791 Ry
+     estimated scf accuracy    <       0.00000222 Ry
+
+     iteration #  6     ecut=    29.40 Ry     beta= 0.05
+     Davidson diagonalization with overlap
+     ethr =  1.85E-08,  avg # of iterations =  2.0
+
+     negative rho (up, down):  4.926E-03 0.000E+00
+ 
+     Adding external electric field
+
+     Computed dipole along edir(3) : 
+        Dipole                0.0149 Ry au,          0.0378 Debye
+        Dipole field          0.0000 Ry au, 
+ 
+        Potential amp.       -0.0007 Ry
+        Total length         63.7297 bohr
+ 
+
+     total cpu time spent up to now is     1069.3 secs
+
+     total energy              =     -43.04444797 Ry
+     estimated scf accuracy    <       0.00000061 Ry
+
+     iteration #  7     ecut=    29.40 Ry     beta= 0.05
+     Davidson diagonalization with overlap
+     ethr =  5.10E-09,  avg # of iterations =  1.0
+
+     negative rho (up, down):  4.822E-03 0.000E+00
+ 
+     Adding external electric field
+
+     Computed dipole along edir(3) : 
+        Dipole                0.0149 Ry au,          0.0380 Debye
+        Dipole field          0.0000 Ry au, 
+ 
+        Potential amp.       -0.0007 Ry
+        Total length         63.7297 bohr
+ 
+
+     total cpu time spent up to now is     1077.8 secs
+
+     total energy              =     -43.04444735 Ry
+     estimated scf accuracy    <       0.00000014 Ry
+
+     iteration #  8     ecut=    29.40 Ry     beta= 0.05
+     Davidson diagonalization with overlap
+     ethr =  1.20E-09,  avg # of iterations =  1.0
+
+     negative rho (up, down):  4.773E-03 0.000E+00
+ 
+     Adding external electric field
+
+     Computed dipole along edir(3) : 
+        Dipole                0.0146 Ry au,          0.0371 Debye
+        Dipole field          0.0000 Ry au, 
+ 
+        Potential amp.       -0.0007 Ry
+        Total length         63.7297 bohr
+ 
+
+     total cpu time spent up to now is     1086.3 secs
+
+     total energy              =     -43.04444701 Ry
+     estimated scf accuracy    <       0.00000019 Ry
+
+     iteration #  9     ecut=    29.40 Ry     beta= 0.05
+     Davidson diagonalization with overlap
+     ethr =  1.20E-09,  avg # of iterations =  2.0
+
+     negative rho (up, down):  3.734E-03 0.000E+00
+ 
+     Adding external electric field
+
+     Computed dipole along edir(3) : 
+        Dipole                0.0145 Ry au,          0.0370 Debye
+        Dipole field          0.0000 Ry au, 
+ 
+        Potential amp.       -0.0007 Ry
+        Total length         63.7297 bohr
+ 
+
+     total cpu time spent up to now is     1094.6 secs
+
+     End of self-consistent calculation
+
+          k = 0.0000 0.0000 0.0000 ( 87033 PWs)   bands (ev):
+
+   -26.4016 -17.3779 -14.3914 -10.2624  -9.4637  -6.1202  -3.3307  -1.4263
+    -0.2355  -0.1518   0.0017   0.0163   0.2481   0.3356   0.5807   0.6457
+
+     the Fermi energy is    -4.7254 ev
+
+!    total energy              =     -43.04444478 Ry
+     estimated scf accuracy    <          1.4E-09 Ry
+     smearing contrib. (-TS)   =      -0.00000039 Ry
+     internal energy E=F+TS    =     -43.04444439 Ry
+
+     convergence has been achieved in   9 iterations
+
+     negative rho (up, down):  3.734E-03 0.000E+00
+
+     Forces acting on atoms (cartesian axes, Ry/au):
+
+     atom    1 type  1   force =     0.00017003    0.00072534   -0.00038538
+     atom    2 type  1   force =     0.00402391   -0.00599667    0.00089684
+     atom    3 type  2   force =     0.00247073   -0.00076678   -0.00138697
+     atom    4 type  2   force =    -0.00666467    0.00603811    0.00087550
+
+     Total force =     0.011997     Total SCF correction =     0.000062
+  @ DRIVER MODE: Message from server: STATUS
+  @ DRIVER MODE: Message from server: GETFORCE
+  @ DRIVER MODE: Returning v,forces,stress 
+
+     Writing config to output data dir ./calc.save/
+     Message from routine punch:
+     wavefunctions written to file
+  @ DRIVER MODE: Message from server: STATUS
+  @ DRIVER MODE: Message from server: INIT
+  @ DRIVER MODE: Receiving replica           0           0
+  @ DRIVER MODE: Receiving parameter string
+ lscf : 1, lforce : 1, lstress : 0, lmovecell : 0, lensemb : 0, 
+  @ DRIVER MODE: Message from server: STATUS
+  @ DRIVER MODE: Message from server: POSDATA
+  @ DRIVER MODE: Reading and sharing cell 
+  @ DRIVER MODE: Reading and sharing positions 
+  @ DRIVER MODE: Received positions 
+     NEW-OLD atomic charge density approx. for the potential
+
+     negative rho (up, down):  3.718E-03 0.000E+00
+ 
+     Adding external electric field
+
+     Computed dipole along edir(3) : 
+        Dipole                0.0145 Ry au,          0.0370 Debye
+        Dipole field          0.0000 Ry au, 
+ 
+        Potential amp.       -0.0007 Ry
+        Total length         63.7297 bohr
+ 
+
+     total cpu time spent up to now is     1117.0 secs
+
+     Self-consistent Calculation
+
+     iteration #  1     ecut=    29.40 Ry     beta= 0.05
+     Davidson diagonalization with overlap
+     ethr =  1.20E-09,  avg # of iterations =  7.0
+
+     negative rho (up, down):  3.716E-03 0.000E+00
+ 
+     Adding external electric field
+
+     Computed dipole along edir(3) : 
+        Dipole                0.0150 Ry au,          0.0382 Debye
+        Dipole field          0.0000 Ry au, 
+ 
+        Potential amp.       -0.0007 Ry
+        Total length         63.7297 bohr
+ 
+
+     total cpu time spent up to now is     1126.2 secs
+
+     total energy              =     -43.04412010 Ry
+     estimated scf accuracy    <       0.00060480 Ry
+
+     iteration #  2     ecut=    29.40 Ry     beta= 0.05
+     Davidson diagonalization with overlap
+     ethr =  5.04E-06,  avg # of iterations =  1.0
+
+     negative rho (up, down):  4.087E-03 0.000E+00
+ 
+     Adding external electric field
+
+     Computed dipole along edir(3) : 
+        Dipole                0.0164 Ry au,          0.0416 Debye
+        Dipole field          0.0000 Ry au, 
+ 
+        Potential amp.       -0.0008 Ry
+        Total length         63.7297 bohr
+ 
+
+     total cpu time spent up to now is     1134.6 secs
+
+     total energy              =     -43.04399663 Ry
+     estimated scf accuracy    <       0.00043313 Ry
+
+     iteration #  3     ecut=    29.40 Ry     beta= 0.05
+     Davidson diagonalization with overlap
+     ethr =  3.61E-06,  avg # of iterations =  1.0
+
+     negative rho (up, down):  5.772E-03 0.000E+00
+ 
+     Adding external electric field
+
+     Computed dipole along edir(3) : 
+        Dipole                0.0089 Ry au,          0.0225 Debye
+        Dipole field          0.0000 Ry au, 
+ 
+        Potential amp.       -0.0004 Ry
+        Total length         63.7297 bohr
+ 
+
+     total cpu time spent up to now is     1143.0 secs
+
+     total energy              =     -43.04405435 Ry
+     estimated scf accuracy    <       0.00007774 Ry
+
+     iteration #  4     ecut=    29.40 Ry     beta= 0.05
+     Davidson diagonalization with overlap
+     ethr =  6.48E-07,  avg # of iterations =  2.0
+
+     negative rho (up, down):  6.540E-03 0.000E+00
+ 
+     Adding external electric field
+
+     Computed dipole along edir(3) : 
+        Dipole                0.0084 Ry au,          0.0213 Debye
+        Dipole field          0.0000 Ry au, 
+ 
+        Potential amp.       -0.0004 Ry
+        Total length         63.7297 bohr
+ 
+
+     total cpu time spent up to now is     1151.6 secs
+
+     total energy              =     -43.04406575 Ry
+     estimated scf accuracy    <       0.00001551 Ry
+
+     iteration #  5     ecut=    29.40 Ry     beta= 0.05
+     Davidson diagonalization with overlap
+     ethr =  1.29E-07,  avg # of iterations =  2.0
+
+     negative rho (up, down):  7.014E-03 0.000E+00
+ 
+     Adding external electric field
+
+     Computed dipole along edir(3) : 
+        Dipole                0.0079 Ry au,          0.0201 Debye
+        Dipole field          0.0000 Ry au, 
+ 
+        Potential amp.       -0.0004 Ry
+        Total length         63.7297 bohr
+ 
+
+     total cpu time spent up to now is     1160.2 secs
+
+     total energy              =     -43.04406659 Ry
+     estimated scf accuracy    <       0.00001807 Ry
+
+     iteration #  6     ecut=    29.40 Ry     beta= 0.05
+     Davidson diagonalization with overlap
+     ethr =  1.29E-07,  avg # of iterations =  2.0
+
+     negative rho (up, down):  6.831E-03 0.000E+00
+ 
+     Adding external electric field
+
+     Computed dipole along edir(3) : 
+        Dipole                0.0072 Ry au,          0.0183 Debye
+        Dipole field          0.0000 Ry au, 
+ 
+        Potential amp.       -0.0004 Ry
+        Total length         63.7297 bohr
+ 
+
+     total cpu time spent up to now is     1168.8 secs
+
+     total energy              =     -43.04406770 Ry
+     estimated scf accuracy    <       0.00000268 Ry
+
+     iteration #  7     ecut=    29.40 Ry     beta= 0.05
+     Davidson diagonalization with overlap
+     ethr =  2.24E-08,  avg # of iterations =  1.0
+
+     negative rho (up, down):  6.577E-03 0.000E+00
+ 
+     Adding external electric field
+
+     Computed dipole along edir(3) : 
+        Dipole                0.0071 Ry au,          0.0182 Debye
+        Dipole field          0.0000 Ry au, 
+ 
+        Potential amp.       -0.0004 Ry
+        Total length         63.7297 bohr
+ 
+
+     total cpu time spent up to now is     1177.3 secs
+
+     total energy              =     -43.04406750 Ry
+     estimated scf accuracy    <       0.00000051 Ry
+
+     iteration #  8     ecut=    29.40 Ry     beta= 0.05
+     Davidson diagonalization with overlap
+     ethr =  4.28E-09,  avg # of iterations =  1.0
+
+     negative rho (up, down):  6.579E-03 0.000E+00
+ 
+     Adding external electric field
+
+     Computed dipole along edir(3) : 
+        Dipole                0.0077 Ry au,          0.0197 Debye
+        Dipole field          0.0000 Ry au, 
+ 
+        Potential amp.       -0.0004 Ry
+        Total length         63.7297 bohr
+ 
+
+     total cpu time spent up to now is     1185.8 secs
+
+     total energy              =     -43.04406680 Ry
+     estimated scf accuracy    <       0.00000057 Ry
+
+     iteration #  9     ecut=    29.40 Ry     beta= 0.05
+     Davidson diagonalization with overlap
+     ethr =  4.28E-09,  avg # of iterations =  2.0
+
+     negative rho (up, down):  6.346E-03 0.000E+00
+ 
+     Adding external electric field
+
+     Computed dipole along edir(3) : 
+        Dipole                0.0079 Ry au,          0.0201 Debye
+        Dipole field          0.0000 Ry au, 
+ 
+        Potential amp.       -0.0004 Ry
+        Total length         63.7297 bohr
+ 
+
+     total cpu time spent up to now is     1194.5 secs
+
+     total energy              =     -43.04406636 Ry
+     estimated scf accuracy    <       0.00000008 Ry
+
+     iteration # 10     ecut=    29.40 Ry     beta= 0.05
+     Davidson diagonalization with overlap
+     ethr =  6.61E-10,  avg # of iterations =  2.0
+
+     negative rho (up, down):  3.701E-03 0.000E+00
+ 
+     Adding external electric field
+
+     Computed dipole along edir(3) : 
+        Dipole                0.0079 Ry au,          0.0200 Debye
+        Dipole field          0.0000 Ry au, 
+ 
+        Potential amp.       -0.0004 Ry
+        Total length         63.7297 bohr
+ 
+
+     total cpu time spent up to now is     1202.8 secs
+
+     End of self-consistent calculation
+
+          k = 0.0000 0.0000 0.0000 ( 87033 PWs)   bands (ev):
+
+   -26.3368 -17.3179 -14.3273 -10.2456  -9.4600  -6.1142  -3.3400  -1.4593
+    -0.2764  -0.1893  -0.0413  -0.0235   0.2131   0.2917   0.5371   0.6101
+
+     the Fermi energy is    -4.7271 ev
+
+!    total energy              =     -43.04405149 Ry
+     estimated scf accuracy    <       0.00000001 Ry
+     smearing contrib. (-TS)   =      -0.00000041 Ry
+     internal energy E=F+TS    =     -43.04405108 Ry
+
+     convergence has been achieved in  10 iterations
+
+     negative rho (up, down):  3.701E-03 0.000E+00
+
+     Forces acting on atoms (cartesian axes, Ry/au):
+
+     atom    1 type  1   force =    -0.00577356   -0.00321103    0.00588704
+     atom    2 type  1   force =    -0.00722052    0.01321548   -0.00400751
+     atom    3 type  2   force =    -0.00309404    0.00441271   -0.00103840
+     atom    4 type  2   force =     0.01608813   -0.01441716   -0.00084112
+
+     Total force =     0.028612     Total SCF correction =     0.000224
+  @ DRIVER MODE: Message from server: STATUS
+  @ DRIVER MODE: Message from server: GETFORCE
+  @ DRIVER MODE: Returning v,forces,stress 
+
+     Writing config to output data dir ./calc.save/
+     Message from routine punch:
+     wavefunctions written to file
+  @ DRIVER MODE: Message from server: STATUS
+  @ DRIVER MODE: Message from server: INIT
+  @ DRIVER MODE: Receiving replica           0           0
+  @ DRIVER MODE: Receiving parameter string
+ lscf : 1, lforce : 1, lstress : 0, lmovecell : 0, lensemb : 0, 
+  @ DRIVER MODE: Message from server: STATUS
+  @ DRIVER MODE: Message from server: POSDATA
+  @ DRIVER MODE: Reading and sharing cell 
+  @ DRIVER MODE: Reading and sharing positions 
+  @ DRIVER MODE: Received positions 
+     NEW-OLD atomic charge density approx. for the potential
+
+     negative rho (up, down):  3.696E-03 0.000E+00
+ 
+     Adding external electric field
+
+     Computed dipole along edir(3) : 
+        Dipole                0.0079 Ry au,          0.0200 Debye
+        Dipole field          0.0000 Ry au, 
+ 
+        Potential amp.       -0.0004 Ry
+        Total length         63.7297 bohr
+ 
+
+     total cpu time spent up to now is     1225.1 secs
+
+     Self-consistent Calculation
+
+     iteration #  1     ecut=    29.40 Ry     beta= 0.05
+     Davidson diagonalization with overlap
+     ethr =  6.61E-10,  avg # of iterations =  7.0
+
+     negative rho (up, down):  3.697E-03 0.000E+00
+ 
+     Adding external electric field
+
+     Computed dipole along edir(3) : 
+        Dipole                0.0075 Ry au,          0.0191 Debye
+        Dipole field          0.0000 Ry au, 
+ 
+        Potential amp.       -0.0004 Ry
+        Total length         63.7297 bohr
+ 
+
+     total cpu time spent up to now is     1234.3 secs
+
+     total energy              =     -43.04452474 Ry
+     estimated scf accuracy    <       0.00036070 Ry
+
+     iteration #  2     ecut=    29.40 Ry     beta= 0.05
+     Davidson diagonalization with overlap
+     ethr =  3.01E-06,  avg # of iterations =  1.0
+
+     negative rho (up, down):  3.924E-03 0.000E+00
+ 
+     Adding external electric field
+
+     Computed dipole along edir(3) : 
+        Dipole                0.0064 Ry au,          0.0164 Debye
+        Dipole field          0.0000 Ry au, 
+ 
+        Potential amp.       -0.0003 Ry
+        Total length         63.7297 bohr
+ 
+
+     total cpu time spent up to now is     1242.7 secs
+
+     total energy              =     -43.04445069 Ry
+     estimated scf accuracy    <       0.00025805 Ry
+
+     iteration #  3     ecut=    29.40 Ry     beta= 0.05
+     Davidson diagonalization with overlap
+     ethr =  2.15E-06,  avg # of iterations =  1.0
+
+     negative rho (up, down):  5.123E-03 0.000E+00
+ 
+     Adding external electric field
+
+     Computed dipole along edir(3) : 
+        Dipole                0.0126 Ry au,          0.0320 Debye
+        Dipole field          0.0000 Ry au, 
+ 
+        Potential amp.       -0.0006 Ry
+        Total length         63.7297 bohr
+ 
+
+     total cpu time spent up to now is     1251.2 secs
+
+     total energy              =     -43.04448306 Ry
+     estimated scf accuracy    <       0.00004606 Ry
+
+     iteration #  4     ecut=    29.40 Ry     beta= 0.05
+     Davidson diagonalization with overlap
+     ethr =  3.84E-07,  avg # of iterations =  2.0
+
+     negative rho (up, down):  5.372E-03 0.000E+00
+ 
+     Adding external electric field
+
+     Computed dipole along edir(3) : 
+        Dipole                0.0123 Ry au,          0.0311 Debye
+        Dipole field          0.0000 Ry au, 
+ 
+        Potential amp.       -0.0006 Ry
+        Total length         63.7297 bohr
+ 
+
+     total cpu time spent up to now is     1259.7 secs
+
+     total energy              =     -43.04448965 Ry
+     estimated scf accuracy    <       0.00000881 Ry
+
+     iteration #  5     ecut=    29.40 Ry     beta= 0.05
+     Davidson diagonalization with overlap
+     ethr =  7.34E-08,  avg # of iterations =  2.0
+
+     negative rho (up, down):  5.889E-03 0.000E+00
+ 
+     Adding external electric field
+
+     Computed dipole along edir(3) : 
+        Dipole                0.0129 Ry au,          0.0329 Debye
+        Dipole field          0.0000 Ry au, 
+ 
+        Potential amp.       -0.0006 Ry
+        Total length         63.7297 bohr
+ 
+
+     total cpu time spent up to now is     1268.2 secs
+
+     total energy              =     -43.04449263 Ry
+     estimated scf accuracy    <       0.00000941 Ry
+
+     iteration #  6     ecut=    29.40 Ry     beta= 0.05
+     Davidson diagonalization with overlap
+     ethr =  7.34E-08,  avg # of iterations =  2.0
+
+     negative rho (up, down):  5.739E-03 0.000E+00
+ 
+     Adding external electric field
+
+     Computed dipole along edir(3) : 
+        Dipole                0.0135 Ry au,          0.0343 Debye
+        Dipole field          0.0000 Ry au, 
+ 
+        Potential amp.       -0.0007 Ry
+        Total length         63.7297 bohr
+ 
+
+     total cpu time spent up to now is     1276.8 secs
+
+     total energy              =     -43.04449317 Ry
+     estimated scf accuracy    <       0.00000129 Ry
+
+     iteration #  7     ecut=    29.40 Ry     beta= 0.05
+     Davidson diagonalization with overlap
+     ethr =  1.08E-08,  avg # of iterations =  1.0
+
+     negative rho (up, down):  5.563E-03 0.000E+00
+ 
+     Adding external electric field
+
+     Computed dipole along edir(3) : 
+        Dipole                0.0135 Ry au,          0.0344 Debye
+        Dipole field          0.0000 Ry au, 
+ 
+        Potential amp.       -0.0007 Ry
+        Total length         63.7297 bohr
+ 
+
+     total cpu time spent up to now is     1285.3 secs
+
+     total energy              =     -43.04449242 Ry
+     estimated scf accuracy    <       0.00000029 Ry
+
+     iteration #  8     ecut=    29.40 Ry     beta= 0.05
+     Davidson diagonalization with overlap
+     ethr =  2.41E-09,  avg # of iterations =  1.0
+
+     negative rho (up, down):  5.567E-03 0.000E+00
+ 
+     Adding external electric field
+
+     Computed dipole along edir(3) : 
+        Dipole                0.0131 Ry au,          0.0334 Debye
+        Dipole field          0.0000 Ry au, 
+ 
+        Potential amp.       -0.0007 Ry
+        Total length         63.7297 bohr
+ 
+
+     total cpu time spent up to now is     1293.7 secs
+
+     total energy              =     -43.04449235 Ry
+     estimated scf accuracy    <       0.00000031 Ry
+
+     iteration #  9     ecut=    29.40 Ry     beta= 0.05
+     Davidson diagonalization with overlap
+     ethr =  2.41E-09,  avg # of iterations =  2.0
+
+     negative rho (up, down):  5.401E-03 0.000E+00
+ 
+     Adding external electric field
+
+     Computed dipole along edir(3) : 
+        Dipole                0.0131 Ry au,          0.0332 Debye
+        Dipole field          0.0000 Ry au, 
+ 
+        Potential amp.       -0.0006 Ry
+        Total length         63.7297 bohr
+ 
+
+     total cpu time spent up to now is     1302.3 secs
+
+     total energy              =     -43.04449133 Ry
+     estimated scf accuracy    <       0.00000008 Ry
+
+     iteration # 10     ecut=    29.40 Ry     beta= 0.05
+     Davidson diagonalization with overlap
+     ethr =  7.01E-10,  avg # of iterations =  2.0
+
+     negative rho (up, down):  3.726E-03 0.000E+00
+ 
+     Adding external electric field
+
+     Computed dipole along edir(3) : 
+        Dipole                0.0130 Ry au,          0.0331 Debye
+        Dipole field          0.0000 Ry au, 
+ 
+        Potential amp.       -0.0006 Ry
+        Total length         63.7297 bohr
+ 
+
+     total cpu time spent up to now is     1310.6 secs
+
+     End of self-consistent calculation
+
+          k = 0.0000 0.0000 0.0000 ( 87033 PWs)   bands (ev):
+
+   -26.3866 -17.3633 -14.3775 -10.2585  -9.4623  -6.1188  -3.3326  -1.4358
+    -0.2484  -0.1682  -0.0173   0.0009   0.2332   0.3156   0.5610   0.6293
+
+     the Fermi energy is    -4.7257 ev
+
+!    total energy              =     -43.04448425 Ry
+     estimated scf accuracy    <          9.2E-09 Ry
+     smearing contrib. (-TS)   =      -0.00000039 Ry
+     internal energy E=F+TS    =     -43.04448386 Ry
+
+     convergence has been achieved in  10 iterations
+
+     negative rho (up, down):  3.726E-03 0.000E+00
+
+     Forces acting on atoms (cartesian axes, Ry/au):
+
+     atom    1 type  1   force =    -0.00117783   -0.00020845    0.00106465
+     atom    2 type  1   force =     0.00130597   -0.00133513   -0.00030093
+     atom    3 type  2   force =     0.00121209    0.00043645   -0.00132927
+     atom    4 type  2   force =    -0.00134022    0.00110713    0.00056555
+
+     Total force =     0.003593     Total SCF correction =     0.000197
+  @ DRIVER MODE: Message from server: STATUS
+  @ DRIVER MODE: Message from server: GETFORCE
+  @ DRIVER MODE: Returning v,forces,stress 
+
+     Writing config to output data dir ./calc.save/
+     Message from routine punch:
+     wavefunctions written to file
+  @ DRIVER MODE: Message from server: STATUS
+  @ DRIVER MODE: Message from server: INIT
+  @ DRIVER MODE: Receiving replica           0           0
+  @ DRIVER MODE: Receiving parameter string
+ lscf : 0, lforce : 0, lstress : 0, lmovecell : 0, lensemb : 1, 
+  @ DRIVER MODE: Message from server: STATUS
+  @ DRIVER MODE: Message from server: POSDATA
+  @ DRIVER MODE: Reading and sharing cell 
+  @ DRIVER MODE: Reading and sharing positions 
+  @ DRIVER MODE: Received positions 
+     NEW-OLD atomic charge density approx. for the potential
+
+     negative rho (up, down):  3.726E-03 0.000E+00
+ 
+     Adding external electric field
+
+     Computed dipole along edir(3) : 
+        Dipole                0.0130 Ry au,          0.0331 Debye
+        Dipole field          0.0000 Ry au, 
+ 
+        Potential amp.       -0.0006 Ry
+        Total length         63.7297 bohr
+ 
+  @ DRIVER MODE: BEEF-vdw 
+
+     negative rho (up, down):  3.726E-03 0.000E+00
+
+     negative rho (up, down):  3.726E-03 0.000E+00
+
+     negative rho (up, down):  3.726E-03 0.000E+00
+
+     negative rho (up, down):  3.726E-03 0.000E+00
+
+     negative rho (up, down):  3.726E-03 0.000E+00
+
+     negative rho (up, down):  3.726E-03 0.000E+00
+
+     negative rho (up, down):  3.726E-03 0.000E+00
+
+     negative rho (up, down):  3.726E-03 0.000E+00
+
+     negative rho (up, down):  3.726E-03 0.000E+00
+
+     negative rho (up, down):  3.726E-03 0.000E+00
+
+     negative rho (up, down):  3.726E-03 0.000E+00
+
+     negative rho (up, down):  3.726E-03 0.000E+00
+
+     negative rho (up, down):  3.726E-03 0.000E+00
+
+     negative rho (up, down):  3.726E-03 0.000E+00
+
+     negative rho (up, down):  3.726E-03 0.000E+00
+
+     negative rho (up, down):  3.726E-03 0.000E+00
+
+     negative rho (up, down):  3.726E-03 0.000E+00
+
+     negative rho (up, down):  3.726E-03 0.000E+00
+
+     negative rho (up, down):  3.726E-03 0.000E+00
+
+     negative rho (up, down):  3.726E-03 0.000E+00
+
+     negative rho (up, down):  3.726E-03 0.000E+00
+
+     negative rho (up, down):  3.726E-03 0.000E+00
+
+     negative rho (up, down):  3.726E-03 0.000E+00
+
+     negative rho (up, down):  3.726E-03 0.000E+00
+
+     negative rho (up, down):  3.726E-03 0.000E+00
+
+     negative rho (up, down):  3.726E-03 0.000E+00
+
+     negative rho (up, down):  3.726E-03 0.000E+00
+
+     negative rho (up, down):  3.726E-03 0.000E+00
+
+     negative rho (up, down):  3.726E-03 0.000E+00
+
+     negative rho (up, down):  3.726E-03 0.000E+00
+
+     negative rho (up, down):  3.726E-03 0.000E+00
+
+     negative rho (up, down):  3.726E-03 0.000E+00
+
+     negative rho (up, down):  3.726E-03 0.000E+00
+
+     negative rho (up, down):  3.726E-03 0.000E+00
+ BEEFens 2000 ensemble energies
+             -0.903103075254350E+00
+             -0.175210673667210E-01
+             -0.195340664716805E+00
+              0.628626602523716E+00
+             -0.302949306221091E+00
+             -0.244762399204674E+00
+             -0.645047634115864E+00
+             -0.136988254428697E+01
+             -0.539511715152120E+00
+             -0.594297922347407E+00
+             -0.488188569579958E+00
+              0.313707822358997E-01
+              0.305980801987318E-01
+             -0.383286629658608E-02
+              0.534437160497214E-01
+              0.671682193181433E+00
+             -0.321479587276609E+00
+             -0.207245637049327E+00
+              0.320676694674786E+00
+             -0.158665585144809E+01
+              0.788093358166959E+00
+             -0.302920773240327E+00
+             -0.967759565338148E-01
+             -0.141835673177680E+00
+             -0.197354254774318E-02
+             -0.101982256912619E+00
+              0.128705170848366E+01
+             -0.253071336889794E+00
+             -0.130981861689767E+00
+             -0.780233539721597E+00
+              0.106778985162105E+01
+             -0.128488199253819E+00
+             -0.605324423546858E+00
+              0.283202775243520E+00
+             -0.382006472824505E-01
+              0.359188038211692E+00
+             -0.112956208690971E-01
+              0.280875887312875E-01
+              0.481026778739176E+00
+             -0.147865827814811E+01
+              0.801506202904477E+00
+              0.155810869908343E+00
+             -0.111440432408433E+00
+             -0.441025334338732E+00
+              0.175061222544724E+00
+             -0.207947743175549E+00
+              0.707671864609357E+00
+              0.510381502720062E+00
+             -0.331270144302907E+00
+             -0.439049513229129E+00
+             -0.432810208222005E+00
+             -0.518371123247996E+00
+              0.275963510297970E+00
+             -0.759809945286458E+00
+              0.207587060125453E+00
+              0.851751857187792E+00
+              0.101382535930272E+01
+              0.466608695055466E+00
+              0.265546576389035E+00
+              0.431556082811750E+00
+              0.130355509551626E+01
+              0.298377977192953E+00
+             -0.803241197683164E+00
+             -0.171848986951989E+00
+             -0.418047103310278E+00
+              0.913121747575591E+00
+             -0.109344865024407E+01
+             -0.867746731800906E+00
+             -0.440539899675993E+00
+             -0.182089759523073E+00
+             -0.606379631781286E+00
+              0.392981323220936E+00
+              0.202162550642721E+00
+              0.196760184295967E+00
+             -0.552896820644791E+00
+             -0.507201082196596E+00
+             -0.807731688254439E+00
+              0.512257721972093E+00
+             -0.460852448537579E+00
+              0.427532610966574E+00
+             -0.914887006797971E-01
+             -0.448304926080435E+00
+             -0.773478538495342E+00
+             -0.226095463407107E+00
+             -0.234427220536679E+00
+             -0.230105604576995E+00
+              0.569341933082429E+00
+              0.104836863290687E+01
+             -0.605897223848073E+00
+             -0.115423563078541E+01
+             -0.274629761099332E+00
+              0.159656642567087E+01
+             -0.798231628565137E+00
+              0.457503971037700E+00
+             -0.136996688172605E+00
+             -0.892732474231519E+00
+              0.399016448288350E+00
+              0.469966652548915E+00
+             -0.207142697406518E+00
+              0.434747689566250E+00
+             -0.396742842215428E+00
+             -0.802990147028941E+00
+              0.138395957547242E+01
+              0.653080046862296E+00
+              0.357334752598379E+00
+              0.163735057264178E+00
+              0.266401020754940E+00
+              0.117856467290263E+01
+             -0.383843800714955E+00
+              0.391495652136207E-01
+             -0.202104444200314E+01
+              0.301040242702122E+00
+             -0.977114481521164E+00
+              0.176752879404009E+00
+              0.299342213696424E+00
+             -0.497185571070180E+00
+             -0.749903257443528E+00
+              0.659170115126226E-01
+             -0.433428745626838E+00
+              0.598721416894844E+00
+             -0.644848612240242E+00
+             -0.881280365136492E-01
+             -0.544924230331334E+00
+             -0.370397438270977E-01
+              0.260372531397879E-01
+              0.269768910429561E+00
+              0.234915289753346E-02
+             -0.100417759217777E+00
+              0.910962125718128E+00
+              0.130986562352369E+01
+              0.700839327163041E+00
+              0.101670070004830E+01
+             -0.200303464236283E+00
+              0.128840824801943E+00
+              0.745525525214286E+00
+             -0.183736691646619E-03
+             -0.107855844993269E+01
+             -0.604126213847225E+00
+             -0.692161669888057E+00
+             -0.426934599874998E+00
+              0.370458820065727E+00
+             -0.172293170115474E+01
+             -0.182492941768071E+00
+              0.632286520258872E+00
+             -0.588959344180314E+00
+             -0.461932380439498E+00
+              0.767209871101616E+00
+              0.693255570734119E+00
+             -0.415384776743779E+00
+              0.381659470098574E+00
+             -0.367127087666403E+00
+              0.551627406419369E+00
+              0.121959949484704E+00
+              0.194543523547169E+00
+             -0.119129584051350E+01
+             -0.688869331118205E+00
+             -0.135381259116501E+00
+             -0.391682581686076E-01
+             -0.583279299445225E+00
+              0.157097184548510E+01
+             -0.201716872567903E+00
+             -0.413156840272320E+00
+              0.600209228929014E+00
+             -0.666213984378242E+00
+             -0.520276099962736E+00
+              0.432054439993573E+00
+              0.157626329551380E+00
+              0.127978871405529E+00
+              0.186993181601236E+00
+             -0.166442838360991E+00
+              0.175238391533426E+00
+              0.848079601464592E+00
+             -0.426443818046858E+00
+              0.289998417472336E+00
+              0.127930006391146E+01
+              0.451001416875139E+00
+             -0.579915940424982E-01
+             -0.263425792240437E+00
+              0.218770562876466E+01
+             -0.331507014746999E+00
+              0.546555961358650E+00
+              0.404217655032167E+00
+              0.449790192160283E+00
+              0.135127298546753E+01
+              0.684573300492560E+00
+             -0.756801188367752E-01
+              0.330852852534369E+00
+              0.735879025448197E+00
+              0.554216710710243E+00
+             -0.856043289572156E+00
+              0.134449560395137E+01
+             -0.124390833759081E+01
+             -0.206876984265872E+00
+              0.821110087742132E+00
+              0.159167214362422E+00
+              0.599979867585869E-01
+              0.440152938253633E+00
+              0.250084220545951E+00
+              0.474843370894971E+00
+             -0.898385719610891E+00
+              0.513179868240394E-01
+             -0.343140179597103E+00
+             -0.947976137315885E-01
+             -0.673106493556297E-02
+             -0.168492451586484E+00
+             -0.827273117759031E-01
+              0.120238665148620E+01
+             -0.647835287414431E-01
+             -0.430155873163164E+00
+             -0.250580714975815E-01
+              0.200733742058304E+00
+             -0.896076384952677E+00
+             -0.703789576798452E+00
+             -0.482509521518888E+00
+             -0.901502346391435E+00
+             -0.269188025687818E+00
+             -0.596580721443550E+00
+              0.257997320515361E+00
+             -0.588712494300214E-02
+             -0.178053708389515E+00
+             -0.127208193160235E+00
+              0.910341066944973E-01
+             -0.285353408832606E+00
+              0.911361439563345E+00
+             -0.122124136330454E+01
+             -0.174101925485341E+00
+             -0.225709018471968E+00
+              0.236944242729415E+00
+              0.264010307373832E+00
+             -0.716406441939778E+00
+             -0.211411745609490E+00
+              0.646277223213408E+00
+             -0.330925314183319E+00
+              0.188512736909763E+00
+              0.516036508784835E+00
+             -0.568219546418369E-02
+              0.166345499556171E+01
+             -0.221825363075816E+00
+             -0.525793502594459E+00
+              0.188734740406433E-01
+             -0.401056845548465E+00
+              0.743289695699382E+00
+             -0.643613854624077E+00
+              0.191794364613513E+00
+              0.752407600596047E+00
+             -0.200229739236227E+00
+              0.169060952756373E+01
+              0.181317961688586E+01
+             -0.102152357080009E+01
+              0.818784634922867E+00
+              0.293839727644322E+00
+             -0.775434322882509E+00
+              0.300660612120814E+00
+              0.568399229022503E+00
+              0.625109461648543E+00
+              0.631380422460870E-01
+              0.247847554037305E+00
+              0.103267333046878E+01
+             -0.333989467093652E+00
+              0.138760440617744E+00
+              0.976779099800495E+00
+             -0.510981970276167E+00
+             -0.291109851706267E+00
+              0.819967583952286E+00
+              0.439661810879087E+00
+              0.111875890798011E+01
+              0.438455394646116E+00
+              0.171167525802805E+00
+              0.356784731480107E+00
+              0.601722906733934E+00
+             -0.686622862905651E+00
+              0.742034409644896E-01
+              0.303761487072022E+00
+              0.134325681838360E+00
+              0.334361202158852E+00
+             -0.874716138974895E+00
+              0.491481501167955E+00
+             -0.625548540807705E+00
+             -0.449696348230733E+00
+              0.245909722234755E+00
+             -0.166034780470515E+00
+              0.837460648487530E+00
+             -0.287900477379104E+00
+              0.401993083893493E+00
+              0.438786670764147E+00
+              0.113700594958084E+01
+              0.762628053381086E+00
+              0.730381231772476E+00
+             -0.117722865848002E+00
+             -0.126852877277836E+00
+             -0.434215534443537E+00
+              0.114157169388169E+01
+              0.118139001435665E+01
+              0.540702975301422E+00
+             -0.372974156705118E+00
+              0.714038063758078E+00
+             -0.692702382367267E-01
+              0.292899262863275E+00
+              0.962176450795683E+00
+             -0.346530062871500E-01
+             -0.162001772878364E+00
+             -0.371928146749507E+00
+             -0.823474598387659E+00
+              0.138623361962353E+01
+              0.675326450167142E+00
+             -0.904884797916518E+00
+             -0.278953973403535E+00
+              0.356424477754810E+00
+             -0.176608151054979E+00
+              0.908759246223256E+00
+              0.245062745575150E+00
+              0.114642782102139E+01
+              0.376909200049448E+00
+             -0.371878965245402E+00
+              0.298109338116589E+00
+             -0.955037511862908E-01
+             -0.388799143824477E+00
+              0.249602243536943E+00
+              0.287449656075704E+00
+              0.126427509833004E+01
+              0.108635914448843E+01
+              0.810863853987458E+00
+              0.101165083892646E+01
+              0.103438819399658E+00
+             -0.391751973228017E+00
+              0.192291378993350E+00
+             -0.496239386171097E+00
+             -0.761751773855990E+00
+             -0.826400504497695E+00
+             -0.439108281864486E+00
+             -0.155620357330793E+01
+             -0.498394449499053E+00
+             -0.121377148536660E+01
+              0.264578826780211E+00
+             -0.655362831609434E+00
+              0.679713833902498E+00
+             -0.135718986017549E+01
+             -0.442236371115709E+00
+              0.639989175985585E+00
+              0.313825040165628E+00
+             -0.125092455413406E+01
+              0.795783618559472E+00
+             -0.408054473372768E+00
+              0.773157721128038E+00
+             -0.424175669671562E+00
+             -0.110064236142886E+01
+              0.242717763032082E+00
+             -0.909544266337365E+00
+             -0.112231694228305E+00
+              0.473863827752674E-02
+              0.610205959371340E+00
+              0.179550975627220E+01
+             -0.643400557022410E+00
+             -0.552803978950751E+00
+             -0.855390916103440E-01
+             -0.128901382314933E+00
+             -0.114735320355872E+01
+             -0.841124796343249E+00
+              0.753926519814262E+00
+             -0.304033015472358E+00
+              0.275210948442544E+00
+             -0.696568666779940E+00
+             -0.197829751036194E+00
+             -0.611026135686199E+00
+              0.706679722257954E+00
+              0.235304761492397E+00
+             -0.351648080892853E+00
+             -0.204437093636183E+00
+              0.153885010594052E+00
+             -0.109008420342743E+00
+              0.562472465467242E+00
+             -0.382816149509543E+00
+              0.105907013364975E+00
+              0.463176941955392E+00
+              0.209723635053960E+00
+             -0.298957343520757E+00
+              0.223479343321937E+01
+              0.803967214511893E+00
+              0.125343327961810E+00
+              0.109328265502974E+00
+             -0.854477135238901E+00
+              0.456732451789360E+00
+             -0.107494060601210E+01
+             -0.467881195286934E+00
+             -0.844559014629035E+00
+             -0.258274961924824E+00
+              0.846604776438238E+00
+             -0.820455459059655E+00
+              0.313544416785373E+00
+             -0.554713273364742E-01
+              0.328199076709206E-01
+             -0.478508827498784E+00
+             -0.607997402543124E+00
+             -0.603995813913176E-01
+             -0.543396157229020E+00
+             -0.348334354559614E+00
+             -0.551278198454459E+00
+             -0.900287182046610E-01
+             -0.459010205688471E+00
+             -0.706580146159475E+00
+              0.336306334108973E+00
+             -0.214528309124951E+00
+              0.306732634011579E+00
+              0.150150369771903E+00
+             -0.105948948018647E+01
+             -0.758176344334979E+00
+             -0.672079213322254E+00
+              0.492177507423438E+00
+             -0.667986279850226E-01
+             -0.899632844073053E+00
+              0.804880289658834E+00
+             -0.622329997630069E+00
+              0.793835683544920E+00
+             -0.427015252110270E+00
+             -0.689390133723980E+00
+              0.392364188781157E+00
+             -0.102948421885761E+01
+             -0.481847801223561E+00
+              0.895699409044795E+00
+              0.304375322166008E+00
+             -0.555207062828460E+00
+              0.772328392795415E+00
+             -0.231517363092495E+00
+             -0.498533131674659E+00
+             -0.432517560184261E+00
+             -0.749119754686273E+00
+              0.346018644451698E+00
+             -0.127556187057369E+01
+             -0.113554410196067E+01
+             -0.979435502259314E-01
+             -0.423502478305448E+00
+             -0.853111326255856E+00
+              0.107047398503254E+01
+              0.195294840200315E+01
+             -0.374309788961293E+00
+             -0.353603051499283E-01
+             -0.901952880622968E+00
+              0.943915861010050E+00
+              0.296021096357641E+00
+             -0.244866164917321E+00
+             -0.558332965384129E+00
+              0.208664335215664E+00
+             -0.875581570632983E+00
+             -0.167540724744435E+00
+             -0.126893058212401E+01
+              0.454980372954974E+00
+              0.222343238329129E+00
+             -0.522982079226537E-01
+             -0.130157040652834E+00
+             -0.529104900175371E+00
+             -0.171715355064026E+00
+              0.192339495070843E+01
+             -0.236484062471502E+00
+             -0.665114037668268E+00
+             -0.968767633229144E+00
+              0.188988723370100E+00
+             -0.518112617068935E+00
+              0.970566831685731E-01
+              0.450850998128145E+00
+              0.787333316668595E-01
+              0.501983241371512E+00
+              0.238186981547519E+00
+              0.865657472827055E+00
+              0.412807843586195E+00
+             -0.500814796243030E+00
+              0.692051756435668E+00
+              0.515825032353793E+00
+              0.182591112610407E+00
+              0.568429403085460E+00
+             -0.388588621323206E+00
+              0.102080521610450E+01
+              0.320566473305856E+00
+             -0.467096316069838E+00
+             -0.996649076925308E-01
+             -0.239568196111308E+00
+              0.265099116184316E+00
+             -0.395732279230055E+00
+             -0.110538269388258E+00
+             -0.160293197977049E+00
+              0.116520594868169E+01
+              0.810667963477441E+00
+             -0.975979969780269E+00
+             -0.793089621630054E-01
+             -0.753919327740820E+00
+             -0.204420232281969E+00
+             -0.329348092118346E+00
+              0.125443305751552E+00
+             -0.554970146311077E-01
+             -0.378633769660495E+00
+              0.180166483928121E+00
+             -0.109066501334101E+00
+             -0.134907144571461E+00
+              0.124713120379229E+01
+              0.249567092221039E+00
+             -0.117606983920720E+01
+             -0.610166457655259E+00
+              0.134429607967275E+01
+              0.330192788360883E+00
+             -0.122150042231688E+00
+              0.157044693773952E+01
+             -0.273582413260577E+00
+             -0.129978493372946E+00
+             -0.157905081679284E+00
+              0.207544559082899E+00
+              0.434273648238206E+00
+              0.526342855082180E-01
+              0.413632519106587E+00
+             -0.201422694686835E+00
+             -0.517720585007722E+00
+             -0.550767020198769E+00
+             -0.697837264680832E+00
+              0.629047063136516E+00
+              0.222788592992400E+00
+              0.543221421491992E+00
+              0.234056763813193E+00
+              0.127310480533637E+01
+              0.258235428611612E+00
+             -0.109986118113809E+01
+             -0.472465960754095E+00
+              0.968577734071889E-01
+             -0.400308830320432E+00
+              0.896800258200884E+00
+             -0.202131648793355E+00
+              0.232300174140827E+00
+              0.763884662770671E+00
+             -0.113397352496042E+01
+              0.211866003537304E+01
+              0.284851279311918E+00
+              0.360682209248445E+00
+              0.536554341868151E+00
+              0.756902051227106E-01
+             -0.516515617056381E-01
+              0.469177489957967E+00
+             -0.491380002592567E+00
+              0.119645378040469E+01
+              0.105507110608897E+01
+             -0.539925184742393E+00
+              0.260023163608521E+00
+              0.101878101011273E+01
+             -0.326472031294624E+00
+              0.272781995262543E+00
+              0.525295097987351E+00
+              0.630103136588764E+00
+             -0.107466025677892E+01
+             -0.123377775903347E+00
+             -0.426883983569220E+00
+             -0.869131189171251E-01
+             -0.931381027288583E-01
+              0.449003025278065E-01
+             -0.248314800114561E+00
+             -0.402596980709117E+00
+              0.190613381849020E+00
+              0.131528791393638E+00
+              0.775061632591808E+00
+             -0.623137629218258E+00
+              0.595071258187435E+00
+              0.705798912335216E+00
+             -0.177691423391736E+00
+              0.111351571054234E+01
+             -0.967892824998993E+00
+             -0.148367325123531E+01
+             -0.770255977846510E-01
+             -0.775165734177161E-01
+              0.517152695299750E-01
+              0.109522855101403E+01
+             -0.591172319638565E-01
+              0.600464719033740E+00
+              0.779063091937509E+00
+              0.568497888443142E+00
+             -0.495449730341306E-01
+              0.895867345004630E+00
+             -0.242362421648435E+00
+             -0.517735368623260E+00
+             -0.601427020795807E+00
+              0.941106503528875E-01
+              0.545486743996697E+00
+             -0.739061734160003E-01
+              0.522548612628816E+00
+             -0.183077935524789E-02
+              0.840713003436485E+00
+              0.262633568662394E+00
+              0.111347688528424E+00
+             -0.446637255720157E-01
+              0.435300290325303E+00
+              0.592194201315137E+00
+              0.256721479056509E+00
+             -0.383867500807353E-01
+             -0.761083851354786E+00
+              0.413206266424177E+00
+              0.289867115856230E+00
+              0.510555474101291E+00
+              0.449898178823657E+00
+              0.517649370616502E+00
+             -0.108420234050816E+00
+              0.436267601107125E+00
+             -0.436702457336143E+00
+             -0.366899789032509E-01
+             -0.779887445229309E+00
+             -0.504981885621059E+00
+              0.607992484045393E+00
+             -0.129163029069924E+01
+              0.383887802543507E+00
+              0.210826502124419E+00
+              0.124211001840418E+01
+             -0.294321566350772E+00
+              0.454914494800068E+00
+             -0.204220691606549E+00
+             -0.698694107845067E+00
+             -0.101359002681341E+01
+             -0.171820134204450E+00
+             -0.131257318849921E+01
+              0.187536003331035E+00
+             -0.328990444702259E+00
+              0.467224833605190E+00
+              0.325534919464888E+00
+             -0.373898279615273E+00
+             -0.403331753139115E+00
+              0.615000300202844E+00
+             -0.779157168871465E+00
+             -0.186035514981912E+00
+             -0.238509242242365E+00
+              0.318492592855368E+00
+             -0.225937636383398E-01
+              0.682868190483907E-01
+             -0.237575788003487E+00
+              0.776741272606218E+00
+             -0.763802998081626E+00
+              0.138527042504010E+00
+              0.840967404407769E+00
+             -0.473083444274984E+00
+              0.368015275622189E-01
+             -0.543428057720625E-01
+             -0.984658443695446E+00
+             -0.633017161146516E+00
+             -0.652472512468679E-01
+              0.412889740044741E+00
+              0.467917246310125E+00
+              0.913801921507202E-01
+             -0.118060685800323E+00
+              0.255522630569096E+00
+             -0.607677512014821E+00
+             -0.213858314073665E-01
+             -0.759318533665286E+00
+             -0.391912023302186E+00
+              0.707971685420798E+00
+             -0.438369378877759E+00
+              0.962513400609011E+00
+             -0.304603368554788E+00
+              0.507986992967664E+00
+              0.369861707838442E+00
+             -0.867547223327895E+00
+             -0.406926331420489E+00
+              0.122538205042082E+00
+             -0.547007066158240E+00
+             -0.578764613309720E+00
+             -0.124199318079348E+01
+             -0.818844272253302E+00
+             -0.719068001669139E+00
+             -0.627553453560317E+00
+              0.937814062678877E-02
+              0.297787509483348E+00
+              0.116917604467452E+00
+              0.332719186029170E+00
+             -0.836632697489180E+00
+              0.169930404914157E+00
+              0.364051639572522E+00
+             -0.984979755419329E+00
+             -0.867928881610127E+00
+             -0.548039097971101E+00
+             -0.393476714426372E+00
+              0.247162434045275E+00
+             -0.692872116772136E-02
+             -0.610729603423770E+00
+              0.467567714851675E+00
+             -0.286732655699861E+00
+              0.768021230917936E+00
+             -0.124725303936889E+01
+              0.872437005786946E+00
+             -0.981960572280265E-01
+             -0.621857230357234E+00
+             -0.386178191461902E+00
+             -0.603639617561202E-02
+              0.643808952166551E+00
+             -0.101274295856363E+01
+             -0.185817856464486E+00
+             -0.242194605891575E+00
+              0.644440424554978E+00
+              0.115225812722880E+01
+             -0.141913752123559E+01
+              0.133072850170005E+01
+              0.599295396722476E+00
+             -0.109295711045363E+01
+             -0.489795430580545E+00
+              0.109815236840274E+01
+              0.844637943626433E+00
+             -0.282859675402630E+00
+             -0.978554240002101E-01
+              0.209206613989608E+00
+              0.105163769263915E+01
+             -0.812489760256331E+00
+              0.220146484294614E+00
+             -0.791405696585148E-01
+              0.442063760577969E+00
+             -0.102189082037534E+01
+             -0.631267627173516E-01
+             -0.437348388994061E+00
+              0.677109573001300E+00
+              0.569319652376679E+00
+             -0.126687550739361E+01
+             -0.696092832624108E+00
+             -0.323943658558463E+00
+             -0.556140718800064E+00
+             -0.193473677241898E+00
+             -0.301540406195724E+00
+              0.649277082280132E+00
+              0.614270979405279E+00
+             -0.711398872248221E-01
+             -0.584968767485311E+00
+             -0.122900908054830E+01
+              0.686540889862368E+00
+             -0.694642838915098E+00
+             -0.478279843523045E+00
+              0.110613057861380E+00
+             -0.500054700190852E+00
+             -0.588706215124504E+00
+             -0.422864195750197E+00
+             -0.671159627998793E+00
+             -0.350443106484134E+00
+             -0.692523435366528E+00
+              0.816388086363460E+00
+              0.888879373418415E+00
+             -0.106228769712462E+00
+             -0.331116801079252E+00
+              0.636385930321381E-02
+              0.588408903582282E+00
+             -0.124558414794856E+01
+             -0.322111749422458E+00
+              0.759598104673589E+00
+              0.969721871175143E+00
+             -0.208075163490665E+00
+              0.158250438246927E+00
+              0.731733084129595E+00
+              0.229443911178726E+00
+             -0.390271457026348E-01
+             -0.547840816971984E+00
+              0.260183383916579E+00
+             -0.485524064108301E+00
+             -0.197413365011365E+00
+             -0.272373809037344E+00
+             -0.234666565484076E+00
+              0.314038501269870E+00
+              0.116339640184713E+01
+             -0.838366288001597E-01
+              0.463332740559728E-01
+             -0.130507598469255E+01
+             -0.257432344780963E+00
+             -0.529131400729905E+00
+              0.321008050169183E-01
+             -0.604018858386292E+00
+              0.119048670800757E+01
+              0.124527602765867E+01
+              0.272548271425095E+00
+             -0.284907931974002E+00
+              0.230645284757136E+00
+              0.360823225818637E+00
+             -0.653195609630908E+00
+             -0.117040464218640E+00
+              0.212508986454196E+00
+              0.197020925632232E+00
+              0.740585810547529E+00
+              0.603330706575813E+00
+             -0.294216482123872E+00
+              0.374301430954533E+00
+             -0.139220774390566E+01
+             -0.533111084359728E-01
+              0.127666733594682E+01
+              0.247109191958980E+00
+              0.393681919601363E-02
+              0.403840728296317E+00
+             -0.340046548647818E+00
+              0.132422342931917E+01
+             -0.237437185660640E+00
+              0.117944333519463E+01
+              0.532710016338439E+00
+             -0.634339623454187E+00
+              0.460940145806312E+00
+             -0.408758625803705E+00
+             -0.960188459018070E+00
+             -0.107761698791903E+00
+             -0.792423944416814E+00
+             -0.776225780610876E+00
+             -0.286043467449448E-01
+              0.483564712530505E+00
+             -0.140551567743874E+00
+             -0.495080705246799E+00
+              0.103955792712130E+00
+             -0.978455143234636E+00
+             -0.668124823095636E-01
+             -0.125957194091330E+01
+              0.797698453022761E+00
+             -0.483321889061976E-01
+             -0.697781027927782E+00
+             -0.306377258660067E+00
+              0.258316179741132E+00
+             -0.493498256667420E+00
+             -0.636679119437922E+00
+              0.125491473613729E+01
+             -0.378100629335781E+00
+             -0.612271742760999E+00
+              0.439335117484693E+00
+             -0.247612865143422E+00
+              0.751549088177657E+00
+              0.146609930273165E-01
+              0.683113947137999E-01
+              0.150155258929522E+01
+             -0.206216937223132E+00
+             -0.526120484396583E+00
+             -0.591098834273351E+00
+             -0.788448207509035E+00
+             -0.522479354462785E+00
+              0.404431920881260E+00
+              0.372442205267616E+00
+              0.393608927937997E+00
+              0.106775668177251E+01
+              0.329286087501064E-01
+              0.288896031860926E+00
+             -0.889546574034617E+00
+              0.826250994078048E-02
+             -0.319249083872745E+00
+             -0.418746780790737E+00
+             -0.294681197635427E-03
+              0.477173058379834E+00
+              0.548012645104057E+00
+             -0.232941105375508E-01
+              0.132843741538998E+00
+              0.440238821913333E+00
+              0.554935872988395E+00
+             -0.301689384646386E+00
+             -0.136059285284370E+00
+              0.178019880590585E-01
+             -0.374189782579677E+00
+             -0.108192650181802E+00
+             -0.451992457273171E+00
+              0.107522698444783E+01
+              0.894958275081924E+00
+             -0.254165627623484E+00
+              0.198935057694760E+00
+             -0.694444573839291E-01
+             -0.373410438464918E+00
+              0.497220809174672E+00
+             -0.131313348802566E+00
+              0.488004462720332E+00
+             -0.716232717999934E+00
+              0.259880055929814E+00
+             -0.134311410664404E+00
+             -0.781033157274938E+00
+             -0.361828674606823E+00
+              0.354915374177311E+00
+             -0.137011590747212E+01
+              0.536917359359673E+00
+              0.685078114163525E+00
+             -0.115866611053821E+00
+             -0.979035611085681E-01
+             -0.433995125117597E-01
+              0.357812534657509E+00
+             -0.494032144467026E+00
+              0.481415632958436E+00
+              0.434639595713611E+00
+             -0.143368428589652E+01
+             -0.498640361728393E+00
+              0.341538977531995E+00
+             -0.165362983237765E+00
+              0.625270963701808E+00
+             -0.868733498893661E+00
+             -0.849840935321549E-01
+             -0.583057453956997E+00
+             -0.182310548119650E+01
+              0.112433708767034E+01
+             -0.862184431044486E+00
+             -0.922808481587764E+00
+              0.114380690054035E+00
+              0.183454153908494E+01
+              0.683382014879372E-01
+             -0.398973569319748E+00
+             -0.833530982410480E-02
+             -0.530330292112708E-01
+             -0.127504781450611E+01
+             -0.819744251266304E+00
+              0.120666756696885E+01
+             -0.150882574068028E+00
+             -0.549550265990876E+00
+              0.756277846541449E+00
+             -0.470231433705705E+00
+              0.507096680757490E+00
+              0.739682476132018E+00
+             -0.816689262355494E+00
+             -0.384231999197200E+00
+             -0.444237561432662E+00
+             -0.206531163455994E+00
+             -0.307007516298287E+00
+             -0.199938609778091E+00
+              0.250712843597832E+00
+             -0.495694214321158E+00
+              0.420823245798153E+00
+              0.841038496055498E+00
+             -0.165767361655202E+00
+             -0.262306390695190E+00
+              0.202467832434679E+00
+              0.789911837429128E+00
+              0.739458800513310E+00
+              0.721152698245593E-01
+             -0.100483417078199E+00
+             -0.109416954843912E+00
+             -0.758616030525757E+00
+              0.580016426476210E+00
+             -0.370012907738865E+00
+              0.292208133817830E+00
+             -0.228542589253196E+00
+              0.402870260232646E+00
+              0.237789797490783E+00
+             -0.115837518019972E+01
+             -0.403625304589209E+00
+             -0.112625396223289E+01
+             -0.520270454004779E+00
+              0.762398578740100E-01
+             -0.257086100347712E+00
+              0.467383019276291E+00
+             -0.402905311405606E+00
+              0.307100250858385E-01
+              0.109590285293262E+00
+              0.106399373299815E+01
+              0.551125109576577E+00
+             -0.396862295771662E+00
+             -0.184112059058243E-01
+              0.204831467455894E+00
+              0.548791816215468E+00
+             -0.173938594939571E-02
+              0.789565442817214E+00
+              0.421776411360725E+00
+              0.127133645754938E+01
+              0.780906370630241E-01
+              0.965353928676946E+00
+             -0.360716072048050E+00
+             -0.570104081727336E+00
+              0.921555699060166E-01
+              0.993766931913100E-01
+              0.375020735799968E+00
+             -0.198257991697755E+00
+             -0.192006845283592E+00
+              0.332339730046516E+00
+             -0.676643171855391E+00
+             -0.794871142396158E+00
+              0.108765676166098E+01
+             -0.104624869367262E+00
+             -0.593353894064096E+00
+             -0.618731503417251E-01
+             -0.195179179643445E+00
+              0.534954942392906E+00
+              0.523246266317964E+00
+             -0.299184365163439E+00
+             -0.827469788167701E-02
+             -0.396960795642337E+00
+             -0.490523084437159E+00
+             -0.363511434255599E+00
+             -0.136974437320083E+01
+             -0.279910742824923E-01
+             -0.980146480317564E+00
+             -0.819486129115622E+00
+             -0.590860604098027E+00
+              0.272777885935399E+00
+             -0.573705422169818E+00
+              0.302930737832833E+00
+             -0.880874460715906E+00
+              0.285411949240721E-02
+             -0.586587628341426E+00
+              0.790057365583539E-01
+              0.115441478639476E+00
+              0.474293572452395E+00
+             -0.300892693366261E+00
+             -0.279209636080687E+00
+              0.419108159262809E+00
+              0.897824538149093E+00
+              0.450783716371510E+00
+              0.134542892581718E+00
+             -0.103969037761643E+01
+             -0.199155976703417E+00
+             -0.409160072458880E+00
+             -0.908052041232957E+00
+              0.639557204961172E+00
+             -0.494957186697753E+00
+             -0.995038196527243E-01
+             -0.374531143272384E+00
+             -0.144710062284306E+01
+              0.788817479247057E+00
+             -0.254495832488472E+00
+              0.576610320605409E+00
+             -0.105928930781647E+01
+              0.935964579854408E+00
+              0.637277536197507E-01
+             -0.412731643441649E+00
+              0.911857951742530E-01
+             -0.331629290351880E+00
+             -0.987881420744023E+00
+              0.255507213749230E+00
+              0.470418117042061E+00
+              0.111579421224963E-01
+             -0.492549099775587E+00
+             -0.193886205528010E+00
+              0.282474216671098E+00
+              0.482140061587298E+00
+              0.910429981032445E+00
+              0.357758216933759E+00
+             -0.322133751390691E+00
+              0.133060302392020E+01
+              0.354990543647621E+00
+              0.632732105137585E+00
+             -0.225153905841003E+00
+              0.413314032972158E+00
+              0.285543881606284E+00
+             -0.916753950583625E+00
+             -0.303998186431217E+00
+             -0.555058034936237E+00
+             -0.522458954501095E+00
+             -0.148194808778235E+00
+             -0.166219295828350E+00
+             -0.596713208273225E+00
+             -0.163939017521402E+01
+             -0.399489474151312E+00
+              0.233441580506037E+00
+              0.646208104624897E-01
+              0.170859359699537E+00
+              0.623791460603538E+00
+              0.199505828156674E+00
+              0.444256129640988E+00
+             -0.636054462252686E+00
+              0.643628969209727E+00
+             -0.596662041900416E+00
+             -0.101485593063955E+01
+              0.232226977427551E+00
+             -0.556544831251379E+00
+             -0.597347278320349E+00
+             -0.230125701386413E+01
+             -0.138602801859238E+00
+              0.118572385704360E+01
+              0.640466656715668E+00
+             -0.169190540171532E+00
+             -0.116169101429142E+00
+              0.514156534366205E+00
+              0.915265998421182E+00
+             -0.590428100747670E+00
+             -0.156869905591405E+00
+             -0.479094153128569E+00
+             -0.502171479308606E+00
+             -0.474050882066668E+00
+              0.189185031124314E+00
+              0.103105382388603E+01
+             -0.957960554843922E+00
+             -0.764243748162734E+00
+              0.348245107880523E-01
+             -0.165756822968764E+00
+             -0.276161303131353E+00
+             -0.130997509084777E+01
+              0.835067858555102E+00
+              0.329143486300536E+00
+              0.818994022105187E-01
+              0.745388254989639E+00
+             -0.445639785418006E+00
+              0.481280740587514E+00
+              0.407147592826258E+00
+              0.615233510162758E-01
+             -0.109876269290605E+00
+              0.171478708537926E+00
+             -0.211527379695462E+00
+              0.678188151690362E+00
+             -0.609866088939280E+00
+              0.617123562257335E+00
+              0.142273226490220E+00
+              0.208228439753633E+00
+              0.309461438821236E+00
+             -0.116532858867833E+01
+              0.109423300633541E+00
+             -0.949708476401124E+00
+             -0.714907662179162E+00
+             -0.696318175081230E+00
+             -0.699826234641440E+00
+              0.443137184176283E-01
+              0.230455103482329E+00
+              0.695602448975950E+00
+              0.126296963528824E+00
+              0.205119142495140E+00
+             -0.102066383294260E+01
+             -0.393265506875775E+00
+              0.485792865897990E+00
+              0.163177573814861E-01
+             -0.229801435220915E-01
+             -0.136590493249294E+00
+              0.519351708593618E+00
+             -0.132342943939367E+01
+              0.178807677673031E+00
+              0.351367436128872E+00
+              0.593192654029892E+00
+              0.536048476918207E+00
+             -0.818369157914400E+00
+              0.196436963354088E+00
+              0.833677987885630E-01
+              0.974189230531683E-01
+              0.303744720684964E-01
+             -0.325303092922402E+00
+             -0.559673157613108E+00
+              0.230195474917685E+00
+              0.871482248911443E+00
+             -0.980581425461633E-01
+              0.171299758886153E+00
+              0.177862842748809E+00
+             -0.421961323527720E+00
+             -0.414500630186941E+00
+             -0.171792033691853E+01
+             -0.577665315551091E+00
+             -0.782953775698027E+00
+             -0.132767459813839E+00
+             -0.947710360805748E+00
+              0.110822605920320E+01
+             -0.474744423373676E+00
+             -0.774657402108256E+00
+             -0.229904831016529E+01
+              0.978762382277482E+00
+              0.204994025421030E+00
+              0.300784903958848E-01
+             -0.881873771744953E+00
+              0.938228165166901E-01
+             -0.217503272522722E+00
+             -0.458810333901650E+00
+              0.847664933950358E-01
+              0.462458292833878E+00
+              0.968952314273190E-01
+             -0.244328237327933E+00
+              0.852865120120505E-02
+              0.122862527258896E-01
+              0.206834137638062E+00
+             -0.958056395308627E+00
+              0.102637781570278E+01
+             -0.583523371106907E+00
+             -0.375846530759731E+00
+             -0.652461046414439E+00
+             -0.148323275612563E+01
+              0.768698544707667E-01
+             -0.756981938803543E+00
+             -0.314714045542031E+00
+              0.476982507495403E+00
+             -0.344750359016349E+00
+             -0.951593895907727E-01
+             -0.154623548303833E+00
+             -0.366278331078306E+00
+              0.153894786753210E-01
+              0.749608824703259E+00
+             -0.775719502194461E+00
+              0.140523391825901E+01
+             -0.329059269182361E+00
+              0.507219566459642E+00
+             -0.160731098274331E+00
+              0.191305175426850E+00
+             -0.176218766613831E+00
+              0.675248768473784E+00
+              0.915881278293784E+00
+              0.267319126424525E+00
+              0.738844491590018E+00
+             -0.474285406867752E+00
+             -0.649033615775223E-01
+             -0.361519863912106E+00
+              0.922199454137082E+00
+              0.810569491553215E+00
+              0.595059977558924E+00
+             -0.207640760469483E+00
+             -0.383211965056390E+00
+              0.361187214470447E+00
+             -0.391443313988962E+00
+             -0.224388627661749E+00
+             -0.104555188869872E+00
+             -0.463337031511704E+00
+              0.732188876336132E+00
+             -0.139072676074698E+00
+              0.512072574597719E+00
+              0.247195850211030E+00
+              0.244086235529105E+00
+             -0.491903928032433E+00
+              0.433066589484878E+00
+             -0.202149175693240E+00
+             -0.130342721980298E+00
+             -0.189101312332962E-01
+             -0.748456783314417E+00
+              0.114834606714891E+01
+             -0.406091930685038E+00
+              0.657109890369334E-02
+              0.309483765283104E+00
+              0.291545990950087E+00
+              0.108800920742771E+01
+             -0.299340866248509E+00
+              0.109800753937510E+01
+              0.981269398200796E+00
+             -0.139731544780419E+01
+              0.114062949392085E+00
+             -0.275773143701580E+00
+              0.156798690899695E+00
+              0.965496533564998E-01
+              0.247089109520767E+00
+              0.904002729052446E+00
+              0.134121910994181E+01
+             -0.110975367495547E+01
+              0.112141304232168E+01
+             -0.137000772873598E+01
+             -0.116837631564191E+01
+             -0.177285853051179E+00
+              0.177373104308551E-01
+              0.109169622012933E+01
+              0.537098672664971E+00
+             -0.257382450347715E+00
+             -0.125454027824669E+01
+              0.957663187354216E+00
+             -0.642149503571888E+00
+             -0.579910368869996E-02
+             -0.714611876611491E-01
+              0.185203949532388E+01
+             -0.360092783932259E+00
+             -0.151096785271785E+01
+              0.432505707753111E+00
+             -0.230263110335512E+01
+              0.193228050197320E+00
+             -0.544188789741708E+00
+             -0.243390538862536E+00
+             -0.369563507083687E+00
+             -0.837980137412846E+00
+              0.547031100234019E+00
+             -0.500233486622302E+00
+             -0.133469711373413E+00
+             -0.111220161254773E+01
+             -0.670752147623812E-01
+             -0.722047727608350E+00
+             -0.109732528695326E+01
+             -0.166184686026916E+01
+              0.164325035980567E+00
+             -0.482908268376438E+00
+              0.318728479303267E-01
+             -0.170414478627453E+00
+             -0.118682671572823E+01
+             -0.894263991761055E+00
+             -0.816596326553819E+00
+             -0.790922989700500E+00
+              0.769466818394836E+00
+              0.133336745815692E+00
+             -0.675194863041692E+00
+             -0.329613741118523E+00
+             -0.379874656914861E+00
+              0.555624974074020E+00
+             -0.453238471422427E+00
+             -0.135658320614911E+00
+             -0.394499320473740E+00
+             -0.565802917324509E+00
+             -0.555558864619100E+00
+              0.581900191869839E+00
+             -0.191379520996370E+00
+             -0.127887128874061E+01
+              0.113294574025064E+01
+              0.675589056297739E+00
+              0.761989744742175E-01
+             -0.112155870000220E+01
+             -0.107899187521910E+01
+              0.135530327432161E+00
+              0.478957745875146E-01
+             -0.484424624297302E+00
+             -0.668319867026475E+00
+              0.506009824399534E+00
+             -0.881135356295308E-01
+              0.390727236171302E+00
+              0.685194469071446E+00
+              0.522665341736545E+00
+              0.391216212913809E+00
+              0.324026656700203E+00
+             -0.321850779754422E+00
+             -0.198206554345922E+00
+             -0.260809343011243E+00
+             -0.531471595938028E+00
+             -0.691709830479748E+00
+             -0.899658185348086E+00
+             -0.533569976195294E+00
+             -0.145639063342568E+00
+             -0.113810645503601E+01
+             -0.163260117399560E+00
+              0.473550453350908E+00
+             -0.109942042880731E+01
+              0.468369170719084E+00
+              0.382038194140522E+00
+             -0.988473956607329E+00
+             -0.807982425702645E+00
+             -0.282216448146922E+00
+              0.221913280873738E+00
+             -0.592113962076022E+00
+              0.106587610765590E+01
+              0.932921057126881E+00
+             -0.111984670480918E+01
+              0.686798631621292E+00
+              0.519604214923976E+00
+              0.158161166581350E+00
+              0.297933940442441E+00
+             -0.607534417661513E+00
+             -0.228747940521630E+00
+              0.562161257226972E-01
+              0.268773216648817E+00
+              0.626469705632519E+00
+             -0.790753873339710E+00
+             -0.119648993533200E+00
+              0.258028795307884E+00
+              0.470354688127621E-01
+             -0.455924517958200E+00
+              0.288292208483532E+00
+             -0.380602088556456E+00
+             -0.262522654129550E+00
+              0.304257381784296E-01
+             -0.889231582991953E+00
+             -0.185708834619747E-02
+             -0.241937162472458E+00
+             -0.184209619434037E+00
+              0.124688957861131E+00
+             -0.779275105734635E+00
+              0.792707646571629E+00
+             -0.346853308949860E+00
+             -0.186626279767402E+01
+             -0.124561021372466E+01
+              0.524611844069910E+00
+             -0.520541780805120E+00
+             -0.277381889198242E+00
+             -0.377511327836063E+00
+             -0.252488684669881E+00
+             -0.147350602878891E+01
+             -0.866265272106315E-01
+             -0.902211392301069E+00
+             -0.442807195622724E+00
+              0.327713604079226E+00
+              0.109488811592592E+01
+              0.308704312431514E-01
+              0.152809500961677E-01
+              0.837431921363905E+00
+             -0.756104176466245E+00
+              0.454632726412960E+00
+              0.100902637674873E+00
+             -0.677871751987317E+00
+             -0.348186361590034E+00
+              0.299482716724696E+00
+              0.289965615052163E-01
+              0.213823768497553E+00
+              0.198393103237220E+00
+             -0.330982611024889E+00
+             -0.414491100225124E+00
+             -0.715643446972157E+00
+              0.697371439126545E+00
+             -0.952451082954195E+00
+             -0.717541610338954E+00
+              0.192791565745487E+00
+             -0.124030622382642E+01
+              0.296128163691010E+00
+              0.816828447144003E+00
+             -0.144969692152844E+00
+              0.200017016835524E+00
+             -0.424610232986432E+00
+             -0.295238444729879E+00
+              0.137131771700348E+00
+              0.522921757544286E+00
+             -0.532632729522118E+00
+              0.359704085922211E+00
+             -0.203287423863389E+00
+             -0.878829650666724E-02
+              0.338430154892163E+00
+              0.226397328220642E+00
+             -0.137646769806152E+00
+             -0.216129617068317E-01
+              0.219403034620321E+00
+              0.408680228658610E+00
+             -0.100383894963234E+01
+              0.310090983859013E-01
+              0.771810425929641E+00
+             -0.132871893656720E+01
+              0.479087175908212E+00
+             -0.166812489383156E+01
+             -0.131430327453321E+00
+             -0.212554931309465E+00
+             -0.100125469289278E+00
+             -0.144127360266317E+00
+             -0.404151591955418E+00
+             -0.773304725435509E-01
+              0.209748198945185E+00
+             -0.331502618133757E+00
+              0.179173079742432E+00
+              0.128630472025488E+01
+             -0.858985964041280E+00
+             -0.378226910583944E+00
+              0.556892987992288E+00
+              0.309187941299310E+00
+              0.583747584870691E+00
+              0.225859715383545E+00
+              0.340284660367538E+00
+             -0.221755774957599E+00
+             -0.703485324408081E+00
+             -0.634401274326811E+00
+             -0.383964566358615E+00
+              0.427270453770094E-01
+             -0.584831675002766E+00
+             -0.168427066079906E+00
+              0.856849126052719E-01
+              0.328015855398629E+00
+             -0.105485325464076E+00
+              0.829705073310805E+00
+             -0.837611905941864E+00
+             -0.663477553480325E-01
+             -0.108154393841293E+00
+              0.430245437230368E+00
+             -0.638008822687133E+00
+             -0.392970241266051E+00
+              0.288817473100723E+00
+              0.724349232815996E+00
+              0.102441809684437E+01
+              0.492541019536722E+00
+              0.636160446740348E+00
+             -0.379695319359936E+00
+              0.914435402479770E+00
+              0.906872898606837E+00
+             -0.709659670665435E-01
+              0.490701772910632E+00
+              0.552360424374430E+00
+             -0.287579318646166E+00
+              0.117918422802259E+00
+              0.929906337081084E+00
+             -0.352234132820080E+00
+             -0.153555384752737E+00
+             -0.923431717198797E+00
+              0.345089765963676E+00
+             -0.161684198053319E+00
+              0.291152870493717E+00
+              0.694516617767240E-01
+             -0.578059093839812E+00
+              0.689445763802364E+00
+              0.564475393082663E+00
+             -0.393570437916610E+00
+              0.219626592055367E+00
+             -0.826803949379736E+00
+             -0.786781179216630E+00
+              0.338861899154213E+00
+             -0.980713601555979E+00
+             -0.451871701278362E+00
+              0.522523368835976E-01
+              0.123086278678459E+01
+             -0.300389605233443E+00
+             -0.164367397922130E+00
+             -0.234442303837625E+00
+              0.164828673014765E+01
+              0.268767406855362E+00
+             -0.590246243506948E+00
+              0.996531844660201E+00
+              0.897144135259785E+00
+              0.457834894695990E+00
+              0.111907202439641E+01
+              0.116649365978854E+01
+             -0.108143957208205E+00
+             -0.428799222328660E+00
+             -0.434786679409390E+00
+              0.367394124286312E+00
+              0.535269802743060E+00
+             -0.883636862172517E-01
+             -0.318685904717074E+00
+             -0.844905170881466E+00
+             -0.349804095231542E+00
+             -0.657720883546398E+00
+              0.443573146977577E+00
+              0.232768465048710E+00
+              0.843555786632590E+00
+              0.150962489998919E+00
+             -0.367433439976226E+00
+             -0.114822489417789E+00
+              0.582563274546157E+00
+              0.181843557430712E+00
+              0.836718485786770E+00
+              0.824451902627214E+00
+             -0.159157423352430E+00
+             -0.959129659402667E-01
+             -0.139852213323842E+01
+              0.728461807446941E+00
+             -0.644464261709370E-01
+              0.797828204237186E+00
+             -0.344345832268109E+00
+             -0.902920925346926E+00
+              0.256656222960162E+00
+              0.100221420541404E+01
+             -0.353704963276101E+00
+              0.966728739069005E+00
+             -0.102778184131992E+01
+             -0.360812809483618E+00
+             -0.119528295208175E+01
+              0.280300781146619E+00
+              0.139442506897514E+00
+              0.587159060002076E-01
+             -0.874684888634135E+00
+              0.128252503327510E+01
+              0.758784832847866E+00
+              0.965180901218297E-01
+             -0.687016768383545E+00
+              0.304761766770076E+00
+             -0.330403301145375E+00
+             -0.172671317906242E+00
+             -0.329514211435438E+00
+              0.277478535645069E+00
+             -0.183753340301179E+00
+             -0.263944540085584E+00
+              0.309345779198676E+00
+              0.341479715361294E+00
+             -0.127305354020804E+01
+              0.278457036496194E+00
+              0.944191906771655E+00
+              0.612704509474267E+00
+             -0.213777458710994E+00
+              0.157077965621797E-01
+             -0.531128557549804E+00
+              0.820805600714065E+00
+              0.174407224304111E+00
+             -0.799058965593638E-01
+             -0.795729835437786E-01
+              0.155806724702167E+01
+             -0.332362224477931E-01
+              0.396488609737799E+00
+              0.103767202696785E+01
+              0.139885627374975E+01
+              0.852381988395580E+00
+              0.605247507749514E+00
+             -0.866537212237179E+00
+             -0.650643519323220E+00
+              0.498347617028319E+00
+              0.172296177178968E-01
+              0.450217762449292E+00
+              0.197972590278928E+00
+              0.907919028310448E+00
+             -0.113751738124418E+01
+             -0.706809836147337E+00
+             -0.129935231635352E+00
+             -0.123189549749802E+01
+              0.248604689790404E+00
+              0.591084951585327E+00
+              0.106652017931757E+00
+             -0.313057179616287E+00
+              0.319551617708679E+00
+              0.197239993799589E+01
+              0.411274254703804E+00
+              0.235693636828471E+00
+             -0.700074694863891E+00
+             -0.892400902400986E+00
+             -0.232969379706975E+00
+              0.396754382953475E+00
+             -0.782296614296101E-01
+              0.335392662731303E+00
+              0.504200751444756E+00
+             -0.916501251160221E+00
+              0.371750178936611E+00
+              0.603841141181539E+00
+              0.830927433279001E+00
+             -0.136900090412446E+00
+              0.161648734642199E-01
+             -0.103222366547467E+00
+             -0.661723898160586E+00
+             -0.105328052126221E+01
+              0.111851696698489E+01
+             -0.124657039571509E+00
+             -0.799278559984311E+00
+              0.706425833978168E-01
+             -0.403411301353467E+00
+              0.125099541337418E+01
+             -0.307866572633770E+00
+             -0.532526332650468E+00
+              0.513120066564764E+00
+             -0.195641474846558E+00
+              0.640630603229821E+00
+             -0.173398788330887E-01
+              0.137704294341231E+01
+              0.703205579344690E+00
+              0.864231649030720E-01
+             -0.533181943575480E+00
+              0.378533904199553E+00
+             -0.783270965321369E+00
+             -0.939500655029994E-01
+              0.923589629340602E+00
+             -0.372692507443070E+00
+             -0.630906068817012E+00
+             -0.303874238501106E+00
+              0.758945936865929E+00
+              0.169807191269951E+00
+             -0.119363392881451E+01
+              0.487519182177549E+00
+              0.157988868073503E+00
+              0.139036536806175E+00
+             -0.709203221697154E+00
+              0.110912262094526E+00
+              0.494284975109052E+00
+              0.702870301071439E+00
+              0.895972290082299E+00
+              0.467376347025335E+00
+              0.926133821959114E-01
+             -0.756751184813143E+00
+             -0.623267231422171E+00
+             -0.993324663797623E+00
+             -0.147709973315391E+00
+              0.495964560791780E+00
+             -0.378948332788298E-01
+              0.775261296925486E+00
+             -0.454696335290832E+00
+              0.258948779056281E+00
+             -0.275821548929479E+00
+             -0.377279541743642E+00
+              0.815590755224113E+00
+              0.827997153346702E-01
+              0.864796332655052E+00
+              0.700719806382235E-01
+              0.331923747766137E+00
+             -0.223260795450127E+00
+              0.854215760378958E+00
+             -0.177219575111325E+00
+             -0.183213555227106E-01
+             -0.112721423733162E+01
+             -0.132354194565512E+00
+              0.101026397246589E+01
+              0.976742596891595E+00
+              0.324030426685919E+00
+             -0.179887083609052E+00
+              0.416315568980896E-01
+             -0.296350031029584E+00
+             -0.163508749365680E+00
+              0.125689962113233E+01
+              0.744185715812424E-01
+             -0.361810857948623E+00
+             -0.155804281962290E+01
+             -0.702455958789785E+00
+             -0.532204794881631E+00
+             -0.899486450256103E+00
+             -0.849940796065586E+00
+             -0.103759455271266E+01
+             -0.644833812957332E+00
+             -0.476682597204031E+00
+             -0.648378061661667E+00
+              0.652018718913317E+00
+             -0.328740851501870E+00
+             -0.134813464037223E+01
+              0.617448510841204E+00
+             -0.465564429781739E+00
+             -0.112116089754680E+01
+              0.144615850989004E+01
+             -0.345597453723587E+00
+              0.256451570351711E+00
+              0.584770960919640E+00
+              0.113693994337020E+00
+              0.354296830193241E+00
+              0.368952688525725E-02
+              0.118644874454321E-01
+             -0.178684665099941E+00
+             -0.102566363697955E+01
+              0.157527092025838E+00
+             -0.178075813353100E+01
+              0.966326989572409E+00
+             -0.593532934389641E+00
+             -0.233384384241029E+00
+             -0.266062767862381E+00
+              0.258620567803070E+00
+             -0.277798159942495E+00
+              0.435378903165540E+00
+             -0.809877496594683E+00
+              0.548295492955488E+00
+              0.571250485121625E+00
+              0.200697626657401E+00
+              0.124043514846094E+00
+              0.294767289472858E+00
+              0.107028923570706E+00
+              0.474662352108822E+00
+             -0.778172070717873E-01
+             -0.960489955826887E+00
+              0.135001782040066E+00
+             -0.447209024118435E+00
+             -0.123844756060159E-01
+              0.747670436372386E+00
+             -0.117471636494025E+01
+              0.163677374736952E-01
+              0.237748367860453E-01
+              0.138743289893531E+00
+              0.447211579910262E+00
+             -0.201700111398685E+00
+              0.122111489096959E+01
+              0.581475656734571E+00
+             -0.225988289506818E+00
+             -0.161169623704091E+00
+              0.663207089337945E-01
+              0.113955028150734E+01
+             -0.737261659319495E+00
+             -0.147316058493914E+01
+              0.413830919012482E+00
+             -0.112456354055043E+00
+             -0.203412909305950E+00
+              0.257218045922179E+00
+              0.110126209528751E+01
+              0.618468028856692E+00
+             -0.249185012451126E+00
+             -0.762891225758703E+00
+             -0.158963904259395E+00
+              0.411106731835566E+00
+             -0.227340931529465E+00
+             -0.108309068688187E+01
+             -0.100443467326275E+00
+             -0.135438520951919E+01
+             -0.703608402423637E+00
+              0.120791785217091E+01
+             -0.721121887937724E+00
+             -0.987123217277706E+00
+             -0.778148979955450E+00
+             -0.552382150703280E+00
+              0.466813003960807E+00
+              0.118859090753364E+01
+             -0.108811110760424E+00
+              0.400885047132327E+00
+             -0.248171435399311E+00
+             -0.962023385061179E+00
+              0.766279990338753E+00
+             -0.672331504455828E+00
+              0.415374175481913E+00
+              0.438378152858611E+00
+             -0.187133854979558E+00
+              0.572920894194278E+00
+              0.578408556342568E+00
+              0.163445014028428E+01
+             -0.192412315185036E+00
+             -0.746662945585360E+00
+             -0.949330447458140E+00
+             -0.222371524260265E+00
+             -0.506606311026791E+00
+              0.142050967904673E+01
+             -0.675309518873714E+00
+              0.124361999640637E+00
+              0.711622756336059E-01
+             -0.315079185003466E+00
+             -0.117529709713484E+01
+             -0.104308701211862E+00
+              0.142471601661344E+01
+              0.242483608580267E+00
+              0.112312070290614E+00
+             -0.772645479495497E+00
+             -0.779632438389635E+00
+             -0.192019711460742E+00
+              0.676047209971895E+00
+             -0.359775471637072E+00
+              0.147372177649306E+01
+             -0.628478805672045E+00
+              0.229488584909342E+00
+             -0.274530704715275E+00
+             -0.916631186550886E+00
+              0.863912583227018E-01
+             -0.818753067427615E+00
+             -0.105875106320608E+01
+              0.101768854458076E+00
+              0.213216003958983E-01
+              0.683344048263395E+00
+              0.347653086500865E+00
+             -0.504335170822991E+00
+              0.341587813912926E+00
+             -0.119676341800218E+01
+             -0.718996842740193E+00
+              0.135280509518361E+01
+              0.851905094058056E-01
+             -0.143705906387140E+00
+             -0.383717011271741E+00
+              0.132369597771032E-01
+             -0.133706063125834E+00
+              0.126364785504825E+01
+              0.588939782252758E+00
+             -0.157255064438012E+00
+             -0.783780251007355E-01
+             -0.572968624694847E+00
+             -0.220535825006834E+00
+             -0.921711241221558E+00
+              0.726558409703838E+00
+              0.889370869784853E-01
+              0.158559460380109E+00
+              0.222724511419065E+00
+             -0.154304585373738E+00
+             -0.300725208842618E+00
+              0.282570032674017E-01
+             -0.154032752261221E+01
+             -0.201438526655096E+00
+             -0.112678412398833E+00
+             -0.103642274721882E+00
+              0.765786206766215E+00
+              0.901106688599388E+00
+              0.242835952998216E+00
+             -0.134027908194582E+01
+              0.939769829572335E+00
+             -0.356284538002940E+00
+             -0.529775912802207E+00
+             -0.124502406411536E+01
+             -0.458750432890765E+00
+              0.838555372076679E+00
+              0.446186512928735E+00
+              0.220448953431980E+00
+              0.467098791737677E+00
+             -0.790316601946482E+00
+             -0.659359175684390E+00
+              0.885184006683551E+00
+              0.599055107884868E+00
+              0.710840026812503E+00
+              0.493236051976951E-01
+              0.143695900786589E+00
+              0.768894468138145E+00
+              0.142544363962050E+01
+             -0.330267228625691E+00
+              0.540066301616125E+00
+             -0.285703905953795E+00
+             -0.608879092432139E+00
+             -0.479922779158128E+00
+             -0.428617818946643E+00
+             -0.190378996211459E+00
+             -0.708780764115016E+00
+             -0.315251004559790E+00
+             -0.189120131294954E+01
+              0.475981182701394E+00
+              0.393849843023313E+00
+             -0.269534148005519E-01
+             -0.528224938247408E+00
+             -0.277220203817452E+00
+             -0.791337451189719E+00
+              0.121912785858983E+00
+              0.114741940174834E+01
+             -0.269851033609230E+00
+             -0.266619388873333E+00
+              0.269436372799436E+00
+             -0.710369256466015E+00
+              0.127540256996804E+01
+              0.243771006831536E+00
+              0.148557035399948E+00
+              0.758329570791457E+00
+             -0.427232617215125E-01
+              0.846080028033768E+00
+              0.250689098795495E+00
+             -0.927266468206440E-01
+              0.196790870997308E+00
+             -0.916291028141698E-01
+              0.103837844413723E+01
+              0.109509569794014E+00
+              0.261938247647294E+00
+             -0.121181190091884E+00
+              0.135542293824199E+00
+             -0.134334518749549E+01
+             -0.511302697767677E+00
+             -0.684601086334025E+00
+              0.763415101289655E+00
+             -0.494735497943065E+00
+             -0.855419152954735E+00
+              0.828730054296079E+00
+             -0.206032285309123E+00
+              0.640711558152809E+00
+             -0.128553861099751E+01
+              0.319672935177996E+00
+              0.769831695008119E-01
+              0.819062962516615E-01
+             -0.170546421315327E+00
+             -0.902226873738785E-01
+              0.699237187436908E+00
+              0.309430863198950E-01
+             -0.711774600587584E+00
+             -0.303546933343921E+00
+              0.312336636081655E+00
+             -0.169953644956660E+01
+             -0.130896754728142E+01
+              0.366246743151821E-01
+              0.197319858257306E+00
+             -0.692529615995515E+00
+             -0.492526133232385E-02
+              0.154090382680996E+01
+              0.461776065399759E+00
+             -0.806112748936384E+00
+              0.106694978864374E+00
+             -0.138096400971146E+00
+              0.174845769690467E+00
+             -0.491354490993201E+00
+              0.300536231031664E+00
+              0.350549215911162E+00
+             -0.108114843498521E+00
+              0.159788392164998E+01
+             -0.120348967178125E+00
+             -0.442431347844462E+00
+              0.370268813378008E+00
+              0.638150441604424E+00
+             -0.492096229037335E+00
+             -0.714851662945815E-02
+              0.140270820823371E+01
+             -0.290498986319783E-01
+              0.742024247037519E+00
+              0.229867355386350E+00
+             -0.125656623011522E+00
+             -0.260789969317464E+00
+              0.724381427499928E+00
+             -0.823093012329360E+00
+             -0.472324606094268E-01
+             -0.268265191661777E+00
+             -0.600226504436260E+00
+              0.168286361990370E+00
+              0.325362537149679E+00
+              0.271990436458776E-01
+             -0.358942627365684E-01
+             -0.570042470343355E+00
+              0.251936003254187E+00
+             -0.363256345092065E-01
+             -0.329047777059986E+00
+             -0.304557330225797E+00
+              0.288996850041662E+00
+             -0.296921784921444E-01
+             -0.541935860501503E+00
+             -0.151071709153406E+01
+              0.688139797691656E-01
+              0.277325511274694E+00
+             -0.624646817807589E+00
+             -0.348441454127836E+00
+              0.116894306378344E+01
+              0.136025818887236E+00
+              0.575279742893880E+00
+              0.110413982944204E+00
+              0.511998561123180E+00
+              0.280123276252020E-01
+             -0.577266956634821E+00
+             -0.920065916847141E-01
+              0.103831333491191E+00
+              0.405600579332525E+00
+              0.111093286080813E+01
+              0.708920096412003E+00
+              0.100881035308427E-01
+              0.154874666658579E+00
+              0.876089816406814E+00
+              0.381224765592065E+00
+             -0.106114489161684E+01
+             -0.393830316017269E+00
+              0.210401534224858E+00
+              0.129978985994558E+00
+              0.373517443270278E+00
+             -0.761501990454155E+00
+              0.901023031138330E-01
+              0.548929880208754E+00
+              0.715346279003456E+00
+             -0.613909086117206E+00
+             -0.272151069499227E-01
+             -0.383852432244884E-01
+             -0.273397902432450E+00
+             -0.415160699332396E+00
+             -0.208522936946006E+00
+             -0.105135777113827E+00
+              0.134947360624785E+00
+              0.597783617060984E+00
+             -0.447136892382023E+00
+              0.117942228081073E+01
+              0.475071274669567E+00
+              0.341276468967332E+00
+              0.531076275436853E+00
+              0.407530768778145E+00
+              0.472418033217812E+00
+              0.796758206228717E+00
+             -0.670147697081975E+00
+              0.910601030281816E+00
+             -0.161913149304665E+01
+              0.454171039153541E+00
+             -0.151712401628767E+01
+              0.115717763877397E+01
+              0.109297018505246E+01
+             -0.132031811830423E+00
+             -0.686686911473021E+00
+             -0.622308037346771E+00
+             -0.824344210689276E+00
+             -0.944785218697096E+00
+              0.764287032714010E+00
+              0.620616670469308E+00
+              0.340802575891536E+00
+              0.443230746575519E+00
+              0.582150570221613E+00
+             -0.578828129979338E+00
+             -0.221869727287159E+00
+              0.804472254833424E+00
+             -0.171941520509428E+00
+              0.724441316341851E+00
+              0.109268949339290E+01
+             -0.463343737267541E-01
+             -0.106845159549538E+01
+              0.414677483153509E-01
+              0.360875755245605E-01
+             -0.138271616973808E+00
+              0.316857549638163E-01
+             -0.950192437121871E+00
+             -0.192863914182554E+00
+              0.179974776282056E+00
+              0.155891063503373E+00
+              0.711300613847332E+00
+             -0.578304299000086E+00
+              0.835886619620415E+00
+             -0.573206921308317E+00
+              0.357449953618020E+00
+              0.603349630264172E+00
+ 
+ BEEF-vdW xc energy contributions
+           1 :   -10.4828981358880     
+           2 :    8.82608712251111     
+           3 :   -6.52083514061527     
+           4 :    4.40976633201168     
+           5 :   -2.78256956083944     
+           6 :    1.63819063942808     
+           7 :  -0.881369119009506     
+           8 :   0.407467057717421     
+           9 :  -0.104545482544587     
+          10 :  -0.126604409404946     
+          11 :   0.317948274288488     
+          12 :  -0.440247863148986     
+          13 :   0.478654398616374     
+          14 :  -0.447957644958890     
+          15 :   0.368150454374812     
+          16 :  -0.268738214275391     
+          17 :   0.180625707890989     
+          18 :  -0.118659890559407     
+          19 :   7.583904756036475E-002
+          20 :  -3.898792221311354E-002
+          21 :   7.943408720656464E-003
+          22 :   1.043169834807856E-002
+          23 :  -1.369813074022730E-002
+          24 :   5.588174678592850E-003
+          25 :   1.032747651947119E-002
+          26 :  -2.975067561920142E-002
+          27 :   4.624063925226096E-002
+          28 :  -5.657445333588562E-002
+          29 :   5.950081735859492E-002
+          30 :  -5.492404738385659E-002
+          31 :   -1.39563652956370     
+          32 :  -0.910800934772311     
+  @ DRIVER MODE: Message from server: STATUS
+  @ DRIVER MODE: Message from server: GETFORCE
+  @ DRIVER MODE: Returning v,forces,stress 
+  @ DRIVE MODE: Returning Ensemble Energies  
+  @ DRIVE MODE: Returning Ensemble Energies  
+  @ DRIVE MODE: Returning Ensemble Energies  
+  @ DRIVE MODE: Returning Ensemble Energies  
+
+     Writing config to output data dir ./calc.save/
+     Message from routine punch:
+     wavefunctions written to file
+  @ DRIVER MODE: Message from server: EXIT
+  @ DRIVE MODE: Exiting  
+ 
+     init_run     :     23.67s CPU     24.50s WALL (       1 calls)
+     electrons    :   1025.28s CPU   1082.11s WALL (      10 calls)
+     update_pot   :    110.46s CPU    114.04s WALL (      10 calls)
+     forces       :     98.39s CPU    102.58s WALL (      10 calls)
+
+     Called by init_run:
+     wfcinit      :      0.28s CPU      0.32s WALL (       1 calls)
+     potinit      :     19.14s CPU     19.73s WALL (       1 calls)
+     hinit0       :      2.95s CPU      2.99s WALL (       1 calls)
+
+     Called by electrons:
+     c_bands      :     84.95s CPU     85.80s WALL (     122 calls)
+     sum_band     :     93.51s CPU    105.21s WALL (     122 calls)
+     v_of_rho     :    831.49s CPU    867.73s WALL (     133 calls)
+     newd         :     52.09s CPU     64.38s WALL (     133 calls)
+     mix_rho      :     31.49s CPU     31.77s WALL (     122 calls)
+     vdW_kernel   :     11.46s CPU     11.64s WALL (       1 calls)
+
+     Called by c_bands:
+     init_us_2    :      0.87s CPU      0.89s WALL (     245 calls)
+     init_us_2:cp :      0.87s CPU      0.89s WALL (     245 calls)
+     cegterg      :     83.93s CPU     84.67s WALL (     122 calls)
+
+     Called by *egterg:
+     cdiaghg      :      0.48s CPU      0.62s WALL (     533 calls)
+     h_psi        :     73.97s CPU     74.33s WALL (     543 calls)
+     s_psi        :      1.06s CPU      1.07s WALL (     543 calls)
+     g_psi        :      0.28s CPU      0.29s WALL (     420 calls)
+
+     Called by h_psi:
+     h_psi:calbec :      0.77s CPU      0.78s WALL (     543 calls)
+     vloc_psi     :     71.83s CPU     72.14s WALL (     543 calls)
+     add_vuspsi   :      1.04s CPU      1.06s WALL (     543 calls)
+
+     General routines
+     calbec       :      1.06s CPU      1.08s WALL (     705 calls)
+     fft          :    746.61s CPU    753.24s WALL (   10917 calls)
+     ffts         :      3.70s CPU      3.72s WALL (     255 calls)
+     fftw         :     75.76s CPU     76.07s WALL (   12948 calls)
+     interpolate  :     11.48s CPU     11.53s WALL (     133 calls)
+     davcio       :      0.01s CPU      0.08s WALL (      11 calls)
+ 
+     Parallel routines
+ 
+     PWSCF        :  24m20.80s CPU  25m39.25s WALL
+
+ 
+   This run was terminated on:   9: 8:46  28Jun2022            
+
+=------------------------------------------------------------------------------=
+   JOB DONE.
+=------------------------------------------------------------------------------=

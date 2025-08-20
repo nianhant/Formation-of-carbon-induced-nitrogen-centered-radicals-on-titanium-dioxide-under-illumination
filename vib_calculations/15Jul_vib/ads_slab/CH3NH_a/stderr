@@ -1,0 +1,55 @@
+PSP directory successfully set: /storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/data/pseudos_module/espresso/esp_pseudos_old
+PSP directory successfully set: /storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/data/pseudos_module/espresso/nninc/pbe/van
+Abort(2182927) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Comm_split: Other MPI error, error stack:
+PMPI_Comm_split(499).....: MPI_Comm_split(comm=0xc400003c, color=0, key=0, new_comm=0x7ffffffedd80) failed
+PMPI_Comm_split(481).....: 
+MPIR_Comm_split_impl(384): 
+MPIR_Comm_commit(598)....: 
+MPIR_Info_alloc(61)......: Out of memory (unable to allocate a 'MPI_Info')
+[mpiexec@atl1-1-02-002-16-r.pace.gatech.edu] HYDT_bscd_pbs_wait_for_completion (tools/bootstrap/external/pbs_wait.c:67): tm_poll(obit_event) failed with TM error 17002
+[mpiexec@atl1-1-02-002-16-r.pace.gatech.edu] HYDT_bsci_wait_for_completion (tools/bootstrap/src/bsci_wait.c:23): launcher returned error waiting for completion
+[proxy:0:0@atl1-1-02-002-16-r.pace.gatech.edu] HYD_pmcd_pmip_control_cmd_cb (pm/pmiserv/pmip_cb.c:911): assert (!closed) failed
+[proxy:0:0@atl1-1-02-002-16-r.pace.gatech.edu] HYDT_dmxu_poll_wait_for_event (tools/demux/demux_poll.c:76): callback returned error status
+[proxy:0:0@atl1-1-02-002-16-r.pace.gatech.edu] main (pm/pmiserv/pmip.c:202): demux engine error waiting for event
+Traceback (most recent call last):
+  File "run.py", line 28, in <module>
+    relax.run(fmax=0.05)
+  File "/storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/gits/dev/ase-latest/ase/optimize/optimize.py", line 298, in run
+    return Dynamics.run(self)
+  File "/storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/gits/dev/ase-latest/ase/optimize/optimize.py", line 185, in run
+    for converged in Dynamics.irun(self):
+  File "/storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/gits/dev/ase-latest/ase/optimize/optimize.py", line 164, in irun
+    self.step()
+  File "/storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/gits/dev/ase-latest/ase/optimize/bfgslinesearch.py", line 124, in step
+    c2=self.c2, stpmax=self.stpmax)
+  File "/storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/gits/dev/ase-latest/ase/utils/linesearch.py", line 57, in _line_search
+    fval = func(xk + stp * pk, *args)
+  File "/storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/gits/dev/ase-latest/ase/optimize/bfgslinesearch.py", line 172, in func
+    force_consistent=self.force_consistent) / self.alpha)
+  File "/storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/gits/dev/ase-latest/ase/atoms.py", line 730, in get_potential_energy
+    self, force_consistent=force_consistent)
+  File "/storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/gits/dev/ggusmao-espresso/espresso/espresso.py", line 2340, in get_potential_energy
+    self.update(atoms)
+  File "/storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/gits/dev/ggusmao-espresso/espresso/iespresso.py", line 592, in update
+    self.calculate(atoms, properties)
+  File "/storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/gits/dev/ggusmao-espresso/espresso/iespresso.py", line 646, in calculate
+    results = self.server.calculate(atoms,properties)
+  File "/storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/gits/dev/ggusmao-espresso/espresso/iespresso.py", line 457, in calculate
+    return self.protocol.calculate(atoms.positions, atoms.cell, properties)
+  File "/storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/gits/dev/ggusmao-espresso/espresso/iespresso.py", line 290, in calculate
+    r = self.ionic_step(positions, cell, properties)
+  File "/storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/gits/dev/ggusmao-espresso/espresso/iespresso.py", line 274, in ionic_step
+    msg = self.status()
+  File "/storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/gits/dev/ggusmao-espresso/espresso/iespresso.py", line 233, in status
+    msg = self.recvmsg()
+  File "/storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/gits/dev/ggusmao-espresso/espresso/iespresso.py", line 122, in recvmsg
+    msg = self._recvall(12)
+  File "/storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/gits/dev/ggusmao-espresso/espresso/iespresso.py", line 111, in _recvall
+    chunk = self.socket.recv(remaining)
+ConnectionResetError: [Errno 104] Connection reset by peer
+PSP directory successfully set: /storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/data/pseudos_module/espresso/esp_pseudos_old
+PSP directory successfully set: /storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/data/pseudos_module/espresso/nninc/pbe/van
+PSP directory successfully set: /storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/data/pseudos_module/espresso/esp_pseudos_old
+PSP directory successfully set: /storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/data/pseudos_module/espresso/nninc/pbe/van
+PSP directory successfully set: /storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/data/pseudos_module/espresso/esp_pseudos_old
+PSP directory successfully set: /storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/data/pseudos_module/espresso/nninc/pbe/van

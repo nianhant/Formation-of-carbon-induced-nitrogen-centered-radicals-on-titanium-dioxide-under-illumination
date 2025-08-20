@@ -1,0 +1,45 @@
+---------------------------------------
+Begin PBS Prologue Mon Jan 15 11:23:37 EST 2018
+Job ID:     19293519.shared-sched.pace.gatech.edu
+User ID:    bcomer3
+Job name:   O2
+Queue:      joe
+End PBS Prologue Mon Jan 15 11:23:37 EST 2018
+---------------------------------------
+Writing vib.log.eq.pckl
+Writing vib.log.0x-.pckl
+Writing vib.log.0x--.pckl
+Writing vib.log.0x+.pckl
+Writing vib.log.0x++.pckl
+Writing vib.log.0y-.pckl
+Writing vib.log.0y--.pckl
+Writing vib.log.0y+.pckl
+Writing vib.log.0y++.pckl
+Writing vib.log.0z-.pckl
+Writing vib.log.0z--.pckl
+Writing vib.log.0z+.pckl
+Writing vib.log.0z++.pckl
+Writing vib.log.1x-.pckl
+Writing vib.log.1x--.pckl
+Writing vib.log.1x+.pckl
+Writing vib.log.1x++.pckl
+Writing vib.log.1y-.pckl
+Writing vib.log.1y--.pckl
+Writing vib.log.1y+.pckl
+Writing vib.log.1y++.pckl
+Writing vib.log.1z-.pckl
+Writing vib.log.1z--.pckl
+Writing vib.log.1z+.pckl
+Writing vib.log.1z++.pckl
+---------------------------------------
+Begin PBS Epilogue Mon Jan 15 11:32:45 EST 2018
+Job ID:     19293519.shared-sched.pace.gatech.edu
+User ID:    bcomer3
+Job name:   O2
+Resources:  neednodes=1:ppn=10,nodes=1:ppn=10,walltime=12:00:00
+Rsrc Used:  cput=00:02:53,energy_used=0,mem=917524kb,vmem=4180896kb,walltime=00:09:08
+Queue:      joe
+Nodes:     
+rich133-c32-31-r.pace.gatech.edu
+End PBS Epilogue Mon Jan 15 11:32:45 EST 2018
+---------------------------------------

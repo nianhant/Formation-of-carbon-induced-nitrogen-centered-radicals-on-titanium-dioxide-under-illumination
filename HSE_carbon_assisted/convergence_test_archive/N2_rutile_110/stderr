@@ -1,0 +1,18 @@
+PSP directory successfully set: /storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/data/pseudos_module/espresso/esp_pseudos_old
+bash: ​: command not found
+/storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/gits/dev/ase-latest/ase/calculators/calculator.py:509: FutureWarning: The keyword "ignore_bad_restart_file" is deprecated and will be removed in a future version of ASE.  Passing more than one positional argument to Calculator is also deprecated and will stop functioning in the future.  Please pass arguments by keyword (key=value) except optionally the "restart" keyword.
+  'The keyword "ignore_bad_restart_file" is deprecated and '
+Traceback (most recent call last):
+  File "run.py", line 31, in <module>
+    energy = sim.get_potential_energy()
+  File "/storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/gits/dev/ase-latest/ase/atoms.py", line 732, in get_potential_energy
+    energy = self._calc.get_potential_energy(self)
+  File "/storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/gits/dev/ase-latest/ase/calculators/calculator.py", line 709, in get_potential_energy
+    energy = self.get_property('energy', atoms)
+  File "/storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/gits/dev/ase-latest/ase/calculators/calculator.py", line 737, in get_property
+    self.calculate(atoms, [name], system_changes)
+  File "/storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/builds/sparc/SPARC_latest_2021/sparc-dft-api/sparc/sparc_core.py", line 734, in calculate
+    self.write_input(self.atoms, **self.parameters)
+  File "/storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/builds/sparc/SPARC_latest_2021/sparc-dft-api/sparc/sparc_core.py", line 225, in write_input
+    raise CalculatorSetupError('You must specify one of the '
+ase.calculators.calculator.CalculatorSetupError: You must specify one of the following: `h`, `FD_GRID`, `MESH_SPACING`

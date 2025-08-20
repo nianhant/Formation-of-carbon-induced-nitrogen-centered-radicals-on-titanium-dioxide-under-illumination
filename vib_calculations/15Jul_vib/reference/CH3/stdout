@@ -1,0 +1,151 @@
+---------------------------------------
+Begin PBS Prologue Fri Jul  2 10:25:44 EDT 2021
+Job ID:     2253742.sched-torque.pace.gatech.edu
+User ID:    ntian30
+Job name:   reference/CH3
+Queue:      inferno
+End PBS Prologue Fri Jul  2 10:25:45 EDT 2021
+---------------------------------------
+Requirement already satisfied: py-hostlist in /storage/home/hcoda1/3/ntian30/.local/lib/python3.7/site-packages (0.0.2.dev0)
+/storage/home/hcoda1/3/ntian30/research/carbon/30Jun_calc/reference/CH3
+CMD mpirun -wdir /storage/home/hcoda1/3/ntian30/scratch/qe_1139763_2253742.sched-torque.pace.gatech.edu1vf5fel9_scratch pw.x -in /storage/home/hcoda1/3/ntian30/research/carbon/30Jun_calc/reference/CH3/2Jul.log/pw.inp --ipi qe_1139763_2253742.sched-torque.pace.gatech.edu1vf5fel9_scratch:UNIX >> /storage/home/hcoda1/3/ntian30/research/carbon/30Jun_calc/reference/CH3/2Jul.log/pw.out
+46912643305040 Awaiting client
+----------> <socket.socket fd=8, family=AddressFamily.AF_UNIX, type=SocketKind.SOCK_STREAM, proto=0, laddr=/tmp/ipi_qe_1139763_2253742.sched-torque.pace.gatech.edu1vf5fel9_scratch> 
+Time = 51.83357501029968 sec
+Time = 1.430511474609375e-06 sec
+---------------------------------------
+Begin PBS Epilogue Fri Jul  2 10:26:58 EDT 2021
+Job ID:     2253742.sched-torque.pace.gatech.edu
+User ID:    ntian30
+Job name:   reference/CH3
+Resources:  nodes=1:ppn=16,pmem=15gb,walltime=48:00:00,neednodes=1:ppn=16
+Rsrc Used:  cput=00:17:11,vmem=45056820kb,walltime=00:01:14,mem=1983140kb,energy_used=0
+Queue:      inferno
+Nodes:     
+atl1-1-02-002-20-r.pace.gatech.edu
+End PBS Epilogue Fri Jul  2 10:26:58 EDT 2021
+---------------------------------------
+---------------------------------------
+Begin PBS Prologue Wed Jul  7 08:51:16 EDT 2021
+Job ID:     2287430.sched-torque.pace.gatech.edu
+User ID:    ntian30
+Job name:   reference/CH3
+Queue:      inferno
+End PBS Prologue Wed Jul  7 08:51:16 EDT 2021
+---------------------------------------
+Requirement already satisfied: py-hostlist in /storage/home/hcoda1/3/ntian30/.local/lib/python3.7/site-packages (0.0.2.dev0)
+/storage/home/hcoda1/3/ntian30/research/carbon/7Jul_spin_polarized/reference/CH3
+CMD mpirun -wdir /storage/home/hcoda1/3/ntian30/scratch/qe_1139763_2287430.sched-torque.pace.gatech.edus06w93ul_scratch pw.x -in /storage/home/hcoda1/3/ntian30/research/carbon/7Jul_spin_polarized/reference/CH3/7Jul_spin_pol.log/pw.inp --ipi qe_1139763_2287430.sched-torque.pace.gatech.edus06w93ul_scratch:UNIX >> /storage/home/hcoda1/3/ntian30/research/carbon/7Jul_spin_polarized/reference/CH3/7Jul_spin_pol.log/pw.out
+46912885480912 Awaiting client
+----------> <socket.socket fd=8, family=AddressFamily.AF_UNIX, type=SocketKind.SOCK_STREAM, proto=0, laddr=/tmp/ipi_qe_1139763_2287430.sched-torque.pace.gatech.edus06w93ul_scratch> 
+Time = 42.76953482627869 sec
+Time = 1.1920928955078125e-06 sec
+---------------------------------------
+Begin PBS Epilogue Wed Jul  7 08:52:27 EDT 2021
+Job ID:     2287430.sched-torque.pace.gatech.edu
+User ID:    ntian30
+Job name:   reference/CH3
+Resources:  nodes=1:ppn=16,pmem=15gb,walltime=48:00:00,neednodes=1:ppn=16
+Rsrc Used:  cput=00:16:19,vmem=45218772kb,walltime=00:01:11,mem=2084464kb,energy_used=0
+Queue:      inferno
+Nodes:     
+atl1-1-02-002-6-r.pace.gatech.edu
+End PBS Epilogue Wed Jul  7 08:52:27 EDT 2021
+---------------------------------------
+---------------------------------------
+Begin PBS Prologue Thu Jul 15 16:27:47 EDT 2021
+Job ID:     2351655.sched-torque.pace.gatech.edu
+User ID:    ntian30
+Job name:   vib_reference/CH3
+Queue:      inferno
+End PBS Prologue Thu Jul 15 16:27:47 EDT 2021
+---------------------------------------
+Requirement already satisfied: py-hostlist in /storage/home/hcoda1/3/ntian30/.local/lib/python3.7/site-packages (0.0.2.dev0)
+/storage/home/hcoda1/3/ntian30/research/carbon/15Jul_vib/reference/CH3
+CMD mpirun -wdir /storage/home/hcoda1/3/ntian30/scratch/qe_1139763_2351655.sched-torque.pace.gatech.edueahde0u__scratch pw.x -in /storage/home/hcoda1/3/ntian30/research/carbon/15Jul_vib/reference/CH3/out_0000/pw.inp --ipi qe_1139763_2351655.sched-torque.pace.gatech.edueahde0u__scratch:UNIX >> /storage/home/hcoda1/3/ntian30/research/carbon/15Jul_vib/reference/CH3/out_0000/pw.out
+46912884490128 Awaiting client
+----------> <socket.socket fd=7, family=AddressFamily.AF_UNIX, type=SocketKind.SOCK_STREAM, proto=0, laddr=/tmp/ipi_qe_1139763_2351655.sched-torque.pace.gatech.edueahde0u__scratch> 
+CMD mpirun -wdir /storage/home/hcoda1/3/ntian30/scratch/qe_1139763_2351655.sched-torque.pace.gatech.educ6lxli75_scratch pw.x -in /storage/home/hcoda1/3/ntian30/research/carbon/15Jul_vib/reference/CH3/out_0001/pw.inp --ipi qe_1139763_2351655.sched-torque.pace.gatech.educ6lxli75_scratch:UNIX >> /storage/home/hcoda1/3/ntian30/research/carbon/15Jul_vib/reference/CH3/out_0001/pw.out
+46912897531728 Awaiting client
+----------> <socket.socket fd=8, family=AddressFamily.AF_UNIX, type=SocketKind.SOCK_STREAM, proto=0, laddr=/tmp/ipi_qe_1139763_2351655.sched-torque.pace.gatech.educ6lxli75_scratch> 
+CMD mpirun -wdir /storage/home/hcoda1/3/ntian30/scratch/qe_1139763_2351655.sched-torque.pace.gatech.eduscyfxnjt_scratch pw.x -in /storage/home/hcoda1/3/ntian30/research/carbon/15Jul_vib/reference/CH3/out_0002/pw.inp --ipi qe_1139763_2351655.sched-torque.pace.gatech.eduscyfxnjt_scratch:UNIX >> /storage/home/hcoda1/3/ntian30/research/carbon/15Jul_vib/reference/CH3/out_0002/pw.out
+46912897531664 Awaiting client
+----------> <socket.socket fd=9, family=AddressFamily.AF_UNIX, type=SocketKind.SOCK_STREAM, proto=0, laddr=/tmp/ipi_qe_1139763_2351655.sched-torque.pace.gatech.eduscyfxnjt_scratch> 
+CMD mpirun -wdir /storage/home/hcoda1/3/ntian30/scratch/qe_1139763_2351655.sched-torque.pace.gatech.eduat678mu8_scratch pw.x -in /storage/home/hcoda1/3/ntian30/research/carbon/15Jul_vib/reference/CH3/out_0003/pw.inp --ipi qe_1139763_2351655.sched-torque.pace.gatech.eduat678mu8_scratch:UNIX >> /storage/home/hcoda1/3/ntian30/research/carbon/15Jul_vib/reference/CH3/out_0003/pw.out
+46912888893648 Awaiting client
+----------> <socket.socket fd=10, family=AddressFamily.AF_UNIX, type=SocketKind.SOCK_STREAM, proto=0, laddr=/tmp/ipi_qe_1139763_2351655.sched-torque.pace.gatech.eduat678mu8_scratch> 
+CMD mpirun -wdir /storage/home/hcoda1/3/ntian30/scratch/qe_1139763_2351655.sched-torque.pace.gatech.edu9yoaco8d_scratch pw.x -in /storage/home/hcoda1/3/ntian30/research/carbon/15Jul_vib/reference/CH3/out_0004/pw.inp --ipi qe_1139763_2351655.sched-torque.pace.gatech.edu9yoaco8d_scratch:UNIX >> /storage/home/hcoda1/3/ntian30/research/carbon/15Jul_vib/reference/CH3/out_0004/pw.out
+46912888894544 Awaiting client
+----------> <socket.socket fd=12, family=AddressFamily.AF_UNIX, type=SocketKind.SOCK_STREAM, proto=0, laddr=/tmp/ipi_qe_1139763_2351655.sched-torque.pace.gatech.edu9yoaco8d_scratch> 
+CMD mpirun -wdir /storage/home/hcoda1/3/ntian30/scratch/qe_1139763_2351655.sched-torque.pace.gatech.edu0lsjcl2w_scratch pw.x -in /storage/home/hcoda1/3/ntian30/research/carbon/15Jul_vib/reference/CH3/out_0005/pw.inp --ipi qe_1139763_2351655.sched-torque.pace.gatech.edu0lsjcl2w_scratch:UNIX >> /storage/home/hcoda1/3/ntian30/research/carbon/15Jul_vib/reference/CH3/out_0005/pw.out
+46912888895184 Awaiting client
+----------> <socket.socket fd=13, family=AddressFamily.AF_UNIX, type=SocketKind.SOCK_STREAM, proto=0, laddr=/tmp/ipi_qe_1139763_2351655.sched-torque.pace.gatech.edu0lsjcl2w_scratch> 
+CMD mpirun -wdir /storage/home/hcoda1/3/ntian30/scratch/qe_1139763_2351655.sched-torque.pace.gatech.edu6866rz35_scratch pw.x -in /storage/home/hcoda1/3/ntian30/research/carbon/15Jul_vib/reference/CH3/out_0006/pw.inp --ipi qe_1139763_2351655.sched-torque.pace.gatech.edu6866rz35_scratch:UNIX >> /storage/home/hcoda1/3/ntian30/research/carbon/15Jul_vib/reference/CH3/out_0006/pw.out
+46912888895696 Awaiting client
+----------> <socket.socket fd=14, family=AddressFamily.AF_UNIX, type=SocketKind.SOCK_STREAM, proto=0, laddr=/tmp/ipi_qe_1139763_2351655.sched-torque.pace.gatech.edu6866rz35_scratch> 
+CMD mpirun -wdir /storage/home/hcoda1/3/ntian30/scratch/qe_1139763_2351655.sched-torque.pace.gatech.edus02hhm93_scratch pw.x -in /storage/home/hcoda1/3/ntian30/research/carbon/15Jul_vib/reference/CH3/out_0007/pw.inp --ipi qe_1139763_2351655.sched-torque.pace.gatech.edus02hhm93_scratch:UNIX >> /storage/home/hcoda1/3/ntian30/research/carbon/15Jul_vib/reference/CH3/out_0007/pw.out
+46912888896336 Awaiting client
+----------> <socket.socket fd=15, family=AddressFamily.AF_UNIX, type=SocketKind.SOCK_STREAM, proto=0, laddr=/tmp/ipi_qe_1139763_2351655.sched-torque.pace.gatech.edus02hhm93_scratch> 
+CMD mpirun -wdir /storage/home/hcoda1/3/ntian30/scratch/qe_1139763_2351655.sched-torque.pace.gatech.eduthgshcr8_scratch pw.x -in /storage/home/hcoda1/3/ntian30/research/carbon/15Jul_vib/reference/CH3/out_0008/pw.inp --ipi qe_1139763_2351655.sched-torque.pace.gatech.eduthgshcr8_scratch:UNIX >> /storage/home/hcoda1/3/ntian30/research/carbon/15Jul_vib/reference/CH3/out_0008/pw.out
+46912888896976 Awaiting client
+----------> <socket.socket fd=17, family=AddressFamily.AF_UNIX, type=SocketKind.SOCK_STREAM, proto=0, laddr=/tmp/ipi_qe_1139763_2351655.sched-torque.pace.gatech.eduthgshcr8_scratch> 
+CMD mpirun -wdir /storage/home/hcoda1/3/ntian30/scratch/qe_1139763_2351655.sched-torque.pace.gatech.edu3cdsr78e_scratch pw.x -in /storage/home/hcoda1/3/ntian30/research/carbon/15Jul_vib/reference/CH3/out_0009/pw.inp --ipi qe_1139763_2351655.sched-torque.pace.gatech.edu3cdsr78e_scratch:UNIX >> /storage/home/hcoda1/3/ntian30/research/carbon/15Jul_vib/reference/CH3/out_0009/pw.out
+46912888943568 Awaiting client
+----------> <socket.socket fd=18, family=AddressFamily.AF_UNIX, type=SocketKind.SOCK_STREAM, proto=0, laddr=/tmp/ipi_qe_1139763_2351655.sched-torque.pace.gatech.edu3cdsr78e_scratch> 
+CMD mpirun -wdir /storage/home/hcoda1/3/ntian30/scratch/qe_1139763_2351655.sched-torque.pace.gatech.edu3uh5ckk4_scratch pw.x -in /storage/home/hcoda1/3/ntian30/research/carbon/15Jul_vib/reference/CH3/out_0010/pw.inp --ipi qe_1139763_2351655.sched-torque.pace.gatech.edu3uh5ckk4_scratch:UNIX >> /storage/home/hcoda1/3/ntian30/research/carbon/15Jul_vib/reference/CH3/out_0010/pw.out
+46912888943504 Awaiting client
+----------> <socket.socket fd=19, family=AddressFamily.AF_UNIX, type=SocketKind.SOCK_STREAM, proto=0, laddr=/tmp/ipi_qe_1139763_2351655.sched-torque.pace.gatech.edu3uh5ckk4_scratch> 
+CMD mpirun -wdir /storage/home/hcoda1/3/ntian30/scratch/qe_1139763_2351655.sched-torque.pace.gatech.eduy50mkpxt_scratch pw.x -in /storage/home/hcoda1/3/ntian30/research/carbon/15Jul_vib/reference/CH3/out_0011/pw.inp --ipi qe_1139763_2351655.sched-torque.pace.gatech.eduy50mkpxt_scratch:UNIX >> /storage/home/hcoda1/3/ntian30/research/carbon/15Jul_vib/reference/CH3/out_0011/pw.out
+46912888944144 Awaiting client
+----------> <socket.socket fd=20, family=AddressFamily.AF_UNIX, type=SocketKind.SOCK_STREAM, proto=0, laddr=/tmp/ipi_qe_1139763_2351655.sched-torque.pace.gatech.eduy50mkpxt_scratch> 
+CMD mpirun -wdir /storage/home/hcoda1/3/ntian30/scratch/qe_1139763_2351655.sched-torque.pace.gatech.edu05a67wnr_scratch pw.x -in /storage/home/hcoda1/3/ntian30/research/carbon/15Jul_vib/reference/CH3/out_0012/pw.inp --ipi qe_1139763_2351655.sched-torque.pace.gatech.edu05a67wnr_scratch:UNIX >> /storage/home/hcoda1/3/ntian30/research/carbon/15Jul_vib/reference/CH3/out_0012/pw.out
+46912888944656 Awaiting client
+----------> <socket.socket fd=21, family=AddressFamily.AF_UNIX, type=SocketKind.SOCK_STREAM, proto=0, laddr=/tmp/ipi_qe_1139763_2351655.sched-torque.pace.gatech.edu05a67wnr_scratch> 
+CMD mpirun -wdir /storage/home/hcoda1/3/ntian30/scratch/qe_1139763_2351655.sched-torque.pace.gatech.edud1bh6ghf_scratch pw.x -in /storage/home/hcoda1/3/ntian30/research/carbon/15Jul_vib/reference/CH3/out_0013/pw.inp --ipi qe_1139763_2351655.sched-torque.pace.gatech.edud1bh6ghf_scratch:UNIX >> /storage/home/hcoda1/3/ntian30/research/carbon/15Jul_vib/reference/CH3/out_0013/pw.out
+46912888945296 Awaiting client
+----------> <socket.socket fd=22, family=AddressFamily.AF_UNIX, type=SocketKind.SOCK_STREAM, proto=0, laddr=/tmp/ipi_qe_1139763_2351655.sched-torque.pace.gatech.edud1bh6ghf_scratch> 
+CMD mpirun -wdir /storage/home/hcoda1/3/ntian30/scratch/qe_1139763_2351655.sched-torque.pace.gatech.edu6c7v_1gt_scratch pw.x -in /storage/home/hcoda1/3/ntian30/research/carbon/15Jul_vib/reference/CH3/out_0014/pw.inp --ipi qe_1139763_2351655.sched-torque.pace.gatech.edu6c7v_1gt_scratch:UNIX >> /storage/home/hcoda1/3/ntian30/research/carbon/15Jul_vib/reference/CH3/out_0014/pw.out
+46912888945936 Awaiting client
+----------> <socket.socket fd=23, family=AddressFamily.AF_UNIX, type=SocketKind.SOCK_STREAM, proto=0, laddr=/tmp/ipi_qe_1139763_2351655.sched-torque.pace.gatech.edu6c7v_1gt_scratch> 
+CMD mpirun -wdir /storage/home/hcoda1/3/ntian30/scratch/qe_1139763_2351655.sched-torque.pace.gatech.edu77mfxr1h_scratch pw.x -in /storage/home/hcoda1/3/ntian30/research/carbon/15Jul_vib/reference/CH3/out_0015/pw.inp --ipi qe_1139763_2351655.sched-torque.pace.gatech.edu77mfxr1h_scratch:UNIX >> /storage/home/hcoda1/3/ntian30/research/carbon/15Jul_vib/reference/CH3/out_0015/pw.out
+46912888943376 Awaiting client
+----------> <socket.socket fd=24, family=AddressFamily.AF_UNIX, type=SocketKind.SOCK_STREAM, proto=0, laddr=/tmp/ipi_qe_1139763_2351655.sched-torque.pace.gatech.edu77mfxr1h_scratch> 
+CMD mpirun -wdir /storage/home/hcoda1/3/ntian30/scratch/qe_1139763_2351655.sched-torque.pace.gatech.edulraxi4y__scratch pw.x -in /storage/home/hcoda1/3/ntian30/research/carbon/15Jul_vib/reference/CH3/out_0016/pw.inp --ipi qe_1139763_2351655.sched-torque.pace.gatech.edulraxi4y__scratch:UNIX >> /storage/home/hcoda1/3/ntian30/research/carbon/15Jul_vib/reference/CH3/out_0016/pw.out
+46912888922704 Awaiting client
+----------> <socket.socket fd=25, family=AddressFamily.AF_UNIX, type=SocketKind.SOCK_STREAM, proto=0, laddr=/tmp/ipi_qe_1139763_2351655.sched-torque.pace.gatech.edulraxi4y__scratch> 
+CMD mpirun -wdir /storage/home/hcoda1/3/ntian30/scratch/qe_1139763_2351655.sched-torque.pace.gatech.eduivz_5xgs_scratch pw.x -in /storage/home/hcoda1/3/ntian30/research/carbon/15Jul_vib/reference/CH3/out_0017/pw.inp --ipi qe_1139763_2351655.sched-torque.pace.gatech.eduivz_5xgs_scratch:UNIX >> /storage/home/hcoda1/3/ntian30/research/carbon/15Jul_vib/reference/CH3/out_0017/pw.out
+46912888923472 Awaiting client
+----------> <socket.socket fd=26, family=AddressFamily.AF_UNIX, type=SocketKind.SOCK_STREAM, proto=0, laddr=/tmp/ipi_qe_1139763_2351655.sched-torque.pace.gatech.eduivz_5xgs_scratch> 
+CMD mpirun -wdir /storage/home/hcoda1/3/ntian30/scratch/qe_1139763_2351655.sched-torque.pace.gatech.edu12ubpnlz_scratch pw.x -in /storage/home/hcoda1/3/ntian30/research/carbon/15Jul_vib/reference/CH3/out_0018/pw.inp --ipi qe_1139763_2351655.sched-torque.pace.gatech.edu12ubpnlz_scratch:UNIX >> /storage/home/hcoda1/3/ntian30/research/carbon/15Jul_vib/reference/CH3/out_0018/pw.out
+46912888924112 Awaiting client
+----------> <socket.socket fd=27, family=AddressFamily.AF_UNIX, type=SocketKind.SOCK_STREAM, proto=0, laddr=/tmp/ipi_qe_1139763_2351655.sched-torque.pace.gatech.edu12ubpnlz_scratch> 
+CMD mpirun -wdir /storage/home/hcoda1/3/ntian30/scratch/qe_1139763_2351655.sched-torque.pace.gatech.eduj8u2qr92_scratch pw.x -in /storage/home/hcoda1/3/ntian30/research/carbon/15Jul_vib/reference/CH3/out_0019/pw.inp --ipi qe_1139763_2351655.sched-torque.pace.gatech.eduj8u2qr92_scratch:UNIX >> /storage/home/hcoda1/3/ntian30/research/carbon/15Jul_vib/reference/CH3/out_0019/pw.out
+46912888924624 Awaiting client
+----------> <socket.socket fd=28, family=AddressFamily.AF_UNIX, type=SocketKind.SOCK_STREAM, proto=0, laddr=/tmp/ipi_qe_1139763_2351655.sched-torque.pace.gatech.eduj8u2qr92_scratch> 
+CMD mpirun -wdir /storage/home/hcoda1/3/ntian30/scratch/qe_1139763_2351655.sched-torque.pace.gatech.edudwsmobtx_scratch pw.x -in /storage/home/hcoda1/3/ntian30/research/carbon/15Jul_vib/reference/CH3/out_0020/pw.inp --ipi qe_1139763_2351655.sched-torque.pace.gatech.edudwsmobtx_scratch:UNIX >> /storage/home/hcoda1/3/ntian30/research/carbon/15Jul_vib/reference/CH3/out_0020/pw.out
+46912888925264 Awaiting client
+----------> <socket.socket fd=29, family=AddressFamily.AF_UNIX, type=SocketKind.SOCK_STREAM, proto=0, laddr=/tmp/ipi_qe_1139763_2351655.sched-torque.pace.gatech.edudwsmobtx_scratch> 
+CMD mpirun -wdir /storage/home/hcoda1/3/ntian30/scratch/qe_1139763_2351655.sched-torque.pace.gatech.eduz8ny7aer_scratch pw.x -in /storage/home/hcoda1/3/ntian30/research/carbon/15Jul_vib/reference/CH3/out_0021/pw.inp --ipi qe_1139763_2351655.sched-torque.pace.gatech.eduz8ny7aer_scratch:UNIX >> /storage/home/hcoda1/3/ntian30/research/carbon/15Jul_vib/reference/CH3/out_0021/pw.out
+46912888924176 Awaiting client
+----------> <socket.socket fd=30, family=AddressFamily.AF_UNIX, type=SocketKind.SOCK_STREAM, proto=0, laddr=/tmp/ipi_qe_1139763_2351655.sched-torque.pace.gatech.eduz8ny7aer_scratch> 
+CMD mpirun -wdir /storage/home/hcoda1/3/ntian30/scratch/qe_1139763_2351655.sched-torque.pace.gatech.educ74wcicf_scratch pw.x -in /storage/home/hcoda1/3/ntian30/research/carbon/15Jul_vib/reference/CH3/out_0022/pw.inp --ipi qe_1139763_2351655.sched-torque.pace.gatech.educ74wcicf_scratch:UNIX >> /storage/home/hcoda1/3/ntian30/research/carbon/15Jul_vib/reference/CH3/out_0022/pw.out
+46912897544464 Awaiting client
+----------> <socket.socket fd=31, family=AddressFamily.AF_UNIX, type=SocketKind.SOCK_STREAM, proto=0, laddr=/tmp/ipi_qe_1139763_2351655.sched-torque.pace.gatech.educ74wcicf_scratch> 
+CMD mpirun -wdir /storage/home/hcoda1/3/ntian30/scratch/qe_1139763_2351655.sched-torque.pace.gatech.edu312atwe6_scratch pw.x -in /storage/home/hcoda1/3/ntian30/research/carbon/15Jul_vib/reference/CH3/out_0023/pw.inp --ipi qe_1139763_2351655.sched-torque.pace.gatech.edu312atwe6_scratch:UNIX >> /storage/home/hcoda1/3/ntian30/research/carbon/15Jul_vib/reference/CH3/out_0023/pw.out
+46912897545360 Awaiting client
+----------> <socket.socket fd=32, family=AddressFamily.AF_UNIX, type=SocketKind.SOCK_STREAM, proto=0, laddr=/tmp/ipi_qe_1139763_2351655.sched-torque.pace.gatech.edu312atwe6_scratch> 
+CMD mpirun -wdir /storage/home/hcoda1/3/ntian30/scratch/qe_1139763_2351655.sched-torque.pace.gatech.edup6igpj8s_scratch pw.x -in /storage/home/hcoda1/3/ntian30/research/carbon/15Jul_vib/reference/CH3/out_0024/pw.inp --ipi qe_1139763_2351655.sched-torque.pace.gatech.edup6igpj8s_scratch:UNIX >> /storage/home/hcoda1/3/ntian30/research/carbon/15Jul_vib/reference/CH3/out_0024/pw.out
+46912897546000 Awaiting client
+----------> <socket.socket fd=33, family=AddressFamily.AF_UNIX, type=SocketKind.SOCK_STREAM, proto=0, laddr=/tmp/ipi_qe_1139763_2351655.sched-torque.pace.gatech.edup6igpj8s_scratch> 
+---------------------------------------
+Begin PBS Epilogue Thu Jul 15 16:48:56 EDT 2021
+Job ID:     2351655.sched-torque.pace.gatech.edu
+User ID:    ntian30
+Job name:   vib_reference/CH3
+Resources:  nodes=1:ppn=16,pmem=15gb,walltime=84:00:00,neednodes=1:ppn=16
+Rsrc Used:  cput=05:25:05,vmem=45995676kb,walltime=00:21:09,mem=2869504kb,energy_used=0
+Queue:      inferno
+Nodes:     
+atl1-1-02-002-3-r.pace.gatech.edu
+End PBS Epilogue Thu Jul 15 16:48:56 EDT 2021
+---------------------------------------
